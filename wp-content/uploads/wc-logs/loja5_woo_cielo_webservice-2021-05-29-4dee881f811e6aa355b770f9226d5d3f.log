@@ -1,0 +1,1782 @@
+05-28-2021 @ 21:18:35 - Debug Cielo HTTP: 201
+05-28-2021 @ 21:18:35 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 9886
+    [Customer] => Array
+        (
+            [Name] => Pedro Roque
+            [Email] => carbonadev@gmail.com
+            [Identity] => 03644925038
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Quinze De Novembro 408
+                    [Number] => 345
+                    [District] => Centro
+                    [Complement] => 1028
+                    [ZipCode] => 96450000
+                    [City] => Pelotas
+                    [State] => RS
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Quinze De Novembro 408
+                    [Number] => 345
+                    [District] => Centro
+                    [Complement] => 1028
+                    [ZipCode] => 96450000
+                    [City] => Pelotas
+                    [State] => RS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 255
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Simulado
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTAPET
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 523421****7564
+                    [Holder] => Pedro Thiago do Nascimento do Moreira Roque
+                    [ExpirationDate] => 05/2027
+                    [SecurityCode] => 057
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => false
+                    [TotalOrderAmount] => 255
+                    [FingerPrintId] => f344edfa8f095ad3facc844265bb103b
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => carbonadev@gmail.com
+                            [IpAddress] => 177.92.171.204
+                            [Type] => mozilla/5.0 (windows nt 10.0; win64; x6
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => sv3
+                                            [Quantity] => 1
+                                            [Sku] => 9885
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 255
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+05-28-2021 @ 21:18:35 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => d177223d-80fb-4033-a386-6a4759813cfe
+                    [MerchantKey] => NXVHUCRQPDFAHSNMVILLFRLWMVRAZYOYCKWKCGJP
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://apisandbox.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #195
+    [response] => {"MerchantOrderId":"9886","Customer":{"Name":"Pedro Roque","Identity":"03644925038","IdentityType":"CPF","Email":"carbonadev@gmail.com","Address":{"Street":"Quinze De Novembro 408","Number":"345","Complement":"1028","ZipCode":"96450000","City":"Pelotas","State":"RS","Country":"BR","District":"Centro"},"DeliveryAddress":{"Street":"Quinze De Novembro 408","Number":"345","Complement":"1028","ZipCode":"96450000","City":"Pelotas","State":"RS","Country":"BR","District":"Centro"}},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"523421*******7564","Holder":"Pedro Thiago do Nascimento do Moreira Roque","ExpirationDate":"05/2027","SaveCard":false,"Brand":"Master"},"Tid":"0528091835920","ProofOfSale":"732027","AuthorizationCode":"269311","SoftDescriptor":"IMPERIALTAPET","Provider":"Simulado","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":255,"TransactionAmount":0,"FingerPrintId":"f344edfa8f095ad3facc844265bb103b","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"sv3","Risk":2,"Sku":"9885","OriginalPrice":0,"UnitPrice":255,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"carbonadev@gmail.com","Type":"mozilla/5.0 (windows nt 10.0; win64; x6","IpAddress":"177.92.171.204"},"CaptureOnLowRisk":true,"VoidOnHighRisk":false,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":255,"ReceivedDate":"2021-05-28 21:18:35","CapturedAmount":255,"CapturedDate":"2021-05-28 21:18:35","Status":2,"IsSplitted":false,"ReturnMessage":"Operation Successful","ReturnCode":"6","PaymentId":"14804c54-1831-4948-ac05-815edba2d381","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquerysandbox.cieloecommerce.cielo.com.br/1/sales/14804c54-1831-4948-ac05-815edba2d381"},{"Method":"PUT","Rel":"void","Href":"https://apisandbox.cieloecommerce.cielo.com.br/1/sales/14804c54-1831-4948-ac05-815edba2d381/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://apisandbox.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 372
+            [request_size] => 1876
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.325595
+            [namelookup_time] => 0.003241
+            [connect_time] => 0.038472
+            [pretransfer_time] => 0.120748
+            [size_upload] => 1589
+            [size_download] => 2237
+            [speed_download] => 6883
+            [speed_upload] => 4889
+            [download_content_length] => 2237
+            [upload_content_length] => 1589
+            [starttransfer_time] => 0.325561
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 40.124.121.184
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 49880
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 120676
+            [connect_time_us] => 38472
+            [namelookup_time_us] => 3241
+            [pretransfer_time_us] => 120748
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 325561
+            [total_time_us] => 325595
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://apisandbox.cieloecommerce.cielo.com.br/1/sales
+)
+
+05-29-2021 @ 14:56:06 - Debug Cielo HTTP: 201
+05-29-2021 @ 14:56:06 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 9888
+    [Customer] => Array
+        (
+            [Name] => Leandro Resende
+            [Email] => leandroar88@hotmail.com
+            [Identity] => 01824217080
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Rua Paulo Correa Lopes
+                    [Number] => 198
+                    [District] => Getúlio Vargas
+                    [Complement] => 198
+                    [ZipCode] => 96412830
+                    [City] => Bagé
+                    [State] => RS
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Rua Paulo Correa Lopes
+                    [Number] => 198
+                    [District] => Getúlio Vargas
+                    [Complement] => 198
+                    [ZipCode] => 96412830
+                    [City] => Bagé
+                    [State] => RS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 5000
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 2
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTAPET
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 544731****6699
+                    [Holder] => Leandro Antunes Resende
+                    [ExpirationDate] => 10/2026
+                    [SecurityCode] => 052
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => false
+                    [TotalOrderAmount] => 5000
+                    [FingerPrintId] => 4266c0f5a59b35a610c6dea602f2f4e5
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => leandroar88@hotmail.com
+                            [IpAddress] => 179.175.183.140
+                            [Type] => mozilla/5.0 (linux; android 10; redmi 8
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Tapete de Couro - Cinza Escuro - 40 x 60 Quadriculado (5x5)
+                                            [Quantity] => 1
+                                            [Sku] => 6619
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 5000
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+05-29-2021 @ 14:56:06 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #156
+    [response] => {"MerchantOrderId":"9888","Customer":{"Name":"Leandro Resende","Identity":"01824217080","IdentityType":"CPF","Email":"leandroar88@hotmail.com","Address":{"Street":"Rua Paulo Correa Lopes","Number":"198","Complement":"198","ZipCode":"96412830","City":"Bagé","State":"RS","Country":"BR","District":"Getúlio Vargas"},"DeliveryAddress":{"Street":"Rua Paulo Correa Lopes","Number":"198","Complement":"198","ZipCode":"96412830","City":"Bagé","State":"RS","Country":"BR","District":"Getúlio Vargas"}},"Payment":{"ServiceTaxAmount":0,"Installments":2,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"544731******6699","Holder":"Leandro Antunes Resende","ExpirationDate":"10/2026","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTAPET","Provider":"Cielo","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":5000,"TransactionAmount":0,"FingerPrintId":"4266c0f5a59b35a610c6dea602f2f4e5","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"Tapete de Couro - Cinza Escuro - 40 x 60 Quadriculado (5x5)","Risk":2,"Sku":"6619","OriginalPrice":0,"UnitPrice":5000,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"leandroar88@hotmail.com","Type":"mozilla/5.0 (linux; android 10; redmi 8","IpAddress":"179.175.183.140"},"CaptureOnLowRisk":true,"VoidOnHighRisk":false,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":5000,"ReceivedDate":"2021-05-29 14:56:06","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"04b3f515-888b-4713-8bce-57ed5beb3835","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/04b3f515-888b-4713-8bce-57ed5beb3835"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 1943
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.166506
+            [namelookup_time] => 0.159562
+            [connect_time] => 0.278051
+            [pretransfer_time] => 0.526359
+            [size_upload] => 1663
+            [size_download] => 2023
+            [speed_download] => 1734
+            [speed_upload] => 1426
+            [download_content_length] => 2023
+            [upload_content_length] => 1663
+            [starttransfer_time] => 1.166474
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 40742
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 526272
+            [connect_time_us] => 278051
+            [namelookup_time_us] => 159562
+            [pretransfer_time_us] => 526359
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1166474
+            [total_time_us] => 1166506
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+05-29-2021 @ 14:58:05 - Debug Cielo HTTP: 201
+05-29-2021 @ 14:58:05 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 9888
+    [Customer] => Array
+        (
+            [Name] => Leandro Resende
+            [Email] => leandroar88@hotmail.com
+            [Identity] => 01824217080
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Rua Paulo Correa Lopes
+                    [Number] => 198
+                    [District] => Getúlio Vargas
+                    [Complement] => 198
+                    [ZipCode] => 96412830
+                    [City] => Bagé
+                    [State] => RS
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Rua Paulo Correa Lopes
+                    [Number] => 198
+                    [District] => Getúlio Vargas
+                    [Complement] => 198
+                    [ZipCode] => 96412830
+                    [City] => Bagé
+                    [State] => RS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 5000
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 2
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTAPET
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 544731****6699
+                    [Holder] => Leandro A Resende
+                    [ExpirationDate] => 10/2026
+                    [SecurityCode] => 052
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => false
+                    [TotalOrderAmount] => 5000
+                    [FingerPrintId] => 4266c0f5a59b35a610c6dea602f2f4e5
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => leandroar88@hotmail.com
+                            [IpAddress] => 179.175.183.140
+                            [Type] => mozilla/5.0 (linux; android 10; redmi 8
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Tapete de Couro - Cinza Escuro - 40 x 60 Quadriculado (5x5)
+                                            [Quantity] => 1
+                                            [Sku] => 6619
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 5000
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+05-29-2021 @ 14:58:05 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #114
+    [response] => {"MerchantOrderId":"9888","Customer":{"Name":"Leandro Resende","Identity":"01824217080","IdentityType":"CPF","Email":"leandroar88@hotmail.com","Address":{"Street":"Rua Paulo Correa Lopes","Number":"198","Complement":"198","ZipCode":"96412830","City":"Bagé","State":"RS","Country":"BR","District":"Getúlio Vargas"},"DeliveryAddress":{"Street":"Rua Paulo Correa Lopes","Number":"198","Complement":"198","ZipCode":"96412830","City":"Bagé","State":"RS","Country":"BR","District":"Getúlio Vargas"}},"Payment":{"ServiceTaxAmount":0,"Installments":2,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"544731******6699","Holder":"Leandro A Resende","ExpirationDate":"10/2026","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTAPET","Provider":"Cielo","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":5000,"TransactionAmount":0,"FingerPrintId":"4266c0f5a59b35a610c6dea602f2f4e5","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"Tapete de Couro - Cinza Escuro - 40 x 60 Quadriculado (5x5)","Risk":2,"Sku":"6619","OriginalPrice":0,"UnitPrice":5000,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"leandroar88@hotmail.com","Type":"mozilla/5.0 (linux; android 10; redmi 8","IpAddress":"179.175.183.140"},"CaptureOnLowRisk":true,"VoidOnHighRisk":false,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":5000,"ReceivedDate":"2021-05-29 14:58:05","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"f14d1498-efc8-4f0f-abf5-d0a3b73b2c5a","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/f14d1498-efc8-4f0f-abf5-d0a3b73b2c5a"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 1937
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.889549
+            [namelookup_time] => 0.152605
+            [connect_time] => 0.271474
+            [pretransfer_time] => 0.52047
+            [size_upload] => 1657
+            [size_download] => 2017
+            [speed_download] => 2268
+            [speed_upload] => 1863
+            [download_content_length] => 2017
+            [upload_content_length] => 1657
+            [starttransfer_time] => 0.889517
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 40770
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 520390
+            [connect_time_us] => 271474
+            [namelookup_time_us] => 152605
+            [pretransfer_time_us] => 520470
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 889517
+            [total_time_us] => 889549
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+05-29-2021 @ 15:00:56 - Debug Cielo HTTP: 201
+05-29-2021 @ 15:00:56 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 9888
+    [Customer] => Array
+        (
+            [Name] => Leandro Resende
+            [Email] => leandroar88@hotmail.com
+            [Identity] => 01824217080
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Rua Setecentos e Setenta e Três, 781
+                    [Number] => 781
+                    [District] => 
+                    [Complement] => 
+                    [ZipCode] => 96412830
+                    [City] => Bagé
+                    [State] => RS
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Rua Setecentos e Setenta e Três, 781
+                    [Number] => 781
+                    [District] => 
+                    [Complement] => 
+                    [ZipCode] => 96412830
+                    [City] => Bagé
+                    [State] => RS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 5000
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTAPET
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 544731****6699
+                    [Holder] => Leandro A Resende
+                    [ExpirationDate] => 10/2026
+                    [SecurityCode] => 052
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => false
+                    [TotalOrderAmount] => 5000
+                    [FingerPrintId] => 4266c0f5a59b35a610c6dea602f2f4e5
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => leandroar88@hotmail.com
+                            [IpAddress] => 179.175.183.140
+                            [Type] => mozilla/5.0 (linux; android 10; redmi 8
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Tapete de Couro - Cinza Escuro - 40 x 60 Quadriculado (5x5)
+                                            [Quantity] => 1
+                                            [Sku] => 6619
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 5000
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+05-29-2021 @ 15:00:56 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #780
+    [response] => {"MerchantOrderId":"9888","Customer":{"Name":"Leandro Resende","Identity":"01824217080","IdentityType":"CPF","Email":"leandroar88@hotmail.com","Address":{"Street":"Rua Setecentos e Setenta e Três, 781","Number":"781","Complement":"","ZipCode":"96412830","City":"Bagé","State":"RS","Country":"BR","District":""},"DeliveryAddress":{"Street":"Rua Setecentos e Setenta e Três, 781","Number":"781","Complement":"","ZipCode":"96412830","City":"Bagé","State":"RS","Country":"BR","District":""}},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"544731******6699","Holder":"Leandro A Resende","ExpirationDate":"10/2026","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTAPET","Provider":"Cielo","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":5000,"TransactionAmount":0,"FingerPrintId":"4266c0f5a59b35a610c6dea602f2f4e5","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"Tapete de Couro - Cinza Escuro - 40 x 60 Quadriculado (5x5)","Risk":2,"Sku":"6619","OriginalPrice":0,"UnitPrice":5000,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"leandroar88@hotmail.com","Type":"mozilla/5.0 (linux; android 10; redmi 8","IpAddress":"179.175.183.140"},"CaptureOnLowRisk":true,"VoidOnHighRisk":false,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":5000,"ReceivedDate":"2021-05-29 15:00:55","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"5c75410c-b771-4dbe-a8d0-4379bb5429c4","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/5c75410c-b771-4dbe-a8d0-4379bb5429c4"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 1931
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.821417
+            [namelookup_time] => 0.069216
+            [connect_time] => 0.186375
+            [pretransfer_time] => 0.432383
+            [size_upload] => 1651
+            [size_download] => 2011
+            [speed_download] => 2449
+            [speed_upload] => 2010
+            [download_content_length] => 2011
+            [upload_content_length] => 1651
+            [starttransfer_time] => 0.821388
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 40858
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 432310
+            [connect_time_us] => 186375
+            [namelookup_time_us] => 69216
+            [pretransfer_time_us] => 432383
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 821388
+            [total_time_us] => 821417
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+05-29-2021 @ 15:11:07 - Debug Cielo HTTP: 201
+05-29-2021 @ 15:11:07 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 9888
+    [Customer] => Array
+        (
+            [Name] => Leandro Resende
+            [Email] => leandroar88@hotmail.com
+            [Identity] => 01824217080
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Rua Paulo Correa Lopes
+                    [Number] => 198
+                    [District] => 
+                    [Complement] => 
+                    [ZipCode] => 96412830
+                    [City] => Bagé
+                    [State] => RS
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Rua Paulo Correa Lopes
+                    [Number] => 198
+                    [District] => 
+                    [Complement] => 
+                    [ZipCode] => 96412830
+                    [City] => Bagé
+                    [State] => RS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 5000
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTAPET
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 491412****4111
+                    [Holder] => Leandro A Resende
+                    [ExpirationDate] => 09/2026
+                    [SecurityCode] => 411
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => false
+                    [TotalOrderAmount] => 5000
+                    [FingerPrintId] => 4266c0f5a59b35a610c6dea602f2f4e5
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => leandroar88@hotmail.com
+                            [IpAddress] => 179.175.189.195
+                            [Type] => mozilla/5.0 (linux; android 10; redmi 8
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Tapete de Couro - Cinza Escuro - 40 x 60 Quadriculado (5x5)
+                                            [Quantity] => 1
+                                            [Sku] => 6619
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 5000
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+05-29-2021 @ 15:11:07 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #114
+    [response] => {"MerchantOrderId":"9888","Customer":{"Name":"Leandro Resende","Identity":"01824217080","IdentityType":"CPF","Email":"leandroar88@hotmail.com","Address":{"Street":"Rua Paulo Correa Lopes","Number":"198","Complement":"","ZipCode":"96412830","City":"Bagé","State":"RS","Country":"BR","District":""},"DeliveryAddress":{"Street":"Rua Paulo Correa Lopes","Number":"198","Complement":"","ZipCode":"96412830","City":"Bagé","State":"RS","Country":"BR","District":""}},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"491412******4111","Holder":"Leandro A Resende","ExpirationDate":"09/2026","SaveCard":false,"Brand":"Visa"},"SoftDescriptor":"IMPERIALTAPET","Provider":"Cielo","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":5000,"TransactionAmount":0,"FingerPrintId":"4266c0f5a59b35a610c6dea602f2f4e5","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"Tapete de Couro - Cinza Escuro - 40 x 60 Quadriculado (5x5)","Risk":2,"Sku":"6619","OriginalPrice":0,"UnitPrice":5000,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"leandroar88@hotmail.com","Type":"mozilla/5.0 (linux; android 10; redmi 8","IpAddress":"179.175.189.195"},"CaptureOnLowRisk":true,"VoidOnHighRisk":false,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":5000,"ReceivedDate":"2021-05-29 15:11:06","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"f67f6ec5-5367-41f5-9fd8-fcfa2af87c3c","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/f67f6ec5-5367-41f5-9fd8-fcfa2af87c3c"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 1891
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.284645
+            [namelookup_time] => 0.123913
+            [connect_time] => 0.241289
+            [pretransfer_time] => 0.487456
+            [size_upload] => 1611
+            [size_download] => 1979
+            [speed_download] => 1541
+            [speed_upload] => 1254
+            [download_content_length] => 1979
+            [upload_content_length] => 1611
+            [starttransfer_time] => 1.284615
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 41108
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 487379
+            [connect_time_us] => 241289
+            [namelookup_time_us] => 123913
+            [pretransfer_time_us] => 487456
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1284615
+            [total_time_us] => 1284645
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+05-29-2021 @ 15:11:36 - Debug Cielo HTTP: 201
+05-29-2021 @ 15:11:36 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 9889
+    [Customer] => Array
+        (
+            [Name] => Pedro Roque
+            [Email] => carbonadev@gmail.com
+            [Identity] => 03644925038
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Quinze De Novembro
+                    [Number] => 345
+                    [District] => Centro
+                    [Complement] => 1028
+                    [ZipCode] => 96450000
+                    [City] => Pelotas
+                    [State] => RS
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Quinze De Novembro
+                    [Number] => 345
+                    [District] => Centro
+                    [Complement] => 1028
+                    [ZipCode] => 96450000
+                    [City] => Pelotas
+                    [State] => RS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 255
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTAPET
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 230650****2508
+                    [Holder] => PEDRO THIAGO DO NASCIMENTO MOREIRA ROQUE
+                    [ExpirationDate] => 03/2025
+                    [SecurityCode] => 727
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => false
+                    [TotalOrderAmount] => 255
+                    [FingerPrintId] => f344edfa8f095ad3facc844265bb103b
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => carbonadev@gmail.com
+                            [IpAddress] => 177.92.171.204
+                            [Type] => mozilla/5.0 (windows nt 10.0; win64; x6
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => sv3
+                                            [Quantity] => 1
+                                            [Sku] => 9885
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 255
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+05-29-2021 @ 15:11:36 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #155
+    [response] => {"MerchantOrderId":"9889","Customer":{"Name":"Pedro Roque","Identity":"03644925038","IdentityType":"CPF","Email":"carbonadev@gmail.com","Address":{"Street":"Quinze De Novembro","Number":"345","Complement":"1028","ZipCode":"96450000","City":"Pelotas","State":"RS","Country":"BR","District":"Centro"},"DeliveryAddress":{"Street":"Quinze De Novembro","Number":"345","Complement":"1028","ZipCode":"96450000","City":"Pelotas","State":"RS","Country":"BR","District":"Centro"}},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"230650******2508","Holder":"PEDRO THIAGO DO NASCIMENTO MOREIRA ROQUE","ExpirationDate":"03/2025","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTAPET","Provider":"Cielo","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":255,"TransactionAmount":0,"FingerPrintId":"f344edfa8f095ad3facc844265bb103b","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"sv3","Risk":2,"Sku":"9885","OriginalPrice":0,"UnitPrice":255,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"carbonadev@gmail.com","Type":"mozilla/5.0 (windows nt 10.0; win64; x6","IpAddress":"177.92.171.204"},"CaptureOnLowRisk":true,"VoidOnHighRisk":false,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":255,"ReceivedDate":"2021-05-29 15:11:36","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"ae7d17b9-d6ee-4c00-a95a-e3f77d1b018b","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/ae7d17b9-d6ee-4c00-a95a-e3f77d1b018b"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 1854
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.757688
+            [namelookup_time] => 0.000785
+            [connect_time] => 0.118435
+            [pretransfer_time] => 0.36558
+            [size_upload] => 1574
+            [size_download] => 1950
+            [speed_download] => 2575
+            [speed_upload] => 2079
+            [download_content_length] => 1950
+            [upload_content_length] => 1574
+            [starttransfer_time] => 0.757659
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 41128
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 365503
+            [connect_time_us] => 118435
+            [namelookup_time_us] => 785
+            [pretransfer_time_us] => 365580
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 757659
+            [total_time_us] => 757688
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+05-29-2021 @ 15:12:51 - Debug Cielo HTTP: 201
+05-29-2021 @ 15:12:51 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 9889
+    [Customer] => Array
+        (
+            [Name] => Pedro Roque
+            [Email] => carbonadev@gmail.com
+            [Identity] => 03644925038
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Quinze De Novembro
+                    [Number] => 345
+                    [District] => Centro
+                    [Complement] => 1028
+                    [ZipCode] => 96450000
+                    [City] => Pelotas
+                    [State] => RS
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Quinze De Novembro
+                    [Number] => 345
+                    [District] => Centro
+                    [Complement] => 1028
+                    [ZipCode] => 96450000
+                    [City] => Pelotas
+                    [State] => RS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 255
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTAPET
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 230650****2508
+                    [Holder] => PEDRO THIAGO DO NASCIMENTO MOREIRA ROQUE
+                    [ExpirationDate] => 03/2025
+                    [SecurityCode] => 727
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => false
+                    [TotalOrderAmount] => 255
+                    [FingerPrintId] => f344edfa8f095ad3facc844265bb103b
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => carbonadev@gmail.com
+                            [IpAddress] => 177.92.171.204
+                            [Type] => mozilla/5.0 (windows nt 10.0; win64; x6
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => sv3
+                                            [Quantity] => 1
+                                            [Sku] => 9885
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 255
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+05-29-2021 @ 15:12:51 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #781
+    [response] => {"MerchantOrderId":"9889","Customer":{"Name":"Pedro Roque","Identity":"03644925038","IdentityType":"CPF","Email":"carbonadev@gmail.com","Address":{"Street":"Quinze De Novembro","Number":"345","Complement":"1028","ZipCode":"96450000","City":"Pelotas","State":"RS","Country":"BR","District":"Centro"},"DeliveryAddress":{"Street":"Quinze De Novembro","Number":"345","Complement":"1028","ZipCode":"96450000","City":"Pelotas","State":"RS","Country":"BR","District":"Centro"}},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"230650******2508","Holder":"PEDRO THIAGO DO NASCIMENTO MOREIRA ROQUE","ExpirationDate":"03/2025","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTAPET","Provider":"Cielo","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":255,"TransactionAmount":0,"FingerPrintId":"f344edfa8f095ad3facc844265bb103b","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"sv3","Risk":2,"Sku":"9885","OriginalPrice":0,"UnitPrice":255,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"carbonadev@gmail.com","Type":"mozilla/5.0 (windows nt 10.0; win64; x6","IpAddress":"177.92.171.204"},"CaptureOnLowRisk":true,"VoidOnHighRisk":false,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":255,"ReceivedDate":"2021-05-29 15:12:51","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"97fb08f7-5ce6-44d4-81c1-42a917d056ea","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/97fb08f7-5ce6-44d4-81c1-42a917d056ea"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 1854
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.749777
+            [namelookup_time] => 0.003813
+            [connect_time] => 0.122408
+            [pretransfer_time] => 0.37081
+            [size_upload] => 1574
+            [size_download] => 1950
+            [speed_download] => 2603
+            [speed_upload] => 2101
+            [download_content_length] => 1950
+            [upload_content_length] => 1574
+            [starttransfer_time] => 0.749749
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 41174
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 370737
+            [connect_time_us] => 122408
+            [namelookup_time_us] => 3813
+            [pretransfer_time_us] => 370810
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 749749
+            [total_time_us] => 749777
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+05-29-2021 @ 15:26:02 - Debug Cielo HTTP: 201
+05-29-2021 @ 15:26:02 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 9889
+    [Customer] => Array
+        (
+            [Name] => PEDRO THIAGO DO NASCIMENTO ROQUE
+            [Email] => carbonadev@gmail.com
+            [Identity] => 03644925038
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Rua Ataualpa Guterres
+                    [Number] => 345
+                    [District] => 1028
+                    [Complement] => 
+                    [ZipCode] => 96450000
+                    [City] => Dom Pedrito
+                    [State] => RS
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Rua Ataualpa Guterres
+                    [Number] => 345
+                    [District] => 1028
+                    [Complement] => 
+                    [ZipCode] => 96450000
+                    [City] => Dom Pedrito
+                    [State] => RS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 255
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTAPET
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 230650****2508
+                    [Holder] => PEDRO THIAGO DO NASCIMENTO MOREIRA ROQUE
+                    [ExpirationDate] => 03/2025
+                    [SecurityCode] => 727
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => false
+                    [TotalOrderAmount] => 255
+                    [FingerPrintId] => f344edfa8f095ad3facc844265bb103b
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => carbonadev@gmail.com
+                            [IpAddress] => 177.92.171.204
+                            [Type] => mozilla/5.0 (windows nt 10.0; win64; x6
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => sv3
+                                            [Quantity] => 1
+                                            [Sku] => 9885
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 255
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+05-29-2021 @ 15:26:02 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #113
+    [response] => {"MerchantOrderId":"9889","Customer":{"Name":"PEDRO THIAGO DO NASCIMENTO ROQUE","Identity":"03644925038","IdentityType":"CPF","Email":"carbonadev@gmail.com","Address":{"Street":"Rua Ataualpa Guterres","Number":"345","Complement":"","ZipCode":"96450000","City":"Dom Pedrito","State":"RS","Country":"BR","District":"1028"},"DeliveryAddress":{"Street":"Rua Ataualpa Guterres","Number":"345","Complement":"","ZipCode":"96450000","City":"Dom Pedrito","State":"RS","Country":"BR","District":"1028"}},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"230650******2508","Holder":"PEDRO THIAGO DO NASCIMENTO MOREIRA ROQUE","ExpirationDate":"03/2025","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTAPET","Provider":"Cielo","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":255,"TransactionAmount":0,"FingerPrintId":"f344edfa8f095ad3facc844265bb103b","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"sv3","Risk":2,"Sku":"9885","OriginalPrice":0,"UnitPrice":255,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"carbonadev@gmail.com","Type":"mozilla/5.0 (windows nt 10.0; win64; x6","IpAddress":"177.92.171.204"},"CaptureOnLowRisk":true,"VoidOnHighRisk":false,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":255,"ReceivedDate":"2021-05-29 15:26:02","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"34b07844-a1da-4be0-8079-9dadcc531699","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/34b07844-a1da-4be0-8079-9dadcc531699"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 1877
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.865367
+            [namelookup_time] => 0.069535
+            [connect_time] => 0.18784
+            [pretransfer_time] => 0.43555
+            [size_upload] => 1597
+            [size_download] => 1973
+            [speed_download] => 2280
+            [speed_upload] => 1846
+            [download_content_length] => 1973
+            [upload_content_length] => 1597
+            [starttransfer_time] => 0.865332
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 41334
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 435471
+            [connect_time_us] => 187840
+            [namelookup_time_us] => 69535
+            [pretransfer_time_us] => 435550
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 865332
+            [total_time_us] => 865367
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+05-29-2021 @ 15:27:02 - Debug Cielo HTTP: 201
+05-29-2021 @ 15:27:02 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 9888
+    [Customer] => Array
+        (
+            [Name] => Leandro Resende
+            [Email] => leandroar88@hotmail.com
+            [Identity] => 01824217080
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Rua Paulo Correa Lopes
+                    [Number] => 198
+                    [District] => Getúlio Vargas
+                    [Complement] => 198
+                    [ZipCode] => 96412830
+                    [City] => Bagé
+                    [State] => RS
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Rua Paulo Correa Lopes
+                    [Number] => 198
+                    [District] => Getúlio Vargas
+                    [Complement] => 198
+                    [ZipCode] => 96412830
+                    [City] => Bagé
+                    [State] => RS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 5000
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 2
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTAPET
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 544731****6699
+                    [Holder] => Leandro A Resende
+                    [ExpirationDate] => 10/2026
+                    [SecurityCode] => 054
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => false
+                    [TotalOrderAmount] => 5000
+                    [FingerPrintId] => 4266c0f5a59b35a610c6dea602f2f4e5
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => leandroar88@hotmail.com
+                            [IpAddress] => 179.175.189.195
+                            [Type] => mozilla/5.0 (linux; android 10; redmi 8
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Tapete de Couro - Cinza Escuro - 40 x 60 Quadriculado (5x5)
+                                            [Quantity] => 1
+                                            [Sku] => 6619
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 5000
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+05-29-2021 @ 15:27:02 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #113
+    [response] => {"MerchantOrderId":"9888","Customer":{"Name":"Leandro Resende","Identity":"01824217080","IdentityType":"CPF","Email":"leandroar88@hotmail.com","Address":{"Street":"Rua Paulo Correa Lopes","Number":"198","Complement":"198","ZipCode":"96412830","City":"Bagé","State":"RS","Country":"BR","District":"Getúlio Vargas"},"DeliveryAddress":{"Street":"Rua Paulo Correa Lopes","Number":"198","Complement":"198","ZipCode":"96412830","City":"Bagé","State":"RS","Country":"BR","District":"Getúlio Vargas"}},"Payment":{"ServiceTaxAmount":0,"Installments":2,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"544731******6699","Holder":"Leandro A Resende","ExpirationDate":"10/2026","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTAPET","Provider":"Cielo","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":5000,"TransactionAmount":0,"FingerPrintId":"4266c0f5a59b35a610c6dea602f2f4e5","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"Tapete de Couro - Cinza Escuro - 40 x 60 Quadriculado (5x5)","Risk":2,"Sku":"6619","OriginalPrice":0,"UnitPrice":5000,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"leandroar88@hotmail.com","Type":"mozilla/5.0 (linux; android 10; redmi 8","IpAddress":"179.175.189.195"},"CaptureOnLowRisk":true,"VoidOnHighRisk":false,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":5000,"ReceivedDate":"2021-05-29 15:27:01","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"4dcf9670-5bc6-4233-aa8d-9d89849dcf90","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/4dcf9670-5bc6-4233-aa8d-9d89849dcf90"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 1937
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.877074
+            [namelookup_time] => 0.001036
+            [connect_time] => 0.117926
+            [pretransfer_time] => 0.364036
+            [size_upload] => 1657
+            [size_download] => 2017
+            [speed_download] => 2299
+            [speed_upload] => 1889
+            [download_content_length] => 2017
+            [upload_content_length] => 1657
+            [starttransfer_time] => 0.877042
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 41352
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 363957
+            [connect_time_us] => 117926
+            [namelookup_time_us] => 1036
+            [pretransfer_time_us] => 364036
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 877042
+            [total_time_us] => 877074
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

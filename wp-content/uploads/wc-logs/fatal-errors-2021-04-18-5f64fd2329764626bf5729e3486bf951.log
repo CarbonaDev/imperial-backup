@@ -1,0 +1,11 @@
+2021-04-18T01:20:45+00:00 CRITICAL Uncaught Error: Call to a member function add() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php:1914
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): WC_Gerencianet_Oficial_Gateway->successful_request()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php(1855): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): WC_Gerencianet_Oficial_Gateway->validate_notification()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#7 /opt/bitnami/apps/wordpress/htdoc, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php, na linha 1914
+

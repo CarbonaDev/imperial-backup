@@ -1,0 +1,129 @@
+06-11-2021 @ 22:39:57 - Requisicao de CANCELAR feita via ADMIN em 12/06/2021 01:39:55 ao Pedido #10418 retornou um problema: {"Status":2,"ReasonCode":7,"ReasonMessage":"Denied","ProviderReturnCode":"72","ProviderReturnMessage":"NEGADO. SEU SALDO E INSUFICIENTE.","ReturnCode":"72","ReturnMessage":"NEGADO. SEU SALDO E INSUFICIENTE.","Tid":"280720451611QC20B3AC","ProofOfSale":"000001","AuthorizationCode":"108535","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/e4d98781-1ab5-4526-87d0-9e9f9af94071"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/e4d98781-1ab5-4526-87d0-9e9f9af94071/void"}]}<br>
+06-11-2021 @ 22:54:18 - Debug Cielo HTTP: 201
+06-11-2021 @ 22:54:18 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 10420
+    [Customer] => Array
+        (
+            [Name] => Leandro Resende
+            [Email] => leandroar88@hotmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 53900
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 10
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 544731****6699
+                    [Holder] => Leandro Antunes Resende
+                    [ExpirationDate] => 10/2026
+                    [SecurityCode] => 123
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+06-11-2021 @ 22:54:18 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #375
+    [response] => {"MerchantOrderId":"10420","Customer":{"Name":"Leandro Resende","Email":"leandroar88@hotmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":10,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"544731******6699","Holder":"Leandro Antunes Resende","ExpirationDate":"10/2026","SaveCard":false,"Brand":"Master","PaymentAccountReference":"50011IBBMYVXYY5ZEDBQMA33IKH7B"},"Tid":"280720451611QC28E66C","ProofOfSale":"002001","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"0","IsQrCode":false,"Amount":53900,"ReceivedDate":"2021-06-11 22:54:17","Status":3,"IsSplitted":false,"ReturnMessage":"Autorizacao negada","ReturnCode":"14","PaymentId":"deb1c95b-be53-4cf4-ab2a-a0d497b8443e","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/deb1c95b-be53-4cf4-ab2a-a0d497b8443e"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 364
+            [request_size] => 801
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.350066
+            [namelookup_time] => 0.003713
+            [connect_time] => 0.120627
+            [pretransfer_time] => 0.366286
+            [size_upload] => 522
+            [size_download] => 928
+            [speed_download] => 687
+            [speed_upload] => 386
+            [download_content_length] => 928
+            [upload_content_length] => 522
+            [starttransfer_time] => 1.350035
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 54682
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 366205
+            [connect_time_us] => 120627
+            [namelookup_time_us] => 3713
+            [pretransfer_time_us] => 366286
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1350035
+            [total_time_us] => 1350066
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+06-12-2021 @ 20:04:42 - Requisicao de CANCELAR feita via ADMIN em 12/06/2021 23:04:35 ao Pedido #10418 / TID: 280720451611QC20B3AC realizada com sucesso!<br>

@@ -1,0 +1,1 @@
+c2¡b<?php exit; ?>a:1:{s:7:"content";s:89:"{{WP_CONTENT_DIR}}/themes/mipro/woocommerce/single-product/product-gallery-thumbnails.php";}

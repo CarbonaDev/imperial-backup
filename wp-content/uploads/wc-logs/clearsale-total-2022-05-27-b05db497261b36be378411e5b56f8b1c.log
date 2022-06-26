@@ -1,0 +1,508 @@
+2022-05-27T10:37:27+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T10:37:27+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21308
+2022-05-27T10:37:27+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T10:37:27+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21308 status antes:on-hold agora:failed
+2022-05-27T10:37:27+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21308 último status salvo:
+2022-05-27T10:59:11+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=21305
+2022-05-27T10:59:11+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=21305
+2022-05-27T10:59:11+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido já enviado!
+2022-05-27T11:56:24+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=21323
+2022-05-27T11:56:24+00:00 DEBUG Clearsale_Total_Status:Cs_status: método do pedido acima:gerencianet_oficial
+2022-05-27T11:56:24+00:00 DEBUG Authenticate: versão:2.4.3 login=ImperialTapetesEInteriores modo=0
+2022-05-27T11:56:24+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270764-03:00
+2022-05-27T11:56:25+00:00 DEBUG Consulta_status: #pedido=21323 status=RPM score=94.81
+2022-05-27T11:56:25+00:00 DEBUG Clearsale_Total_Status:Cs_status: retorno da consulta: status=RPM score=94.81
+2022-05-27T11:56:25+00:00 DEBUG nota=ClearSale status: RPM score: 94.81</br>Desc: RPM (Reprovado Sem Suspeita) – Pedido Reprovado sem Suspeita por falta de contato com o cliente dentro do período acordado e/ou políticas
+ restritivas de CPF (Irregular, SUS ou Cancelados)
+2022-05-27T11:56:25+00:00 DEBUG Clearsale_Total_Status:Cs_status: Configurado para cancelar pedido(21323, status=RPM), vamos cancelar!
+2022-05-27T11:56:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T11:56:26+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21323
+2022-05-27T11:56:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21323 status antes:em-confeccao agora:cancelled
+2022-05-27T11:56:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21323 último status salvo:RPM
+2022-05-27T11:56:26+00:00 DEBUG Atualiza_status: vamos marcar pedido=21323 com status=PGR
+2022-05-27T11:56:26+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T11:56:26+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270571-03:00
+2022-05-27T11:56:26+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T11:56:26+00:00 DEBUG Atualiza_status: #pedido=21323 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T11:56:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: Colocado status RPM no pedido e PGR: retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T12:40:14+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T12:40:14+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21435
+2022-05-27T12:40:14+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21435 status antes:processing agora:em-separacao
+2022-05-27T12:40:14+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21435 último status salvo:APA
+2022-05-27T12:43:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T12:43:49+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=20302
+2022-05-27T12:43:49+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T12:43:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=20302 status antes:em-separacao agora:completed
+2022-05-27T12:43:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=20302 último status salvo:
+2022-05-27T12:43:49+00:00 DEBUG Atualiza_status: vamos marcar pedido=20302 com status=PGA
+2022-05-27T12:43:49+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T12:43:49+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270571-03:00
+2022-05-27T12:43:50+00:00 DEBUG Atualiza_status: erro #404 msg=HTTP/1.1 404 Not Found
+X-StackifyID: V2|7c232ef2-457e-4b7b-ad21-3e70d5345209|C64106|CD63084
+Request-Id: 52K7-09A4-34E9-90P3
+X-Powered-By: ASP.NET
+X-Cache: CONFIG_NOCACHE
+X-Azure-Ref: 0hceQYgAAAAD7i0YTW9UzRqlyOfVZKfI9QVRBRURHRTEyMTkAODZmMWU5ZjMtOTA5Yi00NzhiLTgxOTktMTI0MjViNmJlMmQz
+Date: Fri, 27 May 2022 12:43:49 GMT
+Content-Length: 0
+
+
+2022-05-27T12:43:50+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status= msg=
+2022-05-27T12:45:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T12:45:07+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21428
+2022-05-27T12:45:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21428 status antes:em-separacao agora:completed
+2022-05-27T12:45:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21428 último status salvo:APA
+2022-05-27T12:45:07+00:00 DEBUG Atualiza_status: vamos marcar pedido=21428 com status=PGA
+2022-05-27T12:45:07+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T12:45:07+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270355-03:00
+2022-05-27T12:45:08+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T12:45:08+00:00 DEBUG Atualiza_status: #pedido=21428 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T12:45:08+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T12:51:47+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T12:51:47+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21291
+2022-05-27T12:51:47+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21291 status antes:completed agora:pedido-entregue
+2022-05-27T12:51:47+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21291 último status salvo:APA
+2022-05-27T12:52:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T12:52:23+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21287
+2022-05-27T12:52:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21287 status antes:completed agora:pedido-entregue
+2022-05-27T12:52:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21287 último status salvo:APA
+2022-05-27T12:52:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T12:52:49+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21190
+2022-05-27T12:52:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21190 status antes:completed agora:pedido-entregue
+2022-05-27T12:52:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21190 último status salvo:APA
+2022-05-27T12:53:12+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T12:53:12+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21189
+2022-05-27T12:53:12+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21189 status antes:completed agora:pedido-entregue
+2022-05-27T12:53:12+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21189 último status salvo:APA
+2022-05-27T12:53:40+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T12:53:40+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21230
+2022-05-27T12:53:40+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21230 status antes:completed agora:pedido-entregue
+2022-05-27T12:53:40+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21230 último status salvo:APA
+2022-05-27T13:01:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T13:01:29+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=20745
+2022-05-27T13:01:29+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T13:01:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=20745 status antes:em-confeccao agora:completed
+2022-05-27T13:01:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=20745 último status salvo:
+2022-05-27T13:01:29+00:00 DEBUG Atualiza_status: vamos marcar pedido=20745 com status=PGA
+2022-05-27T13:01:29+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T13:01:30+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270249-03:00
+2022-05-27T13:01:30+00:00 DEBUG Atualiza_status: erro #404 msg=HTTP/1.1 404 Not Found
+X-StackifyID: V2|94341374-3057-49a2-8abe-8a11ab0b36c2|C64106|CD63079
+Request-Id: 52K7-10F0-13O0-32G8
+X-Powered-By: ASP.NET
+X-Cache: CONFIG_NOCACHE
+X-Azure-Ref: 0qsuQYgAAAABvFdhC8urYRpzlgSxh520aQVRMMzMxMDAwMTA5MDExADg2ZjFlOWYzLTkwOWItNDc4Yi04MTk5LTEyNDI1YjZiZTJkMw==
+Date: Fri, 27 May 2022 13:01:30 GMT
+Content-Length: 0
+
+
+2022-05-27T13:01:30+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status= msg=
+2022-05-27T13:01:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T13:01:33+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=19725
+2022-05-27T13:01:33+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T13:01:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=19725 status antes:em-confeccao agora:completed
+2022-05-27T13:01:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=19725 último status salvo:
+2022-05-27T13:01:33+00:00 DEBUG Atualiza_status: vamos marcar pedido=19725 com status=PGA
+2022-05-27T13:01:33+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T13:01:33+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270242-03:00
+2022-05-27T13:01:35+00:00 DEBUG Atualiza_status: erro #404 msg=HTTP/1.1 404 Not Found
+X-StackifyID: V2|720f5f7d-e72e-406f-825f-e7f3128f4bf5|C64106|CD63088
+Request-Id: 52K7-10Z0-13A3-98K7
+X-Powered-By: ASP.NET
+X-Cache: CONFIG_NOCACHE
+X-Azure-Ref: 0rcuQYgAAAAANa5CViVVKR47CMMsh2DebQVRMMzMxMDAwMTA5MDQ1ADg2ZjFlOWYzLTkwOWItNDc4Yi04MTk5LTEyNDI1YjZiZTJkMw==
+Date: Fri, 27 May 2022 13:01:34 GMT
+Content-Length: 0
+
+
+2022-05-27T13:01:35+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status= msg=
+2022-05-27T13:12:37+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T13:12:37+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21323
+2022-05-27T13:12:37+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21323 status antes:cancelled agora:em-confeccao
+2022-05-27T13:12:37+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21323 último status salvo:RPM
+2022-05-27T14:11:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:11:46+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21317
+2022-05-27T14:11:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21317 status antes:em-separacao agora:completed
+2022-05-27T14:11:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21317 último status salvo:APA
+2022-05-27T14:11:46+00:00 DEBUG Atualiza_status: vamos marcar pedido=21317 com status=PGA
+2022-05-27T14:11:46+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T14:11:47+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270640-03:00
+2022-05-27T14:11:47+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T14:11:47+00:00 DEBUG Atualiza_status: #pedido=21317 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:11:47+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:13:28+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:13:28+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21308
+2022-05-27T14:13:28+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T14:13:28+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21308 status antes:failed agora:cancelled
+2022-05-27T14:13:28+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21308 último status salvo:
+2022-05-27T14:13:28+00:00 DEBUG Atualiza_status: vamos marcar pedido=21308 com status=PGR
+2022-05-27T14:13:28+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T14:13:28+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270037-03:00
+2022-05-27T14:13:29+00:00 DEBUG Atualiza_status: erro #404 msg=HTTP/1.1 404 Not Found
+X-StackifyID: V2|ac9fc3fb-90f6-4b5d-8d1f-3d1dc753abbe|C64106|CD63081
+Request-Id: 52M7-11U1-32F9-00R1
+X-Powered-By: ASP.NET
+X-Cache: CONFIG_NOCACHE
+X-Azure-Ref: 0idyQYgAAAAC6se/s0SSMRpz47/8LeP2IQVRMMzMxMDAwMTEwMDIxADg2ZjFlOWYzLTkwOWItNDc4Yi04MTk5LTEyNDI1YjZiZTJkMw==
+Date: Fri, 27 May 2022 14:13:28 GMT
+Content-Length: 0
+
+
+2022-05-27T14:13:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGR retorno: requestID= status= msg=
+2022-05-27T14:43:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:43:23+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21186
+2022-05-27T14:43:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21186 status antes:em-separacao agora:completed
+2022-05-27T14:43:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21186 último status salvo:APA
+2022-05-27T14:43:23+00:00 DEBUG Atualiza_status: vamos marcar pedido=21186 com status=PGA
+2022-05-27T14:43:23+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T14:43:23+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270749-03:00
+2022-05-27T14:43:23+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T14:43:23+00:00 DEBUG Atualiza_status: #pedido=21186 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:43:26+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21228
+2022-05-27T14:43:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21228 status antes:em-separacao agora:completed
+2022-05-27T14:43:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21228 último status salvo:APA
+2022-05-27T14:43:26+00:00 DEBUG Atualiza_status: vamos marcar pedido=21228 com status=PGA
+2022-05-27T14:43:26+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T14:43:26+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270037-03:00
+2022-05-27T14:43:27+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T14:43:27+00:00 DEBUG Atualiza_status: #pedido=21228 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:27+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:43:33+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21285
+2022-05-27T14:43:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21285 status antes:em-separacao agora:completed
+2022-05-27T14:43:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21285 último status salvo:APA
+2022-05-27T14:43:33+00:00 DEBUG Atualiza_status: vamos marcar pedido=21285 com status=PGA
+2022-05-27T14:43:33+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T14:43:33+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270037-03:00
+2022-05-27T14:43:33+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T14:43:33+00:00 DEBUG Atualiza_status: #pedido=21285 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:38+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:43:38+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21289
+2022-05-27T14:43:38+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21289 status antes:em-separacao agora:completed
+2022-05-27T14:43:38+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21289 último status salvo:APA
+2022-05-27T14:43:38+00:00 DEBUG Atualiza_status: vamos marcar pedido=21289 com status=PGA
+2022-05-27T14:43:38+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T14:43:38+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270499-03:00
+2022-05-27T14:43:39+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T14:43:39+00:00 DEBUG Atualiza_status: #pedido=21289 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:39+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:45+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:43:45+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21290
+2022-05-27T14:43:45+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21290 status antes:em-separacao agora:completed
+2022-05-27T14:43:45+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21290 último status salvo:APA
+2022-05-27T14:43:45+00:00 DEBUG Atualiza_status: vamos marcar pedido=21290 com status=PGA
+2022-05-27T14:43:45+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T14:43:45+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270037-03:00
+2022-05-27T14:43:45+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T14:43:45+00:00 DEBUG Atualiza_status: #pedido=21290 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:45+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:55+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:43:55+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21297
+2022-05-27T14:43:55+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21297 status antes:em-separacao agora:completed
+2022-05-27T14:43:55+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21297 último status salvo:APA
+2022-05-27T14:43:55+00:00 DEBUG Atualiza_status: vamos marcar pedido=21297 com status=PGA
+2022-05-27T14:43:55+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T14:43:55+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270640-03:00
+2022-05-27T14:43:55+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T14:43:55+00:00 DEBUG Atualiza_status: #pedido=21297 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:55+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:58+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:43:58+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21313
+2022-05-27T14:43:58+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21313 status antes:em-separacao agora:completed
+2022-05-27T14:43:58+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21313 último status salvo:APA
+2022-05-27T14:43:58+00:00 DEBUG Atualiza_status: vamos marcar pedido=21313 com status=PGA
+2022-05-27T14:43:58+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T14:43:58+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270749-03:00
+2022-05-27T14:43:58+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T14:43:58+00:00 DEBUG Atualiza_status: #pedido=21313 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:43:58+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:44:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:44:03+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21411
+2022-05-27T14:44:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21411 status antes:em-separacao agora:completed
+2022-05-27T14:44:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21411 último status salvo:APA
+2022-05-27T14:44:03+00:00 DEBUG Atualiza_status: vamos marcar pedido=21411 com status=PGA
+2022-05-27T14:44:03+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T14:44:03+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270499-03:00
+2022-05-27T14:44:03+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T14:44:03+00:00 DEBUG Atualiza_status: #pedido=21411 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:44:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:44:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:44:07+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21431
+2022-05-27T14:44:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21431 status antes:em-separacao agora:completed
+2022-05-27T14:44:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21431 último status salvo:APA
+2022-05-27T14:44:07+00:00 DEBUG Atualiza_status: vamos marcar pedido=21431 com status=PGA
+2022-05-27T14:44:07+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T14:44:07+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270749-03:00
+2022-05-27T14:44:07+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-05-27T14:44:07+00:00 DEBUG Atualiza_status: #pedido=21431 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:44:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-05-27T14:57:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:57:29+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=19444
+2022-05-27T14:57:29+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T14:57:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=19444 status antes:completed agora:pedido-entregue
+2022-05-27T14:57:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=19444 último status salvo:
+2022-05-27T14:57:31+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:57:31+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=19470
+2022-05-27T14:57:31+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T14:57:31+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=19470 status antes:completed agora:pedido-entregue
+2022-05-27T14:57:31+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=19470 último status salvo:
+2022-05-27T14:57:36+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:57:36+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=19548
+2022-05-27T14:57:36+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T14:57:36+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=19548 status antes:completed agora:pedido-entregue
+2022-05-27T14:57:36+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=19548 último status salvo:
+2022-05-27T14:57:42+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:57:42+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=19597
+2022-05-27T14:57:42+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T14:57:42+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=19597 status antes:completed agora:pedido-entregue
+2022-05-27T14:57:42+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=19597 último status salvo:
+2022-05-27T14:57:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:57:46+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=19602
+2022-05-27T14:57:46+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T14:57:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=19602 status antes:completed agora:pedido-entregue
+2022-05-27T14:57:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=19602 último status salvo:
+2022-05-27T14:57:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:57:49+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=19718
+2022-05-27T14:57:49+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T14:57:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=19718 status antes:completed agora:pedido-entregue
+2022-05-27T14:57:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=19718 último status salvo:
+2022-05-27T14:57:56+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:57:56+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=19723
+2022-05-27T14:57:56+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T14:57:56+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=19723 status antes:completed agora:pedido-entregue
+2022-05-27T14:57:56+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=19723 último status salvo:
+2022-05-27T14:58:51+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T14:58:51+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=19924
+2022-05-27T14:58:51+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T14:58:51+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=19924 status antes:completed agora:pedido-entregue
+2022-05-27T14:58:51+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=19924 último status salvo:
+2022-05-27T15:02:02+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T15:02:02+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=20876
+2022-05-27T15:02:02+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T15:02:02+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=20876 status antes:completed agora:pedido-entregue
+2022-05-27T15:02:02+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=20876 último status salvo:
+2022-05-27T15:02:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T15:02:03+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21019
+2022-05-27T15:02:03+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T15:02:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21019 status antes:completed agora:pedido-entregue
+2022-05-27T15:02:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21019 último status salvo:
+2022-05-27T15:02:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T15:02:07+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21020
+2022-05-27T15:02:07+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T15:02:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21020 status antes:completed agora:pedido-entregue
+2022-05-27T15:02:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21020 último status salvo:
+2022-05-27T15:02:14+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T15:02:14+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21021
+2022-05-27T15:02:14+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T15:02:14+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21021 status antes:completed agora:pedido-entregue
+2022-05-27T15:02:14+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21021 último status salvo:
+2022-05-27T15:02:15+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T15:02:15+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=20758
+2022-05-27T15:02:15+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T15:02:15+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=20758 status antes:completed agora:pedido-entregue
+2022-05-27T15:02:15+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=20758 último status salvo:
+2022-05-27T15:02:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T15:02:18+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=20638
+2022-05-27T15:02:18+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T15:02:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=20638 status antes:completed agora:pedido-entregue
+2022-05-27T15:02:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=20638 último status salvo:
+2022-05-27T15:02:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T15:02:23+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=20455
+2022-05-27T15:02:23+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T15:02:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=20455 status antes:completed agora:pedido-entregue
+2022-05-27T15:02:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=20455 último status salvo:
+2022-05-27T15:20:29+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-05-27T15:20:29+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-05-27T15:20:29+00:00 DEBUG Cs_total_extrafield: order_id=21512 cs_field_doc= billing_cpf=711.131.697-53 billing_cnpj=
+2022-05-27T15:20:29+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=21512
+2022-05-27T15:20:29+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-05-27T15:20:29+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-05-27T15:20:29+00:00 DEBUG Cs_total_checkout_order_processed: session =7900770abf7086faafd8c122981cc82f
+2022-05-27T15:20:29+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=21512 - EAP: Esperando Aprovação do Pagamento
+2022-05-27T15:20:41+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T15:20:41+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21512
+2022-05-27T15:20:41+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T15:20:41+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21512 status antes:pending agora:on-hold
+2022-05-27T15:20:41+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21512 último status salvo:
+2022-05-27T15:20:46+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=21512
+2022-05-27T15:20:46+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=21512
+2022-05-27T15:20:46+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-05-27T15:20:46+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-05-27T15:20:46+00:00 DEBUG Cs_total_thankyou:() Pedido 21512 não é cartão saindo...
+2022-05-27T15:20:47+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=21512
+2022-05-27T15:20:47+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=21512
+2022-05-27T15:20:47+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-05-27T15:20:47+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-05-27T15:20:47+00:00 DEBUG Cs_total_thankyou:() Pedido 21512 não é cartão saindo...
+2022-05-27T15:25:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T15:25:07+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21512
+2022-05-27T15:25:07+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T15:25:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21512 status antes:on-hold agora:processing
+2022-05-27T15:25:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21512 último status salvo:
+2022-05-27T15:25:07+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T15:25:07+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: Compras no BR integramos na CS.
+2022-05-27T15:25:07+00:00 DEBUG Cs_total_checkout: Entrou: Pedido #=21512 doc=711.131.697-53
+2022-05-27T15:25:07+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_checkout verificando post_meta de métodos...
+2022-05-27T15:25:07+00:00 DEBUG Monta_pedido: entrou, #doc=711.131.697-53 e-mail=arnaldo.mendonca.07@gmail.com
+2022-05-27T15:25:07+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: cep=18073703
+2022-05-27T15:25:09+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: saida=Jardim Residencial Vale Verde
+2022-05-27T15:25:09+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=gerencianet_oficial
+2022-05-27T15:25:09+00:00 DEBUG Monta_pedido: json=[{"code":"21512","sessionID":"7900770abf7086faafd8c122981cc82f","date":"2022-05-27T12:20:28-03:00","email":"arnaldo.mendonca.07@gmail.com","itemValue":259,"totalValue":256.04,"numberOfInstallments":1,"ip":"45.191.220.216","isGift":false,"giftMessage":"","observation":"","status":0,"origin":"website","channelID":"","country":"","nationality":"","product":3,"customSla":0,"bankAuthentication":"","billing":{"clientID":"1827","type":1,"primaryDocument":"711.131.697-53","secondaryDocument":"","name":"Arnaldo Mendon\u00e7a","birthDate":null,"email":"arnaldo.mendonca.07@gmail.com","gender":"","address":{"street":"Rua Raphael Amaral Quadra G LOTE","number":"11","additionalInformation":"","county":"Jardim Residencial Vale Verde","city":"Sorocaba","state":"SP","country":"BR","zipcode":"18073703","reference":""},"phones":[{"type":0,"ddi":55,"ddd":15,"number":997754214,"extension":""}]},"shipping":{"clientID":"1827","type":1,"primaryDocument":"711.131.697-53","secondaryDocument":"","name":"Arnaldo Mendon\u00e7a","birthDate":null,"email":"","gender":"","address":{"street":"Rua Raphael Amaral Quadra G LOTE","number":"11","additionalInformation":"","county":"Jardim Residencial Vale Verde","city":"Sorocaba","state":"SP","country":"BR","zipcode":"18073703","reference":""},"deliveryType":"11","deliveryTime":"","price":22.94,"pickUpStoreDocument":""},"payments":[{"sequential":1,"date":"2022-05-27T12:20:28+00:00","value":256.04,"type":14,"installments":1,"interestRate":0,"interestValue":0,"currency":986,"voucherOrderOrigin":"","card":null,"address":{"street":"","number":"","additionalInformation":"","county":"","city":"","state":"","zipcode":"","country":"","reference":""}}],"items":[{"code":"7253","name":"Tapete Pele de Ovelha Branco\/Off White","value":259,"amount":1,"categoryID":null,"categoryName":"Peles de Ovelha","isGift":false,"sellerName":"","shippingCompany":"melhorenvio_jadlog_package"}]}]
+2022-05-27T15:25:09+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T15:25:09+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270499-03:00
+2022-05-27T15:25:10+00:00 DEBUG Inclui_pedido: #pedido=21512 status=NVO score=
+2022-05-27T15:25:10+00:00 DEBUG Clearsale_Total_Checkout:Cs_total_checkout: Pedido 21512 inserido com sucesso, status:NVO requestID:
+2022-05-27T15:25:10+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T15:25:10+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21512
+2022-05-27T15:25:10+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21512 status antes:processing agora:cs-inanalisis
+2022-05-27T15:25:10+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21512 último status salvo:NVO
+2022-05-27T15:25:30+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=21512
+2022-05-27T15:25:30+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=21512
+2022-05-27T15:25:30+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido já enviado!
+2022-05-27T15:25:48+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=21512
+2022-05-27T15:25:48+00:00 DEBUG Clearsale_Total_Status:Cs_status: método do pedido acima:gerencianet_oficial
+2022-05-27T15:25:48+00:00 DEBUG Authenticate: versão:2.4.3 login=ImperialTapetesEInteriores modo=0
+2022-05-27T15:25:48+00:00 DEBUG Authenticate: novo token=4d3b010609bc4591a7628f038567ec62 ExpirationDate:2022-05-27T15:50:52.0270037-03:00
+2022-05-27T15:25:48+00:00 DEBUG Consulta_status: #pedido=21512 status=APA score=73.81
+2022-05-27T15:25:48+00:00 DEBUG Clearsale_Total_Status:Cs_status: retorno da consulta: status=APA score=73.81
+2022-05-27T15:25:48+00:00 DEBUG nota=ClearSale status: APA score: 73.81</br>Desc: (Aprovação Automática) – Pedido foi aprovado automaticamente segundo parâmetros definidos na regra de aprovação automática
+2022-05-27T15:25:48+00:00 DEBUG Clearsale_Total_Status:Cs_status: Pedido APROVADO(21512, status=APA), mudando status do Woo para wc-processing!
+2022-05-27T16:37:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T16:37:03+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21512
+2022-05-27T16:37:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21512 status antes:processing agora:em-separacao
+2022-05-27T16:37:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21512 último status salvo:APA
+2022-05-27T17:06:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T17:06:49+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21088
+2022-05-27T17:06:49+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T17:06:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21088 status antes:completed agora:pedido-entregue
+2022-05-27T17:06:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21088 último status salvo:
+2022-05-27T17:06:57+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T17:06:57+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21089
+2022-05-27T17:06:57+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T17:06:57+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21089 status antes:completed agora:pedido-entregue
+2022-05-27T17:06:57+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21089 último status salvo:
+2022-05-27T17:07:08+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T17:07:08+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21090
+2022-05-27T17:07:08+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T17:07:08+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21090 status antes:completed agora:pedido-entregue
+2022-05-27T17:07:08+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21090 último status salvo:
+2022-05-27T17:07:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T17:07:18+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21096
+2022-05-27T17:07:18+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T17:07:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21096 status antes:completed agora:pedido-entregue
+2022-05-27T17:07:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21096 último status salvo:
+2022-05-27T17:07:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T17:07:26+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21097
+2022-05-27T17:07:26+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T17:07:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21097 status antes:completed agora:pedido-entregue
+2022-05-27T17:07:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21097 último status salvo:
+2022-05-27T17:07:37+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T17:07:37+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21100
+2022-05-27T17:07:37+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T17:07:37+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21100 status antes:completed agora:pedido-entregue
+2022-05-27T17:07:37+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21100 último status salvo:
+2022-05-27T17:07:47+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T17:07:47+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21103
+2022-05-27T17:07:47+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21103 status antes:completed agora:pedido-entregue
+2022-05-27T17:07:47+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21103 último status salvo:APA
+2022-05-27T20:19:41+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T20:19:41+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21298
+2022-05-27T20:19:41+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T20:19:41+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21298 status antes:failed agora:cancelled
+2022-05-27T20:19:41+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21298 último status salvo:
+2022-05-27T20:19:41+00:00 DEBUG Atualiza_status: vamos marcar pedido=21298 com status=PGR
+2022-05-27T20:19:41+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T20:19:41+00:00 DEBUG Authenticate: novo token=5628e382fdb24b0ea67f8b2912b6de4b ExpirationDate:2022-05-28T17:19:41.6474461-03:00
+2022-05-27T20:19:41+00:00 DEBUG Atualiza_status: erro #404 msg=HTTP/1.1 404 Not Found
+X-StackifyID: V2|ef107ea5-e612-4997-87d8-f94e067ffeff|C64106|CD63081
+Request-Id: 52U7-17R1-94R1-75N6
+X-Powered-By: ASP.NET
+X-Cache: CONFIG_NOCACHE
+X-Azure-Ref: 0XTKRYgAAAAANJh+vN6KdTK6KkIXT40iDQVRMMzMxMDAwMTEwMDExADg2ZjFlOWYzLTkwOWItNDc4Yi04MTk5LTEyNDI1YjZiZTJkMw==
+Date: Fri, 27 May 2022 20:19:41 GMT
+Content-Length: 0
+
+
+2022-05-27T20:19:41+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGR retorno: requestID= status= msg=
+2022-05-27T21:13:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-27T21:13:49+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21299
+2022-05-27T21:13:49+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-27T21:13:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21299 status antes:failed agora:cancelled
+2022-05-27T21:13:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21299 último status salvo:
+2022-05-27T21:13:49+00:00 DEBUG Atualiza_status: vamos marcar pedido=21299 com status=PGR
+2022-05-27T21:13:49+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-27T21:13:49+00:00 DEBUG Authenticate: novo token=5628e382fdb24b0ea67f8b2912b6de4b ExpirationDate:2022-05-28T17:19:41.6470680-03:00
+2022-05-27T21:13:50+00:00 DEBUG Atualiza_status: erro #404 msg=HTTP/1.1 404 Not Found
+X-StackifyID: V2|e9bd9a0c-c4a2-407f-9153-5532aad46c11|C64106|CD63083
+Request-Id: 52A7-18A1-34E9-94P9
+X-Powered-By: ASP.NET
+X-Cache: CONFIG_NOCACHE
+X-Azure-Ref: 0DT+RYgAAAAAcVBQU3392Rpa8vgKu9VJyTU5aMjIxMDYwNjEzMDExADg2ZjFlOWYzLTkwOWItNDc4Yi04MTk5LTEyNDI1YjZiZTJkMw==
+Date: Fri, 27 May 2022 21:13:49 GMT
+Content-Length: 0
+
+
+2022-05-27T21:13:50+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGR retorno: requestID= status= msg=

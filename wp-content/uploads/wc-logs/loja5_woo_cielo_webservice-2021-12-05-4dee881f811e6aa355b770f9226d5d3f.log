@@ -1,0 +1,254 @@
+12-05-2021 @ 19:14:19 - Debug Cielo HTTP: 201
+12-05-2021 @ 19:14:19 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 16790
+    [Customer] => Array
+        (
+            [Name] => Patricia Maria Alves Ferreira de Rezende
+            [Email] => patriciamafderezende@yahoo.com.br
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 253431
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 10
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 525663****6314
+                    [Holder] => PATRICIA F REZENDE
+                    [ExpirationDate] => 10/2029
+                    [SecurityCode] => 546
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+12-05-2021 @ 19:14:19 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1384
+    [response] => {"MerchantOrderId":"16790","Customer":{"Name":"Patricia Maria Alves Ferreira de Rezende","Email":"patriciamafderezende@yahoo.com.br"},"Payment":{"ServiceTaxAmount":0,"Installments":10,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"525663******6314","Holder":"PATRICIA F REZENDE","ExpirationDate":"10/2029","SaveCard":false,"Brand":"Master","PaymentAccountReference":"5001EVWC1PCLGRNZZ0UQXVXT0O5EL"},"Tid":"280720451616V1I6E96C","ProofOfSale":"113001","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"0","IsQrCode":false,"Amount":253431,"ReceivedDate":"2021-12-05 19:14:18","Status":3,"IsSplitted":false,"ReturnMessage":"Autorizacao negada","ReturnCode":"51","PaymentId":"9fc902df-65c6-4e12-b1a4-c1a59f90ed02","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/9fc902df-65c6-4e12-b1a4-c1a59f90ed02"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 364
+            [request_size] => 832
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.430508
+            [namelookup_time] => 0.141746
+            [connect_time] => 0.258153
+            [pretransfer_time] => 0.503998
+            [size_upload] => 553
+            [size_download] => 959
+            [speed_download] => 670
+            [speed_upload] => 386
+            [download_content_length] => 959
+            [upload_content_length] => 553
+            [starttransfer_time] => 1.430477
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.1.59
+            [local_port] => 33566
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 503926
+            [connect_time_us] => 258153
+            [namelookup_time_us] => 141746
+            [pretransfer_time_us] => 503998
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1430477
+            [total_time_us] => 1430508
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+12-05-2021 @ 19:16:17 - Debug Cielo HTTP: 201
+12-05-2021 @ 19:16:17 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 16790
+    [Customer] => Array
+        (
+            [Name] => Patricia Maria Alves Ferreira de Rezende
+            [Email] => patriciamafderezende@yahoo.com.br
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 253431
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 10
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 485464****5597
+                    [Holder] => PATRICIA A FERREIRA
+                    [ExpirationDate] => 08/2027
+                    [SecurityCode] => 262
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+12-05-2021 @ 19:16:17 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1233
+    [response] => {"MerchantOrderId":"16790","Customer":{"Name":"Patricia Maria Alves Ferreira de Rezende","Email":"patriciamafderezende@yahoo.com.br"},"Payment":{"ServiceTaxAmount":0,"Installments":10,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"485464******5597","Holder":"PATRICIA A FERREIRA","ExpirationDate":"08/2027","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010013821307706049058224718"},"Tid":"280720451616V1I6F73C","ProofOfSale":"113003","AuthorizationCode":"753509","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":253431,"ReceivedDate":"2021-12-05 19:16:16","CapturedAmount":253431,"CapturedDate":"2021-12-05 19:16:16","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"b9e8f61f-880b-4fe8-9876-e21764b6bbac","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/b9e8f61f-880b-4fe8-9876-e21764b6bbac"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/b9e8f61f-880b-4fe8-9876-e21764b6bbac/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 831
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.492679
+            [namelookup_time] => 0.138594
+            [connect_time] => 0.256242
+            [pretransfer_time] => 0.503809
+            [size_upload] => 552
+            [size_download] => 1190
+            [speed_download] => 797
+            [speed_upload] => 369
+            [download_content_length] => 1190
+            [upload_content_length] => 552
+            [starttransfer_time] => 1.492646
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.1.59
+            [local_port] => 33644
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 503732
+            [connect_time_us] => 256242
+            [namelookup_time_us] => 138594
+            [pretransfer_time_us] => 503809
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1492646
+            [total_time_us] => 1492679
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

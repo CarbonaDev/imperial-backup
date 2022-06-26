@@ -1,0 +1,50 @@
+2022-04-21T15:04:44+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/order/order-details-item.php:54
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/order/order-details.php(76): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2601): wc_get_template()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): woocommerce_order_details_table()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(474): WP_Hook->do_action()
+#7 /opt/bitnami/apps/wordpress/htdoc, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/order/order-details-item.php, na linha 54
+
+2022-04-21T15:05:07+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/order/order-details-item.php:54
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/order/order-details.php(76): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2601): wc_get_template()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): woocommerce_order_details_table()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(474): WP_Hook->do_action()
+#7 /opt/bitnami/apps/wordpress/htdoc, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/order/order-details-item.php, na linha 54
+
+2022-04-21T18:04:34+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 92
+
+2022-04-21T18:08:46+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 92
+
+2022-04-21T18:09:19+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 671744 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/w3-total-cache/Cache_File.php, na linha 186
+
+2022-04-21T18:10:24+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-includes/pomo/mo.php, na linha 279
+
+2022-04-21T18:17:56+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 92
+
+2022-04-21T18:19:49+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 50
+
+2022-04-21T18:24:10+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 92
+
+2022-04-21T18:28:02+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 92
+
+2022-04-21T18:30:58+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 92
+
+2022-04-21T18:33:00+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 92
+
+2022-04-21T18:40:36+00:00 CRITICAL syntax error, unexpected '=', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 46
+
+2022-04-21T18:42:27+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 48
+
+2022-04-21T18:43:02+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 48
+
+2022-04-21T18:44:46+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/customer-on-hold-order.php, na linha 48
+

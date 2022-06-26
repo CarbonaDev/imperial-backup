@@ -1,0 +1,72 @@
+2021-08-02T18:51:46+00:00 CRITICAL Uncaught Error: Call to undefined function wpkses_post() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php:87
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3247): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-details.php(56): wc_get_email_order_items()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-emails.php(421): wc_get_template()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/shopmagic-for-woocommerce/src/Placeholder/Builtin/Order/OrderDetails.php(38): WC_Emails->order_details()
+#6 /opt/bitnami/apps/wordpress/htdoc, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php, na linha 87
+
+2021-08-02T18:55:12+00:00 CRITICAL Uncaught Error: Call to undefined function wpkses_post() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php:87
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3247): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-details.php(56): wc_get_email_order_items()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-emails.php(421): wc_get_template()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Emails->order_details()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php, na linha 87
+
+2021-08-02T18:55:41+00:00 CRITICAL Uncaught Error: Call to undefined function wpkses_post() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php:87
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3247): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-details.php(56): wc_get_email_order_items()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-emails.php(421): wc_get_template()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/shopmagic-for-woocommerce/src/Placeholder/Builtin/Order/OrderDetails.php(38): WC_Emails->order_details()
+#6 /opt/bitnami/apps/wordpress/htdoc, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php, na linha 87
+
+2021-08-02T18:57:15+00:00 CRITICAL Uncaught Error: Call to undefined function wpkses_post() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php:87
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3247): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-details.php(56): wc_get_email_order_items()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-emails.php(421): wc_get_template()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Emails->order_details()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php, na linha 87
+
+2021-08-02T18:57:41+00:00 CRITICAL Uncaught Error: Call to undefined function wpkses_post() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php:87
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3247): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-details.php(56): wc_get_email_order_items()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-emails.php(421): wc_get_template()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/shopmagic-for-woocommerce/src/Placeholder/Builtin/Order/OrderDetails.php(38): WC_Emails->order_details()
+#6 /opt/bitnami/apps/wordpress/htdoc, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php, na linha 87
+
+2021-08-02T19:01:25+00:00 CRITICAL Uncaught Error: Call to undefined function wpkses_post() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php:87
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3247): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-details.php(56): wc_get_email_order_items()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-emails.php(421): wc_get_template()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Emails->order_details()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php, na linha 87
+
+2021-08-02T19:01:40+00:00 CRITICAL Uncaught Error: Call to undefined function wpkses_post() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php:87
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3247): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-details.php(56): wc_get_email_order_items()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-emails.php(421): wc_get_template()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/shopmagic-for-woocommerce/src/Placeholder/Builtin/Order/OrderDetails.php(38): WC_Emails->order_details()
+#6 /opt/bitnami/apps/wordpress/htdoc, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/emails/email-order-items.php, na linha 87
+
+2021-08-02T21:17:20+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 53641928 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wordfence/lib/wfConfig.php, na linha 693
+

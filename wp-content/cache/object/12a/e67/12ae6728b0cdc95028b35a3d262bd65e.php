@@ -1,0 +1,1 @@
+T4¡b<?php exit; ?>a:1:{s:7:"content";s:85:"{{WP_PLUGIN_DIR}}/yith-woocommerce-waiting-list-premium/templates/yith-wcwtl-form.php";}

@@ -1,0 +1,391 @@
+08-14-2021 @ 09:33:08 - Debug Cielo HTTP: 400
+08-14-2021 @ 09:33:08 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 12947
+    [Customer] => Array
+        (
+            [Name] => Tânia hostert Kuroski
+            [Email] => taniahkuroski@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 49000
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 4
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 515590****5548
+                    [Holder] => tania h kuroski
+                    [ExpirationDate] => 08/2028
+                    [SecurityCode] => 5548
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+08-14-2021 @ 09:33:08 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #452
+    [response] => [
+  {
+    "Code": 146,
+    "Message": "SecurityCode length exceeded"
+  }
+]
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json
+            [http_code] => 400
+            [header_size] => 257
+            [request_size] => 804
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.594139
+            [namelookup_time] => 0.097325
+            [connect_time] => 0.214434
+            [pretransfer_time] => 0.461479
+            [size_upload] => 525
+            [size_download] => 74
+            [speed_download] => 124
+            [speed_upload] => 883
+            [download_content_length] => -1
+            [upload_content_length] => 525
+            [starttransfer_time] => 0.594107
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 43486
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 461408
+            [connect_time_us] => 214434
+            [namelookup_time_us] => 97325
+            [pretransfer_time_us] => 461479
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 594107
+            [total_time_us] => 594139
+        )
+
+    [error] => 
+    [status] => 400
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+08-14-2021 @ 09:35:34 - Debug Cielo HTTP: 400
+08-14-2021 @ 09:35:34 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 12947
+    [Customer] => Array
+        (
+            [Name] => Tânia hostert Kuroski
+            [Email] => taniahkuroski@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 49000
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 4
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 515590****5548
+                    [Holder] => tania h kuroski
+                    [ExpirationDate] => 08/2028
+                    [SecurityCode] => 5548
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+08-14-2021 @ 09:35:34 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #413
+    [response] => [
+  {
+    "Code": 146,
+    "Message": "SecurityCode length exceeded"
+  }
+]
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json
+            [http_code] => 400
+            [header_size] => 257
+            [request_size] => 804
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.497478
+            [namelookup_time] => 0.007535
+            [connect_time] => 0.12563
+            [pretransfer_time] => 0.373038
+            [size_upload] => 525
+            [size_download] => 74
+            [speed_download] => 148
+            [speed_upload] => 1056
+            [download_content_length] => -1
+            [upload_content_length] => 525
+            [starttransfer_time] => 0.497448
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 43554
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 372965
+            [connect_time_us] => 125630
+            [namelookup_time_us] => 7535
+            [pretransfer_time_us] => 373038
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 497448
+            [total_time_us] => 497478
+        )
+
+    [error] => 
+    [status] => 400
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+08-14-2021 @ 09:40:04 - Debug Cielo HTTP: 201
+08-14-2021 @ 09:40:04 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 12947
+    [Customer] => Array
+        (
+            [Name] => Tânia hostert Kuroski
+            [Email] => taniahkuroski@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 49000
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 5
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 515590****5548
+                    [Holder] => tania h kuroski
+                    [ExpirationDate] => 08/2028
+                    [SecurityCode] => 438
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+08-14-2021 @ 09:40:04 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #413
+    [response] => {"MerchantOrderId":"12947","Customer":{"Name":"Tânia hostert Kuroski","Email":"taniahkuroski@gmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":5,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"515590******5548","Holder":"tania h kuroski","ExpirationDate":"08/2028","SaveCard":false,"Brand":"Master","PaymentAccountReference":"5001AYBJG28SWDV90SN6632ELMYWS"},"Tid":"280720451613M4TB3BBC","ProofOfSale":"044003","AuthorizationCode":"400370","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"0","IsQrCode":false,"Amount":49000,"ReceivedDate":"2021-08-14 09:40:03","CapturedAmount":49000,"CapturedDate":"2021-08-14 09:40:03","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"c2b4e8a0-0c86-429e-b62f-2a296e0fc2c5","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/c2b4e8a0-0c86-429e-b62f-2a296e0fc2c5"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/c2b4e8a0-0c86-429e-b62f-2a296e0fc2c5/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 366
+            [request_size] => 803
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.68581
+            [namelookup_time] => 0.121673
+            [connect_time] => 0.239996
+            [pretransfer_time] => 0.488058
+            [size_upload] => 524
+            [size_download] => 1157
+            [speed_download] => 686
+            [speed_upload] => 310
+            [download_content_length] => 1157
+            [upload_content_length] => 524
+            [starttransfer_time] => 1.685779
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 43644
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 487949
+            [connect_time_us] => 239996
+            [namelookup_time_us] => 121673
+            [pretransfer_time_us] => 488058
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1685779
+            [total_time_us] => 1685810
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

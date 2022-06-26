@@ -1,0 +1,1 @@
+1¡b<?php exit; ?>a:1:{s:7:"content";a:2:{i:0;O:8:"stdClass":2:{s:7:"term_id";s:2:"92";s:9:"object_id";s:5:"21256";}i:1;O:8:"stdClass":2:{s:7:"term_id";s:1:"2";s:9:"object_id";s:5:"21256";}}}

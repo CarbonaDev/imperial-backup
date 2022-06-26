@@ -1,0 +1,254 @@
+02-25-2022 @ 21:15:02 - Debug Cielo HTTP: 201
+02-25-2022 @ 21:15:02 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 18780
+    [Customer] => Array
+        (
+            [Name] => Kátia Arantes Spier
+            [Email] => katiaarantesspier@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 118800
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 12
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 476333****3910
+                    [Holder] => Kátia Arantes Spier
+                    [ExpirationDate] => 10/2027
+                    [SecurityCode] => 337
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+02-25-2022 @ 21:15:02 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1406
+    [response] => {"MerchantOrderId":"18780","Customer":{"Name":"Kátia Arantes Spier","Email":"katiaarantesspier@gmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":12,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"476333******3910","Holder":"Kátia Arantes Spier","ExpirationDate":"10/2027","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010014620275718185796133074"},"Tid":"28072045161RR27A8MPC","ProofOfSale":"157013","AuthorizationCode":"042543","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":118800,"ReceivedDate":"2022-02-25 21:15:01","CapturedAmount":118800,"CapturedDate":"2022-02-25 21:15:01","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"751aa927-77d5-4282-8932-0fa52ea564e3","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/751aa927-77d5-4282-8932-0fa52ea564e3"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/751aa927-77d5-4282-8932-0fa52ea564e3/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 366
+            [request_size] => 814
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.847577
+            [namelookup_time] => 0.004987
+            [connect_time] => 0.122481
+            [pretransfer_time] => 0.369666
+            [size_upload] => 535
+            [size_download] => 1165
+            [speed_download] => 630
+            [speed_upload] => 289
+            [download_content_length] => 1165
+            [upload_content_length] => 535
+            [starttransfer_time] => 1.847543
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.1.59
+            [local_port] => 52148
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 369587
+            [connect_time_us] => 122481
+            [namelookup_time_us] => 4987
+            [pretransfer_time_us] => 369666
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1847543
+            [total_time_us] => 1847577
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+02-26-2022 @ 20:48:43 - Debug Cielo HTTP: 201
+02-26-2022 @ 20:48:43 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 18799
+    [Customer] => Array
+        (
+            [Name] => Kátia Regina Klein
+            [Email] => kleinkatia@hotmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 187500
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 12
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 417958****1010
+                    [Holder] => Katia Regina Klein
+                    [ExpirationDate] => 07/2026
+                    [SecurityCode] => 159
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+02-26-2022 @ 20:48:43 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1457
+    [response] => {"MerchantOrderId":"18799","Customer":{"Name":"Kátia Regina Klein","Email":"kleinkatia@hotmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":12,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"417958******1010","Holder":"Katia Regina Klein","ExpirationDate":"07/2026","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010014621209730217452070435"},"Tid":"28072045161RS03SC7HC","ProofOfSale":"157015","AuthorizationCode":"778625","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":187500,"ReceivedDate":"2022-02-26 20:48:42","CapturedAmount":187500,"CapturedDate":"2022-02-26 20:48:42","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"abe19597-6893-4618-85bd-83c8c4b84cd4","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/abe19597-6893-4618-85bd-83c8c4b84cd4"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/abe19597-6893-4618-85bd-83c8c4b84cd4/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 802
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.42498
+            [namelookup_time] => 0.003674
+            [connect_time] => 0.120543
+            [pretransfer_time] => 0.366875
+            [size_upload] => 523
+            [size_download] => 1157
+            [speed_download] => 812
+            [speed_upload] => 367
+            [download_content_length] => 1157
+            [upload_content_length] => 523
+            [starttransfer_time] => 1.42495
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.1.59
+            [local_port] => 47662
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 366807
+            [connect_time_us] => 120543
+            [namelookup_time_us] => 3674
+            [pretransfer_time_us] => 366875
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1424950
+            [total_time_us] => 1424980
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

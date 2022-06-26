@@ -1,0 +1,2348 @@
+/****************** Fix Theme ******************/
+
+#setting-error-tgmpa {
+    display: block;
+}
+
+/* Font Awesome */
+
+.kft-icon-selector>span.kft-select-icon {
+    width: 5%;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    height: 25px;
+}
+
+.kft-icon-selector>span.kft-select-icon:hover {
+    cursor: pointer;
+}
+
+.kft-icon-selector>span.kft-select-icon.selected .fa,
+.kft-icon-selector>span.kft-select-icon:hover .fa {
+    color: #777777;
+}
+
+/* Admin Header */
+
+.wp-editor-wrap {
+    clear: both;
+}
+
+.menu-item-bar .menu-item-handle {
+    width: 500px;
+}
+
+.menu-item-settings {
+    width: 500px;
+    padding: 15px;
+}
+
+.menu-item-settings .description-wide {
+    width: 490px;
+}
+
+/* CMB2 Tabs */
+
+.cmb-tabs ul.cmb-tab-nav {
+    border-right: 1px solid #eee;
+}
+
+.cmb-tabs ul.cmb-tab-nav li a {
+    border-bottom: 1px solid #eee !important;
+}
+
+.cmb-tabs ul.cmb-tab-nav li a {
+    font-weight: 400 !important;
+}
+
+.cmb-tabs ul.cmb-tab-nav li.cmb-tab-active a {
+    background-color: #0073aa !important;
+    color: #fff !important;
+    border-top: 1px solid #0073aa !important;
+    border-color: #0073aa !important;
+    margin-right: -1px;
+}
+
+.cmb-tabs ul.cmb-tab-nav:after {
+    width: 100% !important;
+}
+
+.cmb-tabs span.cmb2-metabox-description {
+    display: inherit !important;
+}
+
+/* Widget */
+
+#widgets-right .widget-inside textarea {
+    white-space: normal;
+    min-height: 100px
+}
+
+.delete-sidebar {
+    position: absolute;
+    right: -1px;
+    top: 13px;
+}
+
+.delete-sidebar:after {
+    content: "\f014";
+    font-family: "FontAwesome";
+}
+
+.menu-item-settings h4 {
+    margin: 10px 0 5px;
+    float: left;
+}
+
+/* Theme Option */
+
+.fa {
+    font-family: "FontAwesome" !important;
+}
+
+.box-sizing-border {
+    box-sizing: border-box;
+}
+
+.no-border-radius {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.no-box-shadow {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.transition {
+    transition: all 200ms ease-in-out;
+}
+
+.select2-container .select2-choice {
+    background: #f4f2f2 !important;
+    border-radius: inherit;
+    height: 31px;
+    line-height: 31px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.select2-container .select2-choice .select2-arrow {
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    background: #f4f2f2 !important;
+    border-radius: inherit;
+}
+
+.select2-drop {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    background: #F4F2F2;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.select2-drop.select2-drop-active,
+.select2-drop.select2-drop-active.select2-drop-above {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.admin-color-fresh .select2-drop.select2-drop-active,
+.admin-color-fresh .select3-drop.select2-drop-active.select2-drop-above {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.select2-drop .select2-results {
+    margin: 0;
+    padding-left: 0;
+    max-height: 300px;
+}
+
+.select2-drop .select2-results .select2-result:last-of-type {
+    margin-bottom: 0;
+}
+
+.select2-drop .select2-results .select2-result-label {
+    padding: 0 0.75em;
+    height: 29px;
+    line-height: 29px;
+    overflow: hidden;
+}
+
+.redux-container .rAds {
+    opacity: 0;
+}
+
+.redux-container .rAds a,
+.redux-container .rAds img {
+    display: none;
+}
+
+.redux-container #redux-header .display_header .redux-dev-mode-notice-container {
+    display: none;
+}
+
+.redux-container #redux-header .display_header {
+    margin: 30px 20px 30px 70px;
+}
+
+.redux-container #redux-header .display_header h2 {
+    font-size: 30px;
+    position: relative;
+    margin: 0;
+}
+
+.redux-container #redux-header .display_header:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 1;
+    background-image: url(../images/icon-large.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.redux-container-switch .switch-options input {
+    display: block;
+}
+
+.redux-container {
+    overflow: visible;
+}
+
+.redux-container .sticky-save-warn .redux-save-warn {
+    max-width: 850px;
+    left: 433px;
+}
+
+.redux-container #redux-footer {
+    right: inherit !important;
+}
+
+.redux-container #redux-form-wrapper {
+    background-color: #23282d;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab {
+    position: relative;
+    padding: 0 30px;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab.accordionsChecked>.form-table {
+    display: none;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab.accordionsChecked>h2+.form-table {
+    display: table;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab .redux-accordian-wrap {
+    padding: 10px 25px;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab .redux-accordian-wrap table tr:last-of-type {
+    display: none !important;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab .redux-accordion-field:last-of-type {
+    margin-top: 60px;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab .redux-accordion-field .redux-accordion-info {
+    padding: 10px 25px;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab .redux-accordion-field .redux-accordion-info .el {
+    margin: -23px 0 0;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab.hidden-section-heading>h2 {
+    display: none;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab>h2,
+.redux-container #redux-form-wrapper .redux-group-tab ._theme_options-redux_import_export>h2,
+.redux-container #redux-form-wrapper .redux-group-tab .redux-field-info {
+    margin: 3em 0 2em;
+    padding: 8px 15px;
+    background-color: #f4f2f2;
+    line-height: 1.5;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab .redux-field-info .redux-info-desc {
+    margin: 0;
+    padding: 0;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab .redux-field-info .redux-info-desc b {
+    font-size: 1.3em;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab .redux-container-info {
+    display: none;
+}
+
+.redux-container #redux-form-wrapper .button,
+.redux-container #redux-form-wrapper .button-primary {
+    text-shadow: none;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar {
+    width: 250px;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu>.redux-group-tab-link-li>a {
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu>li>a {
+    background-color: #23282d;
+    color: #eee;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu>li>a:hover {
+    background-color: #191e23;
+    color: #00b9eb;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu>li.active>a,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu>li.activeChild>a {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu>li .subsection {
+    padding: 6px 0;
+    background-color: #32373c;
+    width: 100% !important;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu>li .subsection li a {
+    background-color: #32373c;
+    color: rgba(240, 245, 250, 0.7);
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu>li .subsection li a:hover {
+    color: #00b9eb;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu>li .subsection li.active>a {
+    color: #fff;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li a {
+    font-weight: 400;
+    opacity: 1;
+    text-shadow: none !important;
+    border: none !important;
+    padding: 8px 4px 8px 25px;
+    width: 221px;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.active a a,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild a a,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild.hasSubSections a,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.active a ul.subsection,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild a ul.subsection,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection {
+    width: 221px;
+    font-weight: 400;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.active a a li.active a,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild a a li.active a,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild.hasSubSections a li.active a,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.active a ul.subsection li.active a,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild a ul.subsection li.active a,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.active a {
+    font-weight: 700;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.active a a,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild a a,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild.hasSubSections a {
+    font-weight: 400;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.active>a {
+    font-weight: 400;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.hasSubSections.activeChild .subsection {
+    display: block;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.hasSubSections.activeChild .active a:after {
+    content: "";
+    border: none;
+}
+
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu>li.active>a:after,
+.redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild>a:after {
+    right: 0;
+    border: 9px solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #fff;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.redux-container #redux-form-wrapper .redux-main {
+    background: #fff;
+    border-left: none;
+    margin-left: 250px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .custom-heading {
+    border: none;
+}
+
+.redux-container #redux-form-wrapper .redux-main .custom-heading .redux_field_th {
+    display: none;
+}
+
+.redux-container #redux-form-wrapper .redux-main .custom-heading .redux-field-info {
+    font-size: 13px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-text input {
+    width: 100%;
+}
+
+.redux-container #redux-form-wrapper .redux-main textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.redux-container #redux-form-wrapper .redux-main .button,
+.redux-container #redux-form-wrapper .redux-main .meida_upload_button,
+.redux-container #redux-form-wrapper .redux-main .select2-container .select2-choice,
+.redux-container #redux-form-wrapper .redux-main input:not([type="checkbox"]),
+.redux-container #redux-form-wrapper .redux-main select {
+    height: 31px !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .select2-container.select3-allowclear .select3-choice .select3-chosen {
+    margin-right: 52px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .select2-container .select2-choice {
+    line-height: 29px;
+    box-sizing: border-box;
+    background-image: none !important;
+    background-color: #fff;
+}
+
+.redux-container #redux-form-wrapper .redux-main .select2-container .select2-choice>.select2-chosen {
+    margin-right: 35px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .select2-container .select2-choice abbr {
+    right: 37px;
+    top: 1px;
+    height: 100%;
+    background: none !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .select2-container .select2-choice abbr:after {
+    content: "\f335";
+    font-family: dashicons;
+    font-size: 12px;
+    color: #777;
+}
+
+.redux-container #redux-form-wrapper .redux-main .select2-container .select2-choice .select3-arrow {
+    width: 31px;
+    background-image: none !important;
+    background-color: #fff;
+}
+
+.redux-container #redux-form-wrapper .redux-main .select2-container .select2-choice .select3-arrow b {
+    text-align: center;
+    background: none !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .select2-container .select2-choice .select3-arrow b:after {
+    content: "\f347";
+    font-family: dashicons;
+    font-size: 12px;
+    color: #777;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-field[data-id="header_layout"] .redux_field_th {
+    padding-right: 60px !important;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-field[data-id="header_layout"] ul.redux-image-select li {
+    float: right;
+    max-width: 50%;
+    transition: all 0.5s;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-field[data-id="header_layout"] ul.redux-image-select li:hover {
+    max-width: 100%;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-field[data-id="header_layout"] ul.redux-image-select li label {
+    max-width: 100%;
+}
+
+.redux-container #redux-form-wrapper .redux-main ._theme_options-social_media_icons .ui-accordion-content .redux-field-container {
+    padding: 5px 0 25px;
+}
+
+.redux-container #redux-form-wrapper .redux-main ._theme_options-social_media_icons .ui-accordion-content .redux-field-container .select3-container,
+.redux-container #redux-form-wrapper .redux-main ._theme_options-social_media_icons .ui-accordion-content .redux-field-container input {
+    width: 100% !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main ._theme_options-social_media_icons .ui-accordion-content .wp-picker-input-wrap .button-small {
+    padding: 0 16px 1px;
+}
+
+.redux-container #redux-form-wrapper .redux-main ._theme_options-color_scheme .redux-image-select label {
+    margin: 0 !important;
+    height: 34px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-field[data-id="bg_pattern"] ul.redux-image-select li label {
+    height: 29px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-field[data-id="bg_pattern"] ul.redux-image-select li img {
+    width: 27px !important;
+    height: 27px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-field[data-id="bg_pattern"] ul.redux-image-select li .redux-image-select-selected img {
+    width: 29px !important;
+    height: 29px;
+}
+
+.redux-container #redux-form-wrapper .redux-main ._theme_options-button_typography .letter-spacing {
+    margin-left: 0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-dimensions-container .input-append .add-on,
+.redux-container #redux-form-wrapper .redux-main .redux-dimensions-container .input-prepend .add-on {
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    border-right: none !important;
+    height: 31px;
+    width: 31px;
+    font-size: 12px;
+    background-color: #fff;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-dimensions-container .input-append .add-on .icon-large,
+.redux-container #redux-form-wrapper .redux-main .redux-dimensions-container .input-prepend .add-on .icon-large {
+    height: 29px;
+    line-height: 29px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-dimensions-container .input-append input,
+.redux-container #redux-form-wrapper .redux-main .redux-dimensions-container .input-prepend input {
+    width: 68px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.redux-container #redux-form-wrapper .redux-main input#redux_save {
+    background-color: #42BCE2 !important;
+    color: #fff !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-typography-container .select_wrapper {
+    max-width: calc(50% - 10px) !important;
+    min-width: 160px !important;
+    height: 67px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-typography-container .select_wrapper .redux-typography {
+    height: 31px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-typography-container .input_wrapper {
+    height: 67px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-typography-container .input_wrapper.margin-top {
+    margin-left: 0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-typography-container .redux-typography-color {
+    padding: 3px 5px !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-typography-container input.wp-picker-default {
+    margin-left: 0 !important;
+    padding: 0 10px !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-repeater .redux-repeater-accordion-repeater .ui-accordion-content,
+.redux-container #redux-form-wrapper .redux-main .redux-container-repeater .redux-repeater-accordion-repeater h3.ui-accordion-header {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-repeater .redux-repeater-accordion-repeater h3.ui-accordion-header {
+    background-color: #f2f2f2 !important;
+    background-image: none !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-repeater .redux-repeater-accordion-repeater h4 {
+    margin: 5px 0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container {
+    width: 317px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container.wp-picker-active,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container.wp-picker-active,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container.wp-picker-active {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container.wp-picker-active .wp-picker-input-wrap,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container.wp-picker-active .wp-picker-input-wrap,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container.wp-picker-active .wp-picker-input-wrap {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container.wp-picker-active .wp-picker-input-wrap label,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container.wp-picker-active .wp-picker-input-wrap label,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container.wp-picker-active .wp-picker-input-wrap label {
+    width: 100%;
+    padding-right: 3px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container.wp-picker-active .wp-picker-input-wrap input[type="text"],
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container.wp-picker-active .wp-picker-input-wrap input[type="text"],
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container.wp-picker-active .wp-picker-input-wrap input[type="text"] {
+    margin-right: 5px;
+    width: 100% !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .wp-picker-holder,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .wp-picker-holder,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .wp-picker-holder {
+    width: 100%;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker {
+    width: 100% !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-palette,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-palette,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-palette,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-slider,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-slider,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-slider,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-square,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-square,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-square,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-square-inner,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-square-inner,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-square-inner {
+    box-shadow: none;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-palette,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-palette,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-palette,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-slider,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-slider,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-slider,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-square,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-square,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-square {
+    border: 1px solid #eee;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-square-inner,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-square-inner,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-square-inner {
+    border-radius: 0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-picker-inner,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-picker-inner,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-picker-inner {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-picker-inner .iris-slider,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-picker-inner .iris-slider,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-picker-inner .iris-slider {
+    width: 25px !important;
+    margin-left: 15px !important;
+    height: 100% !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-picker-inner .iris-slider .ui-slider-handle,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-picker-inner .iris-slider .ui-slider-handle,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-picker-inner .iris-slider .ui-slider-handle {
+    margin-bottom: -8px;
+    right: 0;
+    left: -3px;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker .iris-picker-inner .iris-square,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker .iris-picker-inner .iris-square,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker .iris-picker-inner .iris-square {
+    width: calc(100% - 45px) !important;
+    margin-right: 0;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-picker.iris-border,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-picker.iris-border,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-picker.iris-border {
+    padding-bottom: 30px !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-palette-container,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-palette-container,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-palette-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(100% - 45px) !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-palette-container>.iris-palette,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-palette-container>.iris-palette,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-palette-container>.iris-palette {
+    border: 1px solid #e7e7e7;
+    margin-left: 2px !important;
+    margin-right: 0 !important;
+    width: 19px !important;
+    height: 19px !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container .iris-palette-container>.iris-palette:first-child,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container .iris-palette-container>.iris-palette:first-child,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container .iris-palette-container>.iris-palette:first-child {
+    margin-left: 0 !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container.wp-picker-alpha-container,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container.wp-picker-alpha-container,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container.wp-picker-alpha-container {
+    width: 365px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container.wp-picker-alpha-container .iris-picker .iris-square,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container.wp-picker-alpha-container .iris-picker .iris-square,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container.wp-picker-alpha-container .iris-picker .iris-square {
+    width: calc(100% - 85px) !important;
+    margin-right: 15px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container.wp-picker-alpha-container .iris-palette-container>.iris-palette,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container.wp-picker-alpha-container .iris-palette-container>.iris-palette,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container.wp-picker-alpha-container .iris-palette-container>.iris-palette {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container.wp-picker-alpha-container .iris-palette-container>.iris-palette:first-child,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container.wp-picker-alpha-container .iris-palette-container>.iris-palette:first-child,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container.wp-picker-alpha-container .iris-palette-container>.iris-palette:first-child {
+    margin-left: 0 !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container.wp-picker-alpha-container .wp-picker-input-wrap,
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container.wp-picker-alpha-container .wp-picker-input-wrap,
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container.wp-picker-alpha-container .wp-picker-input-wrap {
+    width: 249px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-color .wp-picker-container.wp-picker-alpha-container .wp-picker-input-wrap label input[type="text"],
+.redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .wp-picker-container.wp-picker-alpha-container .wp-picker-input-wrap label input[type="text"],
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container.wp-picker-alpha-container .wp-picker-input-wrap label input[type="text"] {
+    width: 100% !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .upload_button_div .button {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.redux-container #redux-form-wrapper .redux-main #redux-sticky #info_bar {
+    padding: 20px 50px;
+    height: 31px;
+    background: #fff;
+}
+
+.redux-container #redux-form-wrapper .redux-main #redux-sticky #info_bar .redux-action_bar input {
+    margin-top: 0;
+}
+
+.redux-container #redux-form-wrapper .redux-main>.dashicons.dashicons-search {
+    display: none;
+    position: absolute;
+    top: 23px;
+    left: 200px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux_field_search {
+    top: 20px;
+    left: 200px;
+    margin: 0;
+    padding-left: 12px;
+    width: 250px !important;
+    background: #f4f2f2 !important;
+    border: none !important;
+    color: #333;
+}
+
+.redux-container #redux-form-wrapper .redux-main .expand_options {
+    display: none;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-import_export #redux-import-action {
+    margin-top: 10px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-import_export #redux-import-action span {
+    margin: 0 5px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .el-arrow-up:before {
+    content: "\f342";
+    font-family: dashicons;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .el-arrow-down:before {
+    content: "\f346";
+    font-family: dashicons;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .el-arrow-right:before {
+    content: "\f344";
+    font-family: dashicons;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .el-arrow-left:before {
+    content: "\f340";
+    font-family: dashicons;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input {
+    margin-right: 5px !important;
+    width: calc(25% - 5px);
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input.input-append .add-on,
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input.input-prepend .add-on {
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    border-right: none !important;
+    height: 31px;
+    font-size: 12px;
+    background-color: #fff;
+    min-width: 31px;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input.input-append .add-on .icon-large,
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input.input-prepend .add-on .icon-large {
+    height: 29px;
+    line-height: 29px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input.input-append input,
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input.input-prepend input {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input input.mini[type="text"] {
+    width: calc(100% - 33px);
+}
+
+.redux-container #redux-form-wrapper .redux-main #redux-defaults-section {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .ui-button {
+    padding: 0 10px;
+    height: auto;
+}
+
+.redux-container #redux-form-wrapper .redux-main .ui-button .ui-button-text {
+    padding: 0;
+    line-height: 30px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .button-secondary,
+.redux-container #redux-form-wrapper .redux-main .cb-disable,
+.redux-container #redux-form-wrapper .redux-main .cb-enable,
+.redux-container #redux-form-wrapper .redux-main .select3-arrow,
+.redux-container #redux-form-wrapper .redux-main .select3-choice,
+.redux-container #redux-form-wrapper .redux-main .select3-drop,
+.redux-container #redux-form-wrapper .redux-main .ui-button,
+.redux-container #redux-form-wrapper .redux-main .ui-icon,
+.redux-container #redux-form-wrapper .redux-main .ui-spinner-button,
+.redux-container #redux-form-wrapper .redux-main input {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    transition: all 200ms ease-in-out;
+}
+
+.redux-container #redux-form-wrapper .redux-main .button-primary,
+.redux-container #redux-form-wrapper .redux-main .button-secondary {
+    height: 31px;
+    line-height: 29px;
+    box-sizing: border-box;
+}
+
+.redux-container #redux-form-wrapper .redux-main .ui-buttonset .ui-button {
+    border-right: none;
+}
+
+.redux-container #redux-form-wrapper .redux-main .ui-buttonset .ui-button:last-child {
+    border-right: 1px solid;
+}
+
+.redux-container #redux-form-wrapper .redux-main .select3-choice,
+.redux-container #redux-form-wrapper .redux-main .select3-drop,
+.redux-container #redux-form-wrapper .redux-main input:not(.button-primary),
+.redux-container #redux-form-wrapper .redux-main textarea {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    background: #f4f2f2 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    transition: all 200ms ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.redux-container #redux-form-wrapper .redux-main .select3-choice:active,
+.redux-container #redux-form-wrapper .redux-main .select3-drop:active,
+.redux-container #redux-form-wrapper .redux-main input:not(.button-primary):active,
+.redux-container #redux-form-wrapper .redux-main textarea:active,
+.redux-container #redux-form-wrapper .redux-main .select3-choice:focus,
+.redux-container #redux-form-wrapper .redux-main .select3-drop:focus,
+.redux-container #redux-form-wrapper .redux-main input:not(.button-primary):focus,
+.redux-container #redux-form-wrapper .redux-main textarea:focus {
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.redux-container #redux-form-wrapper .redux-main .select3-container .select3-choice {
+    padding-left: 0.75em;
+}
+
+.redux-container #redux-form-wrapper .redux-main .select3-arrow {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    background: #f4f2f2 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    transition: all 200ms ease-in-out;
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.redux-container #redux-form-wrapper .redux-main input[type=radio] {
+    border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.redux-container #redux-form-wrapper .redux-main input[type=radio]:checked:before {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.redux-container #redux-form-wrapper .redux-main input[type=radio]+span>p {
+    margin-left: 25px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-switch .cb-enable.selected,
+.redux-container #redux-form-wrapper .redux-main .redux-field-container .ui-buttonset .ui-state-active {
+    background-image: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border-color: rgba(0, 0, 0, 0.1) !important;
+    background-color: #42BCE2 !important;
+    color: #fff;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-switch .cb-disable span,
+.redux-container #redux-form-wrapper .redux-main .redux-container-switch .cb-enable span {
+    font-weight: normal;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-switch .cb-disable.selected {
+    background: #23282d !important;
+    color: #eee;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-switch .cb-enable.selected {
+    background-color: #42BCE2 !important;
+    color: #fff;
+}
+
+.redux-container #redux-form-wrapper .redux-main .wp-color-result {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-switch .cb-disable.selected {
+    background-image: none !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-switch .cb-enable.selected,
+.redux-container #redux-form-wrapper .redux-main .redux-field-container .ui-buttonset .ui-state-active {
+    border-color: 1px solid rgba(0, 0, 0, 0.15) !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-text input {
+    line-height: 1.75em;
+    padding-left: 0.75em;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-main span.description {
+    color: #999 !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-slider .redux-slider-input {
+    margin-right: 25px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-slider .redux-slider-container {
+    margin: 10px 0;
+    width: calc(100% - 130px);
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container.noUi-target.noUi-connect {
+    background-color: transparent !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: none !important;
+    box-shadow: none;
+    border: none;
+    border-top: 2px solid #42BCE2;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    position: relative;
+    top: 6px;
+    border-top-color: #42BCE2;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-handle {
+    border: none !important;
+    background-color: #42BCE2 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-handle:after,
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-handle:before {
+    content: none;
+    display: none;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-origin.noUi-background {
+    top: -2px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-target,
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-target * {
+    -webkit-touch-callout: none;
+    -ms-touch-action: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-base {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-origin {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-handle {
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-stacking .noUi-handle {
+    z-index: 10;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-stacking+.noUi-origin {
+    *z-index: -1;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-state-tap .noUi-origin {
+    transition: left 0.3s, top 0.3s;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-state-drag * {
+    cursor: inherit !important;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-horizontal {
+    height: 10px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-handle {
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    left: -10px;
+    top: -5px;
+    cursor: ew-resize;
+    border-radius: 100%;
+    transition: all 0.2s ease-out;
+    border: 1px solid;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-vertical .noUi-handle {
+    margin-left: 5px;
+    cursor: ns-resize;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-horizontal.noUi-extended {
+    padding: 0 15px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-horizontal.noUi-extended .noUi-origin {
+    right: -15px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-background {
+    height: 2px;
+    margin: 20px 0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-origin {
+    margin: 0;
+    border-radius: 0;
+    height: 2px;
+    background: #c8c8c8;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-origin[style^="left:0"] .noUi-handle {
+    background-color: #fff;
+    border: 2px solid #c8c8c8;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-origin[style^="left:0"] .noUi-handle.noUi-active {
+    border-width: 1px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-target {
+    border-radius: 2px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-horizontal {
+    height: 2px;
+    margin: 15px 0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-vertical {
+    height: 100%;
+    width: 2px;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .noUi-handle.noUi-active {
+    -webkit-transform: scale3d(2.5, 2.5, 1);
+    transform: scale3d(2.5, 2.5, 1);
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container [disabled].noUi-slider {
+    opacity: 0.5;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container [disabled] .noUi-handle {
+    cursor: not-allowed;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider {
+    background: #c8c8c8;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider.noUi-connect,
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-default.noUi-connect {
+    background-color: #42BCE2;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-black.noUi-connect {
+    background-color: #000000;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-white.noUi-connect {
+    background-color: #ffffff;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-inverse.noUi-connect {
+    background-color: #3f51b5;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-primary.noUi-connect {
+    background-color: #009688;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-success.noUi-connect {
+    background-color: #4caf50;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-info.noUi-connect {
+    background-color: #03a9f4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-warning.noUi-connect {
+    background-color: #ff5722;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-danger.noUi-connect {
+    background-color: #f44336;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-red.noUi-connect {
+    background-color: #f44336;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-pink.noUi-connect {
+    background-color: #e91e63;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-purple.noUi-connect {
+    background-color: #9c27b0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-deep-purple.noUi-connect {
+    background-color: #673ab7;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-indigo.noUi-connect {
+    background-color: #3f51b5;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-blue.noUi-connect {
+    background-color: #2196f3;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-light-blue.noUi-connect {
+    background-color: #03a9f4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-cyan.noUi-connect {
+    background-color: #00bcd4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-teal.noUi-connect {
+    background-color: #009688;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-green.noUi-connect {
+    background-color: #4caf50;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-light-green.noUi-connect {
+    background-color: #8bc34a;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-lime.noUi-connect {
+    background-color: #cddc39;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-yellow.noUi-connect {
+    background-color: #ffeb3b;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-amber.noUi-connect {
+    background-color: #ffc107;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-orange.noUi-connect {
+    background-color: #ff9800;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-deep-orange.noUi-connect {
+    background-color: #ff5722;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-brown.noUi-connect {
+    background-color: #795548;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-grey.noUi-connect {
+    background-color: #9e9e9e;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-blue-grey.noUi-connect {
+    background-color: #607d8b;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider .noUi-connect,
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-default .noUi-connect {
+    background-color: #42BCE2;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-black .noUi-connect {
+    background-color: #000000;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-white .noUi-connect {
+    background-color: #ffffff;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-inverse .noUi-connect {
+    background-color: #3f51b5;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-primary .noUi-connect {
+    background-color: #009688;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-success .noUi-connect {
+    background-color: #4caf50;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-info .noUi-connect {
+    background-color: #03a9f4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-warning .noUi-connect {
+    background-color: #ff5722;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-danger .noUi-connect {
+    background-color: #f44336;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-red .noUi-connect {
+    background-color: #f44336;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-pink .noUi-connect {
+    background-color: #e91e63;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-purple .noUi-connect {
+    background-color: #9c27b0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-deep-purple .noUi-connect {
+    background-color: #673ab7;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-indigo .noUi-connect {
+    background-color: #3f51b5;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-blue .noUi-connect {
+    background-color: #2196f3;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-light-blue .noUi-connect {
+    background-color: #03a9f4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-cyan .noUi-connect {
+    background-color: #00bcd4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-teal .noUi-connect {
+    background-color: #009688;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-green .noUi-connect {
+    background-color: #4caf50;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-light-green .noUi-connect {
+    background-color: #8bc34a;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-lime .noUi-connect {
+    background-color: #cddc39;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-yellow .noUi-connect {
+    background-color: #ffeb3b;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-amber .noUi-connect {
+    background-color: #ffc107;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-orange .noUi-connect {
+    background-color: #ff9800;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-deep-orange .noUi-connect {
+    background-color: #ff5722;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-brown .noUi-connect {
+    background-color: #795548;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-grey .noUi-connect {
+    background-color: #9e9e9e;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-blue-grey .noUi-connect {
+    background-color: #607d8b;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider .noUi-handle,
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-default .noUi-handle {
+    background-color: #42BCE2;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-black .noUi-handle {
+    background-color: #000000;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-white .noUi-handle {
+    background-color: #ffffff;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-inverse .noUi-handle {
+    background-color: #3f51b5;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-primary .noUi-handle {
+    background-color: #009688;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-success .noUi-handle {
+    background-color: #4caf50;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-info .noUi-handle {
+    background-color: #03a9f4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-warning .noUi-handle {
+    background-color: #ff5722;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-danger .noUi-handle {
+    background-color: #f44336;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-red .noUi-handle {
+    background-color: #f44336;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-pink .noUi-handle {
+    background-color: #e91e63;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-purple .noUi-handle {
+    background-color: #9c27b0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-deep-purple .noUi-handle {
+    background-color: #673ab7;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-indigo .noUi-handle {
+    background-color: #3f51b5;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-blue .noUi-handle {
+    background-color: #2196f3;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-light-blue .noUi-handle {
+    background-color: #03a9f4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-cyan .noUi-handle {
+    background-color: #00bcd4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-teal .noUi-handle {
+    background-color: #009688;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-green .noUi-handle {
+    background-color: #4caf50;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-light-green .noUi-handle {
+    background-color: #8bc34a;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-lime .noUi-handle {
+    background-color: #cddc39;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-yellow .noUi-handle {
+    background-color: #ffeb3b;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-amber .noUi-handle {
+    background-color: #ffc107;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-orange .noUi-handle {
+    background-color: #ff9800;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-deep-orange .noUi-handle {
+    background-color: #ff5722;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-brown .noUi-handle {
+    background-color: #795548;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-grey .noUi-handle {
+    background-color: #9e9e9e;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-blue-grey .noUi-handle {
+    background-color: #607d8b;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider .noUi-handle,
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-default .noUi-handle {
+    border-color: #42BCE2;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-black .noUi-handle {
+    border-color: #000000;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-white .noUi-handle {
+    border-color: #ffffff;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-inverse .noUi-handle {
+    border-color: #3f51b5;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-primary .noUi-handle {
+    border-color: #009688;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-success .noUi-handle {
+    border-color: #4caf50;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-info .noUi-handle {
+    border-color: #03a9f4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-warning .noUi-handle {
+    border-color: #ff5722;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-danger .noUi-handle {
+    border-color: #f44336;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-red .noUi-handle {
+    border-color: #f44336;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-pink .noUi-handle {
+    border-color: #e91e63;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-purple .noUi-handle {
+    border-color: #9c27b0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-deep-purple .noUi-handle {
+    border-color: #673ab7;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-indigo .noUi-handle {
+    border-color: #3f51b5;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-blue .noUi-handle {
+    border-color: #2196f3;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-light-blue .noUi-handle {
+    border-color: #03a9f4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-cyan .noUi-handle {
+    border-color: #00bcd4;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-teal .noUi-handle {
+    border-color: #009688;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-green .noUi-handle {
+    border-color: #4caf50;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-light-green .noUi-handle {
+    border-color: #8bc34a;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-lime .noUi-handle {
+    border-color: #cddc39;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-yellow .noUi-handle {
+    border-color: #ffeb3b;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-amber .noUi-handle {
+    border-color: #ffc107;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-orange .noUi-handle {
+    border-color: #ff9800;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-deep-orange .noUi-handle {
+    border-color: #ff5722;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-brown .noUi-handle {
+    border-color: #795548;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-grey .noUi-handle {
+    border-color: #9e9e9e;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-slider-container .slider-material-blue-grey .noUi-handle {
+    border-color: #607d8b;
+}
+
+.redux-container #redux-form-wrapper .redux-main.redux-search .redux-group-tab>h2 {
+    display: none;
+}
+
+.redux-container #redux-form-wrapper #info-h1_typography_info+table tbody tr:nth-child(2),
+.redux-container #redux-form-wrapper #info-h2_typography_info+table tbody tr:nth-child(2),
+.redux-container #redux-form-wrapper #info-h3_typography_info+table tbody tr:nth-child(2),
+.redux-container #redux-form-wrapper #info-h4_typography_info+table tbody tr:nth-child(2),
+.redux-container #redux-form-wrapper #info-h5_typography_info+table tbody tr:nth-child(2),
+.redux-container #redux-form-wrapper #info-h6_typography_info+table tbody tr:nth-child(2) {
+    border-bottom: none;
+}
+
+.redux-container #redux-form-wrapper #info-h1_typography_info+table tbody tr:nth-child(2) fieldset,
+.redux-container #redux-form-wrapper #info-h2_typography_info+table tbody tr:nth-child(2) fieldset,
+.redux-container #redux-form-wrapper #info-h3_typography_info+table tbody tr:nth-child(2) fieldset,
+.redux-container #redux-form-wrapper #info-h4_typography_info+table tbody tr:nth-child(2) fieldset,
+.redux-container #redux-form-wrapper #info-h5_typography_info+table tbody tr:nth-child(2) fieldset,
+.redux-container #redux-form-wrapper #info-h6_typography_info+table tbody tr:nth-child(2) fieldset {
+    padding-bottom: 0;
+}
+
+.redux-container #redux-form-wrapper #info-h1_typography_info+table tbody tr:nth-child(3) .redux_field_th,
+.redux-container #redux-form-wrapper #info-h2_typography_info+table tbody tr:nth-child(3) .redux_field_th,
+.redux-container #redux-form-wrapper #info-h3_typography_info+table tbody tr:nth-child(3) .redux_field_th,
+.redux-container #redux-form-wrapper #info-h4_typography_info+table tbody tr:nth-child(3) .redux_field_th,
+.redux-container #redux-form-wrapper #info-h5_typography_info+table tbody tr:nth-child(3) .redux_field_th,
+.redux-container #redux-form-wrapper #info-h6_typography_info+table tbody tr:nth-child(3) .redux_field_th,
+.redux-container #redux-form-wrapper #info-h1_typography_info+table tbody tr:nth-child(3) fieldset,
+.redux-container #redux-form-wrapper #info-h2_typography_info+table tbody tr:nth-child(3) fieldset,
+.redux-container #redux-form-wrapper #info-h3_typography_info+table tbody tr:nth-child(3) fieldset,
+.redux-container #redux-form-wrapper #info-h4_typography_info+table tbody tr:nth-child(3) fieldset,
+.redux-container #redux-form-wrapper #info-h5_typography_info+table tbody tr:nth-child(3) fieldset,
+.redux-container #redux-form-wrapper #info-h6_typography_info+table tbody tr:nth-child(3) fieldset {
+    padding-top: 0;
+}
+
+.redux-container #redux-form-wrapper .redux-notice-field {
+    background: #f2f2f2;
+    border-left: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    padding: 1em 2em;
+    position: relative;
+}
+
+.redux-container #redux-form-wrapper input[type="checkbox"]:checked {
+    background-color: #0073aa !important;
+}
+
+.redux-container #redux-form-wrapper input[type="checkbox"]:checked::before,
+.redux-container #redux-form-wrapper input[type="checkbox"]:checked:before {
+    color: #fff;
+}
+
+.redux-container #redux-form-wrapper .form-table th {
+    width: 25% !important;
+}
+
+.redux-container #redux-form-wrapper .form-table th .redux_field_th {
+    padding: 25px 60px 25px 0;
+}
+
+.redux-container #redux-form-wrapper .form-table td {
+    width: 50% !important;
+}
+
+.redux-container #redux-form-wrapper .form-table .redux-field-container {
+    padding: 25px 0;
+}
+
+.redux-container #redux-form-wrapper .form-table .redux-field-container.redux-container-raw {
+    padding: 0;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .ui-accordion-content {
+    overflow: hidden;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .ui-accordion-content fieldset:first-of-type {
+    padding-top: 0 !important;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .ui-accordion-content fieldset:first-of-type input {
+    width: 100%;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .screenshot {
+    display: none !important;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .button.media_upload_button,
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .button.remove-image {
+    color: transparent;
+    color: rgba(0, 0, 0, 0);
+    background: #4CAF50;
+    width: 34px;
+    border: none;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .button.media_upload_button::before,
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .button.remove-image::before {
+    font-family: dashicons;
+    content: "\f317";
+    color: #fff;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .button.remove-image {
+    background: #F44336;
+    margin-left: 0;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .button.remove-image::before {
+    content: "\f158";
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] h4 {
+    font-weight: normal;
+    margin: 15px 0 10px !important;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] h4:nth-of-type(2),
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] h4:nth-of-type(3),
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] h4:nth-of-type(4),
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] h4:nth-of-type(5),
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] h4:nth-of-type(6) {
+    margin: 0 0 20px !important;
+    font-size: 12px;
+    clear: left;
+    float: left;
+    width: 50px;
+    line-height: 30px;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] fieldset {
+    padding: 0 0 20px !important;
+    font-weight: normal;
+    text-align: right;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] fieldset:nth-of-type(1) {
+    padding-bottom: 40px;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] fieldset.redux-container-media input[type="text"] {
+    display: inline-block;
+    max-width: calc(100% - 80px);
+    float: left;
+    height: 31px;
+    margin: 0 10px 0 0;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] fieldset.redux-container-media .upload_button_div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.redux-container ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] fieldset.redux-container-media .upload_button_div span {
+    margin-top: 0;
+}
+
+.redux-container .notice-green,
+.redux-container .notice-red,
+.redux-container .notice-yellow {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.redux-container #redux-form-wrapper .redux-group-tab .ace-wrapper>.ace_editor {
+    border: 1px solid #dedede;
+}
+
+.redux-container-image_select ul.redux-image-select li {
+    padding-right: 5px;
+}
+
+.redux-container-image_select .redux-image-select .tiles,
+.redux-container-image_select .redux-image-select img,
+.redux-container-image_select .redux-image-select-selected .tiles,
+.redux-container-image_select .redux-image-select-selected img {
+    border-width: 1px;
+}
+
+.redux-container-image_select .redux-image-select-selected img {
+    border-width: 3px !important;
+}
+
+#redux_notification_bar .redux-field-warnings.notice-yellow,
+.redux-sidebar .redux-menu-warning {
+    display: none !important;
+}
+
+.redux-main .redux-option-image {
+    max-width: 425px;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+.redux-main .redux-group-tab[data-rel="10"] .form-table tr:nth-child(3) {
+    border-bottom: none;
+}
+
+.color-scheme-selection ._theme_options-color_scheme li img {
+    pointer-events: none;
+}
+
+.color-scheme-selection ._theme_options-color_scheme li:nth-child(-n+10) img {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.color-scheme-selection ._theme_options-color_scheme .delete-selected label {
+    position: relative;
+}
+
+.color-scheme-selection ._theme_options-color_scheme .delete-selected label:after {
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    line-height: 20px;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+    pointer-events: none;
+    content: "\f1dc";
+    font-family: "Elusive-Icons";
+    color: red;
+}
+
+#color-scheme-new-name {
+    width: 180px;
+}
+
+#redux-form-wrapper .redux-main .custom_color_save_button {
+    margin-top: 0;
+}
+
+#redux-form-wrapper .redux-main #-save-custom-color .custom_color_save_button {
+    margin-top: 1px;
+}
+
+#redux-form-wrapper .redux-main #-import-custom-color .custom_color_save_button {
+    margin-top: 7px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1285px) {
+    .redux-container #info_bar {
+        text-align: left;
+    }
+
+    .redux-container .redux-action_bar {
+        float: none;
+    }
+
+    .redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input {
+        width: calc(35% - 5px);
+    }
+
+    .redux_field_search {
+        position: static;
+        margin-left: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .redux-container #redux-form-wrapper .form-table td,
+    .redux-container #redux-form-wrapper .form-table th,
+    .redux-container #redux-form-wrapper .redux-main .redux-field[data-id="header_layout"] .redux_field_th {
+        display: block;
+        width: 100% !important;
+    }
+
+    .redux-container #redux-form-wrapper .form-table th .redux_field_th,
+    .redux-container #redux-form-wrapper .redux-main .redux-field[data-id="header_layout"] .redux_field_th {
+        padding-right: 0 !important;
+    }
+
+    .redux-container #redux-form-wrapper .redux-main .redux-field[data-id="header_layout"] ul.redux-image-select li {
+        float: left;
+        max-width: 85%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1290px) {
+    .redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .iris-picker {
+        width: 310px !important;
+        min-width: 0;
+    }
+
+    .redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .iris-picker .iris-picker-inner .iris-square {
+        width: 200px !important;
+    }
+
+    .redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .iris-palette-container {
+        width: 203px !important;
+    }
+
+    .redux-container #redux-form-wrapper .redux-main .redux-container-color_alpha .iris-palette-container .iris-palette {
+        width: 17px !important;
+        height: 17px !important;
+        margin-left: 1.4px !important;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .redux-container .redux-action_bar .spinner {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    .redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input {
+        width: 100%;
+    }
+
+    .redux-container #redux-form-wrapper .redux-main input#redux_save {
+        padding: 0 14px;
+    }
+
+    .redux-container #redux-form-wrapper .redux-main .wp-color-result {
+        height: 43px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .redux-container #redux-form-wrapper .redux-main input#redux_save {
+        margin-right: 4px;
+    }
+
+    #redux-defaults-section {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .redux-container #redux-form-wrapper .redux-main {
+        margin-left: 43px;
+    }
+
+    .redux-container #redux-form-wrapper .redux-main .wp-color-result:after {
+        padding: 0 14px;
+    }
+
+    .redux-container #redux-form-wrapper .redux-main .redux-container-slider .redux-slider-input {
+        margin-left: 0;
+    }
+
+    .redux-container #redux-form-wrapper .redux-main .redux-container-slider .redux-slider-container {
+        display: block;
+        margin: 10px 0;
+        text-align: left;
+    }
+
+    .redux-container #redux-form-wrapper .redux-sidebar {
+        width: 44px;
+    }
+
+    .redux-container #redux-form-wrapper .redux-sidebar .redux-group-tab-link-a i {
+        top: 0;
+    }
+
+    .redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li a {
+        padding: 10px 4px 10px 14px;
+        width: auto;
+    }
+}
+
+/* RTL */
+.rtl .redux-container #redux-form-wrapper .form-table th .redux_field_th {
+    padding: 25px 0 25px 60px !important;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main {
+    margin-left: 0;
+    margin-right: 250px;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .sticky-save-warn .redux-save-warn {
+    right: 433px;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-field[data-id="header_layout"] .redux_field_th {
+    padding-left: 60px !important;
+    padding-right: 0 !important;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-field[data-id="header_layout"] ul.redux-image-select li {
+    float: left;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-accordion-field .redux-accordion-info .el {
+    float: left;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-container-slider {
+    float: none;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-container-slider .redux-slider-container {
+    height: 1px;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-container-slider .redux-slider-container .noUi-origin {
+    top: -1px;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-container-slider .redux-slider-input {
+    float: right;
+    margin-left: 25px;
+    margin-right: 0;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-container-text input {
+    padding-right: 0.75em;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] h4:nth-of-type(2),
+.rtl .redux-container #redux-form-wrapper .redux-main ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] h4:nth-of-type(3),
+.rtl .redux-container #redux-form-wrapper .redux-main ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] h4:nth-of-type(4),
+.rtl .redux-container #redux-form-wrapper .redux-main ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] h4:nth-of-type(5),
+.rtl .redux-container #redux-form-wrapper .redux-main ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] h4:nth-of-type(6) {
+    float: right;
+    clear: right;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] fieldset.redux-container-media input[type="text"] {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .button.media_upload_button:before,
+.rtl .redux-container #redux-form-wrapper .redux-main ._theme_options-custom_fonts fieldset.redux-field[data-id="custom_fonts"] .button.remove-image:before {
+    position: absolute;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-container-repeater .redux-repeaters-add,
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-container-repeater .redux-repeaters-remove {
+    float: left;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .control-panel-redux .ui-accordion .ui-accordion-header .ui-icon,
+.rtl .redux-container #redux-form-wrapper .redux-main .control-section-redux .ui-accordion .ui-accordion-header .ui-icon,
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-metabox .ui-accordion .ui-accordion-header .ui-icon,
+.rtl .redux-container #redux-form-wrapper .redux-main .ui-accordion .ui-accordion-header .ui-icon {
+    left: auto;
+    right: 0.5em;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-typography-container .input_wrapper {
+    float: right;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-typography-container label {
+    text-align: unset;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .select3-container .select3-choice>.select3-chosen {
+    margin-left: 35px;
+    margin-right: 0;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .select3-container .select3-arrow {
+    border-left: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .ui-buttonset .ui-button {
+    border-right: 1px solid;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input.input-append .add-on,
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-container-spacing .field-spacing-input.input-prepend .add-on {
+    float: right;
+    border-style: solid solid solid none !important;
+    border-width: 1px 1px 1px medium !important;
+    border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-main .redux-container-spacing .input-prepend input {
+    float: right;
+    margin-left: 1px;
+    margin-right: 0;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu>li.active>a:after,
+.rtl .redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li.activeChild>a:after {
+    left: 0;
+    right: auto;
+    border-color: transparent transparent transparent #fff;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-sidebar .redux-group-menu li a {
+    padding: 8px 25px 8px 4px;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux_field_search {
+    left: auto;
+    right: 200px;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-field-container .switch-options {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-field-container .input_wrapper,
+.rtl .redux-container #redux-form-wrapper .redux-field-container .ui-buttonset {
+    margin-left: 7px;
+    margin-right: 0;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-field-container .select_wrapper {
+    margin-left: 10px !important;
+    margin-right: 0 !important;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-field-container .input-prepend {
+    margin-left: 7px !important;
+    margin-right: 0 !important;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-field-container .redux-image-select li {
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+.rtl .redux-container #redux-form-wrapper .redux-field-container .field-spacing-input.input-prepend {
+    width: calc(45% - 5px);
+}
+
+.rtl .redux-container .redux-action_bar .spinner {
+    float: right;
+}
+
+.redux-main .redux-element-highlight {
+    display: inline-block;
+    background-color: #0073aa;
+    position: absolute;
+    top: 8px;
+    padding: 3px 10px;
+    color: #fff;
+    font-size: 10px;
+    right: 40px;
+}
+
+.redux-main .redux-element-highlight .redux-accordion-field .redux-element-highlight {
+    top: calc(50% - 12px);
+    right: 70px;
+}
+
+.redux-container #redux-form-wrapper .redux-main .button .wp-color-result-text {
+    height: 100%;
+    line-height: 30px;
+    border-radius: 0;
+}
+
+.redux-container #redux-form-wrapper .redux-main .redux-container-typography .wp-picker-container.wp-picker-active .wp-picker-input-wrap label {
+    padding-right: 15px;
+    margin-top: 0 !important;
+}
+
+.wp-customizer #redux_rAds {
+    display: none !important;
+}

@@ -1,0 +1,61 @@
+2022-01-24T23:14:57+00:00 CRITICAL syntax error, unexpected '}', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 453
+
+2022-01-24T23:14:57+00:00 CRITICAL syntax error, unexpected '}', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 453
+
+2022-01-24T23:14:57+00:00 CRITICAL syntax error, unexpected '}', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 453
+
+2022-01-24T23:14:57+00:00 CRITICAL syntax error, unexpected '}', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 453
+
+2022-01-24T23:30:07+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 180224 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/mipro-core/includes/third-party/extensions/custom_typography/typography/field_typography.php, na linha 1008
+
+2022-01-24T23:34:16+00:00 CRITICAL syntax error, unexpected 'hidden' (T_STRING), expecting ';' or ',', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 40
+
+2022-01-24T23:34:27+00:00 CRITICAL syntax error, unexpected 'hidden' (T_STRING), expecting ';' or ',', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 40
+
+2022-01-24T23:35:00+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 40
+
+2022-01-24T23:37:07+00:00 CRITICAL syntax error, unexpected 'hidden' (T_STRING), expecting ';' or ',', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 41
+
+2022-01-24T23:37:53+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 41
+
+2022-01-24T23:38:05+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 41
+
+2022-01-24T23:41:10+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:41:14+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:41:19+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:42:41+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:42:47+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:42:50+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:43:20+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:43:24+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:43:28+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:43:50+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:43:56+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:44:12+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:45:06+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:45:12+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/form-login.php, na linha 63
+
+2022-01-24T23:55:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ts_redirect_login(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:443
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): ts_redirect_login()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(977): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Form_Handler::process_login()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-settings.php(600): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-config.php(120, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 443
+

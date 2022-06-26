@@ -1,0 +1,440 @@
+2022-02-08T19:04:27+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T19:05:50+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T19:08:12+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T19:15:21+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T19:32:58+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T19:49:40+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T19:50:56+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T19:51:11+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T19:51:18+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T19:51:25+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T19:51:29+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T20:38:05+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T20:42:20+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T20:43:26+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T21:13:48+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T21:25:47+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T21:26:43+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T21:46:29+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T21:48:39+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T21:48:58+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T21:49:09+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T21:49:25+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T22:00:33+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T22:06:13+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T22:06:21+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T22:11:00+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T22:11:35+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T22:11:59+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T22:14:25+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T22:35:29+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T23:04:19+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T23:04:34+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T23:04:41+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T23:15:32+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T23:29:20+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T23:29:28+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T23:30:08+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T23:30:41+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T23:30:52+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+
+2022-02-08T23:32:41+00:00 CRITICAL Uncaught Error: Call to a member function get_stock_quantity() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:555
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): custom_get_availability()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(2024): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3457): WC_Product->get_availability()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php(367): wc_get_stock_html()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(488): WC_Product_Variable->get_available_variation()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_AJAX::get_variation()
+#7 , em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 555
+

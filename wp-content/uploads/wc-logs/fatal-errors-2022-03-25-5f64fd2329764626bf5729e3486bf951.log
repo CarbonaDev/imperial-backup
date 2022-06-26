@@ -1,0 +1,22 @@
+2022-03-25T13:54:13+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:675
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): action_woocommerce_order_status_changed()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(474): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(373): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(221): WC_Order->status_transition()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(624): WC_Order->save()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(309): WC_Meta_Box_Order_Data::save()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 675
+
+2022-03-25T13:54:17+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:675
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): action_woocommerce_order_status_changed()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(474): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(373): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(221): WC_Order->status_transition()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(624): WC_Order->save()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(309): WC_Meta_Box_Order_Data::save()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 675
+

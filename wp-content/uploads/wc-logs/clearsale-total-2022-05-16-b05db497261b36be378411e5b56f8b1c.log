@@ -1,0 +1,47 @@
+2022-05-16T17:52:09+00:00 DEBUG Activate: Esta loja https://imperialtapeteseinteriores.com.br vai ser ativada agora!
+2022-05-16T17:52:19+00:00 DEBUG Activate: erro no wp_remote_post: cURL error 28: Connection timed out after 10000 milliseconds
+2022-05-16T20:41:59+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-05-16T20:41:59+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-05-16T20:41:59+00:00 DEBUG Cs_total_extrafield: order_id=21101 cs_field_doc= billing_cpf=018.242.170-80 billing_cnpj=
+2022-05-16T20:41:59+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=21101
+2022-05-16T20:41:59+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-05-16T20:41:59+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-05-16T20:41:59+00:00 DEBUG Cs_total_checkout_order_processed: session =becbba75f70a129327afa2d6dfc4a1ac
+2022-05-16T20:41:59+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=21101 - EAP: Esperando Aprovação do Pagamento
+2022-05-16T20:42:13+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-16T20:42:13+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21101
+2022-05-16T20:42:13+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-16T20:42:13+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21101 status antes:pending agora:on-hold
+2022-05-16T20:42:13+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21101 último status salvo:
+2022-05-16T20:42:17+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=21101
+2022-05-16T20:42:17+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=21101
+2022-05-16T20:42:17+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-05-16T20:42:17+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-05-16T20:42:17+00:00 DEBUG Cs_total_thankyou:() Pedido 21101 não é cartão saindo...
+2022-05-16T20:42:17+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=21101
+2022-05-16T20:42:17+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=21101
+2022-05-16T20:42:17+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-05-16T20:42:17+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-05-16T20:42:17+00:00 DEBUG Cs_total_thankyou:() Pedido 21101 não é cartão saindo...
+2022-05-16T20:44:25+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-16T20:44:25+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21101
+2022-05-16T20:44:25+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-05-16T20:44:25+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21101 status antes:on-hold agora:processing
+2022-05-16T20:44:25+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21101 último status salvo:
+2022-05-16T20:44:25+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-16T20:44:25+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: Compras no BR integramos na CS.
+2022-05-16T20:44:25+00:00 DEBUG Cs_total_checkout: Entrou: Pedido #=21101 doc=018.242.170-80
+2022-05-16T20:44:25+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_checkout verificando post_meta de métodos...
+2022-05-16T20:44:25+00:00 DEBUG Monta_pedido: entrou, #doc=018.242.170-80 e-mail=leandroar88@hotmail.com
+2022-05-16T20:44:25+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: cep=96.412-830
+2022-05-16T20:44:27+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: saida=Getúlio Vargas
+2022-05-16T20:44:27+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=gerencianet_oficial
+2022-05-16T20:44:27+00:00 DEBUG Monta_pedido: json=[{"code":"21101","sessionID":"becbba75f70a129327afa2d6dfc4a1ac","date":"2022-05-16T17:41:59-03:00","email":"leandroar88@hotmail.com","itemValue":1,"totalValue":0.9,"numberOfInstallments":1,"ip":"179.105.17.74","isGift":false,"giftMessage":"","observation":"","status":0,"origin":"website","channelID":"","country":"","nationality":"","product":3,"customSla":0,"bankAuthentication":"","billing":{"clientID":"7","type":1,"primaryDocument":"018.242.170-80","secondaryDocument":"","name":"Leandro Resende","birthDate":null,"email":"leandroar88@hotmail.com","gender":"","address":{"street":"Rua Setecentos e Setenta e Tr\u00eas, 781 Casa","number":"781","additionalInformation":"","county":"Get\u00falio Vargas","city":"Bag\u00e9","state":"RS","country":"BR","zipcode":"96405410","reference":""},"phones":[{"type":0,"ddi":55,"ddd":53,"number":999689325,"extension":""}]},"shipping":{"clientID":"7","type":1,"primaryDocument":"018.242.170-80","secondaryDocument":"","name":"Leandro Resende","birthDate":null,"email":"","gender":"","address":{"street":"Rua Paulo Correa Lopes","number":" 237","additionalInformation":"","county":"Get\u00falio Vargas","city":"Bag\u00e9","state":"RS","country":"BR","zipcode":"96.412-830","reference":""},"deliveryType":"16","deliveryTime":"","price":0,"pickUpStoreDocument":""},"payments":[{"sequential":1,"date":"2022-05-16T17:41:59+00:00","value":0.9,"type":14,"installments":1,"interestRate":0,"interestValue":0,"currency":986,"voucherOrderOrigin":"","card":null,"address":{"street":"","number":"","additionalInformation":"","county":"","city":"","state":"","zipcode":"","country":"","reference":""}}],"items":[{"code":"20597","name":"teste123","value":1,"amount":1,"categoryID":null,"categoryName":"Sem categoria","isGift":false,"sellerName":"","shippingCompany":"local_pickup"}]}]
+2022-05-16T20:44:27+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-05-16T20:44:27+00:00 DEBUG Authenticate: novo token=f4d20ca4ac9d403b9a7ab02d5fdfdc93 ExpirationDate:2022-05-17T17:44:27.5543683-03:00
+2022-05-16T20:44:27+00:00 DEBUG Inclui_pedido: #pedido=21101 status=NVO score=
+2022-05-16T20:44:27+00:00 DEBUG Clearsale_Total_Checkout:Cs_total_checkout: Pedido 21101 inserido com sucesso, status:NVO requestID:
+2022-05-16T20:44:28+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-05-16T20:44:28+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21101
+2022-05-16T20:44:28+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21101 status antes:processing agora:cs-inanalisis
+2022-05-16T20:44:28+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21101 último status salvo:NVO

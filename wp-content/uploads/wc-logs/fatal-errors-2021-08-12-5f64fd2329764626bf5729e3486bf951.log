@@ -1,0 +1,80 @@
+2021-08-12T02:56:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function notification_chatpro(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 3 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:200
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): notification_chatpro()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(373): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(221): WC_Order->status_transition()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(333): WC_Order->save()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-offic, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 200
+
+2021-08-12T02:59:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function notification_chatpro(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 3 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:200
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): notification_chatpro()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(373): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(221): WC_Order->status_transition()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(624): WC_Order->save()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includ, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 200
+
+2021-08-12T02:59:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function notification_chatpro(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 3 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:200
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): notification_chatpro()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(373): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(221): WC_Order->status_transition()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(624): WC_Order->save()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includ, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 200
+
+2021-08-12T03:01:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function notification_chatpro(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 3 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:200
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): notification_chatpro()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(373): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(221): WC_Order->status_transition()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(624): WC_Order->save()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includ, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 200
+
+2021-08-12T03:01:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function notification_chatpro(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 3 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:200
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): notification_chatpro()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(373): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(221): WC_Order->status_transition()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(624): WC_Order->save()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includ, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 200
+
+2021-08-12T03:03:29+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 266
+
+2021-08-12T03:03:29+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 266
+
+2021-08-12T03:04:09+00:00 CRITICAL syntax error, unexpected 'switch' (T_SWITCH), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 204
+
+2021-08-12T03:05:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function notification_chatpro(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 3 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:200
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): notification_chatpro()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(373): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(221): WC_Order->status_transition()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(624): WC_Order->save()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includ, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 200
+
+2021-08-12T03:06:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function notification_chatpro(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 3 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:200
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): notification_chatpro()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(373): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-order.php(221): WC_Order->status_transition()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(624): WC_Order->save()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includ, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 200
+
+2021-08-12T05:06:47+00:00 CRITICAL syntax error, unexpected 'send_chatpro' (T_STRING), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 215
+
+2021-08-12T05:06:47+00:00 CRITICAL syntax error, unexpected 'send_chatpro' (T_STRING), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 215
+

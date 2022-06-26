@@ -1,0 +1,22 @@
+2021-11-22T13:39:04+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php:1996
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Gerencianet_Oficial_Gateway->successful_request()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php(1955): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Gerencianet_Oficial_Gateway->validate_notification()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#7 /opt/bitnami/apps/wordp, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php, na linha 1996
+
+2021-11-22T13:41:20+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php:1996
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Gerencianet_Oficial_Gateway->successful_request()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php(1955): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Gerencianet_Oficial_Gateway->validate_notification()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#7 /opt/bitnami/apps/wordp, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php, na linha 1996
+

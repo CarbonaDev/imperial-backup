@@ -1,0 +1,1 @@
+c2¡b<?php exit; ?>a:1:{s:7:"content";a:2:{s:10:"pa_tamanho";a:8:{i:0;s:12:"180-diametro";i:1;s:12:"200-diametro";i:2;s:12:"250-diametro";i:3;s:12:"300-diametro";i:4;s:12:"160-diametro";i:5;s:12:"140-diametro";i:6;s:12:"120-diametro";i:7;s:12:"100-diametro";}s:6:"pa_cor";a:3:{i:0;s:7:"dourado";i:1;s:8:"prateado";i:2;s:10:"rose-cobre";}}}

@@ -1,0 +1,127 @@
+10-29-2021 @ 12:25:46 - Debug Cielo HTTP: 201
+10-29-2021 @ 12:25:46 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 15551
+    [Customer] => Array
+        (
+            [Name] => ANA CLAUDIA CURSINO FERRAZ
+            [Email] => ANAFERRAZARQUITETURA@GMAIL.COM
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 281467
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 10
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 421958****9654
+                    [Holder] => ANA C C FERRAZ
+                    [ExpirationDate] => 08/2027
+                    [SecurityCode] => 933
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+10-29-2021 @ 12:25:46 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #441
+    [response] => {"MerchantOrderId":"15551","Customer":{"Name":"ANA CLAUDIA CURSINO FERRAZ","Email":"ANAFERRAZARQUITETURA@GMAIL.COM"},"Payment":{"ServiceTaxAmount":0,"Installments":10,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"421958******9654","Holder":"ANA C C FERRAZ","ExpirationDate":"08/2027","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010014621246478771170145431"},"Tid":"280720451615T50CCITC","ProofOfSale":"102001","AuthorizationCode":"986150","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":281467,"ReceivedDate":"2021-10-29 12:25:45","CapturedAmount":281467,"CapturedDate":"2021-10-29 12:25:45","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"34ea9028-603a-4504-a8fa-817f2f4f0f5a","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/34ea9028-603a-4504-a8fa-817f2f4f0f5a"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/34ea9028-603a-4504-a8fa-817f2f4f0f5a/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 809
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.590441
+            [namelookup_time] => 0.132817
+            [connect_time] => 0.249238
+            [pretransfer_time] => 0.494718
+            [size_upload] => 530
+            [size_download] => 1168
+            [speed_download] => 734
+            [speed_upload] => 333
+            [download_content_length] => 1168
+            [upload_content_length] => 530
+            [starttransfer_time] => 1.590405
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 57454
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 494633
+            [connect_time_us] => 249238
+            [namelookup_time_us] => 132817
+            [pretransfer_time_us] => 494718
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1590405
+            [total_time_us] => 1590441
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

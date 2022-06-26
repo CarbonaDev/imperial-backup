@@ -1,0 +1,19 @@
+�3�b<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:8061;s:11:"post_author";s:1:"6";s:9:"post_date";s:19:"2021-03-07 21:51:00";s:13:"post_date_gmt";s:19:"2021-03-08 00:51:00";s:12:"post_content";s:1815:"<p align="center"><span style="font-family: Montserrat"><strong>DETALHES</strong></span></p>
+
+
+<hr />
+<p style="text-align: left"><span style="font-family: Montserrat">Material: Pele de Ovelha/Carneiro Natural com Lã </span></p>
+<span style="font-family: Montserrat">Tamanho: Do 35 até o 43</span>
+<h2 style="text-align: center"><span class="underline" style="font-size: 12pt"><strong>ARTESANATO</strong></span></h2>
+<span style="font-family: Montserrat"><img class="size-medium wp-image-1984 aligncenter" src="https://imperialtapeteseinteriores.com.br/wp-content/uploads/2020/10/artesanato-1-300x78.png" alt="" width="300" height="78" /></span>
+<p style="text-align: left">Nossas Peles de Ovelha (Pelego Natural) são excepcionalmente macias e felpudas. As ovelhas são criadas em pastagens com planícies gramadas e no ar fresco dos pampas do Sul do Brasil e Uruguai. O curtimento das nossas peles é feito utilizando técnicas avançadas que deixam o couro e a lã extremamente macia, branquinha e com cheiro neutro. A altura da lã tem aproximadamente de 3 a 5 cm.</p>
+<p align="center"><span style="font-family: Montserrat"><strong>USO E CUIDADO</strong></span></p>
+Nossas Peles de Ovelha (Pelego Natural) são muito fáceis de limpar e manter. Sempre que possível, dê uma sacudida ocasional que com isso removerá a poeira e os resíduos, e manterá a pele de ovelha limpa e macia. Para escovar a lã, é recomendável escovar ocasionalmente com uma escova de aço, tipo escova de Pet, para restaurar a lã. Sempre que possível, mantenha longe da luz solar direta, para evitar o desbotamento da cor. Os derramamentos de líquidos podem ser limpos imediatamente com uma esponja umedecida em água morna, e em caso de derramamento de sólidos, basta sacudir, e escovar logo após, se necessário.";s:10:"post_title";s:55:"Pantufa Bariloche em Pele de Ovelha/Carneiro Chamuscada";s:12:"post_excerpt";s:936:"Pantufa em pele de ovelha/carneiro natural
+
+Pantufa confeccionada em pele de ovelha legítima. Além de serem as mais quentinhas e macias, são duráveis.
+
+E a textura? Extremamente macia, delicada e com toque aveludado. Você tem a opção de escolher a cor que mais te agrada, entre elas branca, chamuscada ou marrom. Possui palmilha de absorção de impacto, solado flexível, emborrachado com frisos antiderrapante para garantir maior segurança e conforto ao caminhar.
+
+A pele de ovelha natural é confortável, luxuosa e antialérgica, com qualidades naturais que o mantêm aquecido no inverno e fresco no verão. Nossas peles de ovelha são provenientes do Sul do Brasil e Uruguai. O curtimento das nossas peles é feito utilizando técnicas avançadas que deixam o couro e a lã extremamente macia, branquinha e com cheiro neutro com a utilização de práticas ecologicamente corretas.
+
+<strong>PRODUTO UNISSEX</strong>";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:15:"5050-chamuscado";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2022-06-06 14:34:49";s:17:"post_modified_gmt";s:19:"2022-06-06 17:34:49";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:72:"https://imperialtapeteseinteriores.com.br/?post_type=product&#038;p=8061";s:10:"menu_order";i:0;s:9:"post_type";s:7:"product";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

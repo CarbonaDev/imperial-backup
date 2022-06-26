@@ -1,0 +1,127 @@
+08-22-2021 @ 15:44:53 - Debug Cielo HTTP: 201
+08-22-2021 @ 15:44:53 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 13090
+    [Customer] => Array
+        (
+            [Name] => ANA LETICIA NALDI
+            [Email] => ana_leticia_aln@hotmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 30547
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 6
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 650487****1276
+                    [Holder] => ANA LETICIA NALDI
+                    [ExpirationDate] => 12/2024
+                    [SecurityCode] => 088
+                    [SaveCard] => false
+                    [Brand] => Elo
+                )
+
+        )
+
+)
+
+08-22-2021 @ 15:44:53 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #416
+    [response] => {"MerchantOrderId":"13090","Customer":{"Name":"ANA LETICIA NALDI","Email":"ana_leticia_aln@hotmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":6,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"650487******1276","Holder":"ANA LETICIA NALDI","ExpirationDate":"12/2024","SaveCard":false,"Brand":"Elo"},"Tid":"280720451613TK15QRRC","ProofOfSale":"047001","AuthorizationCode":"413500","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":30547,"ReceivedDate":"2021-08-22 15:44:52","CapturedAmount":30547,"CapturedDate":"2021-08-22 15:44:52","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"aa3391a6-5b15-4ea5-8772-1a838025db38","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/aa3391a6-5b15-4ea5-8772-1a838025db38"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/aa3391a6-5b15-4ea5-8772-1a838025db38/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 797
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.298254
+            [namelookup_time] => 0.06893
+            [connect_time] => 0.18605
+            [pretransfer_time] => 0.430969
+            [size_upload] => 518
+            [size_download] => 1097
+            [speed_download] => 845
+            [speed_upload] => 399
+            [download_content_length] => 1097
+            [upload_content_length] => 518
+            [starttransfer_time] => 1.298222
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 38228
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 430897
+            [connect_time_us] => 186050
+            [namelookup_time_us] => 68930
+            [pretransfer_time_us] => 430969
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1298222
+            [total_time_us] => 1298254
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

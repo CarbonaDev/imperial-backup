@@ -1,0 +1,254 @@
+02-27-2022 @ 23:18:08 - Debug Cielo HTTP: 201
+02-27-2022 @ 23:18:08 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 18805
+    [Customer] => Array
+        (
+            [Name] => Maria Isabel Machado
+            [Email] => bel.britto@hotmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 155326
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 8
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 499818****7169
+                    [Holder] => Maria Machado
+                    [ExpirationDate] => 10/2026
+                    [SecurityCode] => 148
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+02-27-2022 @ 23:18:08 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1483
+    [response] => {"MerchantOrderId":"18805","Customer":{"Name":"Maria Isabel Machado","Email":"bel.britto@hotmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":8,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"499818******7169","Holder":"Maria Machado","ExpirationDate":"10/2026","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010013821285554296714759083"},"Tid":"28072045161RSU0CQ4NC","ProofOfSale":"159005","AuthorizationCode":"229115","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":155326,"ReceivedDate":"2022-02-27 23:18:07","CapturedAmount":155326,"CapturedDate":"2022-02-27 23:18:07","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"50fdb58b-ac99-45e5-8cfb-4e7f5111a039","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/50fdb58b-ac99-45e5-8cfb-4e7f5111a039"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/50fdb58b-ac99-45e5-8cfb-4e7f5111a039/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 793
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.437162
+            [namelookup_time] => 0.095487
+            [connect_time] => 0.21228
+            [pretransfer_time] => 0.459235
+            [size_upload] => 514
+            [size_download] => 1152
+            [speed_download] => 801
+            [speed_upload] => 357
+            [download_content_length] => 1152
+            [upload_content_length] => 514
+            [starttransfer_time] => 1.437131
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.1.59
+            [local_port] => 36958
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 459161
+            [connect_time_us] => 212280
+            [namelookup_time_us] => 95487
+            [pretransfer_time_us] => 459235
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1437131
+            [total_time_us] => 1437162
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+02-28-2022 @ 13:52:27 - Debug Cielo HTTP: 201
+02-28-2022 @ 13:52:27 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 18807
+    [Customer] => Array
+        (
+            [Name] => Murilo de Melo Valadão
+            [Email] => murilodmelo@outlook.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 105900
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 12
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 550209****0392
+                    [Holder] => MURILO M VALADAO
+                    [ExpirationDate] => 09/2028
+                    [SecurityCode] => 145
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+02-28-2022 @ 13:52:27 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1484
+    [response] => {"MerchantOrderId":"18807","Customer":{"Name":"Murilo de Melo Valadão","Email":"murilodmelo@outlook.com"},"Payment":{"ServiceTaxAmount":0,"Installments":12,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"550209******0392","Holder":"MURILO M VALADAO","ExpirationDate":"09/2028","SaveCard":false,"Brand":"Master","PaymentAccountReference":"5001DBOQ7KWL1ISEI5SY6ZX96NB4Z"},"Tid":"28072045161RTRS87LDC","ProofOfSale":"157017","AuthorizationCode":"585778","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"0","IsQrCode":false,"Amount":105900,"ReceivedDate":"2022-02-28 13:52:26","CapturedAmount":105900,"CapturedDate":"2022-02-28 13:52:26","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"af07a680-de40-44c6-8884-1ffdca97e303","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/af07a680-de40-44c6-8884-1ffdca97e303"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/af07a680-de40-44c6-8884-1ffdca97e303/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 366
+            [request_size] => 807
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.963485
+            [namelookup_time] => 0.008116
+            [connect_time] => 0.125985
+            [pretransfer_time] => 0.373882
+            [size_upload] => 528
+            [size_download] => 1162
+            [speed_download] => 591
+            [speed_upload] => 268
+            [download_content_length] => 1162
+            [upload_content_length] => 528
+            [starttransfer_time] => 1.963453
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.1.59
+            [local_port] => 46408
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 373807
+            [connect_time_us] => 125985
+            [namelookup_time_us] => 8116
+            [pretransfer_time_us] => 373882
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1963453
+            [total_time_us] => 1963485
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

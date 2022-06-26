@@ -1,0 +1,107 @@
+06-03-2021 @ 08:57:42 - Transaction arguments for order 10135: Array
+(
+    [merchant_id] => 144a8ce4-3e77-402e-991e-8ddbcceb8686
+    [order_number] => 10135
+    [antifraud_enabled] => FALSE
+    [customer_name] => Audrey Mourão Hilzendeger
+    [customer_email] => ahilzendeger@gmail.com
+    [customer_phone] => 1124787568
+    [customer_identity] => 27079036801
+    [shipping_address_name] => Rua Tapuias
+    [shipping_address_number] => 120
+    [shipping_address_complement] => Apto 74 - Bl1
+    [shipping_address_district] => Socorro
+    [shipping_address_city] => São Paulo
+    [shipping_address_state] => SP
+    [shipping_zipcode] => 04763080
+    [shipping_type] => 3
+    [cart_1_name] => Tapete em Couro Legítimo Passadeira 0,70 x 3,0 m Quadriculado (5x5)
+    [cart_1_description] => Encomendado: 1
+    [cart_1_unitprice] => 35900
+    [cart_1_quantity] => 1
+    [cart_1_type] => 1
+    [cart_1_code] => 7116-malhado-vermelho
+    [cart_1_weight] => 3000
+    [cart_2_name] => Tapete em Couro Legítimo Passadeira - Bege Claro - 0,60 x 1,50 m Quadriculado (5x5)
+    [cart_2_description] => Encomendado: 1
+    [cart_2_unitprice] => 15900
+    [cart_2_quantity] => 1
+    [cart_2_type] => 1
+    [cart_2_code] => 7102-bege-claro
+    [cart_2_weight] => 3000
+)
+
+06-03-2021 @ 08:57:43 - Transaction arguments for order 10135: Array
+(
+    [merchant_id] => 144a8ce4-3e77-402e-991e-8ddbcceb8686
+    [order_number] => 10135
+    [antifraud_enabled] => FALSE
+    [customer_name] => Audrey Mourão Hilzendeger
+    [customer_email] => ahilzendeger@gmail.com
+    [customer_phone] => 1124787568
+    [customer_identity] => 27079036801
+    [shipping_address_name] => Rua Tapuias
+    [shipping_address_number] => 120
+    [shipping_address_complement] => Apto 74 - Bl1
+    [shipping_address_district] => Socorro
+    [shipping_address_city] => São Paulo
+    [shipping_address_state] => SP
+    [shipping_zipcode] => 04763080
+    [shipping_type] => 3
+    [cart_1_name] => Tapete em Couro Legítimo Passadeira 0,70 x 3,0 m Quadriculado (5x5)
+    [cart_1_description] => Encomendado: 1
+    [cart_1_unitprice] => 35900
+    [cart_1_quantity] => 1
+    [cart_1_type] => 1
+    [cart_1_code] => 7116-malhado-vermelho
+    [cart_1_weight] => 3000
+    [cart_2_name] => Tapete em Couro Legítimo Passadeira - Bege Claro - 0,60 x 1,50 m Quadriculado (5x5)
+    [cart_2_description] => Encomendado: 1
+    [cart_2_unitprice] => 15900
+    [cart_2_quantity] => 1
+    [cart_2_type] => 1
+    [cart_2_code] => 7102-bege-claro
+    [cart_2_weight] => 3000
+)
+
+06-03-2021 @ 08:59:58 - Received status change for order 10135: Array
+(
+    [order_number] => 10135
+    [amount] => 51800
+    [checkout_cielo_order_number] => 9a49043b3463429ba112b2ce61c56141
+    [created_date] => 03/06/2021 08:59:56
+    [customer_name] => Audrey Hilzendeger
+    [customer_phone] => 1124787568
+    [customer_email] => ahilzendeger@gmail.com
+    [shipping_type] => 3
+    [shipping_name] => Frete grátis
+    [shipping_price] => 0
+    [shipping_address_zipcode] => 04763080
+    [shipping_address_district] => Socorro
+    [shipping_address_city] => São Paulo
+    [shipping_address_state] => SP
+    [shipping_address_line1] => Rua Tapuias
+    [shipping_address_line2] => Apto 74 - Bl1
+    [shipping_address_number] => 120
+    [payment_method_type] => 1
+    [payment_method_brand] => 1
+    [payment_installments] => 5
+    [payment_status] => 7
+    [tid] => 277564162211ISRACKNC
+    [test_transaction] => False
+    [nsu] => 043001
+    [authorization_code] => 695720
+)
+
+06-03-2021 @ 10:15:32 - Received status change for order 10135: Array
+(
+    [checkout_cielo_order_number] => 9a49043b3463429ba112b2ce61c56141
+    [amount] => 51800
+    [order_number] => 10135
+    [payment_status] => 2
+    [test_transaction] => False
+    [brand] => Visa
+    [nsu] => 043001
+    [authorization_code] => 695720
+)
+

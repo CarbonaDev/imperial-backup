@@ -1,0 +1,1 @@
+ú4¡b<?php exit; ?>a:1:{s:7:"content";a:4:{s:5:"order";a:1:{i:0;s:1:"0";}s:36:"_wc_facebook_google_product_category";a:1:{i:0;s:0:"";}s:60:"_wc_facebook_enhanced_catalog_attributes___optional_selector";a:1:{i:0;N;}s:25:"product_count_product_cat";a:1:{i:0;s:2:"36";}}}

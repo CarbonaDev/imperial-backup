@@ -1,0 +1,99 @@
+2021-04-29T00:00:28+00:00 CRITICAL Uncaught Exception: Pedido inválido. in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1161): WC_Abstract_Order->__construct()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-wc-csr-sessions.php(133): WC_Cart_Stock_Reducer->is_expired()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1041): WC_CSR_Sessions->quantity_in_carts()
+#5 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php, na linha 104
+
+2021-04-29T00:00:31+00:00 CRITICAL Uncaught Exception: Pedido inválido. in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1161): WC_Abstract_Order->__construct()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-wc-csr-sessions.php(133): WC_Cart_Stock_Reducer->is_expired()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1041): WC_CSR_Sessions->quantity_in_carts()
+#5 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php, na linha 104
+
+2021-04-29T01:07:51+00:00 CRITICAL Uncaught Exception: Pedido inválido. in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1161): WC_Abstract_Order->__construct()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-wc-csr-sessions.php(133): WC_Cart_Stock_Reducer->is_expired()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1041): WC_CSR_Sessions->quantity_in_carts()
+#5 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php, na linha 104
+
+2021-04-29T01:08:55+00:00 CRITICAL Uncaught Exception: Pedido inválido. in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1161): WC_Abstract_Order->__construct()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-wc-csr-sessions.php(133): WC_Cart_Stock_Reducer->is_expired()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1041): WC_CSR_Sessions->quantity_in_carts()
+#5 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php, na linha 104
+
+2021-04-29T04:00:20+00:00 CRITICAL Uncaught Exception: Pedido inválido. in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1161): WC_Abstract_Order->__construct()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-wc-csr-sessions.php(133): WC_Cart_Stock_Reducer->is_expired()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1041): WC_CSR_Sessions->quantity_in_carts()
+#5 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php, na linha 104
+
+2021-04-29T05:37:00+00:00 CRITICAL Uncaught Exception: Pedido inválido. in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1161): WC_Abstract_Order->__construct()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-wc-csr-sessions.php(133): WC_Cart_Stock_Reducer->is_expired()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1041): WC_CSR_Sessions->quantity_in_carts()
+#5 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php, na linha 104
+
+2021-04-29T07:37:56+00:00 CRITICAL Uncaught Exception: Pedido inválido. in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1161): WC_Abstract_Order->__construct()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-wc-csr-sessions.php(133): WC_Cart_Stock_Reducer->is_expired()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1041): WC_CSR_Sessions->quantity_in_carts()
+#5 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php, na linha 104
+
+2021-04-29T08:13:03+00:00 CRITICAL Uncaught Exception: Pedido inválido. in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1161): WC_Abstract_Order->__construct()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-wc-csr-sessions.php(133): WC_Cart_Stock_Reducer->is_expired()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1041): WC_CSR_Sessions->quantity_in_carts()
+#5 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php, na linha 104
+
+2021-04-29T18:10:22+00:00 CRITICAL Uncaught Exception: Pedido inválido. in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1161): WC_Abstract_Order->__construct()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-wc-csr-sessions.php(133): WC_Cart_Stock_Reducer->is_expired()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1041): WC_CSR_Sessions->quantity_in_carts()
+#5 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php, na linha 104
+
+2021-04-29T18:10:25+00:00 CRITICAL Uncaught Exception: Pedido inválido. in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1161): WC_Abstract_Order->__construct()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-wc-csr-sessions.php(133): WC_Cart_Stock_Reducer->is_expired()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1041): WC_CSR_Sessions->quantity_in_carts()
+#5 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php, na linha 104
+
+2021-04-29T19:48:39+00:00 CRITICAL Uncaught Exception: Pedido inválido. in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1161): WC_Abstract_Order->__construct()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-wc-csr-sessions.php(133): WC_Cart_Stock_Reducer->is_expired()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce-cart-stock-reducer/includes/class-woocommerce-cart-stock-reducer.php(1041): WC_CSR_Sessions->quantity_in_carts()
+#5 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php, na linha 104
+

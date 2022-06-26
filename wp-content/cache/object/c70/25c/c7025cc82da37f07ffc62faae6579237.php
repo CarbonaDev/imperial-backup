@@ -1,0 +1,1 @@
+û4¡b<?php exit; ?>a:1:{s:7:"content";a:2:{i:0;O:8:"stdClass":3:{s:17:"tax_rate_class_id";s:1:"1";s:4:"name";s:13:"Taxa reduzida";s:4:"slug";s:13:"taxa-reduzida";}i:1;O:8:"stdClass":3:{s:17:"tax_rate_class_id";s:1:"2";s:4:"name";s:9:"Taxa zero";s:4:"slug";s:9:"taxa-zero";}}}

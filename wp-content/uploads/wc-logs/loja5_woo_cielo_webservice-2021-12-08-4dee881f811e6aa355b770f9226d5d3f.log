@@ -1,0 +1,127 @@
+12-08-2021 @ 16:46:24 - Debug Cielo HTTP: 201
+12-08-2021 @ 16:46:24 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 16836
+    [Customer] => Array
+        (
+            [Name] => Nedisson Rodrigues
+            [Email] => nedisson@terra.com.br
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 74569
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 3
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 415275****1312
+                    [Holder] => Nedisson Rodrigues
+                    [ExpirationDate] => 09/2023
+                    [SecurityCode] => 413
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+12-08-2021 @ 16:46:24 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1404
+    [response] => {"MerchantOrderId":"16836","Customer":{"Name":"Nedisson Rodrigues","Email":"nedisson@terra.com.br"},"Payment":{"ServiceTaxAmount":0,"Installments":3,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"415275******1312","Holder":"Nedisson Rodrigues","ExpirationDate":"09/2023","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010013018342446336559465167"},"Tid":"2807204516171R9KQVQC","ProofOfSale":"117001","AuthorizationCode":"054165","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":74569,"ReceivedDate":"2021-12-08 16:46:23","CapturedAmount":74569,"CapturedDate":"2021-12-08 16:46:24","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"4a7b2da1-f2e1-4ba1-a086-6a14a8475e16","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/4a7b2da1-f2e1-4ba1-a086-6a14a8475e16"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/4a7b2da1-f2e1-4ba1-a086-6a14a8475e16/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 794
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.558452
+            [namelookup_time] => 0.156624
+            [connect_time] => 0.273804
+            [pretransfer_time] => 0.519451
+            [size_upload] => 515
+            [size_download] => 1152
+            [speed_download] => 739
+            [speed_upload] => 330
+            [download_content_length] => 1152
+            [upload_content_length] => 515
+            [starttransfer_time] => 1.558419
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.1.59
+            [local_port] => 51246
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 519371
+            [connect_time_us] => 273804
+            [namelookup_time_us] => 156624
+            [pretransfer_time_us] => 519451
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1558419
+            [total_time_us] => 1558452
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

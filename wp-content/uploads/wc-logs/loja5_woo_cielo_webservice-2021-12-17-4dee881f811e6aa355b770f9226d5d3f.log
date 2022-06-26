@@ -1,0 +1,513 @@
+12-17-2021 @ 13:12:34 - Debug Cielo HTTP: 201
+12-17-2021 @ 13:12:34 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 16976
+    [Customer] => Array
+        (
+            [Name] => Filipe Ferreira
+            [Email] => filipe_ironman@hotmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 22486
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 4
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 550209****6320
+                    [Holder] => Filipe P R Ferreira
+                    [ExpirationDate] => 05/2029
+                    [SecurityCode] => 528
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+12-17-2021 @ 13:12:34 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1397
+    [response] => {"MerchantOrderId":"16976","Customer":{"Name":"Filipe Ferreira","Email":"filipe_ironman@hotmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":4,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"550209******6320","Holder":"Filipe P R Ferreira","ExpirationDate":"05/2029","SaveCard":false,"Brand":"Master","PaymentAccountReference":"5001C771C2U6F60MCP3GORJQ89BQ8"},"Tid":"280720451617A8DC4GRC","ProofOfSale":"118013","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"0","IsQrCode":false,"Amount":22486,"ReceivedDate":"2021-12-17 13:12:32","Status":3,"IsSplitted":false,"ReturnMessage":"Autorizacao negada","ReturnCode":"79","PaymentId":"7a3a3cb5-2d0d-4061-8208-e8cd07945540","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/7a3a3cb5-2d0d-4061-8208-e8cd07945540"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 799
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 2.208074
+            [namelookup_time] => 0.073563
+            [connect_time] => 0.191553
+            [pretransfer_time] => 0.443531
+            [size_upload] => 520
+            [size_download] => 926
+            [speed_download] => 419
+            [speed_upload] => 235
+            [download_content_length] => 926
+            [upload_content_length] => 520
+            [starttransfer_time] => 2.208039
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.1.59
+            [local_port] => 42108
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 443455
+            [connect_time_us] => 191553
+            [namelookup_time_us] => 73563
+            [pretransfer_time_us] => 443531
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 2208039
+            [total_time_us] => 2208074
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+12-17-2021 @ 13:13:24 - Debug Cielo HTTP: 201
+12-17-2021 @ 13:13:24 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 16976
+    [Customer] => Array
+        (
+            [Name] => Filipe Ferreira
+            [Email] => filipe_ironman@hotmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 22486
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 3
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 550209****6320
+                    [Holder] => FILIPE PASSOS RIBEIRO FERREIRA
+                    [ExpirationDate] => 05/2029
+                    [SecurityCode] => 528
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+12-17-2021 @ 13:13:24 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1254
+    [response] => {"MerchantOrderId":"16976","Customer":{"Name":"Filipe Ferreira","Email":"filipe_ironman@hotmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":3,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"550209******6320","Holder":"FILIPE PASSOS RIBEIRO FERREIRA","ExpirationDate":"05/2029","SaveCard":false,"Brand":"Master","PaymentAccountReference":"5001C771C2U6F60MCP3GORJQ89BQ8"},"Tid":"280720451617A8DD4JJC","ProofOfSale":"120009","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"0","IsQrCode":false,"Amount":22486,"ReceivedDate":"2021-12-17 13:13:23","Status":3,"IsSplitted":false,"ReturnMessage":"Autorizacao negada","ReturnCode":"79","PaymentId":"cdfa6c17-0c5a-4b5a-875e-3c073c0c6da3","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/cdfa6c17-0c5a-4b5a-875e-3c073c0c6da3"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 810
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.686878
+            [namelookup_time] => 0.000975
+            [connect_time] => 0.119066
+            [pretransfer_time] => 0.367326
+            [size_upload] => 531
+            [size_download] => 937
+            [speed_download] => 555
+            [speed_upload] => 314
+            [download_content_length] => 937
+            [upload_content_length] => 531
+            [starttransfer_time] => 1.686846
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.1.59
+            [local_port] => 42262
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 367244
+            [connect_time_us] => 119066
+            [namelookup_time_us] => 975
+            [pretransfer_time_us] => 367326
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1686846
+            [total_time_us] => 1686878
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+12-17-2021 @ 13:14:17 - Debug Cielo HTTP: 201
+12-17-2021 @ 13:14:17 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 16976
+    [Customer] => Array
+        (
+            [Name] => Filipe Ferreira
+            [Email] => filipe_ironman@hotmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 22486
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 3
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 550209****6320
+                    [Holder] => FILIPE PASSOS RIBEIRO FERREIRA
+                    [ExpirationDate] => 06/2029
+                    [SecurityCode] => 528
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+12-17-2021 @ 13:14:17 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1219
+    [response] => {"MerchantOrderId":"16976","Customer":{"Name":"Filipe Ferreira","Email":"filipe_ironman@hotmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":3,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"550209******6320","Holder":"FILIPE PASSOS RIBEIRO FERREIRA","ExpirationDate":"06/2029","SaveCard":false,"Brand":"Master","PaymentAccountReference":"5001C771C2U6F60MCP3GORJQ89BQ8"},"Tid":"280720451617A8DD0DLC","ProofOfSale":"121009","AuthorizationCode":"680541","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"0","IsQrCode":false,"Amount":22486,"ReceivedDate":"2021-12-17 13:14:16","CapturedAmount":22486,"CapturedDate":"2021-12-17 13:14:16","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"aa669d0b-3725-4a5e-b5a1-6db952630099","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/aa669d0b-3725-4a5e-b5a1-6db952630099"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/aa669d0b-3725-4a5e-b5a1-6db952630099/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 366
+            [request_size] => 810
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.859942
+            [namelookup_time] => 0.00513
+            [connect_time] => 0.123696
+            [pretransfer_time] => 0.372676
+            [size_upload] => 531
+            [size_download] => 1168
+            [speed_download] => 628
+            [speed_upload] => 285
+            [download_content_length] => 1168
+            [upload_content_length] => 531
+            [starttransfer_time] => 1.859908
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.1.59
+            [local_port] => 42382
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 372604
+            [connect_time_us] => 123696
+            [namelookup_time_us] => 5130
+            [pretransfer_time_us] => 372676
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1859908
+            [total_time_us] => 1859942
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+12-17-2021 @ 15:30:59 - Debug Cielo HTTP: 400
+12-17-2021 @ 15:30:59 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 17021
+    [Customer] => Array
+        (
+            [Name] => Mellina rigodi
+            [Email] => mellinarigodi@hotmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 304340
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 422103****6221
+                    [Holder] => MELLINA R SOUZA
+                    [ExpirationDate] => 05/2021
+                    [SecurityCode] => 825
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+12-17-2021 @ 15:30:59 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1483
+    [response] => [
+  {
+    "Code": 126,
+    "Message": "Credit Card Expiration Date is invalid"
+  }
+]
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json
+            [http_code] => 400
+            [header_size] => 257
+            [request_size] => 792
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.566882
+            [namelookup_time] => 0.069385
+            [connect_time] => 0.188079
+            [pretransfer_time] => 0.437742
+            [size_upload] => 513
+            [size_download] => 84
+            [speed_download] => 148
+            [speed_upload] => 906
+            [download_content_length] => -1
+            [upload_content_length] => 513
+            [starttransfer_time] => 0.566846
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.1.59
+            [local_port] => 50794
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 437665
+            [connect_time_us] => 188079
+            [namelookup_time_us] => 69385
+            [pretransfer_time_us] => 437742
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 566846
+            [total_time_us] => 566882
+        )
+
+    [error] => 
+    [status] => 400
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

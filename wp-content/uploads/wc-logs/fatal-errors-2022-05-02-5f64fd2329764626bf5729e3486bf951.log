@@ -1,0 +1,12 @@
+2022-05-02T02:09:05+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1568768 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/helpers.php, na linha 507
+
+2022-05-02T21:50:01+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Gerencianet_Oficial_Gateway::gerencianet_pay_() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php:1786
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php(1746): WC_Gerencianet_Oficial_Gateway->process_payment_method()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(439): WC_Gerencianet_Oficial_Gateway->process_payment()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): WC_Form_Handler::pay_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp.php(771): do_action_ref_array()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-inc, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php, na linha 1786
+

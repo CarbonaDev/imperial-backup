@@ -1,0 +1,127 @@
+07-28-2021 @ 18:33:10 - Debug Cielo HTTP: 201
+07-28-2021 @ 18:33:10 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 12484
+    [Customer] => Array
+        (
+            [Name] => isara cougo duarte
+            [Email] => isaraa@hotmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 51217
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 10
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 530034****1873
+                    [Holder] => isara cougo duarte
+                    [ExpirationDate] => 10/2025
+                    [SecurityCode] => 053
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+07-28-2021 @ 18:33:10 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #391
+    [response] => {"MerchantOrderId":"12484","Customer":{"Name":"isara cougo duarte","Email":"isaraa@hotmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":10,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"530034******1873","Holder":"isara cougo duarte","ExpirationDate":"10/2025","SaveCard":false,"Brand":"Master"},"Tid":"28072045161368NSF9DC","ProofOfSale":"033001","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"0","IsQrCode":false,"Amount":51217,"ReceivedDate":"2021-07-28 18:33:09","Status":3,"IsSplitted":false,"ReturnMessage":"Autorizacao negada","ReturnCode":"14","PaymentId":"c2099ed9-e43f-401f-a025-59f0b7d64eb4","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/c2099ed9-e43f-401f-a025-59f0b7d64eb4"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 794
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.606959
+            [namelookup_time] => 0.089886
+            [connect_time] => 0.207455
+            [pretransfer_time] => 0.453709
+            [size_upload] => 515
+            [size_download] => 863
+            [speed_download] => 537
+            [speed_upload] => 320
+            [download_content_length] => 863
+            [upload_content_length] => 515
+            [starttransfer_time] => 1.606928
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 51042
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 453617
+            [connect_time_us] => 207455
+            [namelookup_time_us] => 89886
+            [pretransfer_time_us] => 453709
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1606928
+            [total_time_us] => 1606959
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

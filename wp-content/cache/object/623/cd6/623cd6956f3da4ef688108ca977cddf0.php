@@ -1,0 +1,1 @@
+Ö0¡b<?php exit; ?>a:1:{s:7:"content";a:1:{s:10:"pa_tamanho";a:4:{i:0;s:1:"m";i:1;s:1:"p";i:2;s:1:"g";i:3;s:2:"gg";}}}

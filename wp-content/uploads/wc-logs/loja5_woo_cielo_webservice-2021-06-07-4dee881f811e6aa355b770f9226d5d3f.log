@@ -1,0 +1,889 @@
+06-07-2021 @ 15:21:16 - Debug Cielo HTTP: 201
+06-07-2021 @ 15:21:16 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 10291
+    [Customer] => Array
+        (
+            [Name] => Pedro Roque
+            [Email] => pedronmroque@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 4500
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 523421****9756
+                    [Holder] => Pedro Thiago do Nascimento Moreira Roque
+                    [ExpirationDate] => 05/2027
+                    [SecurityCode] => 057
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+06-07-2021 @ 15:21:16 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #154
+    [response] => {"MerchantOrderId":"10291","Customer":{"Name":"Pedro Roque","Email":"pedronmroque@gmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"523421******9756","Holder":"Pedro Thiago do Nascimento Moreira Roque","ExpirationDate":"05/2027","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","IsQrCode":false,"Amount":4500,"ReceivedDate":"2021-06-07 15:21:16","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"6ef1563a-f296-4ca7-8209-6ab55335be71","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/6ef1563a-f296-4ca7-8209-6ab55335be71"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 364
+            [request_size] => 811
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.944215
+            [namelookup_time] => 0.094975
+            [connect_time] => 0.212924
+            [pretransfer_time] => 0.468641
+            [size_upload] => 532
+            [size_download] => 822
+            [speed_download] => 870
+            [speed_upload] => 563
+            [download_content_length] => 822
+            [upload_content_length] => 532
+            [starttransfer_time] => 0.944187
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 47304
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 468556
+            [connect_time_us] => 212924
+            [namelookup_time_us] => 94975
+            [pretransfer_time_us] => 468641
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 944187
+            [total_time_us] => 944215
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+06-07-2021 @ 15:32:37 - Debug Cielo HTTP: 201
+06-07-2021 @ 15:32:37 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 10291
+    [Customer] => Array
+        (
+            [Name] => Pedro Roque
+            [Email] => pedronmroque@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 4500
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 975621****9756
+                    [Holder] => Pedro Thiago do Nascimento Moreira Roque
+                    [ExpirationDate] => 05/2027
+                    [SecurityCode] => 057
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+06-07-2021 @ 15:32:37 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #331
+    [response] => {"MerchantOrderId":"10291","Customer":{"Name":"Pedro Roque","Email":"pedronmroque@gmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"975621******9756","Holder":"Pedro Thiago do Nascimento Moreira Roque","ExpirationDate":"05/2027","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","IsQrCode":false,"Amount":4500,"ReceivedDate":"2021-06-07 15:32:37","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"8c81fcb6-0d2e-4a75-bfb7-c43e3f338a33","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/8c81fcb6-0d2e-4a75-bfb7-c43e3f338a33"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 364
+            [request_size] => 811
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.914827
+            [namelookup_time] => 0.137172
+            [connect_time] => 0.255807
+            [pretransfer_time] => 0.50486
+            [size_upload] => 532
+            [size_download] => 822
+            [speed_download] => 899
+            [speed_upload] => 582
+            [download_content_length] => 822
+            [upload_content_length] => 532
+            [starttransfer_time] => 0.914796
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 47596
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 504787
+            [connect_time_us] => 255807
+            [namelookup_time_us] => 137172
+            [pretransfer_time_us] => 504860
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 914796
+            [total_time_us] => 914827
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+06-07-2021 @ 15:41:10 - Debug Cielo HTTP: 201
+06-07-2021 @ 15:41:10 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 10295
+    [Customer] => Array
+        (
+            [Name] => Pedro Roque
+            [Email] => pedronmroque@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 4500
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 523421****9756
+                    [Holder] => Pedro Thiago do Nascimento Moreira Roque
+                    [ExpirationDate] => 05/2027
+                    [SecurityCode] => 057
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+06-07-2021 @ 15:41:10 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #373
+    [response] => {"MerchantOrderId":"10295","Customer":{"Name":"Pedro Roque","Email":"pedronmroque@gmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"523421******9756","Holder":"Pedro Thiago do Nascimento Moreira Roque","ExpirationDate":"05/2027","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","IsQrCode":false,"Amount":4500,"ReceivedDate":"2021-06-07 15:41:10","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"b3a97ffa-b6e6-46d8-a3c7-4371fbe1afb0","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/b3a97ffa-b6e6-46d8-a3c7-4371fbe1afb0"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 364
+            [request_size] => 811
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.972268
+            [namelookup_time] => 0.122626
+            [connect_time] => 0.241948
+            [pretransfer_time] => 0.491627
+            [size_upload] => 532
+            [size_download] => 822
+            [speed_download] => 845
+            [speed_upload] => 547
+            [download_content_length] => 822
+            [upload_content_length] => 532
+            [starttransfer_time] => 0.972238
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 47858
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 491558
+            [connect_time_us] => 241948
+            [namelookup_time_us] => 122626
+            [pretransfer_time_us] => 491627
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 972238
+            [total_time_us] => 972268
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+06-07-2021 @ 18:56:38 - Debug Cielo HTTP: 201
+06-07-2021 @ 18:56:38 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 10299
+    [Customer] => Array
+        (
+            [Name] => Pedro Roque
+            [Email] => pedronmroque@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 4500
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 523421****9756
+                    [Holder] => Pedro Thiago do Nascimento Moreira Roque
+                    [ExpirationDate] => 05/2027
+                    [SecurityCode] => 057
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+06-07-2021 @ 18:56:38 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #154
+    [response] => {"MerchantOrderId":"10299","Customer":{"Name":"Pedro Roque","Email":"pedronmroque@gmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"523421******9756","Holder":"Pedro Thiago do Nascimento Moreira Roque","ExpirationDate":"05/2027","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","IsQrCode":false,"Amount":4500,"ReceivedDate":"2021-06-07 18:56:37","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"fb37ab91-8d8b-4f2a-8bf3-e2068c4830ac","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/fb37ab91-8d8b-4f2a-8bf3-e2068c4830ac"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 364
+            [request_size] => 811
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.026294
+            [namelookup_time] => 0.003188
+            [connect_time] => 0.12466
+            [pretransfer_time] => 0.372248
+            [size_upload] => 532
+            [size_download] => 822
+            [speed_download] => 801
+            [speed_upload] => 518
+            [download_content_length] => 822
+            [upload_content_length] => 532
+            [starttransfer_time] => 1.026261
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 50968
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 372157
+            [connect_time_us] => 124660
+            [namelookup_time_us] => 3188
+            [pretransfer_time_us] => 372248
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1026261
+            [total_time_us] => 1026294
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+06-07-2021 @ 19:11:42 - Debug Cielo HTTP: 201
+06-07-2021 @ 19:11:42 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 10300
+    [Customer] => Array
+        (
+            [Name] => Pedro Roque
+            [Email] => pedronmroque@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 9000
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 523421****9756
+                    [Holder] => Pedro Thiago do Nascimento Moreira Roque
+                    [ExpirationDate] => 05/2027
+                    [SecurityCode] => 057
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+06-07-2021 @ 19:11:42 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #155
+    [response] => {"MerchantOrderId":"10300","Customer":{"Name":"Pedro Roque","Email":"pedronmroque@gmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"523421******9756","Holder":"Pedro Thiago do Nascimento Moreira Roque","ExpirationDate":"05/2027","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","IsQrCode":false,"Amount":9000,"ReceivedDate":"2021-06-07 19:11:42","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"4530f57e-3ddc-4db9-8d22-0e3fee767eca","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/4530f57e-3ddc-4db9-8d22-0e3fee767eca"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 364
+            [request_size] => 811
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.850273
+            [namelookup_time] => 0.094507
+            [connect_time] => 0.212344
+            [pretransfer_time] => 0.460814
+            [size_upload] => 532
+            [size_download] => 822
+            [speed_download] => 967
+            [speed_upload] => 625
+            [download_content_length] => 822
+            [upload_content_length] => 532
+            [starttransfer_time] => 0.850243
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 51372
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 460737
+            [connect_time_us] => 212344
+            [namelookup_time_us] => 94507
+            [pretransfer_time_us] => 460814
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 850243
+            [total_time_us] => 850273
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+06-07-2021 @ 19:25:41 - Debug Cielo HTTP: 401
+06-07-2021 @ 19:25:41 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 10302
+    [Customer] => Array
+        (
+            [Name] => Pedro Roque
+            [Email] => pedronmroque@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 4500
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 523421****9756
+                    [Holder] => Pedro Thiago do Nascimento Moreira Roque
+                    [ExpirationDate] => 05/2027
+                    [SecurityCode] => 057
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+06-07-2021 @ 19:25:41 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUBRRLS8R8QGDM4URKICQDTYO46GHKRBRJ0PJGDU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #375
+    [response] => 
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => 
+            [http_code] => 401
+            [header_size] => 217
+            [request_size] => 811
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.575769
+            [namelookup_time] => 0.07865
+            [connect_time] => 0.196929
+            [pretransfer_time] => 0.445131
+            [size_upload] => 532
+            [size_download] => 0
+            [speed_download] => 0
+            [speed_upload] => 925
+            [download_content_length] => 0
+            [upload_content_length] => 532
+            [starttransfer_time] => 0.575743
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 51806
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 445039
+            [connect_time_us] => 196929
+            [namelookup_time_us] => 78650
+            [pretransfer_time_us] => 445131
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 575743
+            [total_time_us] => 575769
+        )
+
+    [error] => 
+    [status] => 401
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+06-07-2021 @ 19:30:17 - Debug Cielo HTTP: 201
+06-07-2021 @ 19:30:17 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 10302
+    [Customer] => Array
+        (
+            [Name] => Pedro Roque
+            [Email] => pedronmroque@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 4500
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 1
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 523421****9756
+                    [Holder] => Pedro Thiago do Nascimento Moreira Roque
+                    [ExpirationDate] => 05/2027
+                    [SecurityCode] => 057
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+06-07-2021 @ 19:30:17 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #333
+    [response] => {"MerchantOrderId":"10302","Customer":{"Name":"Pedro Roque","Email":"pedronmroque@gmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":1,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"523421******9756","Holder":"Pedro Thiago do Nascimento Moreira Roque","ExpirationDate":"05/2027","SaveCard":false,"Brand":"Master"},"SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","IsQrCode":false,"Amount":4500,"ReceivedDate":"2021-06-07 19:30:16","Status":0,"IsSplitted":false,"ReturnMessage":"Credenciais Invalidas","ReturnCode":"002","PaymentId":"ee00c242-c616-466d-adf2-3f6ef7033cb9","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/ee00c242-c616-466d-adf2-3f6ef7033cb9"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 364
+            [request_size] => 811
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.726198
+            [namelookup_time] => 0.003123
+            [connect_time] => 0.120241
+            [pretransfer_time] => 0.366168
+            [size_upload] => 532
+            [size_download] => 822
+            [speed_download] => 1132
+            [speed_upload] => 732
+            [download_content_length] => 822
+            [upload_content_length] => 532
+            [starttransfer_time] => 0.726167
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 51890
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 366095
+            [connect_time_us] => 120241
+            [namelookup_time_us] => 3123
+            [pretransfer_time_us] => 366168
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 726167
+            [total_time_us] => 726198
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

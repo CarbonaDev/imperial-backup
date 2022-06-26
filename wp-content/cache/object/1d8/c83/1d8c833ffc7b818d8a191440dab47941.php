@@ -1,0 +1,1 @@
+æ0¡b<?php exit; ?>a:1:{s:7:"content";a:2:{s:10:"pa_largura";a:4:{i:0;s:4:"80cm";i:8;s:4:"70cm";i:16;s:4:"60cm";i:24;s:4:"50cm";}s:14:"pa_comprimento";a:8:{i:0;s:5:"150cm";i:1;s:5:"200cm";i:2;s:7:"200cm-2";i:3;s:5:"300cm";i:4;s:5:"350cm";i:5;s:5:"400cm";i:6;s:5:"450cm";i:7;s:5:"500cm";}}}

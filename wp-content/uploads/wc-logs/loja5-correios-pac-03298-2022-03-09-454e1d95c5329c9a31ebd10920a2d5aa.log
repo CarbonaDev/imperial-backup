@@ -1,0 +1,2217 @@
+03-08-2022 @ 21:14:27 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=85884000&sCepOrigem=96412830&nVlAltura=20,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=68,00&nVlPeso=9,07&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:14:27 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 74,20
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 74,20
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:19:01 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05547000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:19:01 - Erro ao Conectar nos Correios: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [content-type] => text/html
+                    [server] => Microsoft-IIS/10.0
+                    [x-powered-by] => ASP.NET
+                    [date] => Wed, 09 Mar 2022 00:19:00 GMT
+                )
+
+        )
+
+    [body] => <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>500 - Internal server error.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>Server Error</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>500 - Internal server error.</h2>
+  <h3>There is a problem with the resource you are looking for, and it cannot be displayed.</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+   <title>Server Unavailable
+</title>
+   </head>
+   <body>
+      <h1><span style="font-family:Verdana;color: #ff3300">Server Application Unavailable
+</span></h1>
+      <p>
+       <span style="font-family:Verdana;">
+        The web application you are attempting to access on this web server is currently unavailable.&nbsp; Please hit the "Refresh" button in your web browser to retry your request.
+</span></p>
+   <p>
+   <b>Administrator Note:
+</b> An error message detailing the cause of this specific request failure can be found in the application event log of the web server.  Please review this log entry to discover what caused this error to occur.
+ </p>
+   </body>
+</html>
+
+    [response] => Array
+        (
+            [code] => 500
+            [message] => Internal Server Error
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>500 - Internal server error.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>Server Error</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>500 - Internal server error.</h2>
+  <h3>There is a problem with the resource you are looking for, and it cannot be displayed.</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+   <title>Server Unavailable
+</title>
+   </head>
+   <body>
+      <h1><span style="font-family:Verdana;color: #ff3300">Server Application Unavailable
+</span></h1>
+      <p>
+       <span style="font-family:Verdana;">
+        The web application you are attempting to access on this web server is currently unavailable.&nbsp; Please hit the "Refresh" button in your web browser to retry your request.
+</span></p>
+   <p>
+   <b>Administrator Note:
+</b> An error message detailing the cause of this specific request failure can be found in the application event log of the web server.  Please review this log entry to discover what caused this error to occur.
+ </p>
+   </body>
+</html>
+
+                    [raw] => HTTP/1.1 500 Internal Server Error
+transfer-encoding: chunked
+content-type: text/html
+server: Microsoft-IIS/10.0
+x-powered-by: ASP.NET
+date: Wed, 09 Mar 2022 00:19:00 GMT
+Connection: close
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>500 - Internal server error.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>Server Error</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>500 - Internal server error.</h2>
+  <h3>There is a problem with the resource you are looking for, and it cannot be displayed.</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+   <title>Server Unavailable
+</title>
+   </head>
+   <body>
+      <h1><span style="font-family:Verdana;color: #ff3300">Server Application Unavailable
+</span></h1>
+      <p>
+       <span style="font-family:Verdana;">
+        The web application you are attempting to access on this web server is currently unavailable.&nbsp; Please hit the "Refresh" button in your web browser to retry your request.
+</span></p>
+   <p>
+   <b>Administrator Note:
+</b> An error message detailing the cause of this specific request failure can be found in the application event log of the web server.  Please review this log entry to discover what caused this error to occur.
+ </p>
+   </body>
+</html>
+
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => Array
+                                        (
+                                            [0] => text/html
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => Microsoft-IIS/10.0
+                                        )
+
+                                    [x-powered-by] => Array
+                                        (
+                                            [0] => ASP.NET
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Wed, 09 Mar 2022 00:19:00 GMT
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 500
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05547000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+03-08-2022 @ 21:24:26 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05547000&sCepOrigem=96412830&nVlAltura=12,00&nVlLargura=50,00&nVlDiametro=0&nVlComprimento=60,00&nVlPeso=8,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:24:26 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 70,76
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 70,76
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:24:29 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05547000&sCepOrigem=96412830&nVlAltura=12,00&nVlLargura=50,00&nVlDiametro=0&nVlComprimento=60,00&nVlPeso=8,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:24:29 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 70,76
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 70,76
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:24:31 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05547000&sCepOrigem=96412830&nVlAltura=12,00&nVlLargura=50,00&nVlDiametro=0&nVlComprimento=60,00&nVlPeso=8,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:24:31 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 70,76
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 70,76
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:31:51 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22240100&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=25,00&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:31:51 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,85
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 33,85
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:32:58 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22240100&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=20,00&nVlDiametro=0&nVlComprimento=25,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:32:58 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 29,10
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 29,10
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:34:29 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22240100&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=25,00&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:34:29 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,85
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 33,85
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:38:27 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=89221240&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:38:27 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,04
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 33,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:42:59 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=87301758&sCepOrigem=96412830&nVlAltura=12,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:42:59 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 44,35
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 44,35
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:43:30 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22240100&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=25,00&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:43:30 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,85
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 33,85
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:47:38 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22240100&sCepOrigem=96412830&nVlAltura=5,00&nVlLargura=25,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:47:38 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 29,10
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 29,10
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:48:30 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22240100&sCepOrigem=96412830&nVlAltura=18,90&nVlLargura=18,90&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:48:30 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 38,76
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 38,76
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 21:52:39 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=87301758&sCepOrigem=96412830&nVlAltura=12,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 21:52:39 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 44,35
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 44,35
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 22:32:06 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=80540010&sCepOrigem=96412830&nVlAltura=20,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=3,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 22:32:06 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 42,36
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 42,36
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 22:37:33 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22240100&sCepOrigem=96412830&nVlAltura=21,50&nVlLargura=21,50&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=4,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 22:37:33 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 48,30
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 48,30
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 22:37:58 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=88040001&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 22:37:58 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 44,35
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 44,35
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 22:41:03 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22240100&sCepOrigem=96412830&nVlAltura=23,90&nVlLargura=23,90&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 22:41:03 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 50,53
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 50,53
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 22:59:46 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05547000&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=32,00&nVlDiametro=0&nVlComprimento=32,00&nVlPeso=2,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 22:59:46 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,04
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 33,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 23:18:07 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05547000&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 23:18:07 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,04
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 33,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 23:20:36 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05547000&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=2,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 23:20:36 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,04
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 33,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-08-2022 @ 23:25:48 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05547000&sCepOrigem=96412830&nVlAltura=31,00&nVlLargura=31,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=7,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-08-2022 @ 23:25:48 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 70,76
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 70,76
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 00:11:27 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=85852020&sCepOrigem=96412830&nVlAltura=40,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=68,00&nVlPeso=18,13&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 00:11:27 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 156,91
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 156,91
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 03:04:11 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=08587450&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=50,00&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=3,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 03:04:11 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 42,36
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 42,36
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 03:22:33 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=08587450&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=50,00&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=3,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 03:22:33 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 42,36
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 42,36
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 06:13:33 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=18130555&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=1,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 06:13:33 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 28,66
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 28,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 07:10:49 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=98280000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 07:10:49 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 19,00
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 19,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 07:11:19 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=98280000&sCepOrigem=96412830&nVlAltura=44,20&nVlLargura=44,20&nVlDiametro=0&nVlComprimento=70,00&nVlPeso=22,79&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 07:11:19 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 83,23
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 83,23
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 07:11:56 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=98280000&sCepOrigem=96412830&nVlAltura=26,50&nVlLargura=26,50&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=5,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 07:11:56 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 27,35
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 27,35
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 07:22:58 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22441050&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=60,00&nVlDiametro=0&nVlComprimento=60,00&nVlPeso=11,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 07:22:58 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 93,66
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 93,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 10:45:10 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=89221240&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 10:45:10 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 28,66
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 28,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 11:49:49 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=88330102&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 11:49:49 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 44,35
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 44,35
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 12:07:46 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=88132231&sCepOrigem=96412830&nVlAltura=12,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 12:07:46 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 44,35
+            [PrazoEntrega] => 9
+            [ValorSemAdicionais] => 44,35
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 12:21:23 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=89209028&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 12:21:23 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 28,66
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 28,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 12:55:36 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=78068390&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 12:55:36 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 77,69
+            [PrazoEntrega] => 14
+            [ValorSemAdicionais] => 77,69
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 12:55:38 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=78068390&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 12:55:38 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 77,69
+            [PrazoEntrega] => 14
+            [ValorSemAdicionais] => 77,69
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 13:23:42 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=99850000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 13:23:42 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 24,25
+            [PrazoEntrega] => 9
+            [ValorSemAdicionais] => 24,25
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 13:59:42 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=83880000&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=50,00&nVlDiametro=0&nVlComprimento=60,00&nVlPeso=8,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 13:59:42 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 70,76
+            [PrazoEntrega] => 12
+            [ValorSemAdicionais] => 70,76
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 14:55:02 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=99850000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 14:55:02 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 19,00
+            [PrazoEntrega] => 9
+            [ValorSemAdicionais] => 19,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 14:55:05 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=99850000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 14:55:05 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 19,00
+            [PrazoEntrega] => 9
+            [ValorSemAdicionais] => 19,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 15:46:45 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=85605000&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=60,00&nVlDiametro=0&nVlComprimento=65,00&nVlPeso=13,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 15:46:45 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 101,77
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 101,77
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:05:30 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=37545000&sCepOrigem=96412830&nVlAltura=35,20&nVlLargura=35,20&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=10,33&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:05:30 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 93,66
+            [PrazoEntrega] => 12
+            [ValorSemAdicionais] => 93,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:06:18 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=37545000&sCepOrigem=96412830&nVlAltura=34,60&nVlLargura=34,60&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=7,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:06:18 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 63,03
+            [PrazoEntrega] => 12
+            [ValorSemAdicionais] => 63,03
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:07:05 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=37545000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:07:05 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 38,76
+            [PrazoEntrega] => 12
+            [ValorSemAdicionais] => 38,76
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:07:26 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=37545000&sCepOrigem=96412830&nVlAltura=35,20&nVlLargura=35,20&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=10,33&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:07:26 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 93,66
+            [PrazoEntrega] => 12
+            [ValorSemAdicionais] => 93,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:07:30 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=37545000&sCepOrigem=96412830&nVlAltura=40,50&nVlLargura=40,50&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=13,67&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:07:30 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 124,68
+            [PrazoEntrega] => 12
+            [ValorSemAdicionais] => 124,68
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:07:35 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=37545000&sCepOrigem=96412830&nVlAltura=45,20&nVlLargura=45,20&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=17,03&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:07:35 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 166,04
+            [PrazoEntrega] => 12
+            [ValorSemAdicionais] => 166,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:07:45 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=37545000&sCepOrigem=96412830&nVlAltura=35,20&nVlLargura=35,20&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=10,33&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:07:45 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 93,66
+            [PrazoEntrega] => 12
+            [ValorSemAdicionais] => 93,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:14:27 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=29903065&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=32,00&nVlDiametro=0&nVlComprimento=32,00&nVlPeso=2,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:14:27 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 58,49
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 58,49
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:24:20 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=91110000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=20,00&nVlDiametro=0&nVlComprimento=25,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:24:20 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 18,05
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 18,05
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:24:37 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=85605000&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=60,00&nVlDiametro=0&nVlComprimento=65,00&nVlPeso=13,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:24:37 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 101,77
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 101,77
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:45:39 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=18650000&sCepOrigem=96412830&nVlAltura=26,00&nVlLargura=26,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:45:39 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 0,00
+            [PrazoEntrega] => 0
+            [ValorSemAdicionais] => 0,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => SimpleXMLElement Object
+                (
+                )
+
+            [EntregaSabado] => SimpleXMLElement Object
+                (
+                )
+
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 999
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:50:57 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=18650000&sCepOrigem=96412830&nVlAltura=33,50&nVlLargura=33,50&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=8,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:50:57 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 0,00
+            [PrazoEntrega] => 0
+            [ValorSemAdicionais] => 0,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => SimpleXMLElement Object
+                (
+                )
+
+            [EntregaSabado] => SimpleXMLElement Object
+                (
+                )
+
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 999
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:50:59 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=18650000&sCepOrigem=96412830&nVlAltura=33,50&nVlLargura=33,50&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=8,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:50:59 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 0,00
+            [PrazoEntrega] => 0
+            [ValorSemAdicionais] => 0,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => SimpleXMLElement Object
+                (
+                )
+
+            [EntregaSabado] => SimpleXMLElement Object
+                (
+                )
+
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 999
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:51:02 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=18650000&sCepOrigem=96412830&nVlAltura=39,70&nVlLargura=39,70&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=11,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:51:02 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 0,00
+            [PrazoEntrega] => 0
+            [ValorSemAdicionais] => 0,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => SimpleXMLElement Object
+                (
+                )
+
+            [EntregaSabado] => SimpleXMLElement Object
+                (
+                )
+
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 999
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 16:51:05 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=18650000&sCepOrigem=96412830&nVlAltura=45,00&nVlLargura=45,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=14,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 16:51:05 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 0,00
+            [PrazoEntrega] => 0
+            [ValorSemAdicionais] => 0,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => SimpleXMLElement Object
+                (
+                )
+
+            [EntregaSabado] => SimpleXMLElement Object
+                (
+                )
+
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 999
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 17:37:16 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=11060002&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=1,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 17:37:16 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 28,66
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 28,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:10:46 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96270000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:10:46 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 22,72
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 22,72
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:15:34 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96270000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:15:34 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 22,72
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 22,72
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:15:37 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96270000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:15:37 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 22,72
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 22,72
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:19:59 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96270000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:19:59 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 22,72
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 22,72
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:20:02 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96270000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:20:02 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 22,72
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 22,72
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:29:02 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=29161766&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=50,00&nVlDiametro=0&nVlComprimento=60,00&nVlPeso=8,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:29:02 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 102,25
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 102,25
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:29:04 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=29161766&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=50,00&nVlDiametro=0&nVlComprimento=60,00&nVlPeso=8,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:29:04 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 102,25
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 102,25
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:39:09 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=13087570&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:39:09 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 28,66
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 28,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:45:46 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=13087570&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=32,00&nVlDiametro=0&nVlComprimento=32,00&nVlPeso=2,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:45:46 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,04
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 33,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:46:59 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=13087570&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=32,00&nVlDiametro=0&nVlComprimento=32,00&nVlPeso=2,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:46:59 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,04
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 33,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:47:04 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=13087570&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=32,00&nVlDiametro=0&nVlComprimento=32,00&nVlPeso=2,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:47:04 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,04
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 33,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:47:13 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=13087570&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=32,00&nVlDiametro=0&nVlComprimento=32,00&nVlPeso=2,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:47:13 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,04
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 33,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:48:14 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=13087570&sCepOrigem=96412830&nVlAltura=21,90&nVlLargura=21,90&nVlDiametro=0&nVlComprimento=32,00&nVlPeso=4,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:48:14 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 44,35
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 44,35
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 18:48:45 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=13087570&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 18:48:45 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 28,66
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 28,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 19:56:13 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=88650000&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=55,00&nVlDiametro=0&nVlComprimento=65,00&nVlPeso=10,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 19:56:13 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 74,20
+            [PrazoEntrega] => 13
+            [ValorSemAdicionais] => 74,20
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-09-2022 @ 20:40:22 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95500000&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=55,00&nVlDiametro=0&nVlComprimento=65,00&nVlPeso=10,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+03-09-2022 @ 20:40:22 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 31,88
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 31,88
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+

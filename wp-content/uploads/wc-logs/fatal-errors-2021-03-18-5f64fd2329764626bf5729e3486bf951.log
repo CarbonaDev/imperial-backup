@@ -1,0 +1,18 @@
+2021-03-18T19:49:50+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Loco_api_WordPressFileSystem::authorizeSave() must be an instance of Loco_fs_File, null given, called in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/loco-translate/src/gettext/Compiler.php on line 82 and defined in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/loco-translate/src/api/WordPressFileSystem.php:112
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/loco-translate/src/gettext/Compiler.php(82): Loco_api_WordPressFileSystem->authorizeSave()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/loco-translate/src/gettext/Compiler.php(44): Loco_gettext_Compiler->writeMo()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/loco-translate/src/admin/file/DiffController.php(34): Loco_gettext_Compiler->writeAll()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/loco-translate/src/mvc/AdminController.php(84): Loco_admin_file_DiffController->init()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/loco-transl, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/loco-translate/src/api/WordPressFileSystem.php, na linha 112
+
+2021-03-18T21:38:46+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Gerencianet_Oficial_Gateway::gerencianet_pay_() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php:1745
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php(1705): WC_Gerencianet_Oficial_Gateway->process_payment_method()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(439): WC_Gerencianet_Oficial_Gateway->process_payment()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): WC_Form_Handler::pay_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(551): WP_Hook->do_action()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp.php(763): do_action_ref_array()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-inc, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php, na linha 1745
+

@@ -1,0 +1,25 @@
+2021-08-18T03:36:31+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 289
+
+2021-08-18T03:36:31+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 289
+
+2021-08-18T03:37:40+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 291
+
+2021-08-18T03:37:40+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 291
+
+2021-08-18T03:45:53+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 223
+
+2021-08-18T03:48:15+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 223
+
+2021-08-18T04:20:01+00:00 CRITICAL syntax error, unexpected 'do_action' (T_STRING), em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/order/order-details.php, na linha 145
+
+2021-08-18T15:21:32+00:00 CRITICAL Uncaught Error: Call to a member function add() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php:2014
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Gerencianet_Oficial_Gateway->successful_request()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php(1955): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Gerencianet_Oficial_Gateway->validate_notification()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#7 /opt/bitnami/apps/wordpress/htdoc, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gerencianet-official/includes/class-wc-gerencianet-oficial-gateway.php, na linha 2014
+

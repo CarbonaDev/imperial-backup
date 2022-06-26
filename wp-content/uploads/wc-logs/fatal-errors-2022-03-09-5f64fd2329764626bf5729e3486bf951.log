@@ -1,0 +1,10 @@
+2022-03-09T19:44:57+00:00 CRITICAL Uncaught Error: Call to undefined method Error::getResponse() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/w3-total-cache/vendor/aws/aws-sdk-php/src/Handler/GuzzleV6/GuzzleHandler.php:60
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/w3-total-cache/vendor/guzzlehttp/promises/src/Promise.php(204): Aws\Handler\GuzzleV6\GuzzleHandler::Aws\Handler\GuzzleV6\{closure}()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/w3-total-cache/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/w3-total-cache/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/w3-total-cache/vendor/guzzlehttp/promises/src/Promise.php(235): GuzzleHttp\Promise\TaskQueue->run()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/w3-total-cache/vendor/guzzlehttp/promises/src/Promise.php(269): , em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/w3-total-cache/vendor/aws/aws-sdk-php/src/Handler/GuzzleV6/GuzzleHandler.php, na linha 60
+
+2022-03-09T23:42:37+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 331776 bytes) in /opt/bitnami/apps/wordpress/htdocs/wp-includes/pomo/streams.php on line 222
+

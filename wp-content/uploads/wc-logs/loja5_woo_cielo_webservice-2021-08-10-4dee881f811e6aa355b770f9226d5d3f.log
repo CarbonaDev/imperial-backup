@@ -1,0 +1,127 @@
+08-10-2021 @ 00:54:39 - Debug Cielo HTTP: 201
+08-10-2021 @ 00:54:39 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 12755
+    [Customer] => Array
+        (
+            [Name] => MARY MARLEY MARQUES
+            [Email] => marymarket2018@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 39520
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 7
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 489391****9253
+                    [Holder] => MARY MARLEY MARQUES
+                    [ExpirationDate] => 04/2028
+                    [SecurityCode] => 082
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+08-10-2021 @ 00:54:39 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #187
+    [response] => {"MerchantOrderId":"12755","Customer":{"Name":"MARY MARLEY MARQUES","Email":"marymarket2018@gmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":7,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"489391******9253","Holder":"MARY MARLEY MARQUES","ExpirationDate":"04/2028","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010013820116758214498547713"},"Tid":"280720451613ID9A7JGC","ProofOfSale":"045001","AuthorizationCode":"075962","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":39520,"ReceivedDate":"2021-08-10 00:54:38","CapturedAmount":39520,"CapturedDate":"2021-08-10 00:54:38","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"dcf558b0-0819-418f-8689-f3258faeba24","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/dcf558b0-0819-418f-8689-f3258faeba24"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/dcf558b0-0819-418f-8689-f3258faeba24/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 799
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.26467
+            [namelookup_time] => 0.099502
+            [connect_time] => 0.216523
+            [pretransfer_time] => 0.462061
+            [size_upload] => 520
+            [size_download] => 1157
+            [speed_download] => 915
+            [speed_upload] => 411
+            [download_content_length] => 1157
+            [upload_content_length] => 520
+            [starttransfer_time] => 1.264637
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 39622
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 461985
+            [connect_time_us] => 216523
+            [namelookup_time_us] => 99502
+            [pretransfer_time_us] => 462061
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1264637
+            [total_time_us] => 1264670
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

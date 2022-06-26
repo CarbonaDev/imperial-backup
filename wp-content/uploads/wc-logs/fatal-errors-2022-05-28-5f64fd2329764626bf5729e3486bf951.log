@@ -1,0 +1,6 @@
+2022-05-28T03:17:15+00:00 CRITICAL Uncaught Error: Class 'Aws\Sns\Message' not found in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/w3-total-cache/Enterprise_SnsServer.php:18
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/w3-total-cache/pub/sns.php(58): W3TC\Enterprise_SnsServer->process_message()
+#1 {main}
+  thrown, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/w3-total-cache/Enterprise_SnsServer.php, na linha 18
+

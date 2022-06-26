@@ -1,0 +1,1918 @@
+04-03-2022 @ 21:00:35 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 87240000
+    [vlrMercadoria] => 339.00
+    [peso] => 3.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.45
+                    [altura] => 0.45
+                    [comprimento] => 0.45
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-03-2022 @ 21:00:35 - Braspress Braspress - Rodoviário resposta 200: {"id":161997187,"prazo":4,"totalFrete":74.06}
+04-03-2022 @ 21:03:44 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 88132199
+    [vlrMercadoria] => 2319.00
+    [peso] => 15.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.70
+                    [altura] => 0.18
+                    [comprimento] => 0.65
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-03-2022 @ 21:03:44 - Braspress Braspress - Rodoviário resposta 200: {"id":161997449,"prazo":4,"totalFrete":71.32}
+04-03-2022 @ 23:21:17 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 05265220
+    [vlrMercadoria] => 719.00
+    [peso] => 5.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.12
+                    [comprimento] => 0.50
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-03-2022 @ 23:21:17 - Braspress Braspress - Rodoviário resposta 400: {"statusCode":500,"message":"Service Error","dateTime":"03/04/2022 23:21:13","errorList":["Erro ao realizar a cotação de frete: VERIFICANDO CEP DESTINO"]}
+04-03-2022 @ 23:21:17 - Braspress Braspress - Rodoviário erro: Array
+(
+    [statusCode] => 500
+    [message] => Service Error
+    [dateTime] => 03/04/2022 23:21:13
+    [errorList] => Array
+        (
+            [0] => Erro ao realizar a cotação de frete: VERIFICANDO CEP DESTINO
+        )
+
+    [ambiente] => https://api.braspress.com/v1/cotacao/calcular/json
+)
+
+04-04-2022 @ 06:35:22 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99950000
+    [vlrMercadoria] => 209.00
+    [peso] => 2.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.30
+                    [altura] => 0.08
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 06:35:22 - Braspress Braspress - Rodoviário resposta 200: {"id":162035613,"prazo":2,"totalFrete":38.71}
+04-04-2022 @ 07:08:35 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99500000
+    [vlrMercadoria] => 109.00
+    [peso] => 0.40
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.23
+                    [altura] => 0.10
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 07:08:35 - Braspress Braspress - Rodoviário resposta 200: {"id":162036480,"prazo":1,"totalFrete":38.36}
+04-04-2022 @ 07:34:46 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 22718513
+    [vlrMercadoria] => 309.00
+    [peso] => 3.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.30
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 07:34:46 - Braspress Braspress - Rodoviário resposta 400: {"statusCode":500,"message":"Service Error","dateTime":"04/04/2022 07:34:40","errorList":["Erro ao realizar a cotação de frete: VERIFICANDO CEP DESTINO"]}
+04-04-2022 @ 07:34:46 - Braspress Braspress - Rodoviário erro: Array
+(
+    [statusCode] => 500
+    [message] => Service Error
+    [dateTime] => 04/04/2022 07:34:40
+    [errorList] => Array
+        (
+            [0] => Erro ao realizar a cotação de frete: VERIFICANDO CEP DESTINO
+        )
+
+    [ambiente] => https://api.braspress.com/v1/cotacao/calcular/json
+)
+
+04-04-2022 @ 08:00:48 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 29104498
+    [vlrMercadoria] => 2319.00
+    [peso] => 15.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.70
+                    [altura] => 0.18
+                    [comprimento] => 0.65
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 08:00:48 - Braspress Braspress - Rodoviário resposta 200: {"id":162038691,"prazo":5,"totalFrete":114.85}
+04-04-2022 @ 08:17:10 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99500000
+    [vlrMercadoria] => 109.00
+    [peso] => 0.40
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.23
+                    [altura] => 0.10
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 08:17:10 - Braspress Braspress - Rodoviário resposta 200: {"id":162040012,"prazo":1,"totalFrete":38.36}
+04-04-2022 @ 08:19:49 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 19221924068
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99500000
+    [vlrMercadoria] => 109.00
+    [peso] => 0.40
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.23
+                    [altura] => 0.10
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 08:19:49 - Braspress Braspress - Rodoviário resposta 200: {"id":162040321,"prazo":1,"totalFrete":107.18}
+04-04-2022 @ 08:41:05 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 87060399
+    [vlrMercadoria] => 169.00
+    [peso] => 2.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.25
+                    [altura] => 0.15
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 08:41:05 - Braspress Braspress - Rodoviário resposta 200: {"id":162043003,"prazo":4,"totalFrete":78.19}
+04-04-2022 @ 08:44:45 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 00395211921
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 87060399
+    [vlrMercadoria] => 98.00
+    [peso] => 2.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.33
+                    [altura] => 0.10
+                    [comprimento] => 0.25
+                    [volumes] => 2
+                )
+
+        )
+
+    [volumes] => 2
+)
+
+04-04-2022 @ 08:44:45 - Braspress Braspress - Rodoviário resposta 200: {"id":162043436,"prazo":4,"totalFrete":77.84}
+04-04-2022 @ 08:45:01 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 00395211921
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 87060399
+    [vlrMercadoria] => 98.00
+    [peso] => 2.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.33
+                    [altura] => 0.10
+                    [comprimento] => 0.25
+                    [volumes] => 2
+                )
+
+        )
+
+    [volumes] => 2
+)
+
+04-04-2022 @ 08:45:01 - Braspress Braspress - Rodoviário resposta 200: {"id":162043465,"prazo":4,"totalFrete":77.84}
+04-04-2022 @ 08:45:05 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 00395211921
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 87060399
+    [vlrMercadoria] => 98.00
+    [peso] => 2.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.33
+                    [altura] => 0.10
+                    [comprimento] => 0.25
+                    [volumes] => 2
+                )
+
+        )
+
+    [volumes] => 2
+)
+
+04-04-2022 @ 08:45:05 - Braspress Braspress - Rodoviário resposta 200: {"id":162043479,"prazo":4,"totalFrete":77.84}
+04-04-2022 @ 09:47:26 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 87240000
+    [vlrMercadoria] => 339.00
+    [peso] => 3.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.45
+                    [altura] => 0.45
+                    [comprimento] => 0.45
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 09:47:26 - Braspress Braspress - Rodoviário resposta 200: {"id":162054091,"prazo":4,"totalFrete":74.06}
+04-04-2022 @ 10:28:39 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 83260000
+    [vlrMercadoria] => 159.00
+    [peso] => 1.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.08
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 10:28:39 - Braspress Braspress - Rodoviário resposta 200: {"id":162062478,"prazo":5,"totalFrete":51.29}
+04-04-2022 @ 10:54:33 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 95185000
+    [vlrMercadoria] => 3679.00
+    [peso] => 15.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.70
+                    [altura] => 0.30
+                    [comprimento] => 0.70
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 10:54:33 - Braspress Braspress - Rodoviário resposta 200: {"id":162068181,"prazo":6,"totalFrete":76.43}
+04-04-2022 @ 11:06:18 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 89560254
+    [vlrMercadoria] => 1329.00
+    [peso] => 8.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.50
+                    [altura] => 0.15
+                    [comprimento] => 0.60
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 11:06:18 - Braspress Braspress - Rodoviário resposta 200: {"id":162070875,"prazo":4,"totalFrete":92.58}
+04-04-2022 @ 11:23:09 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 05855300
+    [vlrMercadoria] => 279.00
+    [peso] => 2.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.32
+                    [altura] => 0.08
+                    [comprimento] => 0.32
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 11:23:09 - Braspress Braspress - Rodoviário resposta 200: {"id":162074807,"prazo":4,"totalFrete":105.87}
+04-04-2022 @ 11:28:45 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 05380857973
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 89820000
+    [vlrMercadoria] => 189.00
+    [peso] => 1.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.20
+                    [altura] => 0.10
+                    [comprimento] => 0.25
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 11:28:45 - Braspress Braspress - Rodoviário resposta 200: {"id":162076073,"prazo":3,"totalFrete":130.7}
+04-04-2022 @ 11:28:49 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 05380857973
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 89820000
+    [vlrMercadoria] => 189.00
+    [peso] => 1.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.20
+                    [altura] => 0.10
+                    [comprimento] => 0.25
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 11:28:49 - Braspress Braspress - Rodoviário resposta 200: {"id":162076085,"prazo":3,"totalFrete":130.7}
+04-04-2022 @ 11:32:39 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 08340420
+    [vlrMercadoria] => 619.00
+    [peso] => 9.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.68
+                    [altura] => 0.20
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 11:32:39 - Braspress Braspress - Rodoviário resposta 200: {"id":162077017,"prazo":4,"totalFrete":122.42}
+04-04-2022 @ 11:55:23 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 87240000
+    [vlrMercadoria] => 1368.00
+    [peso] => 11.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.45
+                    [altura] => 0.45
+                    [comprimento] => 0.45
+                    [volumes] => 1
+                )
+
+            [1] => Array
+                (
+                    [largura] => 0.50
+                    [altura] => 0.12
+                    [comprimento] => 0.60
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 2
+)
+
+04-04-2022 @ 11:55:23 - Braspress Braspress - Rodoviário resposta 200: {"id":162081812,"prazo":4,"totalFrete":91.33}
+04-04-2022 @ 11:55:34 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 87240000
+    [vlrMercadoria] => 1029.00
+    [peso] => 8.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.50
+                    [altura] => 0.12
+                    [comprimento] => 0.60
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 11:55:34 - Braspress Braspress - Rodoviário resposta 200: {"id":162081848,"prazo":4,"totalFrete":64.65}
+04-04-2022 @ 11:55:48 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99400000
+    [vlrMercadoria] => 1029.00
+    [peso] => 8.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.50
+                    [altura] => 0.12
+                    [comprimento] => 0.60
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 11:55:48 - Braspress Braspress - Rodoviário resposta 200: {"id":162081893,"prazo":5,"totalFrete":48.37}
+04-04-2022 @ 13:27:46 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 11045401
+    [vlrMercadoria] => 938.00
+    [peso] => 22.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.37
+                    [altura] => 0.70
+                    [comprimento] => 0.42
+                    [volumes] => 1
+                )
+
+            [1] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.45
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+            [2] => Array
+                (
+                    [largura] => 0.20
+                    [altura] => 0.15
+                    [comprimento] => 0.20
+                    [volumes] => 4
+                )
+
+        )
+
+    [volumes] => 6
+)
+
+04-04-2022 @ 13:27:46 - Braspress Braspress - Rodoviário resposta 200: {"id":162096458,"prazo":3,"totalFrete":109.46}
+04-04-2022 @ 13:28:30 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 11045401
+    [vlrMercadoria] => 1576.00
+    [peso] => 29.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.37
+                    [altura] => 0.70
+                    [comprimento] => 0.42
+                    [volumes] => 1
+                )
+
+            [1] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.45
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+            [2] => Array
+                (
+                    [largura] => 0.20
+                    [altura] => 0.15
+                    [comprimento] => 0.20
+                    [volumes] => 4
+                )
+
+            [3] => Array
+                (
+                    [largura] => 0.30
+                    [altura] => 0.20
+                    [comprimento] => 0.35
+                    [volumes] => 2
+                )
+
+        )
+
+    [volumes] => 8
+)
+
+04-04-2022 @ 13:28:30 - Braspress Braspress - Rodoviário resposta 200: {"id":162096607,"prazo":3,"totalFrete":135.91}
+04-04-2022 @ 13:28:39 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 11045401
+    [vlrMercadoria] => 1337.00
+    [peso] => 19.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.37
+                    [altura] => 0.70
+                    [comprimento] => 0.42
+                    [volumes] => 1
+                )
+
+            [1] => Array
+                (
+                    [largura] => 0.20
+                    [altura] => 0.15
+                    [comprimento] => 0.20
+                    [volumes] => 4
+                )
+
+            [2] => Array
+                (
+                    [largura] => 0.30
+                    [altura] => 0.20
+                    [comprimento] => 0.35
+                    [volumes] => 2
+                )
+
+        )
+
+    [volumes] => 7
+)
+
+04-04-2022 @ 13:28:39 - Braspress Braspress - Rodoviário resposta 200: {"id":162096633,"prazo":3,"totalFrete":112.12}
+04-04-2022 @ 13:28:48 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 11045401
+    [vlrMercadoria] => 978.00
+    [peso] => 11.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.20
+                    [altura] => 0.15
+                    [comprimento] => 0.20
+                    [volumes] => 4
+                )
+
+            [1] => Array
+                (
+                    [largura] => 0.30
+                    [altura] => 0.20
+                    [comprimento] => 0.35
+                    [volumes] => 2
+                )
+
+        )
+
+    [volumes] => 6
+)
+
+04-04-2022 @ 13:28:48 - Braspress Braspress - Rodoviário resposta 200: {"id":162096656,"prazo":3,"totalFrete":86.04}
+04-04-2022 @ 13:29:46 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 98740000
+    [vlrMercadoria] => 978.00
+    [peso] => 11.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.20
+                    [altura] => 0.15
+                    [comprimento] => 0.20
+                    [volumes] => 4
+                )
+
+            [1] => Array
+                (
+                    [largura] => 0.30
+                    [altura] => 0.20
+                    [comprimento] => 0.35
+                    [volumes] => 2
+                )
+
+        )
+
+    [volumes] => 6
+)
+
+04-04-2022 @ 13:29:46 - Braspress Braspress - Rodoviário resposta 200: {"id":162096876,"prazo":6,"totalFrete":57.76}
+04-04-2022 @ 14:24:10 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 87560000
+    [vlrMercadoria] => 349.00
+    [peso] => 4.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.35
+                    [altura] => 0.25
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 14:24:10 - Braspress Braspress - Rodoviário resposta 200: {"id":162108585,"prazo":5,"totalFrete":61.27}
+04-04-2022 @ 14:46:19 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 92511330
+    [vlrMercadoria] => 1229.00
+    [peso] => 5.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.15
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 14:46:19 - Braspress Braspress - Rodoviário resposta 400: {"statusCode":500,"message":"Service Error","dateTime":"04/04/2022 14:45:15","errorList":["Erro ao realizar a cotação de frete: VERIFICANDO CEP DESTINO"]}
+04-04-2022 @ 14:46:19 - Braspress Braspress - Rodoviário erro: Array
+(
+    [statusCode] => 500
+    [message] => Service Error
+    [dateTime] => 04/04/2022 14:45:15
+    [errorList] => Array
+        (
+            [0] => Erro ao realizar a cotação de frete: VERIFICANDO CEP DESTINO
+        )
+
+    [ambiente] => https://api.braspress.com/v1/cotacao/calcular/json
+)
+
+04-04-2022 @ 14:55:08 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99400000
+    [vlrMercadoria] => 1658.00
+    [peso] => 12.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.50
+                    [altura] => 0.12
+                    [comprimento] => 0.60
+                    [volumes] => 1
+                )
+
+            [1] => Array
+                (
+                    [largura] => 0.35
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 2
+)
+
+04-04-2022 @ 14:55:08 - Braspress Braspress - Rodoviário resposta 200: {"id":162115579,"prazo":5,"totalFrete":50.61}
+04-04-2022 @ 14:55:32 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99400000
+    [vlrMercadoria] => 1658.00
+    [peso] => 12.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.50
+                    [altura] => 0.12
+                    [comprimento] => 0.60
+                    [volumes] => 1
+                )
+
+            [1] => Array
+                (
+                    [largura] => 0.35
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 2
+)
+
+04-04-2022 @ 14:55:32 - Braspress Braspress - Rodoviário resposta 200: {"id":162115681,"prazo":5,"totalFrete":50.61}
+04-04-2022 @ 14:55:54 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99400000
+    [vlrMercadoria] => 629.00
+    [peso] => 4.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.35
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 14:55:54 - Braspress Braspress - Rodoviário resposta 200: {"id":162115779,"prazo":5,"totalFrete":40.22}
+04-04-2022 @ 14:56:18 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99400000
+    [vlrMercadoria] => 1658.00
+    [peso] => 12.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.50
+                    [altura] => 0.12
+                    [comprimento] => 0.60
+                    [volumes] => 1
+                )
+
+            [1] => Array
+                (
+                    [largura] => 0.35
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 2
+)
+
+04-04-2022 @ 14:56:18 - Braspress Braspress - Rodoviário resposta 200: {"id":162115888,"prazo":5,"totalFrete":50.61}
+04-04-2022 @ 14:56:46 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99400000
+    [vlrMercadoria] => 629.00
+    [peso] => 4.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.35
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 14:56:46 - Braspress Braspress - Rodoviário resposta 200: {"id":162115997,"prazo":5,"totalFrete":40.22}
+04-04-2022 @ 14:57:11 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 30160042
+    [vlrMercadoria] => 629.00
+    [peso] => 4.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.35
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 14:57:11 - Braspress Braspress - Rodoviário resposta 200: {"id":162116110,"prazo":4,"totalFrete":85.41}
+04-04-2022 @ 14:57:45 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 30160042
+    [vlrMercadoria] => 629.00
+    [peso] => 4.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.35
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 14:57:45 - Braspress Braspress - Rodoviário resposta 200: {"id":162116213,"prazo":4,"totalFrete":85.41}
+04-04-2022 @ 14:58:11 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99400000
+    [vlrMercadoria] => 629.00
+    [peso] => 4.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.35
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 14:58:11 - Braspress Braspress - Rodoviário resposta 200: {"id":162116386,"prazo":5,"totalFrete":40.22}
+04-04-2022 @ 14:58:59 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 30160042
+    [vlrMercadoria] => 629.00
+    [peso] => 4.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.35
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 14:58:59 - Braspress Braspress - Rodoviário resposta 200: {"id":162116620,"prazo":4,"totalFrete":85.41}
+04-04-2022 @ 15:22:16 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 91760070
+    [vlrMercadoria] => 109.00
+    [peso] => 0.40
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.23
+                    [altura] => 0.10
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 15:22:16 - Braspress Braspress - Rodoviário resposta 200: {"id":162121976,"prazo":1,"totalFrete":33.69}
+04-04-2022 @ 15:22:37 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 91760070
+    [vlrMercadoria] => 109.00
+    [peso] => 0.40
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.23
+                    [altura] => 0.10
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 15:22:37 - Braspress Braspress - Rodoviário resposta 200: {"id":162122052,"prazo":1,"totalFrete":33.69}
+04-04-2022 @ 15:28:29 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 91760070
+    [vlrMercadoria] => 109.00
+    [peso] => 0.40
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.23
+                    [altura] => 0.10
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 15:28:29 - Braspress Braspress - Rodoviário resposta 200: {"id":162123575,"prazo":1,"totalFrete":33.69}
+04-04-2022 @ 15:59:48 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 88307150
+    [vlrMercadoria] => 359.00
+    [peso] => 3.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.08
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 15:59:48 - Braspress Braspress - Rodoviário resposta 200: {"id":162130742,"prazo":3,"totalFrete":48.44}
+04-04-2022 @ 16:00:58 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 85070050
+    [vlrMercadoria] => 619.00
+    [peso] => 4.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.50
+                    [altura] => 0.10
+                    [comprimento] => 0.50
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 16:00:58 - Braspress Braspress - Rodoviário resposta 200: {"id":162131049,"prazo":3,"totalFrete":51.49}
+04-04-2022 @ 16:14:03 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 95700378
+    [vlrMercadoria] => 249.00
+    [peso] => 2.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.30
+                    [altura] => 0.10
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 16:14:03 - Braspress Braspress - Rodoviário resposta 200: {"id":162133843,"prazo":2,"totalFrete":64.33}
+04-04-2022 @ 16:23:01 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 95880000
+    [vlrMercadoria] => 799.00
+    [peso] => 5.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.12
+                    [comprimento] => 0.50
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 16:23:01 - Braspress Braspress - Rodoviário resposta 200: {"id":162135755,"prazo":2,"totalFrete":40.82}
+04-04-2022 @ 16:23:21 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 29060370
+    [vlrMercadoria] => 1329.00
+    [peso] => 8.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.50
+                    [altura] => 0.15
+                    [comprimento] => 0.60
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 16:23:21 - Braspress Braspress - Rodoviário resposta 200: {"id":162135823,"prazo":5,"totalFrete":95.15}
+04-04-2022 @ 16:27:28 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 10698026896
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 03938030
+    [vlrMercadoria] => 1799.00
+    [peso] => 15.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.70
+                    [altura] => 0.18
+                    [comprimento] => 0.65
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 16:27:28 - Braspress Braspress - Rodoviário resposta 200: {"id":162136799,"prazo":4,"totalFrete":279.68}
+04-04-2022 @ 16:27:33 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 10698026896
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 03938030
+    [vlrMercadoria] => 1799.00
+    [peso] => 15.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.70
+                    [altura] => 0.18
+                    [comprimento] => 0.65
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 16:27:33 - Braspress Braspress - Rodoviário resposta 200: {"id":162136807,"prazo":4,"totalFrete":279.68}
+04-04-2022 @ 16:51:46 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 07080020
+    [vlrMercadoria] => 259.00
+    [peso] => 3.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.30
+                    [altura] => 0.15
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 16:51:46 - Braspress Braspress - Rodoviário resposta 200: {"id":162142178,"prazo":5,"totalFrete":105.7}
+04-04-2022 @ 16:59:52 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 94931023
+    [vlrMercadoria] => 299.00
+    [peso] => 10.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.45
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 16:59:52 - Braspress Braspress - Rodoviário resposta 200: {"id":162143953,"prazo":1,"totalFrete":48.47}
+04-04-2022 @ 17:34:18 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 06110240
+    [vlrMercadoria] => 249.00
+    [peso] => 2.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.08
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 17:34:18 - Braspress Braspress - Rodoviário resposta 400: {"statusCode":500,"message":"Erro Interno","dateTime":"04/04/2022 17:34:18","errorList":["Unable to acquire JDBC Connection; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection"]}
+04-04-2022 @ 17:34:18 - Braspress Braspress - Rodoviário erro: Array
+(
+    [statusCode] => 500
+    [message] => Erro Interno
+    [dateTime] => 04/04/2022 17:34:18
+    [errorList] => Array
+        (
+            [0] => Unable to acquire JDBC Connection; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+        )
+
+    [ambiente] => https://api.braspress.com/v1/cotacao/calcular/json
+)
+
+04-04-2022 @ 17:36:43 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 88740000
+    [vlrMercadoria] => 539.00
+    [peso] => 3.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 17:36:43 - Braspress Braspress - Rodoviário resposta 401: {"statusCode":403,"message":"Authentication failed","dateTime":"04/04/2022 17:36:43","errorList":null}
+
+04-04-2022 @ 17:36:43 - Braspress Braspress - Rodoviário erro: Array
+(
+    [statusCode] => 403
+    [message] => Authentication failed
+    [dateTime] => 04/04/2022 17:36:43
+    [errorList] => 
+    [ambiente] => https://api.braspress.com/v1/cotacao/calcular/json
+)
+
+04-04-2022 @ 17:40:49 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 89825000
+    [vlrMercadoria] => 490.00
+    [peso] => 4.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.35
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 17:40:49 - Braspress Braspress - Rodoviário resposta 401: {"statusCode":403,"message":"Authentication failed","dateTime":"04/04/2022 17:40:49","errorList":null}
+
+04-04-2022 @ 17:40:49 - Braspress Braspress - Rodoviário erro: Array
+(
+    [statusCode] => 403
+    [message] => Authentication failed
+    [dateTime] => 04/04/2022 17:40:49
+    [errorList] => 
+    [ambiente] => https://api.braspress.com/v1/cotacao/calcular/json
+)
+
+04-04-2022 @ 17:44:04 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 89825000
+    [vlrMercadoria] => 419.00
+    [peso] => 4.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 17:44:04 - Braspress Braspress - Rodoviário resposta 400: {"statusCode":500,"message":"Erro Interno","dateTime":"04/04/2022 17:44:04","errorList":["Unable to acquire JDBC Connection; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection"]}
+04-04-2022 @ 17:44:04 - Braspress Braspress - Rodoviário erro: Array
+(
+    [statusCode] => 500
+    [message] => Erro Interno
+    [dateTime] => 04/04/2022 17:44:04
+    [errorList] => Array
+        (
+            [0] => Unable to acquire JDBC Connection; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+        )
+
+    [ambiente] => https://api.braspress.com/v1/cotacao/calcular/json
+)
+
+04-04-2022 @ 17:44:21 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 89825000
+    [vlrMercadoria] => 419.00
+    [peso] => 4.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.10
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 17:44:21 - Braspress Braspress - Rodoviário resposta 500: {"statusCode":500,"message":"Erro interno","dateTime":"04/04/2022 17:44:21","errorList":["Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection"]}
+04-04-2022 @ 17:44:21 - Braspress Braspress - Rodoviário erro: Array
+(
+    [statusCode] => 500
+    [message] => Erro interno
+    [dateTime] => 04/04/2022 17:44:21
+    [errorList] => Array
+        (
+            [0] => Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+        )
+
+    [ambiente] => https://api.braspress.com/v1/cotacao/calcular/json
+)
+
+04-04-2022 @ 18:18:15 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99950000
+    [vlrMercadoria] => 299.00
+    [peso] => 2.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.32
+                    [altura] => 0.08
+                    [comprimento] => 0.32
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 18:18:15 - Braspress Braspress - Rodoviário resposta 200: {"id":162156636,"prazo":2,"totalFrete":39.04}
+04-04-2022 @ 18:18:16 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99950000
+    [vlrMercadoria] => 299.00
+    [peso] => 2.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.32
+                    [altura] => 0.08
+                    [comprimento] => 0.32
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 18:18:16 - Braspress Braspress - Rodoviário resposta 200: {"id":162156642,"prazo":2,"totalFrete":39.04}
+04-04-2022 @ 18:57:53 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 99250000
+    [vlrMercadoria] => 289.00
+    [peso] => 1.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.30
+                    [altura] => 0.20
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 18:57:53 - Braspress Braspress - Rodoviário resposta 200: {"id":162160905,"prazo":3,"totalFrete":39.01}
+04-04-2022 @ 19:02:15 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 97590000
+    [vlrMercadoria] => 189.00
+    [peso] => 1.50
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.08
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 19:02:15 - Braspress Braspress - Rodoviário resposta 200: {"id":162161292,"prazo":4,"totalFrete":38.65}
+04-04-2022 @ 19:08:40 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 97590000
+    [vlrMercadoria] => 249.00
+    [peso] => 2.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.40
+                    [altura] => 0.08
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 19:08:40 - Braspress Braspress - Rodoviário resposta 200: {"id":162161951,"prazo":4,"totalFrete":38.86}
+04-04-2022 @ 19:39:10 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 89012001
+    [vlrMercadoria] => 359.00
+    [peso] => 8.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.37
+                    [altura] => 0.70
+                    [comprimento] => 0.42
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 19:39:10 - Braspress Braspress - Rodoviário resposta 200: {"id":162165164,"prazo":4,"totalFrete":97.56}
+04-04-2022 @ 19:45:12 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 07080020
+    [vlrMercadoria] => 259.00
+    [peso] => 3.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.30
+                    [altura] => 0.15
+                    [comprimento] => 0.40
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 19:45:12 - Braspress Braspress - Rodoviário resposta 200: {"id":162165740,"prazo":5,"totalFrete":105.7}
+04-04-2022 @ 20:09:28 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 36302538
+    [vlrMercadoria] => 259.00
+    [peso] => 1.00
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.25
+                    [altura] => 0.20
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 20:09:28 - Braspress Braspress - Rodoviário resposta 200: {"id":162168237,"prazo":8,"totalFrete":92.89}
+04-04-2022 @ 20:46:06 - Braspress Braspress - Rodoviário envio: Array
+(
+    [cnpjRemetente] => 27399462000180
+    [cnpjDestinatario] => 11111111111111
+    [modal] => R
+    [tipoFrete] => 1
+    [cepOrigem] => 96412830
+    [cepDestino] => 85138300
+    [vlrMercadoria] => 109.00
+    [peso] => 0.40
+    [cubagem] => Array
+        (
+            [0] => Array
+                (
+                    [largura] => 0.23
+                    [altura] => 0.10
+                    [comprimento] => 0.30
+                    [volumes] => 1
+                )
+
+        )
+
+    [volumes] => 1
+)
+
+04-04-2022 @ 20:46:06 - Braspress Braspress - Rodoviário resposta 200: {"id":162172547,"prazo":6,"totalFrete":51.04}

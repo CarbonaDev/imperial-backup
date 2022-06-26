@@ -1,0 +1,11 @@
+2021-02-16T21:37:14+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/host-webfonts-local/includes/api/class-download.php:247
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/host-webfonts-local/includes/api/class-download.php(96): OMGF_API_Download->grab_font_family()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/rest-api/class-wp-rest-server.php(1160): OMGF_API_Download->process()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/rest-api/class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/rest-api/class-wp-rest-server.php(440): WP_REST_Server->dispatch()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): rest_api_loaded()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#7 /opt/bitnami/apps/wordpres, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/host-webfonts-local/includes/api/class-download.php, na linha 247
+

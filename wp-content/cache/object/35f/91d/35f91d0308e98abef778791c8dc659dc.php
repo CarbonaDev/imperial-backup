@@ -1,0 +1,1 @@
+P1¡b<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":6:{s:12:"attribute_id";s:1:"8";s:14:"attribute_name";s:11:"comprimento";s:15:"attribute_label";s:11:"Comprimento";s:14:"attribute_type";s:6:"select";s:17:"attribute_orderby";s:10:"menu_order";s:16:"attribute_public";s:1:"0";}}

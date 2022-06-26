@@ -1,0 +1,160 @@
+2021-09-23T00:01:12+00:00 INFO Iniciando pagamento por crédito
+2021-09-23 00:01:12 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632369435,"amount":500,"cardHolderName":"***","cardNumber":"***","expirationMonth":"06","expirationYear":"2028","securityCode":"***"}
+2021-09-23 00:01:13 DEBUG Response Rede Status Code: 400  {"reference":"1632369435","tid":"10042109222055467771","nsu":"762795211","dateTime":"2021-09-22T21:01:12-03:00","amount":500,"cardBin":"544731","last4":"8052","brand":{"name":"Mastercard","returnCode":"14","returnMessage":"Format error. Verify card data"},"returnCode":"72","returnMessage":"Contact issuer."}
+2021-09-23 00:01:13 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-23 00:01:13 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-23 00:01:13 DEBUG Curl[http_code]: 400
+2021-09-23 00:01:13 DEBUG Curl[header_size]: 279
+2021-09-23 00:01:13 DEBUG Curl[request_size]: 604
+2021-09-23 00:01:13 DEBUG Curl[filetime]: -1
+2021-09-23 00:01:13 DEBUG Curl[ssl_verify_result]: 0
+2021-09-23 00:01:13 DEBUG Curl[redirect_count]: 0
+2021-09-23 00:01:13 DEBUG Curl[total_time]: 0.85427
+2021-09-23 00:01:13 DEBUG Curl[namelookup_time]: 0.003924
+2021-09-23 00:01:13 DEBUG Curl[connect_time]: 0.004741
+2021-09-23 00:01:13 DEBUG Curl[pretransfer_time]: 0.019305
+2021-09-23 00:01:13 DEBUG Curl[size_upload]: 213
+2021-09-23 00:01:13 DEBUG Curl[size_download]: 308
+2021-09-23 00:01:13 DEBUG Curl[speed_download]: 360
+2021-09-23 00:01:13 DEBUG Curl[speed_upload]: 249
+2021-09-23 00:01:13 DEBUG Curl[download_content_length]: 308
+2021-09-23 00:01:13 DEBUG Curl[upload_content_length]: 213
+2021-09-23 00:01:13 DEBUG Curl[starttransfer_time]: 0.854235
+2021-09-23 00:01:13 DEBUG Curl[redirect_time]: 0
+2021-09-23 00:01:13 DEBUG Curl[redirect_url]: 
+2021-09-23 00:01:13 DEBUG Curl[primary_ip]: 23.2.9.190
+2021-09-23 00:01:13 DEBUG Curl[primary_port]: 443
+2021-09-23 00:01:13 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-23 00:01:13 DEBUG Curl[local_port]: 50772
+2021-09-23 00:01:13 DEBUG Curl[http_version]: 2
+2021-09-23 00:01:13 DEBUG Curl[protocol]: 2
+2021-09-23 00:01:13 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-23 00:01:13 DEBUG Curl[scheme]: HTTPS
+2021-09-23 00:01:13 DEBUG Curl[appconnect_time_us]: 19256
+2021-09-23 00:01:13 DEBUG Curl[connect_time_us]: 4741
+2021-09-23 00:01:13 DEBUG Curl[namelookup_time_us]: 3924
+2021-09-23 00:01:13 DEBUG Curl[pretransfer_time_us]: 19305
+2021-09-23 00:01:13 DEBUG Curl[redirect_time_us]: 0
+2021-09-23 00:01:13 DEBUG Curl[starttransfer_time_us]: 854235
+2021-09-23 00:01:13 DEBUG Curl[total_time_us]: 854270
+2021-09-23T00:01:13+00:00 ERROR Erro no pagamento[72]: Contact issuer.
+2021-09-23T00:01:30+00:00 INFO Iniciando pagamento por crédito
+2021-09-23 00:01:30 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632369453,"amount":500,"cardHolderName":"***","cardNumber":"***","expirationMonth":"01","expirationYear":"2028","securityCode":"***"}
+2021-09-23 00:01:31 DEBUG Response Rede Status Code: 400  {"reference":"1632369453","tid":"10022109222058025191","nsu":"762809169","dateTime":"2021-09-22T21:01:30-03:00","amount":500,"cardBin":"544731","last4":"8052","brand":{"name":"Mastercard","returnCode":"57","returnMessage":"Transaction not permitted to cardholder. Do not retry"},"returnCode":"58","returnMessage":"Unauthorized. Contact issuer."}
+2021-09-23 00:01:31 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-23 00:01:31 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-23 00:01:31 DEBUG Curl[http_code]: 400
+2021-09-23 00:01:31 DEBUG Curl[header_size]: 279
+2021-09-23 00:01:31 DEBUG Curl[request_size]: 604
+2021-09-23 00:01:31 DEBUG Curl[filetime]: -1
+2021-09-23 00:01:31 DEBUG Curl[ssl_verify_result]: 0
+2021-09-23 00:01:31 DEBUG Curl[redirect_count]: 0
+2021-09-23 00:01:31 DEBUG Curl[total_time]: 0.887672
+2021-09-23 00:01:31 DEBUG Curl[namelookup_time]: 0.000918
+2021-09-23 00:01:31 DEBUG Curl[connect_time]: 0.001743
+2021-09-23 00:01:31 DEBUG Curl[pretransfer_time]: 0.015755
+2021-09-23 00:01:31 DEBUG Curl[size_upload]: 213
+2021-09-23 00:01:31 DEBUG Curl[size_download]: 345
+2021-09-23 00:01:31 DEBUG Curl[speed_download]: 388
+2021-09-23 00:01:31 DEBUG Curl[speed_upload]: 240
+2021-09-23 00:01:31 DEBUG Curl[download_content_length]: 345
+2021-09-23 00:01:31 DEBUG Curl[upload_content_length]: 213
+2021-09-23 00:01:31 DEBUG Curl[starttransfer_time]: 0.887641
+2021-09-23 00:01:31 DEBUG Curl[redirect_time]: 0
+2021-09-23 00:01:31 DEBUG Curl[redirect_url]: 
+2021-09-23 00:01:31 DEBUG Curl[primary_ip]: 23.2.9.190
+2021-09-23 00:01:31 DEBUG Curl[primary_port]: 443
+2021-09-23 00:01:31 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-23 00:01:31 DEBUG Curl[local_port]: 50784
+2021-09-23 00:01:31 DEBUG Curl[http_version]: 2
+2021-09-23 00:01:31 DEBUG Curl[protocol]: 2
+2021-09-23 00:01:31 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-23 00:01:31 DEBUG Curl[scheme]: HTTPS
+2021-09-23 00:01:31 DEBUG Curl[appconnect_time_us]: 15710
+2021-09-23 00:01:31 DEBUG Curl[connect_time_us]: 1743
+2021-09-23 00:01:31 DEBUG Curl[namelookup_time_us]: 918
+2021-09-23 00:01:31 DEBUG Curl[pretransfer_time_us]: 15755
+2021-09-23 00:01:31 DEBUG Curl[redirect_time_us]: 0
+2021-09-23 00:01:31 DEBUG Curl[starttransfer_time_us]: 887641
+2021-09-23 00:01:31 DEBUG Curl[total_time_us]: 887672
+2021-09-23T00:01:31+00:00 ERROR Erro no pagamento[58]: Unauthorized. Contact issuer.
+2021-09-23T00:02:35+00:00 INFO Iniciando pagamento por crédito
+2021-09-23 00:02:35 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632369518,"amount":500,"cardHolderName":"***","cardNumber":"***","expirationMonth":"012028","securityCode":"***"}
+2021-09-23 00:02:35 DEBUG Response Rede Status Code: 400  {"returnCode":"33","returnMessage":"ExpirationMonth: Invalid parameter format."}
+2021-09-23 00:02:35 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-23 00:02:35 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-23 00:02:35 DEBUG Curl[http_code]: 400
+2021-09-23 00:02:35 DEBUG Curl[header_size]: 278
+2021-09-23 00:02:35 DEBUG Curl[request_size]: 584
+2021-09-23 00:02:35 DEBUG Curl[filetime]: -1
+2021-09-23 00:02:35 DEBUG Curl[ssl_verify_result]: 0
+2021-09-23 00:02:35 DEBUG Curl[redirect_count]: 0
+2021-09-23 00:02:35 DEBUG Curl[total_time]: 0.172749
+2021-09-23 00:02:35 DEBUG Curl[namelookup_time]: 0.003225
+2021-09-23 00:02:35 DEBUG Curl[connect_time]: 0.004435
+2021-09-23 00:02:35 DEBUG Curl[pretransfer_time]: 0.018868
+2021-09-23 00:02:35 DEBUG Curl[size_upload]: 193
+2021-09-23 00:02:35 DEBUG Curl[size_download]: 80
+2021-09-23 00:02:35 DEBUG Curl[speed_download]: 465
+2021-09-23 00:02:35 DEBUG Curl[speed_upload]: 1122
+2021-09-23 00:02:35 DEBUG Curl[download_content_length]: 80
+2021-09-23 00:02:35 DEBUG Curl[upload_content_length]: 193
+2021-09-23 00:02:35 DEBUG Curl[starttransfer_time]: 0.172717
+2021-09-23 00:02:35 DEBUG Curl[redirect_time]: 0
+2021-09-23 00:02:35 DEBUG Curl[redirect_url]: 
+2021-09-23 00:02:35 DEBUG Curl[primary_ip]: 69.192.182.184
+2021-09-23 00:02:35 DEBUG Curl[primary_port]: 443
+2021-09-23 00:02:35 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-23 00:02:35 DEBUG Curl[local_port]: 46832
+2021-09-23 00:02:35 DEBUG Curl[http_version]: 2
+2021-09-23 00:02:35 DEBUG Curl[protocol]: 2
+2021-09-23 00:02:35 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-23 00:02:35 DEBUG Curl[scheme]: HTTPS
+2021-09-23 00:02:35 DEBUG Curl[appconnect_time_us]: 18818
+2021-09-23 00:02:35 DEBUG Curl[connect_time_us]: 4435
+2021-09-23 00:02:35 DEBUG Curl[namelookup_time_us]: 3225
+2021-09-23 00:02:35 DEBUG Curl[pretransfer_time_us]: 18868
+2021-09-23 00:02:35 DEBUG Curl[redirect_time_us]: 0
+2021-09-23 00:02:35 DEBUG Curl[starttransfer_time_us]: 172717
+2021-09-23 00:02:35 DEBUG Curl[total_time_us]: 172749
+2021-09-23T00:02:35+00:00 ERROR Erro no pagamento[33]: ExpirationMonth: Invalid parameter format.
+2021-09-23T00:03:04+00:00 INFO Iniciando pagamento por crédito
+2021-09-23 00:03:04 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632369547,"amount":500,"cardHolderName":"***","cardNumber":"***","expirationMonth":"01","expirationYear":"2028","securityCode":"***"}
+2021-09-23 00:03:14 DEBUG Response Rede Status Code: 400  {"reference":"1632369547","tid":"10022109222058027970","nsu":"762888537","dateTime":"2021-09-22T21:03:13-03:00","amount":500,"cardBin":"544731","last4":"8052","brand":{"name":"Mastercard","returnCode":"57","returnMessage":"Transaction not permitted to cardholder. Do not retry"},"returnCode":"58","returnMessage":"Unauthorized. Contact issuer."}
+2021-09-23 00:03:14 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-23 00:03:14 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-23 00:03:14 DEBUG Curl[http_code]: 400
+2021-09-23 00:03:14 DEBUG Curl[header_size]: 279
+2021-09-23 00:03:14 DEBUG Curl[request_size]: 604
+2021-09-23 00:03:14 DEBUG Curl[filetime]: -1
+2021-09-23 00:03:14 DEBUG Curl[ssl_verify_result]: 0
+2021-09-23 00:03:14 DEBUG Curl[redirect_count]: 0
+2021-09-23 00:03:14 DEBUG Curl[total_time]: 10.014338
+2021-09-23 00:03:14 DEBUG Curl[namelookup_time]: 0.003049
+2021-09-23 00:03:14 DEBUG Curl[connect_time]: 0.004287
+2021-09-23 00:03:14 DEBUG Curl[pretransfer_time]: 7.730995
+2021-09-23 00:03:14 DEBUG Curl[size_upload]: 213
+2021-09-23 00:03:14 DEBUG Curl[size_download]: 345
+2021-09-23 00:03:14 DEBUG Curl[speed_download]: 34
+2021-09-23 00:03:14 DEBUG Curl[speed_upload]: 21
+2021-09-23 00:03:14 DEBUG Curl[download_content_length]: 345
+2021-09-23 00:03:14 DEBUG Curl[upload_content_length]: 213
+2021-09-23 00:03:14 DEBUG Curl[starttransfer_time]: 10.014307
+2021-09-23 00:03:14 DEBUG Curl[redirect_time]: 0
+2021-09-23 00:03:14 DEBUG Curl[redirect_url]: 
+2021-09-23 00:03:14 DEBUG Curl[primary_ip]: 184.84.65.25
+2021-09-23 00:03:14 DEBUG Curl[primary_port]: 443
+2021-09-23 00:03:14 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-23 00:03:14 DEBUG Curl[local_port]: 60242
+2021-09-23 00:03:14 DEBUG Curl[http_version]: 2
+2021-09-23 00:03:14 DEBUG Curl[protocol]: 2
+2021-09-23 00:03:14 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-23 00:03:14 DEBUG Curl[scheme]: HTTPS
+2021-09-23 00:03:14 DEBUG Curl[appconnect_time_us]: 7730930
+2021-09-23 00:03:14 DEBUG Curl[connect_time_us]: 4287
+2021-09-23 00:03:14 DEBUG Curl[namelookup_time_us]: 3049
+2021-09-23 00:03:14 DEBUG Curl[pretransfer_time_us]: 7730995
+2021-09-23 00:03:14 DEBUG Curl[redirect_time_us]: 0
+2021-09-23 00:03:14 DEBUG Curl[starttransfer_time_us]: 10014307
+2021-09-23 00:03:14 DEBUG Curl[total_time_us]: 10014338
+2021-09-23T00:03:14+00:00 ERROR Erro no pagamento[58]: Unauthorized. Contact issuer.

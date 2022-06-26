@@ -1,0 +1,1 @@
+ú4¡b<?php exit; ?>a:1:{s:7:"content";a:5:{i:0;O:8:"stdClass":1:{s:7:"term_id";s:3:"252";}i:1;O:8:"stdClass":1:{s:7:"term_id";s:2:"74";}i:2;O:8:"stdClass":1:{s:7:"term_id";s:2:"75";}i:3;O:8:"stdClass":1:{s:7:"term_id";s:2:"76";}i:4;O:8:"stdClass":1:{s:7:"term_id";s:2:"77";}}}

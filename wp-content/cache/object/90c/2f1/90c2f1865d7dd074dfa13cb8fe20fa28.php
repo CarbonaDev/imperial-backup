@@ -1,0 +1,1 @@
+º5¡b<?php exit; ?>a:1:{s:7:"content";a:5:{s:22:"order_pa_descanso-copo";a:1:{i:0;s:1:"0";}s:36:"_wc_facebook_google_product_category";a:1:{i:0;s:0:"";}s:60:"_wc_facebook_enhanced_catalog_attributes___optional_selector";a:1:{i:0;N;}s:23:"product_attribute_image";a:1:{i:0;s:5:"20716";}s:24:"product_pa_descanso-copo";a:1:{i:0;s:5:"20716";}}}

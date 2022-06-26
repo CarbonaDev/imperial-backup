@@ -1,0 +1,508 @@
+08-24-2021 @ 18:55:10 - Debug Cielo HTTP: 201
+08-24-2021 @ 18:55:10 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 13210
+    [Customer] => Array
+        (
+            [Name] => Geisa Schierholt
+            [Email] => geisa@lambelambemix.com.br
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 51602
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 9
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 422061****3576
+                    [Holder] => geisa m schierholt 
+                    [ExpirationDate] => 11/2028
+                    [SecurityCode] => 332
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+08-24-2021 @ 18:55:10 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #415
+    [response] => {"MerchantOrderId":"13210","Customer":{"Name":"Geisa Schierholt","Email":"geisa@lambelambemix.com.br"},"Payment":{"ServiceTaxAmount":0,"Installments":9,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"422061******3576","Holder":"geisa m schierholt ","ExpirationDate":"11/2028","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010013021089726907061716795"},"Tid":"280720451613VFPTDKIC","ProofOfSale":"051001","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":51602,"ReceivedDate":"2021-08-24 18:55:09","Status":3,"IsSplitted":false,"ReturnMessage":"Autorizacao negada","ReturnCode":"51","PaymentId":"a379c3f2-d7b0-4b82-b8b3-b1318cc3905d","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/a379c3f2-d7b0-4b82-b8b3-b1318cc3905d"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 364
+            [request_size] => 798
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.373463
+            [namelookup_time] => 0.101471
+            [connect_time] => 0.218694
+            [pretransfer_time] => 0.464991
+            [size_upload] => 519
+            [size_download] => 925
+            [speed_download] => 673
+            [speed_upload] => 378
+            [download_content_length] => 925
+            [upload_content_length] => 519
+            [starttransfer_time] => 1.373428
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 54630
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 464920
+            [connect_time_us] => 218694
+            [namelookup_time_us] => 101471
+            [pretransfer_time_us] => 464991
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1373428
+            [total_time_us] => 1373463
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+08-24-2021 @ 18:56:26 - Debug Cielo HTTP: 201
+08-24-2021 @ 18:56:26 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 13210
+    [Customer] => Array
+        (
+            [Name] => Geisa Schierholt
+            [Email] => geisa@lambelambemix.com.br
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 51602
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 10
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 422061****3576
+                    [Holder] => geisa m schierholt
+                    [ExpirationDate] => 11/2028
+                    [SecurityCode] => 332
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+08-24-2021 @ 18:56:26 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #371
+    [response] => {"MerchantOrderId":"13210","Customer":{"Name":"Geisa Schierholt","Email":"geisa@lambelambemix.com.br"},"Payment":{"ServiceTaxAmount":0,"Installments":10,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"422061******3576","Holder":"geisa m schierholt","ExpirationDate":"11/2028","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010013021089726907061716795"},"Tid":"280720451613VFPTE1VC","ProofOfSale":"051003","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":51602,"ReceivedDate":"2021-08-24 18:56:25","Status":3,"IsSplitted":false,"ReturnMessage":"Autorizacao negada","ReturnCode":"51","PaymentId":"5b5a7305-a4a9-4fc6-92c3-be7b688b9511","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/5b5a7305-a4a9-4fc6-92c3-be7b688b9511"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 798
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.639137
+            [namelookup_time] => 0.139628
+            [connect_time] => 0.25947
+            [pretransfer_time] => 0.506486
+            [size_upload] => 519
+            [size_download] => 925
+            [speed_download] => 564
+            [speed_upload] => 316
+            [download_content_length] => 925
+            [upload_content_length] => 519
+            [starttransfer_time] => 1.639105
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 54664
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 506412
+            [connect_time_us] => 259470
+            [namelookup_time_us] => 139628
+            [pretransfer_time_us] => 506486
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1639105
+            [total_time_us] => 1639137
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+08-24-2021 @ 18:57:25 - Debug Cielo HTTP: 201
+08-24-2021 @ 18:57:25 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 13210
+    [Customer] => Array
+        (
+            [Name] => Geisa Schierholt
+            [Email] => geisa@lambelambemix.com.br
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 51602
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 10
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 422061****3576
+                    [Holder] => geisa m schierholt
+                    [ExpirationDate] => 11/2028
+                    [SecurityCode] => 332
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+08-24-2021 @ 18:57:25 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #371
+    [response] => {"MerchantOrderId":"13210","Customer":{"Name":"Geisa Schierholt","Email":"geisa@lambelambemix.com.br"},"Payment":{"ServiceTaxAmount":0,"Installments":10,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"422061******3576","Holder":"geisa m schierholt","ExpirationDate":"11/2028","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010013021089726907061716795"},"Tid":"280720451613VFPSR9SC","ProofOfSale":"052001","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":51602,"ReceivedDate":"2021-08-24 18:57:24","Status":3,"IsSplitted":false,"ReturnMessage":"Autorizacao negada","ReturnCode":"51","PaymentId":"c5dd47b4-9518-4bb7-a082-a6df42c3519f","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/c5dd47b4-9518-4bb7-a082-a6df42c3519f"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 364
+            [request_size] => 798
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.185318
+            [namelookup_time] => 0.003799
+            [connect_time] => 0.121636
+            [pretransfer_time] => 0.368545
+            [size_upload] => 519
+            [size_download] => 925
+            [speed_download] => 780
+            [speed_upload] => 437
+            [download_content_length] => 925
+            [upload_content_length] => 519
+            [starttransfer_time] => 1.185287
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 54692
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 368489
+            [connect_time_us] => 121636
+            [namelookup_time_us] => 3799
+            [pretransfer_time_us] => 368545
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1185287
+            [total_time_us] => 1185318
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+08-24-2021 @ 18:58:21 - Debug Cielo HTTP: 201
+08-24-2021 @ 18:58:21 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 13210
+    [Customer] => Array
+        (
+            [Name] => Geisa marlei Schierholt
+            [Email] => geisa@lambelambemix.com.br
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 51602
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 10
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 422061****3576
+                    [Holder] => geisa m schierholt
+                    [ExpirationDate] => 11/2028
+                    [SecurityCode] => 332
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+08-24-2021 @ 18:58:21 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #370
+    [response] => {"MerchantOrderId":"13210","Customer":{"Name":"Geisa marlei Schierholt","Email":"geisa@lambelambemix.com.br"},"Payment":{"ServiceTaxAmount":0,"Installments":10,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"422061******3576","Holder":"geisa m schierholt","ExpirationDate":"11/2028","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010013021089726907061716795"},"Tid":"280720451613VFPU1ONC","ProofOfSale":"053001","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":51602,"ReceivedDate":"2021-08-24 18:58:20","Status":3,"IsSplitted":false,"ReturnMessage":"Autorizacao negada","ReturnCode":"51","PaymentId":"a8985ff8-a720-4e13-bd15-914f57e41d11","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/a8985ff8-a720-4e13-bd15-914f57e41d11"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 805
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.609036
+            [namelookup_time] => 0.003159
+            [connect_time] => 0.120286
+            [pretransfer_time] => 0.365177
+            [size_upload] => 526
+            [size_download] => 932
+            [speed_download] => 579
+            [speed_upload] => 326
+            [download_content_length] => 932
+            [upload_content_length] => 526
+            [starttransfer_time] => 1.609005
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 54718
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 365101
+            [connect_time_us] => 120286
+            [namelookup_time_us] => 3159
+            [pretransfer_time_us] => 365177
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1609005
+            [total_time_us] => 1609036
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

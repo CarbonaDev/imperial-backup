@@ -1,0 +1,1 @@
+×1¡b<?php exit; ?>a:1:{s:7:"content";a:7:{s:8:"6201-039";s:8:"6201-039";s:11:"comprimento";s:11:"Comprimento";s:3:"cor";s:3:"Cor";s:13:"descanso-copo";s:13:"Descanso Copo";s:7:"largura";s:7:"Largura";s:7:"tamanho";s:7:"Tamanho";s:5:"teste";s:5:"teste";}}

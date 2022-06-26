@@ -1,0 +1,12 @@
+2021-06-08T15:45:40+00:00 CRITICAL Uncaught Error: Call to undefined function mipro_get_opt() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/mipro-core/includes/shortcodes.php:26
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): Mipro_Custom_Shortcodes->register_scripts()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/script-loader.php(2027): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): WP_Customize_Manager->setup_theme()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /opt/bitnami/apps/wordpress, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/mipro-core/includes/shortcodes.php, na linha 26
+

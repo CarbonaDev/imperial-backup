@@ -1,0 +1,1 @@
+Ø0¡b<?php exit; ?>a:1:{s:7:"content";a:4:{s:20:"order_pa_comprimento";a:1:{i:0;s:1:"0";}s:36:"_wc_facebook_google_product_category";a:1:{i:0;s:0:"";}s:60:"_wc_facebook_enhanced_catalog_attributes___optional_selector";a:1:{i:0;N;}s:22:"product_pa_comprimento";a:1:{i:0;s:0:"";}}}

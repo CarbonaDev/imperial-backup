@@ -1,0 +1,400 @@
+2021-09-21T02:18:59+00:00 INFO Iniciando pagamento por crédito
+2021-09-21 02:18:59 DEBUG Request Rede POST https://api.userede.com.br/desenvolvedores/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632204835,"amount":12900,"cardHolderName":"***","cardNumber":"***","expirationMonth":"12","expirationYear":"2021","securityCode":"***","softDescriptor":"Imperial Tapetes"}
+2021-09-21 02:19:00 DEBUG Response Rede Status Code: 401  {     "returnCode": "25",     "returnMessage": "Affiliation: Invalid parameter format." } 
+2021-09-21 02:19:00 DEBUG Curl[url]: https://api.userede.com.br/desenvolvedores/v1/transactions
+2021-09-21 02:19:00 DEBUG Curl[content_type]: application/json
+2021-09-21 02:19:00 DEBUG Curl[http_code]: 401
+2021-09-21 02:19:00 DEBUG Curl[header_size]: 644
+2021-09-21 02:19:00 DEBUG Curl[request_size]: 640
+2021-09-21 02:19:00 DEBUG Curl[filetime]: -1
+2021-09-21 02:19:00 DEBUG Curl[ssl_verify_result]: 0
+2021-09-21 02:19:00 DEBUG Curl[redirect_count]: 0
+2021-09-21 02:19:00 DEBUG Curl[total_time]: 1.461847
+2021-09-21 02:19:00 DEBUG Curl[namelookup_time]: 0.105163
+2021-09-21 02:19:00 DEBUG Curl[connect_time]: 0.106473
+2021-09-21 02:19:00 DEBUG Curl[pretransfer_time]: 0.122269
+2021-09-21 02:19:00 DEBUG Curl[size_upload]: 239
+2021-09-21 02:19:00 DEBUG Curl[size_download]: 90
+2021-09-21 02:19:00 DEBUG Curl[speed_download]: 61
+2021-09-21 02:19:00 DEBUG Curl[speed_upload]: 163
+2021-09-21 02:19:00 DEBUG Curl[download_content_length]: 90
+2021-09-21 02:19:00 DEBUG Curl[upload_content_length]: 239
+2021-09-21 02:19:00 DEBUG Curl[starttransfer_time]: 1.461815
+2021-09-21 02:19:00 DEBUG Curl[redirect_time]: 0
+2021-09-21 02:19:00 DEBUG Curl[redirect_url]: 
+2021-09-21 02:19:00 DEBUG Curl[primary_ip]: 69.192.182.184
+2021-09-21 02:19:00 DEBUG Curl[primary_port]: 443
+2021-09-21 02:19:00 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-21 02:19:00 DEBUG Curl[local_port]: 49536
+2021-09-21 02:19:00 DEBUG Curl[http_version]: 2
+2021-09-21 02:19:00 DEBUG Curl[protocol]: 2
+2021-09-21 02:19:00 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-21 02:19:00 DEBUG Curl[scheme]: HTTPS
+2021-09-21 02:19:00 DEBUG Curl[appconnect_time_us]: 122221
+2021-09-21 02:19:00 DEBUG Curl[connect_time_us]: 106473
+2021-09-21 02:19:00 DEBUG Curl[namelookup_time_us]: 105163
+2021-09-21 02:19:00 DEBUG Curl[pretransfer_time_us]: 122269
+2021-09-21 02:19:00 DEBUG Curl[redirect_time_us]: 0
+2021-09-21 02:19:00 DEBUG Curl[starttransfer_time_us]: 1461815
+2021-09-21 02:19:00 DEBUG Curl[total_time_us]: 1461847
+2021-09-21T02:19:00+00:00 ERROR Erro no pagamento[25]: Affiliation: Invalid parameter format.
+2021-09-21T02:21:54+00:00 INFO Iniciando pagamento por crédito
+2021-09-21 02:21:54 DEBUG Request Rede POST https://api.userede.com.br/desenvolvedores/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632205010,"amount":12900,"cardHolderName":"***","cardNumber":"***","expirationMonth":"01","expirationYear":"2028","securityCode":"***","softDescriptor":"Imperial Tapetes"}
+2021-09-21 02:21:55 DEBUG Response Rede Status Code: 401  {     "returnCode": "25",     "returnMessage": "Affiliation: Invalid parameter format." } 
+2021-09-21 02:21:55 DEBUG Curl[url]: https://api.userede.com.br/desenvolvedores/v1/transactions
+2021-09-21 02:21:55 DEBUG Curl[content_type]: application/json
+2021-09-21 02:21:55 DEBUG Curl[http_code]: 401
+2021-09-21 02:21:55 DEBUG Curl[header_size]: 644
+2021-09-21 02:21:55 DEBUG Curl[request_size]: 640
+2021-09-21 02:21:55 DEBUG Curl[filetime]: -1
+2021-09-21 02:21:55 DEBUG Curl[ssl_verify_result]: 0
+2021-09-21 02:21:55 DEBUG Curl[redirect_count]: 0
+2021-09-21 02:21:55 DEBUG Curl[total_time]: 0.992959
+2021-09-21 02:21:55 DEBUG Curl[namelookup_time]: 0.003234
+2021-09-21 02:21:55 DEBUG Curl[connect_time]: 0.004419
+2021-09-21 02:21:55 DEBUG Curl[pretransfer_time]: 0.018474
+2021-09-21 02:21:55 DEBUG Curl[size_upload]: 239
+2021-09-21 02:21:55 DEBUG Curl[size_download]: 90
+2021-09-21 02:21:55 DEBUG Curl[speed_download]: 90
+2021-09-21 02:21:55 DEBUG Curl[speed_upload]: 240
+2021-09-21 02:21:55 DEBUG Curl[download_content_length]: 90
+2021-09-21 02:21:55 DEBUG Curl[upload_content_length]: 239
+2021-09-21 02:21:55 DEBUG Curl[starttransfer_time]: 0.992931
+2021-09-21 02:21:55 DEBUG Curl[redirect_time]: 0
+2021-09-21 02:21:55 DEBUG Curl[redirect_url]: 
+2021-09-21 02:21:55 DEBUG Curl[primary_ip]: 69.192.182.184
+2021-09-21 02:21:55 DEBUG Curl[primary_port]: 443
+2021-09-21 02:21:55 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-21 02:21:55 DEBUG Curl[local_port]: 49602
+2021-09-21 02:21:55 DEBUG Curl[http_version]: 2
+2021-09-21 02:21:55 DEBUG Curl[protocol]: 2
+2021-09-21 02:21:55 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-21 02:21:55 DEBUG Curl[scheme]: HTTPS
+2021-09-21 02:21:55 DEBUG Curl[appconnect_time_us]: 18423
+2021-09-21 02:21:55 DEBUG Curl[connect_time_us]: 4419
+2021-09-21 02:21:55 DEBUG Curl[namelookup_time_us]: 3234
+2021-09-21 02:21:55 DEBUG Curl[pretransfer_time_us]: 18474
+2021-09-21 02:21:55 DEBUG Curl[redirect_time_us]: 0
+2021-09-21 02:21:55 DEBUG Curl[starttransfer_time_us]: 992931
+2021-09-21 02:21:55 DEBUG Curl[total_time_us]: 992959
+2021-09-21T02:21:55+00:00 ERROR Erro no pagamento[25]: Affiliation: Invalid parameter format.
+2021-09-21T02:37:10+00:00 INFO Iniciando pagamento por crédito
+2021-09-21 02:37:10 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632205928,"amount":500,"cardHolderName":"***","cardNumber":"***","expirationMonth":"05","expirationYear":"2027","securityCode":"***","softDescriptor":"Imperial Tapetes"}
+2021-09-21 02:37:11 DEBUG Response Rede Status Code: 400  {"returnCode":"55","returnMessage":"CardHolderName: Invalid parameter size."}
+2021-09-21 02:37:11 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-21 02:37:11 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-21 02:37:11 DEBUG Curl[http_code]: 400
+2021-09-21 02:37:11 DEBUG Curl[header_size]: 278
+2021-09-21 02:37:11 DEBUG Curl[request_size]: 657
+2021-09-21 02:37:11 DEBUG Curl[filetime]: -1
+2021-09-21 02:37:11 DEBUG Curl[ssl_verify_result]: 0
+2021-09-21 02:37:11 DEBUG Curl[redirect_count]: 0
+2021-09-21 02:37:11 DEBUG Curl[total_time]: 0.365995
+2021-09-21 02:37:11 DEBUG Curl[namelookup_time]: 0.192746
+2021-09-21 02:37:11 DEBUG Curl[connect_time]: 0.19387
+2021-09-21 02:37:11 DEBUG Curl[pretransfer_time]: 0.207552
+2021-09-21 02:37:11 DEBUG Curl[size_upload]: 266
+2021-09-21 02:37:11 DEBUG Curl[size_download]: 77
+2021-09-21 02:37:11 DEBUG Curl[speed_download]: 210
+2021-09-21 02:37:11 DEBUG Curl[speed_upload]: 728
+2021-09-21 02:37:11 DEBUG Curl[download_content_length]: 77
+2021-09-21 02:37:11 DEBUG Curl[upload_content_length]: 266
+2021-09-21 02:37:11 DEBUG Curl[starttransfer_time]: 0.365967
+2021-09-21 02:37:11 DEBUG Curl[redirect_time]: 0
+2021-09-21 02:37:11 DEBUG Curl[redirect_url]: 
+2021-09-21 02:37:11 DEBUG Curl[primary_ip]: 23.196.56.23
+2021-09-21 02:37:11 DEBUG Curl[primary_port]: 443
+2021-09-21 02:37:11 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-21 02:37:11 DEBUG Curl[local_port]: 52270
+2021-09-21 02:37:11 DEBUG Curl[http_version]: 2
+2021-09-21 02:37:11 DEBUG Curl[protocol]: 2
+2021-09-21 02:37:11 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-21 02:37:11 DEBUG Curl[scheme]: HTTPS
+2021-09-21 02:37:11 DEBUG Curl[appconnect_time_us]: 207504
+2021-09-21 02:37:11 DEBUG Curl[connect_time_us]: 193870
+2021-09-21 02:37:11 DEBUG Curl[namelookup_time_us]: 192746
+2021-09-21 02:37:11 DEBUG Curl[pretransfer_time_us]: 207552
+2021-09-21 02:37:11 DEBUG Curl[redirect_time_us]: 0
+2021-09-21 02:37:11 DEBUG Curl[starttransfer_time_us]: 365967
+2021-09-21 02:37:11 DEBUG Curl[total_time_us]: 365995
+2021-09-21T02:37:11+00:00 ERROR Erro no pagamento[55]: CardHolderName: Invalid parameter size.
+2021-09-21T02:42:05+00:00 INFO Iniciando pagamento por crédito
+2021-09-21 02:42:05 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632206223,"amount":500,"cardHolderName":"***","cardNumber":"***","expirationMonth":"05","expirationYear":"2027","securityCode":"***","softDescriptor":"Imperial Tapetes"}
+2021-09-21 02:42:05 DEBUG Response Rede Status Code: 422  {"returnCode":"63","returnMessage":"Softdescriptor: Not enabled for this merchant."}
+2021-09-21 02:42:05 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-21 02:42:05 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-21 02:42:05 DEBUG Curl[http_code]: 422
+2021-09-21 02:42:05 DEBUG Curl[header_size]: 287
+2021-09-21 02:42:05 DEBUG Curl[request_size]: 642
+2021-09-21 02:42:05 DEBUG Curl[filetime]: -1
+2021-09-21 02:42:05 DEBUG Curl[ssl_verify_result]: 0
+2021-09-21 02:42:05 DEBUG Curl[redirect_count]: 0
+2021-09-21 02:42:05 DEBUG Curl[total_time]: 0.18205
+2021-09-21 02:42:05 DEBUG Curl[namelookup_time]: 0.003439
+2021-09-21 02:42:05 DEBUG Curl[connect_time]: 0.004666
+2021-09-21 02:42:05 DEBUG Curl[pretransfer_time]: 0.018736
+2021-09-21 02:42:05 DEBUG Curl[size_upload]: 251
+2021-09-21 02:42:05 DEBUG Curl[size_download]: 84
+2021-09-21 02:42:05 DEBUG Curl[speed_download]: 461
+2021-09-21 02:42:05 DEBUG Curl[speed_upload]: 1379
+2021-09-21 02:42:05 DEBUG Curl[download_content_length]: 84
+2021-09-21 02:42:05 DEBUG Curl[upload_content_length]: 251
+2021-09-21 02:42:05 DEBUG Curl[starttransfer_time]: 0.18202
+2021-09-21 02:42:05 DEBUG Curl[redirect_time]: 0
+2021-09-21 02:42:05 DEBUG Curl[redirect_url]: 
+2021-09-21 02:42:05 DEBUG Curl[primary_ip]: 69.192.182.184
+2021-09-21 02:42:05 DEBUG Curl[primary_port]: 443
+2021-09-21 02:42:05 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-21 02:42:05 DEBUG Curl[local_port]: 49970
+2021-09-21 02:42:05 DEBUG Curl[http_version]: 2
+2021-09-21 02:42:05 DEBUG Curl[protocol]: 2
+2021-09-21 02:42:05 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-21 02:42:05 DEBUG Curl[scheme]: HTTPS
+2021-09-21 02:42:05 DEBUG Curl[appconnect_time_us]: 18691
+2021-09-21 02:42:05 DEBUG Curl[connect_time_us]: 4666
+2021-09-21 02:42:05 DEBUG Curl[namelookup_time_us]: 3439
+2021-09-21 02:42:05 DEBUG Curl[pretransfer_time_us]: 18736
+2021-09-21 02:42:05 DEBUG Curl[redirect_time_us]: 0
+2021-09-21 02:42:05 DEBUG Curl[starttransfer_time_us]: 182020
+2021-09-21 02:42:05 DEBUG Curl[total_time_us]: 182050
+2021-09-21T02:42:05+00:00 ERROR Erro no pagamento[63]: Softdescriptor: Not enabled for this merchant.
+2021-09-21T02:42:26+00:00 INFO Iniciando pagamento por crédito
+2021-09-21 02:42:26 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632206244,"amount":500,"cardHolderName":"***","cardNumber":"***","expirationMonth":"05","expirationYear":"2027","securityCode":"***","softDescriptor":"Imperial Tapetes"}
+2021-09-21 02:42:26 DEBUG Response Rede Status Code: 400  {"returnCode":"55","returnMessage":"CardHolderName: Invalid parameter size."}
+2021-09-21 02:42:26 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-21 02:42:26 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-21 02:42:26 DEBUG Curl[http_code]: 400
+2021-09-21 02:42:26 DEBUG Curl[header_size]: 278
+2021-09-21 02:42:26 DEBUG Curl[request_size]: 657
+2021-09-21 02:42:26 DEBUG Curl[filetime]: -1
+2021-09-21 02:42:26 DEBUG Curl[ssl_verify_result]: 0
+2021-09-21 02:42:26 DEBUG Curl[redirect_count]: 0
+2021-09-21 02:42:26 DEBUG Curl[total_time]: 0.291254
+2021-09-21 02:42:26 DEBUG Curl[namelookup_time]: 0.109573
+2021-09-21 02:42:26 DEBUG Curl[connect_time]: 0.110549
+2021-09-21 02:42:26 DEBUG Curl[pretransfer_time]: 0.125911
+2021-09-21 02:42:26 DEBUG Curl[size_upload]: 266
+2021-09-21 02:42:26 DEBUG Curl[size_download]: 77
+2021-09-21 02:42:26 DEBUG Curl[speed_download]: 264
+2021-09-21 02:42:26 DEBUG Curl[speed_upload]: 914
+2021-09-21 02:42:26 DEBUG Curl[download_content_length]: 77
+2021-09-21 02:42:26 DEBUG Curl[upload_content_length]: 266
+2021-09-21 02:42:26 DEBUG Curl[starttransfer_time]: 0.291225
+2021-09-21 02:42:26 DEBUG Curl[redirect_time]: 0
+2021-09-21 02:42:26 DEBUG Curl[redirect_url]: 
+2021-09-21 02:42:26 DEBUG Curl[primary_ip]: 23.196.56.23
+2021-09-21 02:42:26 DEBUG Curl[primary_port]: 443
+2021-09-21 02:42:26 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-21 02:42:26 DEBUG Curl[local_port]: 52374
+2021-09-21 02:42:26 DEBUG Curl[http_version]: 2
+2021-09-21 02:42:26 DEBUG Curl[protocol]: 2
+2021-09-21 02:42:26 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-21 02:42:26 DEBUG Curl[scheme]: HTTPS
+2021-09-21 02:42:26 DEBUG Curl[appconnect_time_us]: 125854
+2021-09-21 02:42:26 DEBUG Curl[connect_time_us]: 110549
+2021-09-21 02:42:26 DEBUG Curl[namelookup_time_us]: 109573
+2021-09-21 02:42:26 DEBUG Curl[pretransfer_time_us]: 125911
+2021-09-21 02:42:26 DEBUG Curl[redirect_time_us]: 0
+2021-09-21 02:42:26 DEBUG Curl[starttransfer_time_us]: 291225
+2021-09-21 02:42:26 DEBUG Curl[total_time_us]: 291254
+2021-09-21T02:42:26+00:00 ERROR Erro no pagamento[55]: CardHolderName: Invalid parameter size.
+2021-09-21T02:46:07+00:00 INFO Iniciando pagamento por crédito
+2021-09-21 02:46:07 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632206465,"amount":500,"cardHolderName":"***","cardNumber":"***","expirationMonth":"05","expirationYear":"2027","securityCode":"***"}
+2021-09-21 02:46:08 DEBUG Response Rede Status Code: 200  {"reference":"1632206465","tid":"11082109202337463354","nsu":"884659111","dateTime":"2021-09-20T23:46:07-03:00","amount":500,"cardBin":"523421","last4":"9756","brand":{"name":"Mastercard","returnCode":"00","returnMessage":"Success.","authorizationCode":"235267","brandTid":"235267"},"returnCode":"00","returnMessage":"Success.","links":[{"method":"GET","rel":"transaction","href":"https://api.userede.com.br/erede/v1/transactions/11082109202337463354"},{"method":"POST","rel":"refund","href":"https://api.userede.com.br/erede/v1/transactions/11082109202337463354/refunds"}]}
+2021-09-21 02:46:08 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-21 02:46:08 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-21 02:46:08 DEBUG Curl[http_code]: 200
+2021-09-21 02:46:08 DEBUG Curl[header_size]: 275
+2021-09-21 02:46:08 DEBUG Curl[request_size]: 598
+2021-09-21 02:46:08 DEBUG Curl[filetime]: -1
+2021-09-21 02:46:08 DEBUG Curl[ssl_verify_result]: 0
+2021-09-21 02:46:08 DEBUG Curl[redirect_count]: 0
+2021-09-21 02:46:08 DEBUG Curl[total_time]: 1.450009
+2021-09-21 02:46:08 DEBUG Curl[namelookup_time]: 0.00356
+2021-09-21 02:46:08 DEBUG Curl[connect_time]: 0.005135
+2021-09-21 02:46:08 DEBUG Curl[pretransfer_time]: 0.019725
+2021-09-21 02:46:08 DEBUG Curl[size_upload]: 207
+2021-09-21 02:46:08 DEBUG Curl[size_download]: 574
+2021-09-21 02:46:08 DEBUG Curl[speed_download]: 395
+2021-09-21 02:46:08 DEBUG Curl[speed_upload]: 142
+2021-09-21 02:46:08 DEBUG Curl[download_content_length]: 574
+2021-09-21 02:46:08 DEBUG Curl[upload_content_length]: 207
+2021-09-21 02:46:08 DEBUG Curl[starttransfer_time]: 1.449981
+2021-09-21 02:46:08 DEBUG Curl[redirect_time]: 0
+2021-09-21 02:46:08 DEBUG Curl[redirect_url]: 
+2021-09-21 02:46:08 DEBUG Curl[primary_ip]: 23.196.56.23
+2021-09-21 02:46:08 DEBUG Curl[primary_port]: 443
+2021-09-21 02:46:08 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-21 02:46:08 DEBUG Curl[local_port]: 52412
+2021-09-21 02:46:08 DEBUG Curl[http_version]: 2
+2021-09-21 02:46:08 DEBUG Curl[protocol]: 2
+2021-09-21 02:46:08 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-21 02:46:08 DEBUG Curl[scheme]: HTTPS
+2021-09-21 02:46:08 DEBUG Curl[appconnect_time_us]: 19673
+2021-09-21 02:46:08 DEBUG Curl[connect_time_us]: 5135
+2021-09-21 02:46:08 DEBUG Curl[namelookup_time_us]: 3560
+2021-09-21 02:46:08 DEBUG Curl[pretransfer_time_us]: 19725
+2021-09-21 02:46:08 DEBUG Curl[redirect_time_us]: 0
+2021-09-21 02:46:08 DEBUG Curl[starttransfer_time_us]: 1449981
+2021-09-21 02:46:08 DEBUG Curl[total_time_us]: 1450009
+2021-09-21T02:46:08+00:00 INFO Rede[00]: Success.
+2021-09-21 12:13:19 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions/11082109202337463354/refunds User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"amount":0}
+2021-09-21 12:13:20 DEBUG Response Rede Status Code: 400  {"returnCode":"73","returnMessage":"Amount: Required parameter missing."}
+2021-09-21 12:13:20 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions/11082109202337463354/refunds
+2021-09-21 12:13:20 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-21 12:13:20 DEBUG Curl[http_code]: 400
+2021-09-21 12:13:20 DEBUG Curl[header_size]: 278
+2021-09-21 12:13:20 DEBUG Curl[request_size]: 431
+2021-09-21 12:13:20 DEBUG Curl[filetime]: -1
+2021-09-21 12:13:20 DEBUG Curl[ssl_verify_result]: 0
+2021-09-21 12:13:20 DEBUG Curl[redirect_count]: 0
+2021-09-21 12:13:20 DEBUG Curl[total_time]: 0.481332
+2021-09-21 12:13:20 DEBUG Curl[namelookup_time]: 0.092934
+2021-09-21 12:13:20 DEBUG Curl[connect_time]: 0.093838
+2021-09-21 12:13:20 DEBUG Curl[pretransfer_time]: 0.108439
+2021-09-21 12:13:20 DEBUG Curl[size_upload]: 12
+2021-09-21 12:13:20 DEBUG Curl[size_download]: 73
+2021-09-21 12:13:20 DEBUG Curl[speed_download]: 151
+2021-09-21 12:13:20 DEBUG Curl[speed_upload]: 24
+2021-09-21 12:13:20 DEBUG Curl[download_content_length]: 73
+2021-09-21 12:13:20 DEBUG Curl[upload_content_length]: 12
+2021-09-21 12:13:20 DEBUG Curl[starttransfer_time]: 0.481303
+2021-09-21 12:13:20 DEBUG Curl[redirect_time]: 0
+2021-09-21 12:13:20 DEBUG Curl[redirect_url]: 
+2021-09-21 12:13:20 DEBUG Curl[primary_ip]: 23.2.9.190
+2021-09-21 12:13:20 DEBUG Curl[primary_port]: 443
+2021-09-21 12:13:20 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-21 12:13:20 DEBUG Curl[local_port]: 34358
+2021-09-21 12:13:20 DEBUG Curl[http_version]: 2
+2021-09-21 12:13:20 DEBUG Curl[protocol]: 2
+2021-09-21 12:13:20 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-21 12:13:20 DEBUG Curl[scheme]: HTTPS
+2021-09-21 12:13:20 DEBUG Curl[appconnect_time_us]: 108390
+2021-09-21 12:13:20 DEBUG Curl[connect_time_us]: 93838
+2021-09-21 12:13:20 DEBUG Curl[namelookup_time_us]: 92934
+2021-09-21 12:13:20 DEBUG Curl[pretransfer_time_us]: 108439
+2021-09-21 12:13:20 DEBUG Curl[redirect_time_us]: 0
+2021-09-21 12:13:20 DEBUG Curl[starttransfer_time_us]: 481303
+2021-09-21 12:13:20 DEBUG Curl[total_time_us]: 481332
+2021-09-21T18:52:28+00:00 INFO Iniciando pagamento por crédito
+2021-09-21 18:52:28 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632264471,"amount":56900,"installments":11,"cardHolderName":"***","cardNumber":"***","expirationMonth":"0724","securityCode":"***"}
+2021-09-21 18:52:29 DEBUG Response Rede Status Code: 400  {"returnCode":"33","returnMessage":"ExpirationMonth: Invalid parameter format."}
+2021-09-21 18:52:29 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-21 18:52:29 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-21 18:52:29 DEBUG Curl[http_code]: 400
+2021-09-21 18:52:29 DEBUG Curl[header_size]: 278
+2021-09-21 18:52:29 DEBUG Curl[request_size]: 599
+2021-09-21 18:52:29 DEBUG Curl[filetime]: -1
+2021-09-21 18:52:29 DEBUG Curl[ssl_verify_result]: 0
+2021-09-21 18:52:29 DEBUG Curl[redirect_count]: 0
+2021-09-21 18:52:29 DEBUG Curl[total_time]: 0.238671
+2021-09-21 18:52:29 DEBUG Curl[namelookup_time]: 0.070984
+2021-09-21 18:52:29 DEBUG Curl[connect_time]: 0.072508
+2021-09-21 18:52:29 DEBUG Curl[pretransfer_time]: 0.088678
+2021-09-21 18:52:29 DEBUG Curl[size_upload]: 208
+2021-09-21 18:52:29 DEBUG Curl[size_download]: 80
+2021-09-21 18:52:29 DEBUG Curl[speed_download]: 336
+2021-09-21 18:52:29 DEBUG Curl[speed_upload]: 873
+2021-09-21 18:52:29 DEBUG Curl[download_content_length]: 80
+2021-09-21 18:52:29 DEBUG Curl[upload_content_length]: 208
+2021-09-21 18:52:29 DEBUG Curl[starttransfer_time]: 0.238641
+2021-09-21 18:52:29 DEBUG Curl[redirect_time]: 0
+2021-09-21 18:52:29 DEBUG Curl[redirect_url]: 
+2021-09-21 18:52:29 DEBUG Curl[primary_ip]: 69.192.182.184
+2021-09-21 18:52:29 DEBUG Curl[primary_port]: 443
+2021-09-21 18:52:29 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-21 18:52:29 DEBUG Curl[local_port]: 39570
+2021-09-21 18:52:29 DEBUG Curl[http_version]: 2
+2021-09-21 18:52:29 DEBUG Curl[protocol]: 2
+2021-09-21 18:52:29 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-21 18:52:29 DEBUG Curl[scheme]: HTTPS
+2021-09-21 18:52:29 DEBUG Curl[appconnect_time_us]: 88631
+2021-09-21 18:52:29 DEBUG Curl[connect_time_us]: 72508
+2021-09-21 18:52:29 DEBUG Curl[namelookup_time_us]: 70984
+2021-09-21 18:52:29 DEBUG Curl[pretransfer_time_us]: 88678
+2021-09-21 18:52:29 DEBUG Curl[redirect_time_us]: 0
+2021-09-21 18:52:29 DEBUG Curl[starttransfer_time_us]: 238641
+2021-09-21 18:52:29 DEBUG Curl[total_time_us]: 238671
+2021-09-21T18:52:29+00:00 ERROR Erro no pagamento[33]: ExpirationMonth: Invalid parameter format.
+2021-09-21T18:53:49+00:00 INFO Iniciando pagamento por crédito
+2021-09-21 18:53:49 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632264552,"amount":56900,"installments":11,"cardHolderName":"***","cardNumber":"***","expirationMonth":"072024","securityCode":"***"}
+2021-09-21 18:53:49 DEBUG Response Rede Status Code: 400  {"returnCode":"33","returnMessage":"ExpirationMonth: Invalid parameter format."}
+2021-09-21 18:53:49 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-21 18:53:49 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-21 18:53:49 DEBUG Curl[http_code]: 400
+2021-09-21 18:53:49 DEBUG Curl[header_size]: 278
+2021-09-21 18:53:49 DEBUG Curl[request_size]: 601
+2021-09-21 18:53:49 DEBUG Curl[filetime]: -1
+2021-09-21 18:53:49 DEBUG Curl[ssl_verify_result]: 0
+2021-09-21 18:53:49 DEBUG Curl[redirect_count]: 0
+2021-09-21 18:53:49 DEBUG Curl[total_time]: 0.190188
+2021-09-21 18:53:49 DEBUG Curl[namelookup_time]: 0.003416
+2021-09-21 18:53:49 DEBUG Curl[connect_time]: 0.00645
+2021-09-21 18:53:49 DEBUG Curl[pretransfer_time]: 0.03505
+2021-09-21 18:53:49 DEBUG Curl[size_upload]: 210
+2021-09-21 18:53:49 DEBUG Curl[size_download]: 80
+2021-09-21 18:53:49 DEBUG Curl[speed_download]: 421
+2021-09-21 18:53:49 DEBUG Curl[speed_upload]: 1105
+2021-09-21 18:53:49 DEBUG Curl[download_content_length]: 80
+2021-09-21 18:53:49 DEBUG Curl[upload_content_length]: 210
+2021-09-21 18:53:49 DEBUG Curl[starttransfer_time]: 0.190156
+2021-09-21 18:53:49 DEBUG Curl[redirect_time]: 0
+2021-09-21 18:53:49 DEBUG Curl[redirect_url]: 
+2021-09-21 18:53:49 DEBUG Curl[primary_ip]: 69.192.182.184
+2021-09-21 18:53:49 DEBUG Curl[primary_port]: 443
+2021-09-21 18:53:49 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-21 18:53:49 DEBUG Curl[local_port]: 39600
+2021-09-21 18:53:49 DEBUG Curl[http_version]: 2
+2021-09-21 18:53:49 DEBUG Curl[protocol]: 2
+2021-09-21 18:53:49 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-21 18:53:49 DEBUG Curl[scheme]: HTTPS
+2021-09-21 18:53:49 DEBUG Curl[appconnect_time_us]: 34999
+2021-09-21 18:53:49 DEBUG Curl[connect_time_us]: 6450
+2021-09-21 18:53:49 DEBUG Curl[namelookup_time_us]: 3416
+2021-09-21 18:53:49 DEBUG Curl[pretransfer_time_us]: 35050
+2021-09-21 18:53:49 DEBUG Curl[redirect_time_us]: 0
+2021-09-21 18:53:49 DEBUG Curl[starttransfer_time_us]: 190156
+2021-09-21 18:53:49 DEBUG Curl[total_time_us]: 190188
+2021-09-21T18:53:49+00:00 ERROR Erro no pagamento[33]: ExpirationMonth: Invalid parameter format.
+2021-09-21T18:56:49+00:00 INFO Iniciando pagamento por crédito
+2021-09-21T18:56:49+00:00 DEBUG Data de expiração do cartão expirada
+2021-09-21T18:57:24+00:00 INFO Iniciando pagamento por crédito
+2021-09-21 18:57:24 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632264767,"amount":56900,"installments":11,"cardHolderName":"***","cardNumber":"***","expirationMonth":"07","expirationYear":"2024","securityCode":"***"}
+2021-09-21 18:57:25 DEBUG Response Rede Status Code: 200  {"reference":"1632264767","tid":"10032109211555312655","nsu":"881432915","dateTime":"2021-09-21T15:57:24-03:00","amount":56900,"installments":11,"cardBin":"379967","last4":"9676","brand":{"name":"Amex","returnCode":"000","returnMessage":"Success.","authorizationCode":"672528","brandTid":"672528"},"returnCode":"00","returnMessage":"Success.","links":[{"method":"GET","rel":"transaction","href":"https://api.userede.com.br/erede/v1/transactions/10032109211555312655"},{"method":"POST","rel":"refund","href":"https://api.userede.com.br/erede/v1/transactions/10032109211555312655/refunds"}]}
+2021-09-21 18:57:25 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-21 18:57:25 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-21 18:57:25 DEBUG Curl[http_code]: 200
+2021-09-21 18:57:25 DEBUG Curl[header_size]: 275
+2021-09-21 18:57:25 DEBUG Curl[request_size]: 621
+2021-09-21 18:57:25 DEBUG Curl[filetime]: -1
+2021-09-21 18:57:25 DEBUG Curl[ssl_verify_result]: 0
+2021-09-21 18:57:25 DEBUG Curl[redirect_count]: 0
+2021-09-21 18:57:25 DEBUG Curl[total_time]: 1.070521
+2021-09-21 18:57:25 DEBUG Curl[namelookup_time]: 0.006407
+2021-09-21 18:57:25 DEBUG Curl[connect_time]: 0.007903
+2021-09-21 18:57:25 DEBUG Curl[pretransfer_time]: 0.034529
+2021-09-21 18:57:25 DEBUG Curl[size_upload]: 230
+2021-09-21 18:57:25 DEBUG Curl[size_download]: 589
+2021-09-21 18:57:25 DEBUG Curl[speed_download]: 550
+2021-09-21 18:57:25 DEBUG Curl[speed_upload]: 214
+2021-09-21 18:57:25 DEBUG Curl[download_content_length]: 589
+2021-09-21 18:57:25 DEBUG Curl[upload_content_length]: 230
+2021-09-21 18:57:25 DEBUG Curl[starttransfer_time]: 1.07049
+2021-09-21 18:57:25 DEBUG Curl[redirect_time]: 0
+2021-09-21 18:57:25 DEBUG Curl[redirect_url]: 
+2021-09-21 18:57:25 DEBUG Curl[primary_ip]: 69.192.182.184
+2021-09-21 18:57:25 DEBUG Curl[primary_port]: 443
+2021-09-21 18:57:25 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-21 18:57:25 DEBUG Curl[local_port]: 39668
+2021-09-21 18:57:25 DEBUG Curl[http_version]: 2
+2021-09-21 18:57:25 DEBUG Curl[protocol]: 2
+2021-09-21 18:57:25 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-21 18:57:25 DEBUG Curl[scheme]: HTTPS
+2021-09-21 18:57:25 DEBUG Curl[appconnect_time_us]: 34464
+2021-09-21 18:57:25 DEBUG Curl[connect_time_us]: 7903
+2021-09-21 18:57:25 DEBUG Curl[namelookup_time_us]: 6407
+2021-09-21 18:57:25 DEBUG Curl[pretransfer_time_us]: 34529
+2021-09-21 18:57:25 DEBUG Curl[redirect_time_us]: 0
+2021-09-21 18:57:25 DEBUG Curl[starttransfer_time_us]: 1070490
+2021-09-21 18:57:25 DEBUG Curl[total_time_us]: 1070521
+2021-09-21T18:57:25+00:00 INFO Rede[00]: Success.

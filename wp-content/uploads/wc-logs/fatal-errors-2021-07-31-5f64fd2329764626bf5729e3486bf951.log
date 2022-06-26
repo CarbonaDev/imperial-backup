@@ -1,0 +1,71 @@
+2021-07-31T00:46:26+00:00 CRITICAL Uncaught Error: Class 'WooCommerce_Parcelas_Settings' not found in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-parcelas-com-e-sem-juros/public/css/woo-parcelas-com-e-sem-juros-public.php:24
+Stack trace:
+#0 {main}
+  thrown, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-parcelas-com-e-sem-juros/public/css/woo-parcelas-com-e-sem-juros-public.php, na linha 24
+
+2021-07-31T00:46:30+00:00 CRITICAL Uncaught Error: Class 'WooCommerce_Parcelas_Settings' not found in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-parcelas-com-e-sem-juros/public/css/woo-parcelas-com-e-sem-juros-public.php:24
+Stack trace:
+#0 {main}
+  thrown, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-parcelas-com-e-sem-juros/public/css/woo-parcelas-com-e-sem-juros-public.php, na linha 24
+
+2021-07-31T02:03:20+00:00 CRITICAL Uncaught Error: Class 'WooCommerce_Parcelas_Settings' not found in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-parcelas-com-e-sem-juros/public/css/woo-parcelas-com-e-sem-juros-public.php:24
+Stack trace:
+#0 {main}
+  thrown, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-parcelas-com-e-sem-juros/public/css/woo-parcelas-com-e-sem-juros-public.php, na linha 24
+
+2021-07-31T18:26:19+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 166
+
+2021-07-31T18:27:34+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 166
+
+2021-07-31T18:28:22+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 163
+
+2021-07-31T18:28:38+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 163
+
+2021-07-31T18:28:38+00:00 CRITICAL syntax error, unexpected '<', expecting end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 163
+
+2021-07-31T18:28:54+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 192
+
+2021-07-31T18:29:06+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 192
+
+2021-07-31T18:30:45+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 192
+
+2021-07-31T18:30:45+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 192
+
+2021-07-31T18:31:02+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 192
+
+2021-07-31T18:31:06+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 192
+
+2021-07-31T18:31:06+00:00 CRITICAL syntax error, unexpected end of file, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 192
+
+2021-07-31T18:39:12+00:00 CRITICAL syntax error, unexpected ';', em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 173
+
+2021-07-31T18:39:12+00:00 CRITICAL syntax error, unexpected ';', em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 173
+
+2021-07-31T18:39:17+00:00 CRITICAL syntax error, unexpected '<', em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 173
+
+2021-07-31T18:39:34+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:173
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): misha_view_order_and_thankyou_page()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/view-order.php(56): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(151): wc_get_template()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3141): WC_Shortcode_My_Account::view_order()
+#7 /opt/bit, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 173
+
+2021-07-31T18:39:48+00:00 CRITICAL syntax error, unexpected ';', em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 173
+
+2021-07-31T18:39:48+00:00 CRITICAL syntax error, unexpected ';', em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 173
+
+2021-07-31T18:40:01+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:173
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): misha_view_order_and_thankyou_page()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/myaccount/view-order.php(56): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(151): wc_get_template()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3141): WC_Shortcode_My_Account::view_order()
+#7 /opt/bit, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 173
+

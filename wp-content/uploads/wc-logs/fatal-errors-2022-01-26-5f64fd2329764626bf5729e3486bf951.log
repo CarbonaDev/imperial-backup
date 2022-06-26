@@ -1,0 +1,10 @@
+2022-01-26T11:27:00+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/enhanced-e-commerce-for-woocommerce-store/public/class-enhanced-ecommerce-google-analytics-public.php:488
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): Enhanced_Ecommerce_Google_Analytics_Public->ecommerce_tracking_code()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(474): WP_Hook->do_action()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(80): do_action()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wo, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/enhanced-e-commerce-for-woocommerce-store/public/class-enhanced-ecommerce-google-analytics-public.php, na linha 488
+

@@ -1,0 +1,168 @@
+[March 9, 2022, 22:04:58.000 UTC] Caught exception in method AmazonAI_Cloudformation::begin_cloudformation in class AmazonAI_Cloudformation: 
+Error executing "CreateStack" on "https://cloudformation.us-east-1.amazonaws.com"; AWS HTTP error: Client error: `POST https://cloudformation.us-east-1.amazonaws.com` resulted in a `403 Forbidden` response:
+<ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code> (truncated...)
+ AccessDenied (client): User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action - <ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>AccessDenied</Code>
+    <Message>User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action</Message>
+  </Error>
+  <RequestId>6acb5ff3-9240-4968-ac60-7065b72c9a29</RequestId>
+</ErrorResponse>
+
+[March 9, 2022, 22:06:55.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:06:58.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:07:13.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:07:14.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:07:16.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:07:38.000 UTC] Caught exception in method AmazonAI_Cloudformation::begin_cloudformation in class AmazonAI_Cloudformation: 
+Error executing "CreateStack" on "https://cloudformation.us-east-1.amazonaws.com"; AWS HTTP error: Client error: `POST https://cloudformation.us-east-1.amazonaws.com` resulted in a `403 Forbidden` response:
+<ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code> (truncated...)
+ AccessDenied (client): User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action - <ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>AccessDenied</Code>
+    <Message>User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action</Message>
+  </Error>
+  <RequestId>420ecebe-a7d3-48a2-a75b-19e6b7b19028</RequestId>
+</ErrorResponse>
+
+[March 9, 2022, 22:07:44.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:08:01.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:08:31.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:08:32.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:08:34.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:08:42.000 UTC] Caught exception in method AmazonAI_Cloudformation::begin_cloudformation in class AmazonAI_Cloudformation: 
+Error executing "CreateStack" on "https://cloudformation.us-east-1.amazonaws.com"; AWS HTTP error: Client error: `POST https://cloudformation.us-east-1.amazonaws.com` resulted in a `403 Forbidden` response:
+<ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code> (truncated...)
+ AccessDenied (client): User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action - <ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>AccessDenied</Code>
+    <Message>User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action</Message>
+  </Error>
+  <RequestId>6cbf56c7-2e22-4f26-9d01-740e9b82310e</RequestId>
+</ErrorResponse>
+
+[March 9, 2022, 22:10:32.000 UTC] Caught exception in method AmazonAI_Cloudformation::begin_cloudformation in class AmazonAI_Cloudformation: 
+Error executing "CreateStack" on "https://cloudformation.us-east-1.amazonaws.com"; AWS HTTP error: Client error: `POST https://cloudformation.us-east-1.amazonaws.com` resulted in a `403 Forbidden` response:
+<ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code> (truncated...)
+ AccessDenied (client): User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action - <ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>AccessDenied</Code>
+    <Message>User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action</Message>
+  </Error>
+  <RequestId>b7ed78f8-6c01-4128-bd2b-0d1ae5568e40</RequestId>
+</ErrorResponse>
+
+[March 9, 2022, 22:14:16.000 UTC] Caught exception in method AmazonAI_Cloudformation::begin_cloudformation in class AmazonAI_Cloudformation: 
+Error executing "CreateStack" on "https://cloudformation.us-east-1.amazonaws.com"; AWS HTTP error: Client error: `POST https://cloudformation.us-east-1.amazonaws.com` resulted in a `403 Forbidden` response:
+<ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code> (truncated...)
+ AccessDenied (client): User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action - <ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>AccessDenied</Code>
+    <Message>User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action</Message>
+  </Error>
+  <RequestId>dcf24d85-a01f-4eea-bfc4-3cfb6647466e</RequestId>
+</ErrorResponse>
+
+[March 9, 2022, 22:15:45.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:15:46.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:18:37.000 UTC] Caught exception in method AmazonAI_Cloudformation::begin_cloudformation in class AmazonAI_Cloudformation: 
+Error executing "CreateStack" on "https://cloudformation.us-east-1.amazonaws.com"; AWS HTTP error: Client error: `POST https://cloudformation.us-east-1.amazonaws.com` resulted in a `403 Forbidden` response:
+<ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code> (truncated...)
+ AccessDenied (client): User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action - <ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>AccessDenied</Code>
+    <Message>User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackwwwimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action</Message>
+  </Error>
+  <RequestId>c4ddd8dc-e0ea-4cb0-a17f-d5c03328a58a</RequestId>
+</ErrorResponse>
+
+[March 9, 2022, 22:18:51.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:20:14.000 UTC] Caught exception in method AmazonAI_Cloudformation::begin_cloudformation in class AmazonAI_Cloudformation: 
+Error executing "CreateStack" on "https://cloudformation.us-east-1.amazonaws.com"; AWS HTTP error: Client error: `POST https://cloudformation.us-east-1.amazonaws.com` resulted in a `403 Forbidden` response:
+<ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code> (truncated...)
+ AccessDenied (client): User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackcdnimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action - <ErrorResponse xmlns="http://cloudformation.amazonaws.com/doc/2010-05-15/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>AccessDenied</Code>
+    <Message>User: arn:aws:sts::521813924411:assumed-role/AmazonLightsailInstanceRole/i-04bc5ca52fb8a84d4 is not authorized to perform: cloudformation:CreateStack on resource: arn:aws:cloudformation:us-east-1:521813924411:stack/CFWPStackcdnimperialtapeteseinteriorescombr/* because no identity-based policy allows the cloudformation:CreateStack action</Message>
+  </Error>
+  <RequestId>9666e68c-6eac-46a7-bff7-9fe05212bf13</RequestId>
+</ErrorResponse>
+
+[March 9, 2022, 22:22:03.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:22:07.000 UTC] Caught exception in method AmazonAI_Cloudformation::delete_cloudformation in class AmazonAI_Cloudformation: 
+Found 1 error while validating the input provided for the DeleteStack operation:
+[StackName] must be a string or an object that implements __toString(). Found bool(false)
+[March 9, 2022, 22:36:27.000 UTC] Caught exception in method AmazonAI_Cloudformation::validate_cdn_alias_mapping in class AmazonAI_Cloudformation: 
+The CNAME or alias you entered (cdn.imperialtapeteseinteriores.com.br) is currently mapped to 
+[March 9, 2022, 22:36:32.000 UTC] Caught exception in method AmazonAI_Cloudformation::validate_cdn_alias_mapping in class AmazonAI_Cloudformation: 
+The CNAME or alias you entered (cdn.imperialtapeteseinteriores.com.br) is currently mapped to 
+[March 9, 2022, 22:36:35.000 UTC] Caught exception in method AmazonAI_Cloudformation::validate_cdn_alias_mapping in class AmazonAI_Cloudformation: 
+The CNAME or alias you entered (cdn.imperialtapeteseinteriores.com.br) is currently mapped to 
+[March 9, 2022, 22:36:37.000 UTC] Caught exception in method AmazonAI_Cloudformation::validate_cdn_alias_mapping in class AmazonAI_Cloudformation: 
+The CNAME or alias you entered (cdn.imperialtapeteseinteriores.com.br) is currently mapped to 
+[March 9, 2022, 22:36:38.000 UTC] Caught exception in method AmazonAI_Cloudformation::validate_cdn_alias_mapping in class AmazonAI_Cloudformation: 
+The CNAME or alias you entered (cdn.imperialtapeteseinteriores.com.br) is currently mapped to 
+[March 9, 2022, 22:36:42.000 UTC] Caught exception in method AmazonAI_Cloudformation::validate_cdn_alias_mapping in class AmazonAI_Cloudformation: 
+The CNAME or alias you entered (cdn.imperialtapeteseinteriores.com.br) is currently mapped to 
+[March 9, 2022, 22:36:44.000 UTC] Caught exception in method AmazonAI_Cloudformation::validate_cdn_alias_mapping in class AmazonAI_Cloudformation: 
+The CNAME or alias you entered (cdn.imperialtapeteseinteriores.com.br) is currently mapped to 
+[March 9, 2022, 22:36:46.000 UTC] Caught exception in method AmazonAI_Cloudformation::validate_cdn_alias_mapping in class AmazonAI_Cloudformation: 
+The CNAME or alias you entered (cdn.imperialtapeteseinteriores.com.br) is currently mapped to 
+[March 9, 2022, 22:36:48.000 UTC] Caught exception in method AmazonAI_Cloudformation::validate_cdn_alias_mapping in class AmazonAI_Cloudformation: 
+The CNAME or alias you entered (cdn.imperialtapeteseinteriores.com.br) is currently mapped to 

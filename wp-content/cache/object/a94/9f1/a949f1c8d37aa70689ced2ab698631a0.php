@@ -1,0 +1,1 @@
+05¡b<?php exit; ?>a:1:{s:7:"content";a:6:{s:10:"_tax_class";a:1:{i:0;s:1:"0";}s:11:"_line_total";a:1:{i:0;s:6:"-27.35";}s:9:"_line_tax";a:1:{i:0;s:1:"0";}s:14:"_line_tax_data";a:1:{i:0;s:24:"a:1:{s:5:"total";a:0:{}}";}s:11:"_fee_amount";a:1:{i:0;s:0:"";}s:11:"_tax_status";a:1:{i:0;s:7:"taxable";}}}

@@ -1,0 +1,173 @@
+02-22-2021 @ 23:03:52 - Transaction arguments for order 7639: Array
+(
+    [merchant_id] => 144a8ce4-3e77-402e-991e-8ddbcceb8686
+    [order_number] => 7639
+    [antifraud_enabled] => FALSE
+    [customer_name] => Carlos Eduardo Turchetto
+    [customer_email] => caduturchetto@hotmail.com
+    [customer_phone] => 4432253990
+    [customer_identity] => 03505601969
+    [shipping_address_name] => Rua Joaquim Nabuco
+    [shipping_address_number] => 1318
+    [shipping_address_complement] => Casa
+    [shipping_address_district] => Zona 04
+    [shipping_address_city] => Maringá
+    [shipping_address_state] => PR
+    [shipping_zipcode] => 87014100
+    [shipping_type] => 2
+    [shipping_1_name] => Correios Pac (Melhor Envio) (5 a 6 dias úteis)
+    [shipping_1_price] => 2686
+    [cart_1_name] => [PRONTA ENTREGA] Tapete de Couro Bezerro Legítimo 80 x 75 cm
+    [cart_1_unitprice] => 15000
+    [cart_1_quantity] => 1
+    [cart_1_type] => 1
+    [cart_1_code] => 3797
+    [cart_1_weight] => 1000
+)
+
+02-22-2021 @ 23:03:52 - Transaction arguments for order 7639: Array
+(
+    [merchant_id] => 144a8ce4-3e77-402e-991e-8ddbcceb8686
+    [order_number] => 7639
+    [antifraud_enabled] => FALSE
+    [customer_name] => Carlos Eduardo Turchetto
+    [customer_email] => caduturchetto@hotmail.com
+    [customer_phone] => 4432253990
+    [customer_identity] => 03505601969
+    [shipping_address_name] => Rua Joaquim Nabuco
+    [shipping_address_number] => 1318
+    [shipping_address_complement] => Casa
+    [shipping_address_district] => Zona 04
+    [shipping_address_city] => Maringá
+    [shipping_address_state] => PR
+    [shipping_zipcode] => 87014100
+    [shipping_type] => 2
+    [shipping_1_name] => Correios Pac (Melhor Envio) (5 a 6 dias úteis)
+    [shipping_1_price] => 2686
+    [cart_1_name] => [PRONTA ENTREGA] Tapete de Couro Bezerro Legítimo 80 x 75 cm
+    [cart_1_unitprice] => 15000
+    [cart_1_quantity] => 1
+    [cart_1_type] => 1
+    [cart_1_code] => 3797
+    [cart_1_weight] => 1000
+)
+
+02-22-2021 @ 23:05:40 - Received status change for order 7639: Array
+(
+    [order_number] => 7639
+    [amount] => 17686
+    [checkout_cielo_order_number] => 999799560ac14188b1ce610623d880ec
+    [created_date] => 22/02/2021 23:05:37
+    [customer_name] => Carlos Turchetto
+    [customer_phone] => 4432253990
+    [customer_email] => caduturchetto@hotmail.com
+    [shipping_type] => 2
+    [shipping_name] => Correios Pac (Melhor Envio) (5 a 6 dias úteis)
+    [shipping_price] => 2686
+    [shipping_address_zipcode] => 87014100
+    [shipping_address_district] => Zona 04
+    [shipping_address_city] => Maringá
+    [shipping_address_state] => PR
+    [shipping_address_line1] => Rua Joaquim Nabuco
+    [shipping_address_line2] => Casa
+    [shipping_address_number] => 1318
+    [payment_method_type] => 1
+    [payment_method_brand] => 5
+    [payment_installments] => 3
+    [payment_status] => 7
+    [tid] => 27756416220UKP4JS45C
+    [test_transaction] => False
+    [nsu] => 039003
+    [authorization_code] => 653993
+)
+
+02-23-2021 @ 08:01:40 - Received status change for order 7639: Array
+(
+    [checkout_cielo_order_number] => 999799560ac14188b1ce610623d880ec
+    [amount] => 17686
+    [order_number] => 7639
+    [payment_status] => 2
+    [test_transaction] => False
+    [brand] => Elo
+    [nsu] => 039003
+    [authorization_code] => 653993
+)
+
+02-23-2021 @ 15:00:46 - Invalid status change: Array
+(
+    [order_number] => f2ab81c5549843d6ae30a0a65102f76c
+    [amount] => 97900
+    [checkout_cielo_order_number] => 652600d6eed9487e874ea156cc935f57
+    [created_date] => 23/02/2021 15:00:42
+    [customer_name] => Maura Martins
+    [customer_phone] => 11999892520
+    [customer_email] => maurabalbinotmartins@gmail.com
+    [shipping_type] => 2
+    [shipping_name] => Transportadora
+    [shipping_price] => 9450
+    [shipping_address_zipcode] => 04042033
+    [shipping_address_district] => Vila Clementino
+    [shipping_address_city] => São Paulo
+    [shipping_address_state] => SP
+    [shipping_address_line1] => Avenida Doutor Altino Arantes
+    [shipping_address_line2] => 131
+    [shipping_address_number] => 741
+    [payment_method_type] => 1
+    [payment_method_brand] => 2
+    [payment_installments] => 3
+    [payment_antifraudresult] => 4
+    [payment_status] => 7
+    [tid] => 27756416220ULN0233BC
+    [test_transaction] => False
+    [product_id] => e930e5b5-4c40-436e-86a1-531c0c19de6e
+    [product_type] => 1
+    [product_quantity] => 0
+    [nsu] => 040001
+    [authorization_code] => 004368
+)
+
+02-23-2021 @ 15:10:33 - Invalid status change: Array
+(
+    [order_number] => f2ab81c5549843d6ae30a0a65102f76c
+    [amount] => 97900
+    [checkout_cielo_order_number] => 652600d6eed9487e874ea156cc935f57
+    [created_date] => 23/02/2021 15:00:42
+    [customer_name] => Maura Martins
+    [customer_phone] => 11999892520
+    [customer_email] => maurabalbinotmartins@gmail.com
+    [shipping_type] => 2
+    [shipping_name] => Transportadora
+    [shipping_price] => 9450
+    [shipping_address_zipcode] => 04042033
+    [shipping_address_district] => Vila Clementino
+    [shipping_address_city] => São Paulo
+    [shipping_address_state] => SP
+    [shipping_address_line1] => Avenida Doutor Altino Arantes
+    [shipping_address_line2] => 131
+    [shipping_address_number] => 741
+    [payment_method_type] => 1
+    [payment_method_brand] => 2
+    [payment_installments] => 3
+    [payment_antifraudresult] => 4
+    [payment_status] => 7
+    [tid] => 27756416220ULN0233BC
+    [test_transaction] => False
+    [product_id] => e930e5b5-4c40-436e-86a1-531c0c19de6e
+    [product_type] => 1
+    [product_quantity] => 0
+    [nsu] => 040001
+    [authorization_code] => 004368
+)
+
+02-23-2021 @ 15:22:08 - Invalid status change: Array
+(
+    [checkout_cielo_order_number] => 652600d6eed9487e874ea156cc935f57
+    [amount] => 97900
+    [order_number] => f2ab81c5549843d6ae30a0a65102f76c
+    [payment_status] => 2
+    [test_transaction] => False
+    [brand] => Master
+    [nsu] => 040001
+    [authorization_code] => 004368
+)
+

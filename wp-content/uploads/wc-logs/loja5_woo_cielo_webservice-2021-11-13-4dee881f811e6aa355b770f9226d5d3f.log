@@ -1,0 +1,508 @@
+11-13-2021 @ 10:26:53 - Debug Cielo HTTP: 201
+11-13-2021 @ 10:26:53 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 16213
+    [Customer] => Array
+        (
+            [Name] => Valeska Grossi
+            [Email] => v_grossi_@hotmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 57511
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 10
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 553636****8068
+                    [Holder] => valeska grossi
+                    [ExpirationDate] => 09/2027
+                    [SecurityCode] => 438
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+11-13-2021 @ 10:26:53 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1209
+    [response] => {"MerchantOrderId":"16213","Customer":{"Name":"Valeska Grossi","Email":"v_grossi_@hotmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":10,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"553636******8068","Holder":"valeska grossi","ExpirationDate":"09/2027","SaveCard":false,"Brand":"Master","PaymentAccountReference":"5001EXVJBSF2J7KF2USSISY2HFR3D"},"Tid":"280720451616B5HVP8BC","ProofOfSale":"102021","AuthorizationCode":"037974","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"0","IsQrCode":false,"Amount":57511,"ReceivedDate":"2021-11-13 10:26:52","CapturedAmount":57511,"CapturedDate":"2021-11-13 10:26:52","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"c6fdc637-defc-4ffe-a674-c4c31cad0f4a","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/c6fdc637-defc-4ffe-a674-c4c31cad0f4a"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/c6fdc637-defc-4ffe-a674-c4c31cad0f4a/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 366
+            [request_size] => 789
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.732744
+            [namelookup_time] => 0.123047
+            [connect_time] => 0.240514
+            [pretransfer_time] => 0.487143
+            [size_upload] => 510
+            [size_download] => 1147
+            [speed_download] => 662
+            [speed_upload] => 294
+            [download_content_length] => 1147
+            [upload_content_length] => 510
+            [starttransfer_time] => 1.732707
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 42504
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 487061
+            [connect_time_us] => 240514
+            [namelookup_time_us] => 123047
+            [pretransfer_time_us] => 487143
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1732707
+            [total_time_us] => 1732744
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+11-13-2021 @ 12:32:51 - Debug Cielo HTTP: 201
+11-13-2021 @ 12:32:51 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 16221
+    [Customer] => Array
+        (
+            [Name] => Flávio Mesquita
+            [Email] => flaviotmesquita@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 49089
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 5
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 549167****9328
+                    [Holder] => flavio t mesquita
+                    [ExpirationDate] => 08/2029
+                    [SecurityCode] => 596
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+11-13-2021 @ 12:32:51 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1240
+    [response] => {"MerchantOrderId":"16221","Customer":{"Name":"Flávio Mesquita","Email":"flaviotmesquita@gmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":5,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"549167******9328","Holder":"flavio t mesquita","ExpirationDate":"08/2029","SaveCard":false,"Brand":"Master"},"Tid":"280720451616B5IKEQ3C","ProofOfSale":"103023","AuthorizationCode":"079049","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"0","IsQrCode":false,"Amount":49089,"ReceivedDate":"2021-11-13 12:32:49","CapturedAmount":49089,"CapturedDate":"2021-11-13 12:32:50","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"bd088ea7-0776-414e-a3f8-570083654167","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/bd088ea7-0776-414e-a3f8-570083654167"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/bd088ea7-0776-414e-a3f8-570083654167/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 366
+            [request_size] => 801
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 2.485609
+            [namelookup_time] => 0.121075
+            [connect_time] => 0.239158
+            [pretransfer_time] => 0.487323
+            [size_upload] => 522
+            [size_download] => 1097
+            [speed_download] => 441
+            [speed_upload] => 210
+            [download_content_length] => 1097
+            [upload_content_length] => 522
+            [starttransfer_time] => 2.48556
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 44442
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 487240
+            [connect_time_us] => 239158
+            [namelookup_time_us] => 121075
+            [pretransfer_time_us] => 487323
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 2485560
+            [total_time_us] => 2485609
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+11-13-2021 @ 14:50:50 - Debug Cielo HTTP: 201
+11-13-2021 @ 14:50:50 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 16222
+    [Customer] => Array
+        (
+            [Name] => Viviane Zanetti
+            [Email] => vivianezanetti@yahoo.com.br
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 78900
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 6
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 544731****3668
+                    [Holder] => Viviane Z Azevedo
+                    [ExpirationDate] => 02/2024
+                    [SecurityCode] => 947
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+        )
+
+)
+
+11-13-2021 @ 14:50:50 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1196
+    [response] => {"MerchantOrderId":"16222","Customer":{"Name":"Viviane Zanetti","Email":"vivianezanetti@yahoo.com.br"},"Payment":{"ServiceTaxAmount":0,"Installments":6,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"544731******3668","Holder":"Viviane Z Azevedo","ExpirationDate":"02/2024","SaveCard":false,"Brand":"Master","PaymentAccountReference":"5001C9IFN38UWK83S9B47X60S97QA"},"Tid":"280720451616B5J7PJ0C","ProofOfSale":"106015","AuthorizationCode":"504977","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"0","IsQrCode":false,"Amount":78900,"ReceivedDate":"2021-11-13 14:50:49","CapturedAmount":78900,"CapturedDate":"2021-11-13 14:50:49","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"37e45ed5-9561-493b-a200-777e2bbce5ba","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/37e45ed5-9561-493b-a200-777e2bbce5ba"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/37e45ed5-9561-493b-a200-777e2bbce5ba/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 798
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.48448
+            [namelookup_time] => 0.003774
+            [connect_time] => 0.120328
+            [pretransfer_time] => 0.36601
+            [size_upload] => 519
+            [size_download] => 1156
+            [speed_download] => 778
+            [speed_upload] => 349
+            [download_content_length] => 1156
+            [upload_content_length] => 519
+            [starttransfer_time] => 1.484441
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 46268
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 365922
+            [connect_time_us] => 120328
+            [namelookup_time_us] => 3774
+            [pretransfer_time_us] => 366010
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1484441
+            [total_time_us] => 1484480
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+11-13-2021 @ 15:09:51 - Debug Cielo HTTP: 201
+11-13-2021 @ 15:09:51 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 16223
+    [Customer] => Array
+        (
+            [Name] => Vinícius Fernando Marcolino Filho
+            [Email] => vfmarcolinof@gmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 41242
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 8
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 485464****7607
+                    [Holder] => Maria das Graças de Oliveira Gallo
+                    [ExpirationDate] => 07/2025
+                    [SecurityCode] => 935
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+11-13-2021 @ 15:09:51 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1194
+    [response] => {"MerchantOrderId":"16223","Customer":{"Name":"Vinícius Fernando Marcolino Filho","Email":"vfmarcolinof@gmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":8,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"485464******7607","Holder":"Maria das Graças de Oliveira Gallo","ExpirationDate":"07/2025","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010015820323467692169016232"},"Tid":"280720451616B5JAC9AC","ProofOfSale":"102023","AuthorizationCode":"645300","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":41242,"ReceivedDate":"2021-11-13 15:09:49","CapturedAmount":41242,"CapturedDate":"2021-11-13 15:09:49","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"70c908b7-d16a-40e2-87f1-70698971965d","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/70c908b7-d16a-40e2-87f1-70698971965d"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/70c908b7-d16a-40e2-87f1-70698971965d/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 366
+            [request_size] => 836
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 2.310541
+            [namelookup_time] => 0.003544
+            [connect_time] => 0.120838
+            [pretransfer_time] => 0.3679
+            [size_upload] => 557
+            [size_download] => 1186
+            [speed_download] => 513
+            [speed_upload] => 241
+            [download_content_length] => 1186
+            [upload_content_length] => 557
+            [starttransfer_time] => 2.310502
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.0.25
+            [local_port] => 46566
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 367817
+            [connect_time_us] => 120838
+            [namelookup_time_us] => 3544
+            [pretransfer_time_us] => 367900
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 2310502
+            [total_time_us] => 2310541
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

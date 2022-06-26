@@ -1,0 +1,754 @@
+2022-06-21T01:09:08+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-06-21T01:09:08+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-06-21T01:09:08+00:00 DEBUG Cs_total_extrafield: order_id=22369 cs_field_doc= billing_cpf=053.905.709-60 billing_cnpj=
+2022-06-21T01:09:08+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22369
+2022-06-21T01:09:08+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-06-21T01:09:08+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-06-21T01:09:08+00:00 DEBUG Cs_total_checkout_order_processed: session =e09cb1e3a284991cdb2896e676f5f4c5
+2022-06-21T01:09:08+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22369 - EAP: Esperando Aprovação do Pagamento
+2022-06-21T01:09:32+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T01:09:32+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22369
+2022-06-21T01:09:32+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-21T01:09:32+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22369 status antes:pending agora:processing
+2022-06-21T01:09:32+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22369 último status salvo:
+2022-06-21T01:09:32+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T01:09:32+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: Compras no BR integramos na CS.
+2022-06-21T01:09:32+00:00 DEBUG Cs_total_checkout: Entrou: Pedido #=22369 doc=053.905.709-60
+2022-06-21T01:09:32+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_checkout verificando post_meta de métodos...
+2022-06-21T01:09:32+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos: Pedido 22369 feito pelo MarcosAlexandre com 478307******1515 nome:Eduardo pecher
+2022-06-21T01:09:32+00:00 DEBUG Monta_pedido: entrou, #doc=053.905.709-60 e-mail=edupecher@gmail.com
+2022-06-21T01:09:32+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: cep=80330340
+2022-06-21T01:09:33+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: saida=Portão
+2022-06-21T01:09:33+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=rede_credit
+2022-06-21T01:09:33+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=credito
+2022-06-21T01:09:33+00:00 DEBUG Monta_pedido: json=[{"code":"22369","sessionID":"e09cb1e3a284991cdb2896e676f5f4c5","date":"2022-06-20T22:09:07-03:00","email":"edupecher@gmail.com","itemValue":1259,"totalValue":1259,"numberOfInstallments":10,"ip":"177.79.106.154","isGift":false,"giftMessage":"","observation":"","status":0,"origin":"website","channelID":"","country":"","nationality":"","product":3,"customSla":0,"bankAuthentication":"","billing":{"clientID":"2020","type":1,"primaryDocument":"053.905.709-60","secondaryDocument":"","name":"Eduardo Pecher","birthDate":null,"email":"edupecher@gmail.com","gender":"","address":{"street":"Rua Capit\u00e3o Tenente Maris de Barros Apto 701C","number":"313","additionalInformation":"","county":"Port\u00e3o","city":"Curitiba","state":"PR","country":"BR","zipcode":"80330340","reference":""},"phones":[{"type":0,"ddi":55,"ddd":41,"number":992326517,"extension":""}]},"shipping":{"clientID":"2020","type":1,"primaryDocument":"053.905.709-60","secondaryDocument":"","name":"Eduardo Pecher","birthDate":null,"email":"","gender":"","address":{"street":"Rua Capit\u00e3o Tenente Maris de Barros Apto 701C","number":"313","additionalInformation":"","county":"Port\u00e3o","city":"Curitiba","state":"PR","country":"BR","zipcode":"80330340","reference":""},"deliveryType":"0","deliveryTime":"","price":0,"pickUpStoreDocument":""},"payments":[{"sequential":1,"date":"2022-06-20T22:09:07+00:00","value":1259,"type":1,"installments":1,"interestRate":0,"interestValue":0,"currency":986,"voucherOrderOrigin":"","card":{"number":"478307******1515","hash":"","bin":"478307","end":"1515","type":3,"validityDate":"02\/0029","ownerName":"Eduardo pecher","document":"053.905.709-60","nsu":""},"address":{"street":"","number":"","additionalInformation":"","county":"","city":"","state":"","zipcode":"","country":"","reference":""}}],"items":[{"code":"19957","name":"Tapete Geom\u00e9trico Chevron - Cinza e Bege - 1,50 x 2,00 m","value":1259,"amount":1,"categoryID":null,"categoryName":"Bege<\/a>, <a href=\"https:\/\/imperialtapeteseinteriores.com.br\/categoria-produto\/colecoes\/chevron\/\" rel=\"tag\">Chevron<\/a>, <a href=\"https:\/\/imperialtapeteseinteriores.com.br\/categoria-produto\/compre-por-cor\/cinza\/\" rel=\"tag\">Cinza<\/a>, <a href=\"https:\/\/imperialtapeteseinteriores.com.br\/categoria-produto\/compre-por-cor\/preto\/\" rel=\"tag\">Preto<\/a>, <a href=\"https:\/\/imperialtapeteseinteriores.com.br\/categoria-produto\/sob-encomenda\/tapete-geometrico\/\" rel=\"tag\">Tapetes Geom\u00e9tricos","isGift":false,"sellerName":"","shippingCompany":"advanced_free_shipping"}]}]
+2022-06-21T01:09:33+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T01:09:33+00:00 DEBUG Authenticate: novo token=292e204351684476aeb2cc44264e4637 ExpirationDate:2022-06-21T11:03:43.0930359-03:00
+2022-06-21T01:09:33+00:00 DEBUG Inclui_pedido: #pedido=22369 status=NVO score=
+2022-06-21T01:09:33+00:00 DEBUG Clearsale_Total_Checkout:Cs_total_checkout: Pedido 22369 inserido com sucesso, status:NVO requestID:
+2022-06-21T01:09:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T01:09:33+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22369
+2022-06-21T01:09:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22369 status antes:processing agora:cs-inanalisis
+2022-06-21T01:09:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22369 último status salvo:NVO
+2022-06-21T01:09:35+00:00 DEBUG Cs_total_checkout: hook woocommerce_payment_complete: order id=22369
+2022-06-21T01:10:30+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=22369
+2022-06-21T01:10:30+00:00 DEBUG Clearsale_Total_Status:Cs_status: método do pedido acima:rede_credit
+2022-06-21T01:10:30+00:00 DEBUG Authenticate: versão:2.4.3 login=ImperialTapetesEInteriores modo=0
+2022-06-21T01:10:30+00:00 DEBUG Authenticate: novo token=292e204351684476aeb2cc44264e4637 ExpirationDate:2022-06-21T11:03:43.0930429-03:00
+2022-06-21T01:10:30+00:00 DEBUG Consulta_status: #pedido=22369 status=APA score=2.81
+2022-06-21T01:10:30+00:00 DEBUG Clearsale_Total_Status:Cs_status: retorno da consulta: status=APA score=2.81
+2022-06-21T01:10:30+00:00 DEBUG nota=ClearSale status: APA score: 2.81</br>Desc: (Aprovação Automática) – Pedido foi aprovado automaticamente segundo parâmetros definidos na regra de aprovação automática
+2022-06-21T01:10:30+00:00 DEBUG Clearsale_Total_Status:Cs_status: Pedido APROVADO(22369, status=APA), mudando status do Woo para wc-processing!
+2022-06-21T01:57:53+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22368
+2022-06-21T01:57:53+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22368
+2022-06-21T01:57:53+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido já enviado!
+2022-06-21T03:24:44+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T03:24:44+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22319
+2022-06-21T03:24:44+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-21T03:24:44+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22319 status antes:on-hold agora:failed
+2022-06-21T03:24:44+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22319 último status salvo:
+2022-06-21T03:59:26+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-06-21T03:59:26+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-06-21T03:59:26+00:00 DEBUG Cs_total_extrafield: order_id=22370 cs_field_doc= billing_cpf=255.588.368-14 billing_cnpj=
+2022-06-21T03:59:26+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22370
+2022-06-21T03:59:26+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-06-21T03:59:26+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-06-21T03:59:26+00:00 DEBUG Cs_total_checkout_order_processed: session =685138c78cb1942acc9676a476c59909
+2022-06-21T03:59:26+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22370 - EAP: Esperando Aprovação do Pagamento
+2022-06-21T03:59:39+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T03:59:39+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22370
+2022-06-21T03:59:39+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-21T03:59:39+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22370 status antes:pending agora:on-hold
+2022-06-21T03:59:39+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22370 último status salvo:
+2022-06-21T07:30:52+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T07:30:52+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22339
+2022-06-21T07:30:52+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-21T07:30:52+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22339 status antes:on-hold agora:processing
+2022-06-21T07:30:52+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22339 último status salvo:
+2022-06-21T07:30:52+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T07:30:52+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: Compras no BR integramos na CS.
+2022-06-21T07:30:52+00:00 DEBUG Cs_total_checkout: Entrou: Pedido #=22339 doc=537.396.989-34
+2022-06-21T07:30:52+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_checkout verificando post_meta de métodos...
+2022-06-21T07:30:52+00:00 DEBUG Monta_pedido: entrou, #doc=537.396.989-34 e-mail=roandraus@mps.com.br
+2022-06-21T07:30:52+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: cep=80250210
+2022-06-21T07:30:53+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: saida=Centro
+2022-06-21T07:30:53+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=gerencianet_oficial
+2022-06-21T07:30:53+00:00 DEBUG Monta_pedido: json=[{"code":"22339","sessionID":"0059ca202965022529a6492874e834b6","date":"2022-06-19T00:32:20-03:00","email":"roandraus@mps.com.br","itemValue":327,"totalValue":339.31,"numberOfInstallments":1,"ip":"177.79.107.19","isGift":false,"giftMessage":"","observation":"","status":0,"origin":"website","channelID":"","country":"","nationality":"","product":3,"customSla":0,"bankAuthentication":"","billing":{"clientID":"1625","type":1,"primaryDocument":"537.396.989-34","secondaryDocument":"","name":"Rosane Andraus","birthDate":null,"email":"roandraus@mps.com.br","gender":"","address":{"street":"Avenida Sete de Setembro ap. 402","number":"4503","additionalInformation":"","county":"Centro","city":"Curitiba","state":"PR","country":"BR","zipcode":"80250210","reference":""},"phones":[{"type":0,"ddi":55,"ddd":41,"number":999684886,"extension":""}]},"shipping":{"clientID":"1625","type":1,"primaryDocument":"537.396.989-34","secondaryDocument":"","name":"Rosane Andraus","birthDate":null,"email":"","gender":"","address":{"street":"Avenida Sete de Setembro ap. 402","number":"4503","additionalInformation":"","county":"Centro","city":"Curitiba","state":"PR","country":"BR","zipcode":"80250210","reference":""},"deliveryType":"11","deliveryTime":"","price":28.66,"pickUpStoreDocument":""},"payments":[{"sequential":1,"date":"2022-06-19T00:32:20+00:00","value":339.31,"type":14,"installments":1,"interestRate":0,"interestValue":0,"currency":986,"voucherOrderOrigin":"","card":null,"address":{"street":"","number":"","additionalInformation":"","county":"","city":"","state":"","zipcode":"","country":"","reference":""}}],"items":[{"code":"8061","name":"Pantufa Bariloche em Pele de Ovelha\/Carneiro Chamuscada - 36","value":109,"amount":1,"categoryID":null,"categoryName":"Peles de Ovelha","isGift":false,"sellerName":"","shippingCompany":"loja5-correios-pac-03298"},{"code":"8052","name":"Pantufa Bariloche em Pele de Ovelha\/Carneiro Marrom - 41","value":109,"amount":1,"categoryID":null,"categoryName":"Peles de Ovelha","isGift":false,"sellerName":"","shippingCompany":"loja5-correios-pac-03298"},{"code":"8061","name":"Pantufa Bariloche em Pele de Ovelha\/Carneiro Chamuscada - 40","value":109,"amount":1,"categoryID":null,"categoryName":"Peles de Ovelha","isGift":false,"sellerName":"","shippingCompany":"loja5-correios-pac-03298"}]}]
+2022-06-21T07:30:53+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T07:30:53+00:00 DEBUG Authenticate: novo token=292e204351684476aeb2cc44264e4637 ExpirationDate:2022-06-21T11:03:43.0930429-03:00
+2022-06-21T07:30:53+00:00 DEBUG Inclui_pedido: #pedido=22339 status=NVO score=
+2022-06-21T07:30:53+00:00 DEBUG Clearsale_Total_Checkout:Cs_total_checkout: Pedido 22339 inserido com sucesso, status:NVO requestID:
+2022-06-21T07:30:53+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T07:30:53+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22339
+2022-06-21T07:30:53+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22339 status antes:processing agora:cs-inanalisis
+2022-06-21T07:30:53+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22339 último status salvo:NVO
+2022-06-21T07:31:38+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=22339
+2022-06-21T07:31:38+00:00 DEBUG Clearsale_Total_Status:Cs_status: método do pedido acima:gerencianet_oficial
+2022-06-21T07:31:38+00:00 DEBUG Authenticate: versão:2.4.3 login=ImperialTapetesEInteriores modo=0
+2022-06-21T07:31:38+00:00 DEBUG Authenticate: novo token=292e204351684476aeb2cc44264e4637 ExpirationDate:2022-06-21T11:03:43.0930132-03:00
+2022-06-21T07:31:38+00:00 DEBUG Consulta_status: #pedido=22339 status=APA score=92.89
+2022-06-21T07:31:38+00:00 DEBUG Clearsale_Total_Status:Cs_status: retorno da consulta: status=APA score=92.89
+2022-06-21T07:31:38+00:00 DEBUG nota=ClearSale status: APA score: 92.89</br>Desc: (Aprovação Automática) – Pedido foi aprovado automaticamente segundo parâmetros definidos na regra de aprovação automática
+2022-06-21T07:31:38+00:00 DEBUG Clearsale_Total_Status:Cs_status: Pedido APROVADO(22339, status=APA), mudando status do Woo para wc-processing!
+2022-06-21T07:57:17+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T07:57:17+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22319
+2022-06-21T07:57:17+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-21T07:57:17+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22319 status antes:failed agora:processing
+2022-06-21T07:57:17+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22319 último status salvo:
+2022-06-21T07:57:17+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T07:57:17+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: Compras no BR integramos na CS.
+2022-06-21T07:57:17+00:00 DEBUG Cs_total_checkout: Entrou: Pedido #=22319 doc=287.040.138-83
+2022-06-21T07:57:17+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_checkout verificando post_meta de métodos...
+2022-06-21T07:57:17+00:00 DEBUG Monta_pedido: entrou, #doc=287.040.138-83 e-mail=lorainepelisao08@gmail.com
+2022-06-21T07:57:17+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: cep=09726110
+2022-06-21T07:57:17+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: saida=Centro
+2022-06-21T07:57:17+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=gerencianet_oficial
+2022-06-21T07:57:17+00:00 DEBUG Monta_pedido: json=[{"code":"22319","sessionID":"af7fc8485f40dc495bc626d6dbe7faf1","date":"2022-06-15T22:23:40-03:00","email":"lorainepelisao08@gmail.com","itemValue":189,"totalValue":212.59,"numberOfInstallments":1,"ip":"189.54.218.247","isGift":false,"giftMessage":"","observation":"","status":0,"origin":"website","channelID":"","country":"","nationality":"","product":3,"customSla":0,"bankAuthentication":"","billing":{"clientID":"815","type":1,"primaryDocument":"287.040.138-83","secondaryDocument":"","name":"Loraine Silva","birthDate":null,"email":"lorainepelisao08@gmail.com","gender":"","address":{"street":"Avenida das Na\u00e7\u00f5es Unidas Apto 123 bl 2","number":"1515","additionalInformation":"","county":"Centro","city":"S\u00e3o Bernardo do Campo","state":"SP","country":"BR","zipcode":"09726110","reference":""},"phones":[{"type":0,"ddi":55,"ddd":11,"number":972047111,"extension":""}]},"shipping":{"clientID":"815","type":1,"primaryDocument":"287.040.138-83","secondaryDocument":"","name":"Loraine Silva","birthDate":null,"email":"","gender":"","address":{"street":"Avenida das Na\u00e7\u00f5es Unidas Apto 123 bl 2","number":"1515","additionalInformation":"","county":"Centro","city":"S\u00e3o Bernardo do Campo","state":"SP","country":"BR","zipcode":"09726110","reference":""},"deliveryType":"11","deliveryTime":"","price":33.04,"pickUpStoreDocument":""},"payments":[{"sequential":1,"date":"2022-06-15T22:23:40+00:00","value":212.59,"type":14,"installments":1,"interestRate":0,"interestValue":0,"currency":986,"voucherOrderOrigin":"","card":null,"address":{"street":"","number":"","additionalInformation":"","county":"","city":"","state":"","zipcode":"","country":"","reference":""}}],"items":[{"code":"18819","name":"Tapete de Couro - Passadeira - Cinza Escuro - 0,60 x 1,50m - Quadriculado (5x5)","value":189,"amount":1,"categoryID":null,"categoryName":"PRONTA ENTREGA<\/a>, <a href=\"https:\/\/imperialtapeteseinteriores.com.br\/categoria-produto\/pronta-entrega\/passadeira-pronta-entrega\/\" rel=\"tag\">Tapetes Passadeira","isGift":false,"sellerName":"","shippingCompany":"loja5-correios-pac-03298"}]}]
+2022-06-21T07:57:17+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T07:57:18+00:00 DEBUG Authenticate: novo token=292e204351684476aeb2cc44264e4637 ExpirationDate:2022-06-21T11:03:43.0930132-03:00
+2022-06-21T07:57:18+00:00 DEBUG Inclui_pedido: #pedido=22319 status=NVO score=
+2022-06-21T07:57:18+00:00 DEBUG Clearsale_Total_Checkout:Cs_total_checkout: Pedido 22319 inserido com sucesso, status:NVO requestID:
+2022-06-21T07:57:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T07:57:18+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22319
+2022-06-21T07:57:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22319 status antes:processing agora:cs-inanalisis
+2022-06-21T07:57:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22319 último status salvo:NVO
+2022-06-21T07:57:53+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=22319
+2022-06-21T07:57:53+00:00 DEBUG Clearsale_Total_Status:Cs_status: método do pedido acima:gerencianet_oficial
+2022-06-21T07:57:53+00:00 DEBUG Authenticate: versão:2.4.3 login=ImperialTapetesEInteriores modo=0
+2022-06-21T07:57:53+00:00 DEBUG Authenticate: novo token=292e204351684476aeb2cc44264e4637 ExpirationDate:2022-06-21T11:03:43.0930435-03:00
+2022-06-21T07:57:53+00:00 DEBUG Consulta_status: #pedido=22319 status=APA score=37.71
+2022-06-21T07:57:53+00:00 DEBUG Clearsale_Total_Status:Cs_status: retorno da consulta: status=APA score=37.71
+2022-06-21T07:57:53+00:00 DEBUG nota=ClearSale status: APA score: 37.71</br>Desc: (Aprovação Automática) – Pedido foi aprovado automaticamente segundo parâmetros definidos na regra de aprovação automática
+2022-06-21T07:57:53+00:00 DEBUG Clearsale_Total_Status:Cs_status: Pedido APROVADO(22319, status=APA), mudando status do Woo para wc-processing!
+2022-06-21T12:43:38+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T12:43:38+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22319
+2022-06-21T12:43:38+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22319 status antes:processing agora:em-separacao
+2022-06-21T12:43:38+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22319 último status salvo:APA
+2022-06-21T12:45:24+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T12:45:24+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22339
+2022-06-21T12:45:24+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22339 status antes:processing agora:em-separacao
+2022-06-21T12:45:24+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22339 último status salvo:APA
+2022-06-21T12:47:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T12:47:46+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22368
+2022-06-21T12:47:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22368 status antes:processing agora:em-separacao
+2022-06-21T12:47:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22368 último status salvo:APA
+2022-06-21T15:18:47+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-06-21T15:18:47+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-06-21T15:18:47+00:00 DEBUG Cs_total_extrafield: order_id=22371 cs_field_doc= billing_cpf=118.707.098-02 billing_cnpj=
+2022-06-21T15:18:47+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22371
+2022-06-21T15:18:47+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-06-21T15:18:47+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-06-21T15:18:47+00:00 DEBUG Cs_total_checkout_order_processed: session =e904831f48e729f9ad8355a894334700
+2022-06-21T15:18:47+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22371 - EAP: Esperando Aprovação do Pagamento
+2022-06-21T15:19:00+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T15:19:00+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22371
+2022-06-21T15:19:00+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-21T15:19:00+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22371 status antes:pending agora:on-hold
+2022-06-21T15:19:00+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22371 último status salvo:
+2022-06-21T15:19:10+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22371
+2022-06-21T15:19:10+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22371
+2022-06-21T15:19:10+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-21T15:19:10+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-21T15:19:10+00:00 DEBUG Cs_total_thankyou:() Pedido 22371 não é cartão saindo...
+2022-06-21T15:19:11+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22371
+2022-06-21T15:19:11+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22371
+2022-06-21T15:19:11+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-21T15:19:11+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-21T15:19:11+00:00 DEBUG Cs_total_thankyou:() Pedido 22371 não é cartão saindo...
+2022-06-21T15:21:20+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T15:21:20+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22371
+2022-06-21T15:21:20+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-21T15:21:20+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22371 status antes:on-hold agora:processing
+2022-06-21T15:21:20+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22371 último status salvo:
+2022-06-21T15:21:20+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T15:21:20+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: Compras no BR integramos na CS.
+2022-06-21T15:21:20+00:00 DEBUG Cs_total_checkout: Entrou: Pedido #=22371 doc=118.707.098-02
+2022-06-21T15:21:20+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_checkout verificando post_meta de métodos...
+2022-06-21T15:21:20+00:00 DEBUG Monta_pedido: entrou, #doc=118.707.098-02 e-mail=alessandrabacci251@gmail.com
+2022-06-21T15:21:20+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: cep=13049334
+2022-06-21T15:21:21+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: saida=Swiss Park
+2022-06-21T15:21:21+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=gerencianet_oficial
+2022-06-21T15:21:21+00:00 DEBUG Monta_pedido: json=[{"code":"22371","sessionID":"e904831f48e729f9ad8355a894334700","date":"2022-06-21T12:18:47-03:00","email":"alessandrabacci251@gmail.com","itemValue":98,"totalValue":111.19,"numberOfInstallments":1,"ip":"179.159.51.41","isGift":false,"giftMessage":"","observation":"","status":0,"origin":"website","channelID":"","country":"","nationality":"","product":3,"customSla":0,"bankAuthentication":"","billing":{"clientID":"2023","type":1,"primaryDocument":"118.707.098-02","secondaryDocument":"","name":"Alessandra Barbosa","birthDate":null,"email":"alessandrabacci251@gmail.com","gender":"","address":{"street":"Rua M\u00e1rio Lago Resid. Arosa","number":"289","additionalInformation":"","county":"Swiss Park","city":"Campinas","state":"SP","country":"BR","zipcode":"13049334","reference":""},"phones":[{"type":0,"ddi":55,"ddd":55,"number":199979433,"extension":""}]},"shipping":{"clientID":"2023","type":1,"primaryDocument":"118.707.098-02","secondaryDocument":"","name":"Alessandra Barbosa","birthDate":null,"email":"","gender":"","address":{"street":"Rua M\u00e1rio Lago Resid. Arosa","number":"289","additionalInformation":"","county":"Swiss Park","city":"Campinas","state":"SP","country":"BR","zipcode":"13049334","reference":""},"deliveryType":"11","deliveryTime":"","price":22.99,"pickUpStoreDocument":""},"payments":[{"sequential":1,"date":"2022-06-21T12:18:47+00:00","value":111.19,"type":14,"installments":1,"interestRate":0,"interestValue":0,"currency":986,"voucherOrderOrigin":"","card":null,"address":{"street":"","number":"","additionalInformation":"","county":"","city":"","state":"","zipcode":"","country":"","reference":""}}],"items":[{"code":"7209","name":"Tapete de Couro - Branco - 40 x 60cm Quadriculado (5x5)","value":98,"amount":2,"categoryID":null,"categoryName":"Capacho 40 x 60 cm","isGift":false,"sellerName":"","shippingCompany":"melhorenvio_jadlog_package"}]}]
+2022-06-21T15:21:21+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T15:21:21+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8086406-03:00
+2022-06-21T15:21:22+00:00 DEBUG Inclui_pedido: #pedido=22371 status=NVO score=
+2022-06-21T15:21:22+00:00 DEBUG Clearsale_Total_Checkout:Cs_total_checkout: Pedido 22371 inserido com sucesso, status:NVO requestID:
+2022-06-21T15:21:22+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T15:21:22+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22371
+2022-06-21T15:21:22+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22371 status antes:processing agora:cs-inanalisis
+2022-06-21T15:21:22+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22371 último status salvo:NVO
+2022-06-21T15:22:11+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=22371
+2022-06-21T15:22:11+00:00 DEBUG Clearsale_Total_Status:Cs_status: método do pedido acima:gerencianet_oficial
+2022-06-21T15:22:11+00:00 DEBUG Authenticate: versão:2.4.3 login=ImperialTapetesEInteriores modo=0
+2022-06-21T15:22:11+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100530-03:00
+2022-06-21T15:22:14+00:00 DEBUG Consulta_status: #pedido=22371 status=APA score=65.03
+2022-06-21T15:22:14+00:00 DEBUG Clearsale_Total_Status:Cs_status: retorno da consulta: status=APA score=65.03
+2022-06-21T15:22:14+00:00 DEBUG nota=ClearSale status: APA score: 65.03</br>Desc: (Aprovação Automática) – Pedido foi aprovado automaticamente segundo parâmetros definidos na regra de aprovação automática
+2022-06-21T15:22:14+00:00 DEBUG Clearsale_Total_Status:Cs_status: Pedido APROVADO(22371, status=APA), mudando status do Woo para wc-processing!
+2022-06-21T16:32:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T16:32:18+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22367
+2022-06-21T16:32:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22367 status antes:processing agora:em-separacao
+2022-06-21T16:32:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22367 último status salvo:APA
+2022-06-21T16:33:56+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T16:33:56+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22371
+2022-06-21T16:33:56+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22371 status antes:processing agora:em-separacao
+2022-06-21T16:33:56+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22371 último status salvo:APA
+2022-06-21T16:40:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T16:40:23+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22369
+2022-06-21T16:40:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22369 status antes:processing agora:em-confeccao
+2022-06-21T16:40:23+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22369 último status salvo:APA
+2022-06-21T16:48:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T16:48:07+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=21929
+2022-06-21T16:48:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=21929 status antes:em-separacao agora:pedido-entregue
+2022-06-21T16:48:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=21929 último status salvo:APA
+2022-06-21T16:53:45+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T16:53:45+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22043
+2022-06-21T16:53:45+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22043 status antes:em-separacao agora:pedido-entregue
+2022-06-21T16:53:45+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22043 último status salvo:APA
+2022-06-21T17:00:01+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T17:00:01+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22090
+2022-06-21T17:00:01+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22090 status antes:em-separacao agora:completed
+2022-06-21T17:00:01+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22090 último status salvo:APM
+2022-06-21T17:00:01+00:00 DEBUG Atualiza_status: vamos marcar pedido=22090 com status=PGA
+2022-06-21T17:00:01+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T17:00:01+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100530-03:00
+2022-06-21T17:00:01+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T17:00:01+00:00 DEBUG Atualiza_status: #pedido=22090 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T17:00:01+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T17:00:13+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T17:00:13+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22086
+2022-06-21T17:00:13+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22086 status antes:em-separacao agora:pedido-entregue
+2022-06-21T17:00:13+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22086 último status salvo:APA
+2022-06-21T17:02:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T17:02:29+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22094
+2022-06-21T17:02:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22094 status antes:em-separacao agora:completed
+2022-06-21T17:02:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22094 último status salvo:APA
+2022-06-21T17:02:29+00:00 DEBUG Atualiza_status: vamos marcar pedido=22094 com status=PGA
+2022-06-21T17:02:29+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T17:02:29+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100990-03:00
+2022-06-21T17:02:29+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T17:02:29+00:00 DEBUG Atualiza_status: #pedido=22094 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T17:02:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T17:05:01+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T17:05:01+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22096
+2022-06-21T17:05:01+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22096 status antes:em-separacao agora:completed
+2022-06-21T17:05:01+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22096 último status salvo:APA
+2022-06-21T17:05:01+00:00 DEBUG Atualiza_status: vamos marcar pedido=22096 com status=PGA
+2022-06-21T17:05:01+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T17:05:01+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100433-03:00
+2022-06-21T17:05:02+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T17:05:02+00:00 DEBUG Atualiza_status: #pedido=22096 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T17:05:02+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T17:49:20+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-06-21T17:49:20+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-06-21T17:49:20+00:00 DEBUG Cs_total_extrafield: order_id=22372 cs_field_doc= billing_cpf=985.287.830-14 billing_cnpj=
+2022-06-21T17:49:20+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22372
+2022-06-21T17:49:20+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-06-21T17:49:20+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-06-21T17:49:20+00:00 DEBUG Cs_total_checkout_order_processed: session =a115d613035e0c50b37f32bfdab3e919
+2022-06-21T17:49:20+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22372 - EAP: Esperando Aprovação do Pagamento
+2022-06-21T17:49:34+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T17:49:34+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22372
+2022-06-21T17:49:34+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-21T17:49:34+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22372 status antes:pending agora:on-hold
+2022-06-21T17:49:34+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22372 último status salvo:
+2022-06-21T17:49:44+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22372
+2022-06-21T17:49:44+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22372
+2022-06-21T17:49:44+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-21T17:49:44+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-21T17:49:44+00:00 DEBUG Cs_total_thankyou:() Pedido 22372 não é cartão saindo...
+2022-06-21T17:49:44+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22372
+2022-06-21T17:49:45+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22372
+2022-06-21T17:49:45+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-21T17:49:45+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-21T17:49:45+00:00 DEBUG Cs_total_thankyou:() Pedido 22372 não é cartão saindo...
+2022-06-21T19:30:31+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:30:31+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22098
+2022-06-21T19:30:31+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22098 status antes:em-separacao agora:pedido-entregue
+2022-06-21T19:30:31+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22098 último status salvo:APA
+2022-06-21T19:31:09+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:31:09+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22099
+2022-06-21T19:31:09+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22099 status antes:em-separacao agora:completed
+2022-06-21T19:31:09+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22099 último status salvo:APA
+2022-06-21T19:31:09+00:00 DEBUG Atualiza_status: vamos marcar pedido=22099 com status=PGA
+2022-06-21T19:31:09+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:31:09+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100694-03:00
+2022-06-21T19:31:10+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:31:10+00:00 DEBUG Atualiza_status: #pedido=22099 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:31:10+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:31:53+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:31:53+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22156
+2022-06-21T19:31:53+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22156 status antes:em-separacao agora:completed
+2022-06-21T19:31:53+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22156 último status salvo:APA
+2022-06-21T19:31:53+00:00 DEBUG Atualiza_status: vamos marcar pedido=22156 com status=PGA
+2022-06-21T19:31:53+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:31:53+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100079-03:00
+2022-06-21T19:31:54+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:31:54+00:00 DEBUG Atualiza_status: #pedido=22156 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:31:54+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:32:39+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:32:39+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22157
+2022-06-21T19:32:39+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22157 status antes:em-separacao agora:completed
+2022-06-21T19:32:39+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22157 último status salvo:APA
+2022-06-21T19:32:39+00:00 DEBUG Atualiza_status: vamos marcar pedido=22157 com status=PGA
+2022-06-21T19:32:39+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:32:40+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100880-03:00
+2022-06-21T19:32:40+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:32:40+00:00 DEBUG Atualiza_status: #pedido=22157 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:32:40+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:33:12+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:33:12+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22159
+2022-06-21T19:33:12+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22159 status antes:em-separacao agora:completed
+2022-06-21T19:33:12+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22159 último status salvo:APA
+2022-06-21T19:33:12+00:00 DEBUG Atualiza_status: vamos marcar pedido=22159 com status=PGA
+2022-06-21T19:33:12+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:33:12+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100079-03:00
+2022-06-21T19:33:12+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:33:12+00:00 DEBUG Atualiza_status: #pedido=22159 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:33:12+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:33:54+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:33:54+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22160
+2022-06-21T19:33:54+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22160 status antes:em-separacao agora:completed
+2022-06-21T19:33:54+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22160 último status salvo:APA
+2022-06-21T19:33:54+00:00 DEBUG Atualiza_status: vamos marcar pedido=22160 com status=PGA
+2022-06-21T19:33:54+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:33:54+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100544-03:00
+2022-06-21T19:33:55+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:33:55+00:00 DEBUG Atualiza_status: #pedido=22160 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:33:55+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:34:15+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:34:15+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22162
+2022-06-21T19:34:15+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22162 status antes:em-separacao agora:pedido-entregue
+2022-06-21T19:34:15+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22162 último status salvo:APA
+2022-06-21T19:34:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:34:18+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22162
+2022-06-21T19:34:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22162 status antes:em-separacao agora:pedido-entregue
+2022-06-21T19:34:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22162 último status salvo:APA
+2022-06-21T19:35:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:35:07+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22165
+2022-06-21T19:35:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22165 status antes:em-separacao agora:completed
+2022-06-21T19:35:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22165 último status salvo:APA
+2022-06-21T19:35:07+00:00 DEBUG Atualiza_status: vamos marcar pedido=22165 com status=PGA
+2022-06-21T19:35:07+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:35:07+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100079-03:00
+2022-06-21T19:35:07+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:35:07+00:00 DEBUG Atualiza_status: #pedido=22165 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:35:07+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:35:42+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:35:42+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22207
+2022-06-21T19:35:42+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22207 status antes:em-separacao agora:completed
+2022-06-21T19:35:42+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22207 último status salvo:APA
+2022-06-21T19:35:42+00:00 DEBUG Atualiza_status: vamos marcar pedido=22207 com status=PGA
+2022-06-21T19:35:42+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:35:43+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100544-03:00
+2022-06-21T19:35:43+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:35:43+00:00 DEBUG Atualiza_status: #pedido=22207 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:35:43+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:37:34+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:37:34+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22321
+2022-06-21T19:37:34+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22321 status antes:em-separacao agora:completed
+2022-06-21T19:37:34+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22321 último status salvo:APA
+2022-06-21T19:37:34+00:00 DEBUG Atualiza_status: vamos marcar pedido=22321 com status=PGA
+2022-06-21T19:37:34+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:37:34+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100880-03:00
+2022-06-21T19:37:34+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:37:34+00:00 DEBUG Atualiza_status: #pedido=22321 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:37:34+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:40:09+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:40:09+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22323
+2022-06-21T19:40:09+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22323 status antes:em-separacao agora:completed
+2022-06-21T19:40:09+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22323 último status salvo:APA
+2022-06-21T19:40:09+00:00 DEBUG Atualiza_status: vamos marcar pedido=22323 com status=PGA
+2022-06-21T19:40:09+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:40:09+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100880-03:00
+2022-06-21T19:40:09+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:40:09+00:00 DEBUG Atualiza_status: #pedido=22323 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:40:09+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:40:36+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:40:36+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22324
+2022-06-21T19:40:36+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22324 status antes:em-separacao agora:completed
+2022-06-21T19:40:36+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22324 último status salvo:APA
+2022-06-21T19:40:36+00:00 DEBUG Atualiza_status: vamos marcar pedido=22324 com status=PGA
+2022-06-21T19:40:36+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:40:36+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100880-03:00
+2022-06-21T19:40:36+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:40:36+00:00 DEBUG Atualiza_status: #pedido=22324 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:40:36+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:42:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:42:26+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22325
+2022-06-21T19:42:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22325 status antes:em-separacao agora:completed
+2022-06-21T19:42:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22325 último status salvo:APA
+2022-06-21T19:42:26+00:00 DEBUG Atualiza_status: vamos marcar pedido=22325 com status=PGA
+2022-06-21T19:42:26+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:42:26+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100544-03:00
+2022-06-21T19:42:26+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:42:26+00:00 DEBUG Atualiza_status: #pedido=22325 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:42:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:44:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:44:29+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22326
+2022-06-21T19:44:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22326 status antes:em-separacao agora:completed
+2022-06-21T19:44:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22326 último status salvo:APA
+2022-06-21T19:44:29+00:00 DEBUG Atualiza_status: vamos marcar pedido=22326 com status=PGA
+2022-06-21T19:44:29+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:44:29+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100880-03:00
+2022-06-21T19:44:29+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:44:29+00:00 DEBUG Atualiza_status: #pedido=22326 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:44:29+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:45:30+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:45:30+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22327
+2022-06-21T19:45:30+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22327 status antes:em-separacao agora:completed
+2022-06-21T19:45:30+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22327 último status salvo:APA
+2022-06-21T19:45:30+00:00 DEBUG Atualiza_status: vamos marcar pedido=22327 com status=PGA
+2022-06-21T19:45:30+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:45:30+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100544-03:00
+2022-06-21T19:45:30+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:45:30+00:00 DEBUG Atualiza_status: #pedido=22327 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:45:30+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:48:30+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:48:30+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22332
+2022-06-21T19:48:30+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22332 status antes:em-separacao agora:completed
+2022-06-21T19:48:30+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22332 último status salvo:APA
+2022-06-21T19:48:30+00:00 DEBUG Atualiza_status: vamos marcar pedido=22332 com status=PGA
+2022-06-21T19:48:30+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:48:30+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100544-03:00
+2022-06-21T19:48:31+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:48:31+00:00 DEBUG Atualiza_status: #pedido=22332 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:48:31+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:48:56+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:48:56+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22333
+2022-06-21T19:48:56+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22333 status antes:em-separacao agora:completed
+2022-06-21T19:48:56+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22333 último status salvo:APA
+2022-06-21T19:48:56+00:00 DEBUG Atualiza_status: vamos marcar pedido=22333 com status=PGA
+2022-06-21T19:48:56+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:48:57+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100694-03:00
+2022-06-21T19:48:57+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:48:57+00:00 DEBUG Atualiza_status: #pedido=22333 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:48:57+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:49:36+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:49:36+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22336
+2022-06-21T19:49:36+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22336 status antes:em-separacao agora:completed
+2022-06-21T19:49:36+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22336 último status salvo:APA
+2022-06-21T19:49:36+00:00 DEBUG Atualiza_status: vamos marcar pedido=22336 com status=PGA
+2022-06-21T19:49:36+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:49:36+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100544-03:00
+2022-06-21T19:49:36+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:49:36+00:00 DEBUG Atualiza_status: #pedido=22336 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:49:36+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:50:10+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:50:10+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22337
+2022-06-21T19:50:10+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22337 status antes:em-separacao agora:completed
+2022-06-21T19:50:10+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22337 último status salvo:APA
+2022-06-21T19:50:10+00:00 DEBUG Atualiza_status: vamos marcar pedido=22337 com status=PGA
+2022-06-21T19:50:10+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:50:11+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100079-03:00
+2022-06-21T19:50:11+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:50:11+00:00 DEBUG Atualiza_status: #pedido=22337 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:50:11+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:51:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:51:46+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22340
+2022-06-21T19:51:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22340 status antes:em-separacao agora:completed
+2022-06-21T19:51:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22340 último status salvo:APA
+2022-06-21T19:51:46+00:00 DEBUG Atualiza_status: vamos marcar pedido=22340 com status=PGA
+2022-06-21T19:51:46+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:51:46+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100880-03:00
+2022-06-21T19:51:46+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:51:46+00:00 DEBUG Atualiza_status: #pedido=22340 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:51:46+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:52:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:52:26+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22341
+2022-06-21T19:52:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22341 status antes:em-separacao agora:completed
+2022-06-21T19:52:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22341 último status salvo:APA
+2022-06-21T19:52:26+00:00 DEBUG Atualiza_status: vamos marcar pedido=22341 com status=PGA
+2022-06-21T19:52:26+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:52:26+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100544-03:00
+2022-06-21T19:52:26+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:52:26+00:00 DEBUG Atualiza_status: #pedido=22341 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:52:26+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:53:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:53:03+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22342
+2022-06-21T19:53:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22342 status antes:em-separacao agora:completed
+2022-06-21T19:53:03+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22342 último status salvo:APA
+2022-06-21T19:53:03+00:00 DEBUG Atualiza_status: vamos marcar pedido=22342 com status=PGA
+2022-06-21T19:53:03+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:53:03+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100880-03:00
+2022-06-21T19:53:04+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:53:04+00:00 DEBUG Atualiza_status: #pedido=22342 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:53:04+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:53:57+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:53:57+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22343
+2022-06-21T19:53:57+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22343 status antes:em-separacao agora:completed
+2022-06-21T19:53:57+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22343 último status salvo:APA
+2022-06-21T19:53:57+00:00 DEBUG Atualiza_status: vamos marcar pedido=22343 com status=PGA
+2022-06-21T19:53:57+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:53:58+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100079-03:00
+2022-06-21T19:53:58+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:53:58+00:00 DEBUG Atualiza_status: #pedido=22343 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:53:58+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:54:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:54:33+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22344
+2022-06-21T19:54:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22344 status antes:em-separacao agora:completed
+2022-06-21T19:54:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22344 último status salvo:APA
+2022-06-21T19:54:33+00:00 DEBUG Atualiza_status: vamos marcar pedido=22344 com status=PGA
+2022-06-21T19:54:33+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:54:33+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100694-03:00
+2022-06-21T19:54:33+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:54:33+00:00 DEBUG Atualiza_status: #pedido=22344 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:54:33+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:57:04+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:57:04+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22353
+2022-06-21T19:57:04+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22353 status antes:em-separacao agora:completed
+2022-06-21T19:57:04+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22353 último status salvo:APA
+2022-06-21T19:57:04+00:00 DEBUG Atualiza_status: vamos marcar pedido=22353 com status=PGA
+2022-06-21T19:57:04+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:57:05+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100880-03:00
+2022-06-21T19:57:05+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:57:05+00:00 DEBUG Atualiza_status: #pedido=22353 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:57:05+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:57:37+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T19:57:37+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22357
+2022-06-21T19:57:37+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22357 status antes:em-separacao agora:completed
+2022-06-21T19:57:37+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22357 último status salvo:APA
+2022-06-21T19:57:37+00:00 DEBUG Atualiza_status: vamos marcar pedido=22357 com status=PGA
+2022-06-21T19:57:37+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T19:57:37+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100880-03:00
+2022-06-21T19:57:37+00:00 DEBUG Atualiza_status: ret=Array
+(
+    [status] => StatusNotAllowed
+    [message] => It is not permitted to update to this status
+)
+
+2022-06-21T19:57:37+00:00 DEBUG Atualiza_status: #pedido=22357 status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T19:57:37+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: colocando PGA retorno: requestID= status=StatusNotAllowed msg=It is not permitted to update to this status
+2022-06-21T22:23:25+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-06-21T22:23:25+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-06-21T22:23:25+00:00 DEBUG Cs_total_extrafield: order_id=22501 cs_field_doc= billing_cpf=557.870.021-72 billing_cnpj=
+2022-06-21T22:23:25+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22501
+2022-06-21T22:23:25+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-06-21T22:23:25+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-06-21T22:23:25+00:00 DEBUG Cs_total_checkout_order_processed: session =859bf1416b8b8761c5d588dee78dc65f
+2022-06-21T22:23:25+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22501 - EAP: Esperando Aprovação do Pagamento
+2022-06-21T22:23:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T22:23:49+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22501
+2022-06-21T22:23:49+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-21T22:23:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22501 status antes:pending agora:processing
+2022-06-21T22:23:49+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22501 último status salvo:
+2022-06-21T22:23:49+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T22:23:49+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: Compras no BR integramos na CS.
+2022-06-21T22:23:49+00:00 DEBUG Cs_total_checkout: Entrou: Pedido #=22501 doc=557.870.021-72
+2022-06-21T22:23:49+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_checkout verificando post_meta de métodos...
+2022-06-21T22:23:49+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos: Pedido 22501 feito pelo MarcosAlexandre com 522840******5609 nome:LAURA M BARBOSA
+2022-06-21T22:23:49+00:00 DEBUG Monta_pedido: entrou, #doc=557.870.021-72 e-mail=lauramaciel@qualitashumanus.com.br
+2022-06-21T22:23:49+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: cep=18035590
+2022-06-21T22:23:51+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: saida=Centro
+2022-06-21T22:23:51+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=rede_credit
+2022-06-21T22:23:51+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=credito
+2022-06-21T22:23:51+00:00 DEBUG Monta_pedido: json=[{"code":"22501","sessionID":"859bf1416b8b8761c5d588dee78dc65f","date":"2022-06-21T19:23:24-03:00","email":"lauramaciel@qualitashumanus.com.br","itemValue":549,"totalValue":661.11,"numberOfInstallments":10,"ip":"189.69.198.56","isGift":false,"giftMessage":"","observation":"","status":0,"origin":"website","channelID":"","country":"","nationality":"","product":3,"customSla":0,"bankAuthentication":"","billing":{"clientID":"2026","type":1,"primaryDocument":"557.870.021-72","secondaryDocument":"","name":"Laura Maciel","birthDate":null,"email":"lauramaciel@qualitashumanus.com.br","gender":"","address":{"street":"Rua Paran\u00e1 apartamento 22","number":"35","additionalInformation":"","county":"Centro","city":"Sorocaba","state":"SP","country":"BR","zipcode":"18035590","reference":""},"phones":[{"type":0,"ddi":55,"ddd":15,"number":997740001,"extension":""}]},"shipping":{"clientID":"2026","type":1,"primaryDocument":"557.870.021-72","secondaryDocument":"","name":"Laura Maciel","birthDate":null,"email":"","gender":"","address":{"street":"Rua Paran\u00e1 apartamento 22","number":"35","additionalInformation":"","county":"Centro","city":"Sorocaba","state":"SP","country":"BR","zipcode":"18035590","reference":""},"deliveryType":"0","deliveryTime":"","price":112.11,"pickUpStoreDocument":""},"payments":[{"sequential":1,"date":"2022-06-21T19:23:24+00:00","value":661.11,"type":1,"installments":1,"interestRate":0,"interestValue":0,"currency":986,"voucherOrderOrigin":"","card":{"number":"522840******5609","hash":"","bin":"522840","end":"5609","type":2,"validityDate":"01\/0027","ownerName":"LAURA M BARBOSA","document":"557.870.021-72","nsu":""},"address":{"street":"","number":"","additionalInformation":"","county":"","city":"","state":"","zipcode":"","country":"","reference":""}}],"items":[{"code":"9386","name":"Banqueta e Mesa Amsterd\u00e3 - Couro Leg\u00edtimo","value":549,"amount":1,"categoryID":null,"categoryName":"Banqueta e Mesa Amsterd\u00e3<\/a>, <a href=\"https:\/\/imperialtapeteseinteriores.com.br\/categoria-produto\/pronta-entrega\/banquetas\/\" rel=\"tag\">Banquetas, Mesas e Puffs<\/a>, <a href=\"https:\/\/imperialtapeteseinteriores.com.br\/categoria-produto\/promocao-da-semana\/\" rel=\"tag\">Ofertas para voc\u00ea","isGift":false,"sellerName":"","shippingCompany":"braspress-r"}]}]
+2022-06-21T22:23:51+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T22:23:51+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100563-03:00
+2022-06-21T22:23:51+00:00 DEBUG Inclui_pedido: #pedido=22501 status=NVO score=
+2022-06-21T22:23:51+00:00 DEBUG Clearsale_Total_Checkout:Cs_total_checkout: Pedido 22501 inserido com sucesso, status:NVO requestID:
+2022-06-21T22:23:51+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T22:23:51+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22501
+2022-06-21T22:23:51+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22501 status antes:processing agora:cs-inanalisis
+2022-06-21T22:23:51+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22501 último status salvo:NVO
+2022-06-21T22:23:53+00:00 DEBUG Cs_total_checkout: hook woocommerce_payment_complete: order id=22501
+2022-06-21T22:24:35+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=22501
+2022-06-21T22:24:35+00:00 DEBUG Clearsale_Total_Status:Cs_status: método do pedido acima:rede_credit
+2022-06-21T22:24:35+00:00 DEBUG Authenticate: versão:2.4.3 login=ImperialTapetesEInteriores modo=0
+2022-06-21T22:24:36+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100687-03:00
+2022-06-21T22:24:36+00:00 DEBUG Consulta_status: #pedido=22501 status=APA score=28.7
+2022-06-21T22:24:36+00:00 DEBUG Clearsale_Total_Status:Cs_status: retorno da consulta: status=APA score=28.7
+2022-06-21T22:24:36+00:00 DEBUG nota=ClearSale status: APA score: 28.7</br>Desc: (Aprovação Automática) – Pedido foi aprovado automaticamente segundo parâmetros definidos na regra de aprovação automática
+2022-06-21T22:24:36+00:00 DEBUG Clearsale_Total_Status:Cs_status: Pedido APROVADO(22501, status=APA), mudando status do Woo para wc-processing!
+2022-06-21T23:11:11+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-06-21T23:11:11+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-06-21T23:11:11+00:00 DEBUG Cs_total_extrafield: order_id=22502 cs_field_doc= billing_cpf=255.588.368-14 billing_cnpj=
+2022-06-21T23:11:11+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22502
+2022-06-21T23:11:11+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-06-21T23:11:11+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-06-21T23:11:11+00:00 DEBUG Cs_total_checkout_order_processed: session =0224cd598e48c5041c7947fd5cb20d53
+2022-06-21T23:11:11+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22502 - EAP: Esperando Aprovação do Pagamento
+2022-06-21T23:11:24+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T23:11:24+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22502
+2022-06-21T23:11:24+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-21T23:11:24+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22502 status antes:pending agora:on-hold
+2022-06-21T23:11:24+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22502 último status salvo:
+2022-06-21T23:11:33+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22502
+2022-06-21T23:11:33+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22502
+2022-06-21T23:11:33+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-21T23:11:33+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-21T23:11:33+00:00 DEBUG Cs_total_thankyou:() Pedido 22502 não é cartão saindo...
+2022-06-21T23:11:34+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22502
+2022-06-21T23:11:34+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22502
+2022-06-21T23:11:34+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-21T23:11:34+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-21T23:11:34+00:00 DEBUG Cs_total_thankyou:() Pedido 22502 não é cartão saindo...
+2022-06-21T23:13:13+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T23:13:13+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22502
+2022-06-21T23:13:13+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-21T23:13:13+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22502 status antes:on-hold agora:processing
+2022-06-21T23:13:13+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22502 último status salvo:
+2022-06-21T23:13:13+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T23:13:13+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: Compras no BR integramos na CS.
+2022-06-21T23:13:13+00:00 DEBUG Cs_total_checkout: Entrou: Pedido #=22502 doc=255.588.368-14
+2022-06-21T23:13:14+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_checkout verificando post_meta de métodos...
+2022-06-21T23:13:14+00:00 DEBUG Monta_pedido: entrou, #doc=255.588.368-14 e-mail=Cesaroswaldo78@gmail.com
+2022-06-21T23:13:14+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: cep=01528020
+2022-06-21T23:13:14+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: saida=Aclimação
+2022-06-21T23:13:14+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=gerencianet_oficial
+2022-06-21T23:13:14+00:00 DEBUG Monta_pedido: json=[{"code":"22502","sessionID":"0224cd598e48c5041c7947fd5cb20d53","date":"2022-06-21T20:11:10-03:00","email":"Cesaroswaldo78@gmail.com","itemValue":98,"totalValue":110.78,"numberOfInstallments":1,"ip":"186.204.193.146","isGift":false,"giftMessage":"","observation":"","status":0,"origin":"website","channelID":"","country":"","nationality":"","product":3,"customSla":0,"bankAuthentication":"","billing":{"clientID":"2027","type":1,"primaryDocument":"255.588.368-14","secondaryDocument":"","name":"Cesar carvalho","birthDate":null,"email":"cesaroswaldo78@gmail.com","gender":"","address":{"street":"Rua Tenente Azevedo ap 63b","number":"104","additionalInformation":"","county":"Aclima\u00e7\u00e3o","city":"S\u00e3o Paulo","state":"SP","country":"BR","zipcode":"01528020","reference":""},"phones":[{"type":0,"ddi":55,"ddd":11,"number":982382265,"extension":""}]},"shipping":{"clientID":"2027","type":1,"primaryDocument":"255.588.368-14","secondaryDocument":"","name":"Cesar carvalho","birthDate":null,"email":"","gender":"","address":{"street":"Rua Tenente Azevedo ap 63b","number":"104","additionalInformation":"","county":"Aclima\u00e7\u00e3o","city":"S\u00e3o Paulo","state":"SP","country":"BR","zipcode":"01528020","reference":""},"deliveryType":"11","deliveryTime":"","price":22.58,"pickUpStoreDocument":""},"payments":[{"sequential":1,"date":"2022-06-21T20:11:10+00:00","value":110.78,"type":14,"installments":1,"interestRate":0,"interestValue":0,"currency":986,"voucherOrderOrigin":"","card":null,"address":{"street":"","number":"","additionalInformation":"","county":"","city":"","state":"","zipcode":"","country":"","reference":""}}],"items":[{"code":"6627","name":"Tapete de Couro - Bege - 40 x 60cm Quadriculado (5x5)","value":98,"amount":2,"categoryID":null,"categoryName":"Capacho 40 x 60 cm","isGift":false,"sellerName":"","shippingCompany":"melhorenvio_jadlog_package"}]}]
+2022-06-21T23:13:14+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-21T23:13:15+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100917-03:00
+2022-06-21T23:13:15+00:00 DEBUG Inclui_pedido: #pedido=22502 status=NVO score=
+2022-06-21T23:13:15+00:00 DEBUG Clearsale_Total_Checkout:Cs_total_checkout: Pedido 22502 inserido com sucesso, status:NVO requestID:
+2022-06-21T23:13:15+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-21T23:13:15+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22502
+2022-06-21T23:13:15+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22502 status antes:processing agora:cs-inanalisis
+2022-06-21T23:13:15+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22502 último status salvo:NVO
+2022-06-21T23:13:31+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22502
+2022-06-21T23:13:31+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22502
+2022-06-21T23:13:31+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido já enviado!
+2022-06-21T23:13:44+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22502
+2022-06-21T23:13:44+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22502
+2022-06-21T23:13:44+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido já enviado!
+2022-06-21T23:13:57+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=22502
+2022-06-21T23:13:57+00:00 DEBUG Clearsale_Total_Status:Cs_status: método do pedido acima:gerencianet_oficial
+2022-06-21T23:13:57+00:00 DEBUG Authenticate: versão:2.4.3 login=ImperialTapetesEInteriores modo=0
+2022-06-21T23:13:57+00:00 DEBUG Authenticate: novo token=8543eba6e74a4a19bbc907c943c746f9 ExpirationDate:2022-06-22T12:21:21.8100254-03:00
+2022-06-21T23:13:57+00:00 DEBUG Consulta_status: #pedido=22502 status=APA score=17.29
+2022-06-21T23:13:57+00:00 DEBUG Clearsale_Total_Status:Cs_status: retorno da consulta: status=APA score=17.29
+2022-06-21T23:13:57+00:00 DEBUG nota=ClearSale status: APA score: 17.29</br>Desc: (Aprovação Automática) – Pedido foi aprovado automaticamente segundo parâmetros definidos na regra de aprovação automática
+2022-06-21T23:13:57+00:00 DEBUG Clearsale_Total_Status:Cs_status: Pedido APROVADO(22502, status=APA), mudando status do Woo para wc-processing!
+2022-06-21T23:14:04+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22502
+2022-06-21T23:14:04+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22502
+2022-06-21T23:14:04+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido já enviado!

@@ -1,0 +1,162 @@
+2022-06-23T00:09:26+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-06-23T00:09:26+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-06-23T00:09:26+00:00 DEBUG Cs_total_extrafield: order_id=22551 cs_field_doc= billing_cpf=037.355.709-41 billing_cnpj=
+2022-06-23T00:09:26+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22551
+2022-06-23T00:09:26+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-06-23T00:09:26+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-06-23T00:09:26+00:00 DEBUG Cs_total_checkout_order_processed: session =80f4431bf838249179aa507f0bdd2cf3
+2022-06-23T00:09:26+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22551 - EAP: Esperando Aprovação do Pagamento
+2022-06-23T00:09:40+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-23T00:09:40+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22551
+2022-06-23T00:09:40+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-23T00:09:40+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22551 status antes:pending agora:on-hold
+2022-06-23T00:09:40+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22551 último status salvo:
+2022-06-23T00:09:53+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22551
+2022-06-23T00:09:53+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22551
+2022-06-23T00:09:53+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-23T00:09:53+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-23T00:09:53+00:00 DEBUG Cs_total_thankyou:() Pedido 22551 não é cartão saindo...
+2022-06-23T00:09:54+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22551
+2022-06-23T00:09:54+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22551
+2022-06-23T00:09:54+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-23T00:09:54+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-23T00:09:54+00:00 DEBUG Cs_total_thankyou:() Pedido 22551 não é cartão saindo...
+2022-06-23T10:43:12+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-23T10:43:12+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22346
+2022-06-23T10:43:12+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-23T10:43:12+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22346 status antes:on-hold agora:failed
+2022-06-23T10:43:12+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22346 último status salvo:
+2022-06-23T13:11:43+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=22550
+2022-06-23T13:11:43+00:00 DEBUG Clearsale_Total_Status:Cs_status: método do pedido acima:rede_credit
+2022-06-23T13:11:43+00:00 DEBUG Authenticate: versão:2.4.3 login=ImperialTapetesEInteriores modo=0
+2022-06-23T13:11:43+00:00 DEBUG Authenticate: novo token=6fa75eaec2fe40fe9df4564409c59254 ExpirationDate:2022-06-23T12:39:51.9430082-03:00
+2022-06-23T13:11:44+00:00 DEBUG Consulta_status: #pedido=22550 status=APM score=92.36
+2022-06-23T13:11:44+00:00 DEBUG Clearsale_Total_Status:Cs_status: retorno da consulta: status=APM score=92.36
+2022-06-23T13:11:44+00:00 DEBUG nota=ClearSale status: APM score: 92.36</br>Desc: (Aprovação Manual) – Pedido aprovado manualmente por tomada de decisão de um analista
+2022-06-23T13:11:44+00:00 DEBUG Clearsale_Total_Status:Cs_status: Pedido APROVADO(22550, status=APM), mudando status do Woo para wc-processing!
+2022-06-23T13:23:15+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-06-23T13:23:15+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-06-23T13:23:15+00:00 DEBUG Cs_total_extrafield: order_id=22552 cs_field_doc= billing_cpf=665.829.890-49 billing_cnpj=
+2022-06-23T13:23:15+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22552
+2022-06-23T13:23:15+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-06-23T13:23:15+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-06-23T13:23:15+00:00 DEBUG Cs_total_checkout_order_processed: session =f2dd62e3b2f4ce3370646f5440855f1d
+2022-06-23T13:23:15+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22552 - EAP: Esperando Aprovação do Pagamento
+2022-06-23T13:23:42+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-06-23T13:23:42+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-06-23T13:23:42+00:00 DEBUG Cs_total_extrafield: order_id=22552 cs_field_doc= billing_cpf=665.829.890-49 billing_cnpj=
+2022-06-23T13:23:42+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22552
+2022-06-23T13:23:42+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-06-23T13:23:42+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-06-23T13:23:42+00:00 DEBUG Cs_total_checkout_order_processed: session =f2dd62e3b2f4ce3370646f5440855f1d
+2022-06-23T13:23:42+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22552 - EAP: Esperando Aprovação do Pagamento
+2022-06-23T13:23:54+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-23T13:23:54+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22552
+2022-06-23T13:23:54+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-23T13:23:54+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22552 status antes:pending agora:on-hold
+2022-06-23T13:23:54+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22552 último status salvo:
+2022-06-23T13:24:02+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22552
+2022-06-23T13:24:02+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22552
+2022-06-23T13:24:02+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-23T13:24:02+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-23T13:24:02+00:00 DEBUG Cs_total_thankyou:() Pedido 22552 não é cartão saindo...
+2022-06-23T13:24:03+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22552
+2022-06-23T13:24:03+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22552
+2022-06-23T13:24:03+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-23T13:24:03+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-23T13:24:03+00:00 DEBUG Cs_total_thankyou:() Pedido 22552 não é cartão saindo...
+2022-06-23T13:24:54+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-23T13:24:54+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22552
+2022-06-23T13:24:54+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-23T13:24:54+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22552 status antes:on-hold agora:processing
+2022-06-23T13:24:54+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22552 último status salvo:
+2022-06-23T13:24:54+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-23T13:24:54+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: Compras no BR integramos na CS.
+2022-06-23T13:24:54+00:00 DEBUG Cs_total_checkout: Entrou: Pedido #=22552 doc=665.829.890-49
+2022-06-23T13:24:54+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_checkout verificando post_meta de métodos...
+2022-06-23T13:24:54+00:00 DEBUG Monta_pedido: entrou, #doc=665.829.890-49 e-mail=iza.for@hotmail.com
+2022-06-23T13:24:54+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: cep=98005150
+2022-06-23T13:24:56+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: saida=Centro
+2022-06-23T13:24:56+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=gerencianet_oficial
+2022-06-23T13:24:56+00:00 DEBUG Monta_pedido: json=[{"code":"22552","sessionID":"f2dd62e3b2f4ce3370646f5440855f1d","date":"2022-06-23T10:23:14-03:00","email":"iza.for@hotmail.com","itemValue":388,"totalValue":371.92,"numberOfInstallments":1,"ip":"179.217.211.40","isGift":false,"giftMessage":"","observation":"","status":0,"origin":"website","channelID":"","country":"","nationality":"","product":3,"customSla":0,"bankAuthentication":"","billing":{"clientID":"849","type":1,"primaryDocument":"665.829.890-49","secondaryDocument":"","name":"Mariza Formentini","birthDate":null,"email":"iza.for@hotmail.com","gender":"","address":{"street":"Avenida General Os\u00f3rio 201","number":"892","additionalInformation":"","county":"Centro","city":"Cruz Alta","state":"RS","country":"BR","zipcode":"98005150","reference":""},"phones":[{"type":0,"ddi":55,"ddd":55,"number":999355025,"extension":""}]},"shipping":{"clientID":"849","type":1,"primaryDocument":"665.829.890-49","secondaryDocument":"","name":"Mariza Formentini","birthDate":null,"email":"","gender":"","address":{"street":"Avenida General Os\u00f3rio 201","number":"892","additionalInformation":"","county":"Centro","city":"Cruz Alta","state":"RS","country":"BR","zipcode":"98005150","reference":""},"deliveryType":"11","deliveryTime":"","price":22.72,"pickUpStoreDocument":""},"payments":[{"sequential":1,"date":"2022-06-23T10:23:14+00:00","value":371.92,"type":14,"installments":1,"interestRate":0,"interestValue":0,"currency":986,"voucherOrderOrigin":"","card":null,"address":{"street":"","number":"","additionalInformation":"","county":"","city":"","state":"","zipcode":"","country":"","reference":""}}],"items":[{"code":"22352","name":"Tapete de Couro - Mix Marrom Cinza e Branco  - 0,50 x 1,0m Quadriculado (5x5)","value":99,"amount":1,"categoryID":null,"categoryName":"Ofertas para voc\u00ea<\/a>, <a href=\"https:\/\/imperialtapeteseinteriores.com.br\/categoria-produto\/pronta-entrega\/tapetes-pronta-entrega\/tamanho-50x100\/\" rel=\"tag\">Tamanho 0,5 x 1,0 m","isGift":false,"sellerName":"","shippingCompany":"loja5-correios-pac-03298"},{"code":"6661","name":"Pele de Ovelha\/Carneiro Pelego Premium - Branco\/Off White - M","value":289,"amount":1,"categoryID":null,"categoryName":"Peles de Ovelha","isGift":false,"sellerName":"","shippingCompany":"loja5-correios-pac-03298"}]}]
+2022-06-23T13:24:56+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-23T13:24:57+00:00 DEBUG Authenticate: novo token=6fa75eaec2fe40fe9df4564409c59254 ExpirationDate:2022-06-23T12:39:51.9430633-03:00
+2022-06-23T13:24:57+00:00 DEBUG Inclui_pedido: #pedido=22552 status=NVO score=
+2022-06-23T13:24:57+00:00 DEBUG Clearsale_Total_Checkout:Cs_total_checkout: Pedido 22552 inserido com sucesso, status:NVO requestID:
+2022-06-23T13:24:57+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-23T13:24:57+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22552
+2022-06-23T13:24:57+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22552 status antes:processing agora:cs-inanalisis
+2022-06-23T13:24:57+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22552 último status salvo:NVO
+2022-06-23T13:25:32+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=22552
+2022-06-23T13:25:32+00:00 DEBUG Clearsale_Total_Status:Cs_status: método do pedido acima:gerencianet_oficial
+2022-06-23T13:25:32+00:00 DEBUG Authenticate: versão:2.4.3 login=ImperialTapetesEInteriores modo=0
+2022-06-23T13:25:32+00:00 DEBUG Authenticate: novo token=6fa75eaec2fe40fe9df4564409c59254 ExpirationDate:2022-06-23T12:39:51.9430119-03:00
+2022-06-23T13:25:33+00:00 DEBUG Consulta_status: #pedido=22552 status=APA score=9.69
+2022-06-23T13:25:33+00:00 DEBUG Clearsale_Total_Status:Cs_status: retorno da consulta: status=APA score=9.69
+2022-06-23T13:25:33+00:00 DEBUG nota=ClearSale status: APA score: 9.69</br>Desc: (Aprovação Automática) – Pedido foi aprovado automaticamente segundo parâmetros definidos na regra de aprovação automática
+2022-06-23T13:25:33+00:00 DEBUG Clearsale_Total_Status:Cs_status: Pedido APROVADO(22552, status=APA), mudando status do Woo para wc-processing!
+2022-06-23T13:51:46+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=22506
+2022-06-23T13:51:46+00:00 DEBUG Clearsale_Total_Status:Cs_status: Pedido 22506 não encontrado!!!
+2022-06-23T14:30:09+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-23T14:30:09+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22552
+2022-06-23T14:30:09+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22552 status antes:processing agora:em-separacao
+2022-06-23T14:30:09+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22552 último status salvo:APA
+2022-06-23T15:27:05+00:00 DEBUG Cs_total_extrafield: update_order_meta: billing_country=BR shipping_country=BR
+2022-06-23T15:27:05+00:00 DEBUG Cs_total_extrafield: update_order_meta: Compras no BR salvamos CPF/CNPJ.
+2022-06-23T15:27:05+00:00 DEBUG Cs_total_extrafield: order_id=22553 cs_field_doc= billing_cpf=751.810.611-68 billing_cnpj=
+2022-06-23T15:27:05+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22553
+2022-06-23T15:27:05+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: billing_country=BR shipping_country=BR
+2022-06-23T15:27:05+00:00 DEBUG Clearsale_Total_Checkout: checkout_order_processed: Compras no BR integramos na CS.
+2022-06-23T15:27:05+00:00 DEBUG Cs_total_checkout_order_processed: session =11d5ace360ba4adce5f088537a8fe377
+2022-06-23T15:27:05+00:00 DEBUG Cs_total_checkout: hook woocommerce_checkout_order_processed: order id=22553 - EAP: Esperando Aprovação do Pagamento
+2022-06-23T15:27:20+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-23T15:27:20+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22553
+2022-06-23T15:27:20+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-23T15:27:20+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22553 status antes:pending agora:on-hold
+2022-06-23T15:27:20+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22553 último status salvo:
+2022-06-23T15:27:31+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22553
+2022-06-23T15:27:31+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22553
+2022-06-23T15:27:31+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-23T15:27:31+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-23T15:27:31+00:00 DEBUG Cs_total_thankyou:() Pedido 22553 não é cartão saindo...
+2022-06-23T15:27:32+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22553
+2022-06-23T15:27:32+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22553
+2022-06-23T15:27:32+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido não enviado ainda!
+2022-06-23T15:27:32+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_thankyou verificando post_meta de métodos...
+2022-06-23T15:27:32+00:00 DEBUG Cs_total_thankyou:() Pedido 22553 não é cartão saindo...
+2022-06-23T15:28:16+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-23T15:28:16+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22553
+2022-06-23T15:28:16+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  saindo sem achar nada...
+2022-06-23T15:28:16+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22553 status antes:on-hold agora:processing
+2022-06-23T15:28:16+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22553 último status salvo:
+2022-06-23T15:28:16+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-23T15:28:16+00:00 DEBUG Clearsale_Total_Checkout: Cs_total_checkout: Compras no BR integramos na CS.
+2022-06-23T15:28:16+00:00 DEBUG Cs_total_checkout: Entrou: Pedido #=22553 doc=751.810.611-68
+2022-06-23T15:28:16+00:00 DEBUG Clearsale_Total_Checkout:outrosMetodos:Cs_total_checkout verificando post_meta de métodos...
+2022-06-23T15:28:16+00:00 DEBUG Monta_pedido: entrou, #doc=751.810.611-68 e-mail=patricia_bessa2007@hotmail.com
+2022-06-23T15:28:16+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: cep=75503160
+2022-06-23T15:28:17+00:00 DEBUG Clearsale_Total_Api:Busca_Bairro: saida=Centro
+2022-06-23T15:28:17+00:00 DEBUG Clearsale_Total_Api:Tipo_pagamento: tipo=gerencianet_oficial
+2022-06-23T15:28:17+00:00 DEBUG Monta_pedido: json=[{"code":"22553","sessionID":"11d5ace360ba4adce5f088537a8fe377","date":"2022-06-23T12:27:04-03:00","email":"patricia_bessa2007@hotmail.com","itemValue":987,"totalValue":888.3,"numberOfInstallments":1,"ip":"189.37.64.53","isGift":false,"giftMessage":"","observation":"","status":0,"origin":"website","channelID":"","country":"","nationality":"","product":3,"customSla":0,"bankAuthentication":"","billing":{"clientID":"2031","type":1,"primaryDocument":"751.810.611-68","secondaryDocument":"","name":"Neiton Jos\u00e9 de Oliveira Filho","birthDate":null,"email":"patricia_bessa2007@hotmail.com","gender":"","address":{"street":"Rua Parana\u00edba ","number":"1076","additionalInformation":"","county":"Centro","city":"Itumbiara","state":"GO","country":"BR","zipcode":"75503160","reference":""},"phones":[{"type":0,"ddi":55,"ddd":64,"number":996009907,"extension":""}]},"shipping":{"clientID":"2031","type":1,"primaryDocument":"751.810.611-68","secondaryDocument":"","name":"Neiton Jos\u00e9 de Oliveira Filho","birthDate":null,"email":"","gender":"","address":{"street":"Rua Parana\u00edba ","number":"1076","additionalInformation":"","county":"Centro","city":"Itumbiara","state":"GO","country":"BR","zipcode":"75503160","reference":""},"deliveryType":"0","deliveryTime":"","price":0,"pickUpStoreDocument":""},"payments":[{"sequential":1,"date":"2022-06-23T12:27:04+00:00","value":888.3,"type":14,"installments":1,"interestRate":0,"interestValue":0,"currency":986,"voucherOrderOrigin":"","card":null,"address":{"street":"","number":"","additionalInformation":"","county":"","city":"","state":"","zipcode":"","country":"","reference":""}}],"items":[{"code":"17055","name":"Tapete De Couro - Passadeira - Bege M\u00e9dio - Quadriculado (5x5) - 0,80 m, 2,00 m","value":329,"amount":1,"categoryID":null,"categoryName":"Tapetes Passadeira","isGift":false,"sellerName":"","shippingCompany":"advanced_free_shipping"},{"code":"22007","name":"Tapete De Couro - Passadeira - Mix de  Marrom Branco e Cinza - Quadriculado (5x5) - 0,80 m, 2,00 m","value":329,"amount":1,"categoryID":null,"categoryName":"Tapetes Passadeira","isGift":false,"sellerName":"","shippingCompany":"advanced_free_shipping"},{"code":"10587","name":"Tapete De Couro - Passadeira - Bege Claro - Quadriculado (5x5) - 0,80 m, 2,00 m","value":329,"amount":1,"categoryID":null,"categoryName":"Tapetes Passadeira","isGift":false,"sellerName":"","shippingCompany":"advanced_free_shipping"}]}]
+2022-06-23T15:28:17+00:00 DEBUG Authenticate: versão:2.5.1 login=ImperialTapetesEInteriores modo=0
+2022-06-23T15:28:17+00:00 DEBUG Authenticate: novo token=6fa75eaec2fe40fe9df4564409c59254 ExpirationDate:2022-06-23T12:39:51.9430961-03:00
+2022-06-23T15:28:17+00:00 DEBUG Inclui_pedido: #pedido=22553 status=NVO score=
+2022-06-23T15:28:17+00:00 DEBUG Clearsale_Total_Checkout:Cs_total_checkout: Pedido 22553 inserido com sucesso, status:NVO requestID:
+2022-06-23T15:28:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: dados do pedido: billing_country=BR shipping_country=BR
+2022-06-23T15:28:18+00:00 DEBUG Clearsale_Total_Status:getStatusOnNotes:  entrou post_id=22553
+2022-06-23T15:28:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: pedido=22553 status antes:processing agora:cs-inanalisis
+2022-06-23T15:28:18+00:00 DEBUG Clearsale_Total_Status:Cs_atualiza_status: post_id=22553 último status salvo:NVO
+2022-06-23T15:28:50+00:00 DEBUG Clearsale_Total_Status:Cs_status: hook da CS de status para pedido=22553
+2022-06-23T15:28:50+00:00 DEBUG Clearsale_Total_Status:Cs_status: método do pedido acima:gerencianet_oficial
+2022-06-23T15:28:50+00:00 DEBUG Authenticate: versão:2.4.3 login=ImperialTapetesEInteriores modo=0
+2022-06-23T15:28:50+00:00 DEBUG Authenticate: novo token=6fa75eaec2fe40fe9df4564409c59254 ExpirationDate:2022-06-23T12:39:51.9430143-03:00
+2022-06-23T15:28:50+00:00 DEBUG Consulta_status: #pedido=22553 status=APA score=61.78
+2022-06-23T15:28:50+00:00 DEBUG Clearsale_Total_Status:Cs_status: retorno da consulta: status=APA score=61.78
+2022-06-23T15:28:50+00:00 DEBUG nota=ClearSale status: APA score: 61.78</br>Desc: (Aprovação Automática) – Pedido foi aprovado automaticamente segundo parâmetros definidos na regra de aprovação automática
+2022-06-23T15:28:50+00:00 DEBUG Clearsale_Total_Status:Cs_status: Pedido APROVADO(22553, status=APA), mudando status do Woo para wc-processing!
+2022-06-23T15:28:54+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22553
+2022-06-23T15:28:54+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22553
+2022-06-23T15:28:54+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido já enviado!
+2022-06-23T15:29:08+00:00 DEBUG Cs_total_checkout: hook woocommerce_before_thankyou: order id=22553
+2022-06-23T15:29:09+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: order id=22553
+2022-06-23T15:29:09+00:00 DEBUG Cs_total_checkout: hook woocommerce_thankyou: Pedido já enviado!

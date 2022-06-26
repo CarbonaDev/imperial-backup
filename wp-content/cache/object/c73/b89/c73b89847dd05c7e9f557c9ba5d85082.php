@@ -1,0 +1,1 @@
+Q3¡b<?php exit; ?>a:1:{s:7:"content";a:7:{i:0;O:8:"stdClass":1:{s:7:"term_id";s:3:"405";}i:1;O:8:"stdClass":1:{s:7:"term_id";s:3:"417";}i:2;O:8:"stdClass":1:{s:7:"term_id";s:3:"135";}i:3;O:8:"stdClass":1:{s:7:"term_id";s:3:"392";}i:4;O:8:"stdClass":1:{s:7:"term_id";s:2:"15";}i:5;O:8:"stdClass":1:{s:7:"term_id";s:3:"430";}i:6;O:8:"stdClass":1:{s:7:"term_id";s:3:"436";}}}

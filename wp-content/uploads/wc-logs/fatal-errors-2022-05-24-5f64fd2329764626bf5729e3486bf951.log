@@ -1,0 +1,19 @@
+2022-05-24T01:38:50+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1527808 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/helpers.php, na linha 507
+
+2022-05-24T10:32:07+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1527808 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/helpers.php, na linha 478
+
+2022-05-24T10:32:07+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1527808 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/helpers.php, na linha 478
+
+2022-05-24T12:34:58+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1523712 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/helpers.php, na linha 479
+
+2022-05-24T20:08:29+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on bool in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/order/order-details-item.php:54
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/order/order-details.php(76): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/bitnami/ap...')
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2601): wc_get_template()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(307): woocommerce_order_details_table()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(474): WP_Hook->do_action()
+#7 /opt/bitnami/apps/wordpress/htdoc, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/templates/order/order-details-item.php, na linha 54
+

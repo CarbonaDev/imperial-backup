@@ -1,0 +1,1 @@
+c5¡b<?php exit; ?>a:1:{s:7:"content";s:268:"a:8:{s:20:"search_subscriptions";a:0:{}s:23:"supports_instant_search";b:0;s:28:"supports_only_classic_search";b:0;s:15:"supports_search";b:0;s:27:"default_upgrade_bill_period";s:6:"yearly";s:9:"tier_slug";N;s:20:"tier_minimum_records";N;s:20:"tier_maximum_records";N;}";}

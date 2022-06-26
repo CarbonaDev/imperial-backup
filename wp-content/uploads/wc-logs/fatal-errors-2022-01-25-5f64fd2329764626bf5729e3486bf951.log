@@ -1,0 +1,60 @@
+2022-01-25T00:08:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ts_redirect_login(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:443
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): ts_redirect_login()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(977): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Form_Handler::process_login()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-settings.php(600): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-config.php(120, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 443
+
+2022-01-25T00:09:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ts_redirect_login(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:443
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): ts_redirect_login()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(977): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Form_Handler::process_login()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-settings.php(600): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-config.php(120, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 443
+
+2022-01-25T00:11:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ts_redirect_login(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:443
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): ts_redirect_login()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(977): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Form_Handler::process_login()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-settings.php(600): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-config.php(120, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 443
+
+2022-01-25T00:28:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ts_redirect_login(), 1 passed in /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php:443
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(305): ts_redirect_login()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(977): apply_filters()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(303): WC_Form_Handler::process_login()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-settings.php(600): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-config.php(120, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro-child/functions.php, na linha 443
+
+2022-01-25T18:36:58+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 524288 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/kc-element/kc-map.php, na linha 1850
+
+2022-01-25T18:36:59+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 524288 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/kc-element/kc-map.php, na linha 1850
+
+2022-01-25T18:37:56+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 524288 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/kc-element/kc-map.php, na linha 1850
+
+2022-01-25T23:03:00+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 172032 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/includes.php, na linha 125
+
+2022-01-25T23:04:15+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 172032 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/includes.php, na linha 125
+
+2022-01-25T23:05:10+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 172032 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/includes.php, na linha 125
+
+2022-01-25T23:05:14+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 172032 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/includes.php, na linha 125
+
+2022-01-25T23:05:37+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 172032 bytes), em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/includes.php, na linha 125
+

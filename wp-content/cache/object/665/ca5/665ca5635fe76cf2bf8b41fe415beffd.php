@@ -1,0 +1,1 @@
+p;¡b<?php exit; ?>a:1:{s:7:"content";a:3:{s:11:"mipro-child";s:7:"/themes";s:5:"mipro";s:7:"/themes";s:15:"twentytwentytwo";s:7:"/themes";}}

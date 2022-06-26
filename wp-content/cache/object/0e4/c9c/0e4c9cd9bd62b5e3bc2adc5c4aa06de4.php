@@ -1,0 +1,1 @@
+à3¡b<?php exit; ?>a:1:{s:7:"content";a:1:{s:10:"pa_tamanho";a:7:{i:0;s:12:"100-diametro";i:1;s:12:"120-diametro";i:2;s:12:"140-diametro";i:3;s:12:"160-diametro";i:4;s:12:"180-diametro";i:5;s:12:"200-diametro";i:6;s:12:"250-diametro";}}}

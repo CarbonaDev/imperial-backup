@@ -1,0 +1,4 @@
+�4�b<?php exit; ?>a:1:{s:7:"content";s:742:"a:9:{s:2:"id";s:17:"17841418148277042";s:8:"username";s:26:"imperialtapeteseinteriores";s:7:"website";s:31:"https://lkt.bio/imperialtapetes";s:9:"biography";s:146:"LOJA ESPECIALIZADA EM TAPETES DE COURO
+🚚 Envio para todo Brasil
+💳 Parcele em até 12x SEM JUROS 
+Clique no link para mais informações 👇";s:4:"name";s:27:"Imperial - Tapetes de Couro";s:15:"followers_count";i:9667;s:11:"media_count";i:588;s:19:"profile_picture_url";s:274:"https://scontent-iad3-2.xx.fbcdn.net/v/t51.2885-15/280747533_1406635356498593_4365334560545748973_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=86c713&_nc_ohc=Y5HYtNP-M6oAX80NXBF&_nc_ht=scontent-iad3-2.xx&edm=AL-3X8kEAAAA&oh=00_AT89EH2n70eGEtGSeaT1cxaFt1wQrf3NxdIWV9bM9s-8TA&oe=62A5D714";s:4:"link";s:0:"";}";}

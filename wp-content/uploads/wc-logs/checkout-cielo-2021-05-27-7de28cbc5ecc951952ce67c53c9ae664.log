@@ -1,0 +1,111 @@
+05-27-2021 @ 12:44:45 - Transaction arguments for order 9777: Array
+(
+    [merchant_id] => 144a8ce4-3e77-402e-991e-8ddbcceb8686
+    [order_number] => 9777
+    [antifraud_enabled] => FALSE
+    [customer_name] => Tiago Pereira de Leão
+    [customer_email] => tpl_poa@hotmail.com
+    [customer_phone] => 5133072137
+    [customer_identity] => 02148887033
+    [shipping_address_name] => Rua Barao de Ubá
+    [shipping_address_number] => 620
+    [shipping_address_complement] => 202
+    [shipping_address_district] => Bela Vista
+    [shipping_address_city] => Porto Alegre
+    [shipping_address_state] => RS
+    [shipping_zipcode] => 90450090
+    [shipping_type] => 2
+    [shipping_1_name] => Jadlog Package (Melhor Envio) (3 a 4 dias úteis)
+    [shipping_1_price] => 1522
+    [cart_1_name] => Pantufa Bariloche em Pele de Ovelha/Carneiro Marrom - 42 - (29 cm)
+    [cart_1_description] => Tamanho: 42 - (29 cm)
+    [cart_1_unitprice] => 9900
+    [cart_1_quantity] => 1
+    [cart_1_type] => 1
+    [cart_1_code] => 5050-marrom-42
+    [cart_1_weight] => 400
+    [cart_2_name] => Pantufa Bariloche em Pele de Ovelha/Carneiro Chamuscada - 39 - (27 cm)
+    [cart_2_description] => Tamanho: 39 - (27 cm)
+    [cart_2_unitprice] => 9900
+    [cart_2_quantity] => 1
+    [cart_2_type] => 1
+    [cart_2_code] => 5050-chamuscado-39
+    [cart_2_weight] => 400
+)
+
+05-27-2021 @ 12:44:46 - Transaction arguments for order 9777: Array
+(
+    [merchant_id] => 144a8ce4-3e77-402e-991e-8ddbcceb8686
+    [order_number] => 9777
+    [antifraud_enabled] => FALSE
+    [customer_name] => Tiago Pereira de Leão
+    [customer_email] => tpl_poa@hotmail.com
+    [customer_phone] => 5133072137
+    [customer_identity] => 02148887033
+    [shipping_address_name] => Rua Barao de Ubá
+    [shipping_address_number] => 620
+    [shipping_address_complement] => 202
+    [shipping_address_district] => Bela Vista
+    [shipping_address_city] => Porto Alegre
+    [shipping_address_state] => RS
+    [shipping_zipcode] => 90450090
+    [shipping_type] => 2
+    [shipping_1_name] => Jadlog Package (Melhor Envio) (3 a 4 dias úteis)
+    [shipping_1_price] => 1522
+    [cart_1_name] => Pantufa Bariloche em Pele de Ovelha/Carneiro Marrom - 42 - (29 cm)
+    [cart_1_description] => Tamanho: 42 - (29 cm)
+    [cart_1_unitprice] => 9900
+    [cart_1_quantity] => 1
+    [cart_1_type] => 1
+    [cart_1_code] => 5050-marrom-42
+    [cart_1_weight] => 400
+    [cart_2_name] => Pantufa Bariloche em Pele de Ovelha/Carneiro Chamuscada - 39 - (27 cm)
+    [cart_2_description] => Tamanho: 39 - (27 cm)
+    [cart_2_unitprice] => 9900
+    [cart_2_quantity] => 1
+    [cart_2_type] => 1
+    [cart_2_code] => 5050-chamuscado-39
+    [cart_2_weight] => 400
+)
+
+05-27-2021 @ 12:47:25 - Received status change for order 9777: Array
+(
+    [order_number] => 9777
+    [amount] => 21322
+    [checkout_cielo_order_number] => 7bb7e988a544493d8925752bc7e59a54
+    [created_date] => 27/05/2021 12:47:23
+    [customer_name] => Tiago Leão
+    [customer_phone] => 5133072137
+    [customer_email] => tpl_poa@hotmail.com
+    [shipping_type] => 2
+    [shipping_name] => Jadlog Package (Melhor Envio) (3 a 4 dias úteis)
+    [shipping_price] => 1522
+    [shipping_address_zipcode] => 90450090
+    [shipping_address_district] => Bela Vista
+    [shipping_address_city] => Porto Alegre
+    [shipping_address_state] => RS
+    [shipping_address_line1] => Rua Barao de Ubá
+    [shipping_address_line2] => 202
+    [shipping_address_number] => 620
+    [payment_method_type] => 1
+    [payment_method_brand] => 1
+    [payment_installments] => 3
+    [payment_status] => 7
+    [tid] => 277564162211CBJ8JJ3C
+    [test_transaction] => False
+    [nsu] => 039001
+    [authorization_code] => 805861
+)
+
+05-27-2021 @ 14:57:06 - Received status change for order 9777: Array
+(
+    [checkout_cielo_order_number] => 7bb7e988a544493d8925752bc7e59a54
+    [amount] => 21322
+    [order_number] => 9777
+    [payment_status] => 2
+    [test_transaction] => False
+    [brand] => Visa
+    [nsu] => 039001
+    [authorization_code] => 805861
+)
+

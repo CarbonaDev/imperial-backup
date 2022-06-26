@@ -1,0 +1,1 @@
+©5¡b<?php exit; ?>a:1:{s:7:"content";s:194:"a:4:{s:29:"cart_page_contains_cart_block";i:0;s:33:"cart_page_contains_cart_shortcode";i:1;s:37:"checkout_page_contains_checkout_block";i:0;s:41:"checkout_page_contains_checkout_shortcode";i:1;}";}

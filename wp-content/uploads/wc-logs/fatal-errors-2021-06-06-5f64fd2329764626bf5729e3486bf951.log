@@ -1,0 +1,11 @@
+2021-06-06T15:35:21+00:00 CRITICAL Uncaught Error: Call to undefined function dd() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/loja5-woo-cielo-webservice/classes/class.cielo_credito.php:442
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(971): WC_Gateway_Loja5_Woo_Cielo_Webservice->process_payment()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1183): WC_Checkout->process_order_payment()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(465): WC_Checkout->process_checkout()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): WC_AJAX::checkout()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(90): do_action()
+#7 /opt/, em /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/loja5-woo-cielo-webservice/classes/class.cielo_credito.php, na linha 442
+

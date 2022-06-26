@@ -1,0 +1,204 @@
+2021-06-03T13:59:40+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:00:01+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:00:20+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:00:38+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:00:58+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:01:16+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:01:33+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:01:51+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:02:09+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:02:38+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:02:56+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:03:14+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:03:32+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:03:50+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:04:08+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:04:24+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+
+2021-06-03T14:04:41+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2164): wc_get_template()
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/inc/woocommerce/functions.php(215): woocommerce_mini_cart()
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(292): mipro_mini_cart_sidebar()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/header.php(20): do_action()
+#7 /opt/bitnami/apps/wordpress/htdocs/wp-includes/template.php(730): require_once('/opt/bitnami/ap...')
+#8 /op, em /opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mipro/woocommerce/cart/mini-cart.php, na linha 24
+

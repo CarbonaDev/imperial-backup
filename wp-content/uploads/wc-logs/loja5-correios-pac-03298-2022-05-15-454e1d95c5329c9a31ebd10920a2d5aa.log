@@ -1,0 +1,2801 @@
+05-14-2022 @ 21:01:32 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95720000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=27,00&nVlDiametro=0&nVlComprimento=27,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 21:01:32 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 18,05
+            [PrazoEntrega] => 6
+            [ValorSemAdicionais] => 18,05
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-14-2022 @ 21:05:03 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=39765000&sCepOrigem=96412830&nVlAltura=5,00&nVlLargura=25,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 21:05:03 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 29,10
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 29,10
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-14-2022 @ 21:25:08 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95720000&sCepOrigem=96412830&nVlAltura=19,20&nVlLargura=19,20&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 21:25:08 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-14-2022 @ 21:30:20 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=99040020&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=1,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 21:30:20 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 19,00
+            [PrazoEntrega] => 6
+            [ValorSemAdicionais] => 19,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-14-2022 @ 21:36:14 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95720000&sCepOrigem=96412830&nVlAltura=19,20&nVlLargura=19,20&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 21:36:14 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 19,00
+            [PrazoEntrega] => 6
+            [ValorSemAdicionais] => 19,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-14-2022 @ 21:36:18 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95720000&sCepOrigem=96412830&nVlAltura=19,20&nVlLargura=19,20&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 21:36:18 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 19,00
+            [PrazoEntrega] => 6
+            [ValorSemAdicionais] => 19,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-14-2022 @ 21:36:21 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95720000&sCepOrigem=96412830&nVlAltura=19,20&nVlLargura=19,20&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 21:36:21 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 19,00
+            [PrazoEntrega] => 6
+            [ValorSemAdicionais] => 19,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-14-2022 @ 21:37:38 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05021010&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 21:37:38 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 22,79
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 22,79
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-14-2022 @ 22:04:50 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95250000&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=50,00&nVlDiametro=0&nVlComprimento=60,00&nVlPeso=8,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 22:04:50 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 30,37
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 30,37
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-14-2022 @ 22:11:37 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=15385000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 22:11:37 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,04
+            [PrazoEntrega] => 10
+            [ValorSemAdicionais] => 33,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-14-2022 @ 23:11:20 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=02406030&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=20,00&nVlDiametro=0&nVlComprimento=25,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 23:11:20 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-14-2022 @ 23:17:14 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=06773360&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=60,00&nVlDiametro=0&nVlComprimento=65,00&nVlPeso=13,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 23:17:14 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 101,77
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 101,77
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-14-2022 @ 23:25:00 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05734020&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=60,00&nVlDiametro=0&nVlComprimento=65,00&nVlPeso=13,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-14-2022 @ 23:25:00 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 101,77
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 101,77
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 00:06:23 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=79090000&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=1,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 00:06:23 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 53,01
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 53,01
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 00:44:48 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=11900000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 00:44:48 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 42,36
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 42,36
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 01:53:09 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=45,00&nVlLargura=45,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=3,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 01:53:09 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 145,36
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 145,36
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 01:53:22 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=45,00&nVlLargura=45,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=3,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 01:53:22 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 145,36
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 145,36
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 01:53:34 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=45,00&nVlLargura=45,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=3,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 01:53:34 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 145,36
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 145,36
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 02:07:49 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05734020&sCepOrigem=96412830&nVlAltura=42,40&nVlLargura=42,40&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,75&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 02:07:49 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 02:19:56 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=45,00&nVlLargura=45,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=3,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 02:19:56 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 145,36
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 145,36
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 02:20:00 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=45,00&nVlLargura=45,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=3,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 02:20:00 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 145,36
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 145,36
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 09:17:37 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=03928235&sCepOrigem=96412830&nVlAltura=23,70&nVlLargura=23,70&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 09:17:37 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 42,36
+            [PrazoEntrega] => 12
+            [ValorSemAdicionais] => 42,36
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está sujeito a condições especiais de entrega pela  ECT e será realizada com o acréscimo de até 5 (cinco) dias úteis ao prazo regular.
+            [Erro] => 011
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 10:26:39 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=37701129&sCepOrigem=96412830&nVlAltura=37,00&nVlLargura=42,00&nVlDiametro=0&nVlComprimento=70,00&nVlPeso=18,13&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 10:26:39 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 10:49:44 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=03342000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=27,00&nVlDiametro=0&nVlComprimento=27,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 10:49:44 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 24,15
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 24,15
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 11:05:21 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05679065&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=20,00&nVlDiametro=0&nVlComprimento=20,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:05:21 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 24,15
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 24,15
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 11:06:06 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05679065&sCepOrigem=96412830&nVlAltura=35,00&nVlLargura=42,00&nVlDiametro=0&nVlComprimento=42,00&nVlPeso=4,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:06:06 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 11:06:28 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05679065&sCepOrigem=96412830&nVlAltura=35,00&nVlLargura=42,00&nVlDiametro=0&nVlComprimento=42,00&nVlPeso=4,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:06:28 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 11:26:23 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05679065&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=20,00&nVlDiametro=0&nVlComprimento=20,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:26:23 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 24,15
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 24,15
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 11:26:29 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=05679065&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=20,00&nVlDiametro=0&nVlComprimento=20,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:26:29 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 24,15
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 24,15
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 11:29:44 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=37018625&sCepOrigem=96412830&nVlAltura=20,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=1,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:29:44 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,85
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 33,85
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 11:30:13 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=01421001&sCepOrigem=96412830&nVlAltura=20,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=1,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:30:13 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 28,66
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 28,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 11:30:42 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=37018625&sCepOrigem=96412830&nVlAltura=20,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=1,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:30:42 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,85
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 33,85
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 11:32:48 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=37018625&sCepOrigem=96412830&nVlAltura=20,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=1,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:32:48 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,85
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 33,85
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 11:48:24 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96450000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:48:24 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 11:48:32 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96450000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:48:32 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 11:55:22 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96450000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 11:55:22 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 12:02:57 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=03342000&sCepOrigem=96412830&nVlAltura=23,20&nVlLargura=23,20&nVlDiametro=0&nVlComprimento=27,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 12:02:57 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 12:32:40 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=85869554&sCepOrigem=96412830&nVlAltura=15,80&nVlLargura=15,80&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 12:32:40 - Erro ao Conectar nos Correios: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [content-type] => text/html
+                    [server] => Microsoft-IIS/10.0
+                    [x-powered-by] => ASP.NET
+                    [date] => Sun, 15 May 2022 15:32:40 GMT
+                )
+
+        )
+
+    [body] => <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>500 - Internal server error.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>Server Error</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>500 - Internal server error.</h2>
+  <h3>There is a problem with the resource you are looking for, and it cannot be displayed.</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+   <title>Server Unavailable
+</title>
+   </head>
+   <body>
+      <h1><span style="font-family:Verdana;color: #ff3300">Server Application Unavailable
+</span></h1>
+      <p>
+       <span style="font-family:Verdana;">
+        The web application you are attempting to access on this web server is currently unavailable.&nbsp; Please hit the "Refresh" button in your web browser to retry your request.
+</span></p>
+   <p>
+   <b>Administrator Note:
+</b> An error message detailing the cause of this specific request failure can be found in the application event log of the web server.  Please review this log entry to discover what caused this error to occur.
+ </p>
+   </body>
+</html>
+
+    [response] => Array
+        (
+            [code] => 500
+            [message] => Internal Server Error
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>500 - Internal server error.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>Server Error</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>500 - Internal server error.</h2>
+  <h3>There is a problem with the resource you are looking for, and it cannot be displayed.</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+   <title>Server Unavailable
+</title>
+   </head>
+   <body>
+      <h1><span style="font-family:Verdana;color: #ff3300">Server Application Unavailable
+</span></h1>
+      <p>
+       <span style="font-family:Verdana;">
+        The web application you are attempting to access on this web server is currently unavailable.&nbsp; Please hit the "Refresh" button in your web browser to retry your request.
+</span></p>
+   <p>
+   <b>Administrator Note:
+</b> An error message detailing the cause of this specific request failure can be found in the application event log of the web server.  Please review this log entry to discover what caused this error to occur.
+ </p>
+   </body>
+</html>
+
+                    [raw] => HTTP/1.1 500 Internal Server Error
+transfer-encoding: chunked
+content-type: text/html
+server: Microsoft-IIS/10.0
+x-powered-by: ASP.NET
+date: Sun, 15 May 2022 15:32:40 GMT
+Connection: close
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>500 - Internal server error.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>Server Error</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>500 - Internal server error.</h2>
+  <h3>There is a problem with the resource you are looking for, and it cannot be displayed.</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+   <title>Server Unavailable
+</title>
+   </head>
+   <body>
+      <h1><span style="font-family:Verdana;color: #ff3300">Server Application Unavailable
+</span></h1>
+      <p>
+       <span style="font-family:Verdana;">
+        The web application you are attempting to access on this web server is currently unavailable.&nbsp; Please hit the "Refresh" button in your web browser to retry your request.
+</span></p>
+   <p>
+   <b>Administrator Note:
+</b> An error message detailing the cause of this specific request failure can be found in the application event log of the web server.  Please review this log entry to discover what caused this error to occur.
+ </p>
+   </body>
+</html>
+
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => Array
+                                        (
+                                            [0] => text/html
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => Microsoft-IIS/10.0
+                                        )
+
+                                    [x-powered-by] => Array
+                                        (
+                                            [0] => ASP.NET
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Sun, 15 May 2022 15:32:40 GMT
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 500
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=85869554&sCepOrigem=96412830&nVlAltura=15,80&nVlLargura=15,80&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+05-15-2022 @ 12:37:39 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=03978440&sCepOrigem=96412830&nVlAltura=21,40&nVlLargura=21,40&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,80&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 12:37:39 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 12:38:00 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=03978440&sCepOrigem=96412830&nVlAltura=21,40&nVlLargura=21,40&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,80&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 12:38:00 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 13:12:58 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=14403065&sCepOrigem=96412830&nVlAltura=5,00&nVlLargura=25,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 13:12:58 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 24,15
+            [PrazoEntrega] => 6
+            [ValorSemAdicionais] => 24,15
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 13:36:22 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=99022032&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 13:36:22 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 14:17:38 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=84600275&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 14:17:38 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,04
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 33,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 14:33:24 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=88330771&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=55,00&nVlDiametro=0&nVlComprimento=65,00&nVlPeso=10,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 14:33:24 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 74,20
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 74,20
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 14:50:26 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=74594005&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 14:50:26 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 71,13
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 71,13
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 15:41:41 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=87240000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 15:41:41 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 15:42:01 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=87240000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 15:42:01 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 15:42:24 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96300000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 15:42:24 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 15:42:45 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96300000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 15:42:45 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 15:43:07 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96300000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 15:43:07 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 15:43:19 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96300000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 15:43:19 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 15:44:46 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=97800000&sCepOrigem=96412830&nVlAltura=5,00&nVlLargura=25,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=1,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 15:44:46 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 16:04:55 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=03507010&sCepOrigem=96412830&nVlAltura=31,60&nVlLargura=31,60&nVlDiametro=0&nVlComprimento=50,00&nVlPeso=8,32&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:04:55 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 16:21:59 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96300000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:21:59 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 25,93
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 25,93
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 16:22:09 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96300000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:22:09 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 25,93
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 25,93
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 16:25:46 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=25,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=70,00&nVlPeso=10,21&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:25:46 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 93,66
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 93,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 16:25:50 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=25,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=70,00&nVlPeso=10,21&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:25:50 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 93,66
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 93,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 16:40:57 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=60,00&nVlDiametro=0&nVlComprimento=65,00&nVlPeso=13,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:40:57 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 16:43:04 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=40,50&nVlLargura=40,50&nVlDiametro=0&nVlComprimento=65,00&nVlPeso=17,77&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:43:04 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 166,04
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 166,04
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 16:43:32 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=34,60&nVlLargura=34,60&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=2,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:43:32 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 16:43:51 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=34,60&nVlLargura=34,60&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=2,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:43:51 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 79,38
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 79,38
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 16:49:12 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=25,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=70,00&nVlPeso=10,21&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:49:12 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 93,66
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 93,66
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 16:51:04 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=46,70&nVlLargura=46,70&nVlDiametro=0&nVlComprimento=70,00&nVlPeso=25,44&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:51:04 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 16:51:33 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=45,00&nVlLargura=45,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=3,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:51:33 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 16:52:08 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=45,00&nVlLargura=48,30&nVlDiametro=0&nVlComprimento=48,30&nVlPeso=17,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:52:08 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 16:52:21 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=22031112&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 16:52:21 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,85
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 33,85
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 17:12:14 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=04726160&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 17:12:14 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 22,79
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 22,79
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 17:12:32 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=04726160&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 17:12:32 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 17:20:13 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95185000&sCepOrigem=96412830&nVlAltura=30,00&nVlLargura=70,00&nVlDiametro=0&nVlComprimento=70,00&nVlPeso=24,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 17:20:13 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 91,13
+            [PrazoEntrega] => 6
+            [ValorSemAdicionais] => 91,13
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 18:16:01 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=02042001&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:16:01 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 22,79
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 22,79
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 18:16:07 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=02042001&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:16:07 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 22,79
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 22,79
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 18:21:24 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=90560002&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:21:24 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 16,84
+            [PrazoEntrega] => 5
+            [ValorSemAdicionais] => 16,84
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 18:31:41 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=02042001&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:31:41 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 18:32:03 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=02042001&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:32:03 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 18:32:15 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=02042001&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:32:15 - Erro ao Conectar nos Correios: Array
+(
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [content-type] => text/html
+                    [server] => Microsoft-IIS/10.0
+                    [x-powered-by] => ASP.NET
+                    [date] => Sun, 15 May 2022 21:32:14 GMT
+                )
+
+        )
+
+    [body] => <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>500 - Internal server error.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>Server Error</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>500 - Internal server error.</h2>
+  <h3>There is a problem with the resource you are looking for, and it cannot be displayed.</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+   <title>Server Unavailable
+</title>
+   </head>
+   <body>
+      <h1><span style="font-family:Verdana;color: #ff3300">Server Application Unavailable
+</span></h1>
+      <p>
+       <span style="font-family:Verdana;">
+        The web application you are attempting to access on this web server is currently unavailable.&nbsp; Please hit the "Refresh" button in your web browser to retry your request.
+</span></p>
+   <p>
+   <b>Administrator Note:
+</b> An error message detailing the cause of this specific request failure can be found in the application event log of the web server.  Please review this log entry to discover what caused this error to occur.
+ </p>
+   </body>
+</html>
+
+    [response] => Array
+        (
+            [code] => 500
+            [message] => Internal Server Error
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [response:protected] => Requests_Response Object
+                (
+                    [body] => <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>500 - Internal server error.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>Server Error</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>500 - Internal server error.</h2>
+  <h3>There is a problem with the resource you are looking for, and it cannot be displayed.</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+   <title>Server Unavailable
+</title>
+   </head>
+   <body>
+      <h1><span style="font-family:Verdana;color: #ff3300">Server Application Unavailable
+</span></h1>
+      <p>
+       <span style="font-family:Verdana;">
+        The web application you are attempting to access on this web server is currently unavailable.&nbsp; Please hit the "Refresh" button in your web browser to retry your request.
+</span></p>
+   <p>
+   <b>Administrator Note:
+</b> An error message detailing the cause of this specific request failure can be found in the application event log of the web server.  Please review this log entry to discover what caused this error to occur.
+ </p>
+   </body>
+</html>
+
+                    [raw] => HTTP/1.1 500 Internal Server Error
+transfer-encoding: chunked
+content-type: text/html
+server: Microsoft-IIS/10.0
+x-powered-by: ASP.NET
+date: Sun, 15 May 2022 21:32:14 GMT
+Connection: close
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>500 - Internal server error.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>Server Error</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>500 - Internal server error.</h2>
+  <h3>There is a problem with the resource you are looking for, and it cannot be displayed.</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+   <title>Server Unavailable
+</title>
+   </head>
+   <body>
+      <h1><span style="font-family:Verdana;color: #ff3300">Server Application Unavailable
+</span></h1>
+      <p>
+       <span style="font-family:Verdana;">
+        The web application you are attempting to access on this web server is currently unavailable.&nbsp; Please hit the "Refresh" button in your web browser to retry your request.
+</span></p>
+   <p>
+   <b>Administrator Note:
+</b> An error message detailing the cause of this specific request failure can be found in the application event log of the web server.  Please review this log entry to discover what caused this error to occur.
+ </p>
+   </body>
+</html>
+
+                    [headers] => Requests_Response_Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => Array
+                                        (
+                                            [0] => text/html
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => Microsoft-IIS/10.0
+                                        )
+
+                                    [x-powered-by] => Array
+                                        (
+                                            [0] => ASP.NET
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Sun, 15 May 2022 21:32:14 GMT
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 500
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=02042001&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => Requests_Cookie_Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+            [data] => 
+            [headers] => 
+            [status] => 
+        )
+
+)
+
+05-15-2022 @ 18:44:29 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95630000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:44:29 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 18:51:40 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95630000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:51:40 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 16,84
+            [PrazoEntrega] => 6
+            [ValorSemAdicionais] => 16,84
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 18:52:05 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95630000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:52:05 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 16,84
+            [PrazoEntrega] => 6
+            [ValorSemAdicionais] => 16,84
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 18:52:12 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95630000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:52:12 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 16,84
+            [PrazoEntrega] => 6
+            [ValorSemAdicionais] => 16,84
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 18:52:15 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=95630000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=23,00&nVlDiametro=0&nVlComprimento=30,00&nVlPeso=0,40&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:52:15 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 16,84
+            [PrazoEntrega] => 6
+            [ValorSemAdicionais] => 16,84
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 18:55:53 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=03342000&sCepOrigem=96412830&nVlAltura=25,00&nVlLargura=60,00&nVlDiametro=0&nVlComprimento=70,00&nVlPeso=17,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 18:55:53 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 147,72
+            [PrazoEntrega] => 7
+            [ValorSemAdicionais] => 147,72
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 19:01:43 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=98635000&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=2,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 19:01:43 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 19,00
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 19,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 19:30:23 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=89287385&sCepOrigem=96412830&nVlAltura=15,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 19:30:23 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 19:54:51 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=99133063&sCepOrigem=96412830&nVlAltura=20,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=68,00&nVlPeso=9,07&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 19:54:51 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 19:54:57 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=99133063&sCepOrigem=96412830&nVlAltura=20,00&nVlLargura=40,00&nVlDiametro=0&nVlComprimento=68,00&nVlPeso=9,07&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 19:54:57 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:07:16 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=36958000&sCepOrigem=96412830&nVlAltura=33,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:07:16 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:07:20 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=36958000&sCepOrigem=96412830&nVlAltura=33,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:07:20 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:07:35 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=36958000&sCepOrigem=96412830&nVlAltura=33,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=35,00&nVlPeso=3,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:07:35 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:31:28 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=99665000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:31:28 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:32:55 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=99665000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=4,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:32:55 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 25,93
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 25,93
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 20:32:56 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96010000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:32:56 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:39:25 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96010000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:39:25 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:39:46 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96010000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:39:46 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:40:04 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96010000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:40:04 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 0,00
+            [PrazoEntrega] => 0
+            [ValorSemAdicionais] => 0,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => SimpleXMLElement Object
+                (
+                )
+
+            [EntregaSabado] => SimpleXMLElement Object
+                (
+                )
+
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => -888
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+05-15-2022 @ 20:40:16 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96010000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:40:16 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:40:38 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96010000&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:40:38 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:41:04 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96015420&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:41:04 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:41:16 - Erro Correios Online URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=96015420&sCepOrigem=96412830&nVlAltura=10,00&nVlLargura=35,00&nVlDiametro=0&nVlComprimento=45,00&nVlPeso=5,00&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:41:16 - Erro ao Conectar nos Correios: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+05-15-2022 @ 20:55:05 - Calculo Online - Correios URL: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=03298&nCdEmpresa=22047719&sDsSenha=Imp3ri@l237&sCepDestino=38240000&sCepOrigem=96412830&nVlAltura=8,00&nVlLargura=30,00&nVlDiametro=0&nVlComprimento=40,00&nVlPeso=1,50&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0,00&sCdAvisoRecebimento=N&StrRetorno=xml
+05-15-2022 @ 20:55:05 - Debug Correios Resposta: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 03298
+            [Valor] => 33,85
+            [PrazoEntrega] => 11
+            [ValorSemAdicionais] => 33,85
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Para as localidades com CEP único, com terminação 000, ou seja, que não possuem CEPs por logradouro, considera-se entrega domiciliária aquela prevista nos termos da Portaria nº 2.729/2021 do Ministério das Comunicações.
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+

@@ -85,7 +85,7 @@ define( 'WP_DEBUG', false );
 //define('ALLOW_UNFILTERED_UPLOADS', false);
 
 //vale apenas para o painel administrativo
-define( 'WP_MAX_MEMORY_LIMIT', '1512M' );
+define( 'WP_MAX_MEMORY_LIMIT', '4512M' );
 
 /* That's all, stop editing! Happy publishing. */
 

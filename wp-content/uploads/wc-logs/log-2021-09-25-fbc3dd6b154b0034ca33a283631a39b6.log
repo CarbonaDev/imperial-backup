@@ -1,0 +1,86 @@
+2021-09-25T13:55:55+00:00 INFO Iniciando pagamento por crédito
+2021-09-25T13:55:55+00:00 DEBUG Data de expiração do cartão expirada
+2021-09-25T13:56:49+00:00 INFO Iniciando pagamento por crédito
+2021-09-25T13:56:49+00:00 DEBUG Número do cartão não informado
+2021-09-25T13:58:08+00:00 INFO Iniciando pagamento por crédito
+2021-09-25 13:58:08 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632592585,"amount":17930,"cardHolderName":"***","cardNumber":"***","expirationMonth":"0228","securityCode":"***"}
+2021-09-25 13:58:08 DEBUG Response Rede Status Code: 400  {"returnCode":"33","returnMessage":"ExpirationMonth: Invalid parameter format."}
+2021-09-25 13:58:08 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-25 13:58:08 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-25 13:58:08 DEBUG Curl[http_code]: 400
+2021-09-25 13:58:08 DEBUG Curl[header_size]: 278
+2021-09-25 13:58:08 DEBUG Curl[request_size]: 577
+2021-09-25 13:58:08 DEBUG Curl[filetime]: -1
+2021-09-25 13:58:08 DEBUG Curl[ssl_verify_result]: 0
+2021-09-25 13:58:08 DEBUG Curl[redirect_count]: 0
+2021-09-25 13:58:08 DEBUG Curl[total_time]: 0.172817
+2021-09-25 13:58:08 DEBUG Curl[namelookup_time]: 0.005029
+2021-09-25 13:58:08 DEBUG Curl[connect_time]: 0.005791
+2021-09-25 13:58:08 DEBUG Curl[pretransfer_time]: 0.019417
+2021-09-25 13:58:08 DEBUG Curl[size_upload]: 186
+2021-09-25 13:58:08 DEBUG Curl[size_download]: 80
+2021-09-25 13:58:08 DEBUG Curl[speed_download]: 465
+2021-09-25 13:58:08 DEBUG Curl[speed_upload]: 1081
+2021-09-25 13:58:08 DEBUG Curl[download_content_length]: 80
+2021-09-25 13:58:08 DEBUG Curl[upload_content_length]: 186
+2021-09-25 13:58:08 DEBUG Curl[starttransfer_time]: 0.172787
+2021-09-25 13:58:08 DEBUG Curl[redirect_time]: 0
+2021-09-25 13:58:08 DEBUG Curl[redirect_url]: 
+2021-09-25 13:58:08 DEBUG Curl[primary_ip]: 104.108.123.161
+2021-09-25 13:58:08 DEBUG Curl[primary_port]: 443
+2021-09-25 13:58:08 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-25 13:58:08 DEBUG Curl[local_port]: 38478
+2021-09-25 13:58:08 DEBUG Curl[http_version]: 2
+2021-09-25 13:58:08 DEBUG Curl[protocol]: 2
+2021-09-25 13:58:08 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-25 13:58:08 DEBUG Curl[scheme]: HTTPS
+2021-09-25 13:58:08 DEBUG Curl[appconnect_time_us]: 19365
+2021-09-25 13:58:08 DEBUG Curl[connect_time_us]: 5791
+2021-09-25 13:58:08 DEBUG Curl[namelookup_time_us]: 5029
+2021-09-25 13:58:08 DEBUG Curl[pretransfer_time_us]: 19417
+2021-09-25 13:58:08 DEBUG Curl[redirect_time_us]: 0
+2021-09-25 13:58:08 DEBUG Curl[starttransfer_time_us]: 172787
+2021-09-25 13:58:08 DEBUG Curl[total_time_us]: 172817
+2021-09-25T13:58:08+00:00 ERROR Erro no pagamento[33]: ExpirationMonth: Invalid parameter format.
+2021-09-25T13:58:58+00:00 INFO Iniciando pagamento por crédito
+2021-09-25T13:58:58+00:00 DEBUG Data de expiração do cartão expirada
+2021-09-25T13:59:34+00:00 INFO Iniciando pagamento por crédito
+2021-09-25 13:59:34 DEBUG Request Rede POST https://api.userede.com.br/erede/v1/transactions User-Agent: eRede/5.1.2 (PHP 7.4.13; Store 87394170; Linux 4.19.0-17-cloud-amd64) curl/7.73.0 OpenSSL/1.1.1g Accept: application/json Transaction-Response: brand-return-opened Content-Type: application/json; charset=utf8  {"capture":"true","kind":"credit","reference":1632592671,"amount":17930,"cardHolderName":"***","cardNumber":"***","expirationMonth":"02","expirationYear":"2028","securityCode":"***"}
+2021-09-25 13:59:35 DEBUG Response Rede Status Code: 200  {"reference":"1632592671","tid":"10022109251056212676","nsu":"378424249","dateTime":"2021-09-25T10:59:34-03:00","amount":17930,"cardBin":"515590","last4":"3631","brand":{"name":"Mastercard","returnCode":"00","returnMessage":"Success.","authorizationCode":"593467","brandTid":"593467"},"returnCode":"00","returnMessage":"Success.","links":[{"method":"GET","rel":"transaction","href":"https://api.userede.com.br/erede/v1/transactions/10022109251056212676"},{"method":"POST","rel":"refund","href":"https://api.userede.com.br/erede/v1/transactions/10022109251056212676/refunds"}]}
+2021-09-25 13:59:35 DEBUG Curl[url]: https://api.userede.com.br/erede/v1/transactions
+2021-09-25 13:59:35 DEBUG Curl[content_type]: application/json; charset=utf-8
+2021-09-25 13:59:35 DEBUG Curl[http_code]: 200
+2021-09-25 13:59:35 DEBUG Curl[header_size]: 275
+2021-09-25 13:59:35 DEBUG Curl[request_size]: 599
+2021-09-25 13:59:35 DEBUG Curl[filetime]: -1
+2021-09-25 13:59:35 DEBUG Curl[ssl_verify_result]: 0
+2021-09-25 13:59:35 DEBUG Curl[redirect_count]: 0
+2021-09-25 13:59:35 DEBUG Curl[total_time]: 1.212054
+2021-09-25 13:59:35 DEBUG Curl[namelookup_time]: 0.003227
+2021-09-25 13:59:35 DEBUG Curl[connect_time]: 0.004001
+2021-09-25 13:59:35 DEBUG Curl[pretransfer_time]: 0.019829
+2021-09-25 13:59:35 DEBUG Curl[size_upload]: 208
+2021-09-25 13:59:35 DEBUG Curl[size_download]: 576
+2021-09-25 13:59:35 DEBUG Curl[speed_download]: 475
+2021-09-25 13:59:35 DEBUG Curl[speed_upload]: 171
+2021-09-25 13:59:35 DEBUG Curl[download_content_length]: 576
+2021-09-25 13:59:35 DEBUG Curl[upload_content_length]: 208
+2021-09-25 13:59:35 DEBUG Curl[starttransfer_time]: 1.212023
+2021-09-25 13:59:35 DEBUG Curl[redirect_time]: 0
+2021-09-25 13:59:35 DEBUG Curl[redirect_url]: 
+2021-09-25 13:59:35 DEBUG Curl[primary_ip]: 23.2.9.190
+2021-09-25 13:59:35 DEBUG Curl[primary_port]: 443
+2021-09-25 13:59:35 DEBUG Curl[local_ip]: 172.26.0.25
+2021-09-25 13:59:35 DEBUG Curl[local_port]: 49756
+2021-09-25 13:59:35 DEBUG Curl[http_version]: 2
+2021-09-25 13:59:35 DEBUG Curl[protocol]: 2
+2021-09-25 13:59:35 DEBUG Curl[ssl_verifyresult]: 0
+2021-09-25 13:59:35 DEBUG Curl[scheme]: HTTPS
+2021-09-25 13:59:35 DEBUG Curl[appconnect_time_us]: 19781
+2021-09-25 13:59:35 DEBUG Curl[connect_time_us]: 4001
+2021-09-25 13:59:35 DEBUG Curl[namelookup_time_us]: 3227
+2021-09-25 13:59:35 DEBUG Curl[pretransfer_time_us]: 19829
+2021-09-25 13:59:35 DEBUG Curl[redirect_time_us]: 0
+2021-09-25 13:59:35 DEBUG Curl[starttransfer_time_us]: 1212023
+2021-09-25 13:59:35 DEBUG Curl[total_time_us]: 1212054
+2021-09-25T13:59:35+00:00 INFO Rede[00]: Success.

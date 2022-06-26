@@ -1,0 +1,254 @@
+06-17-2021 @ 10:48:35 - Debug Cielo HTTP: 201
+06-17-2021 @ 10:48:35 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 10584
+    [Customer] => Array
+        (
+            [Name] => Paulo Pinto
+            [Email] => paulopinto@fpin.com.br
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 62900
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 2
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 411049****2418
+                    [Holder] => paulo a f pinto
+                    [ExpirationDate] => 07/2027
+                    [SecurityCode] => 759
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+06-17-2021 @ 10:48:35 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #160
+    [response] => {"MerchantOrderId":"10584","Customer":{"Name":"Paulo Pinto","Email":"paulopinto@fpin.com.br"},"Payment":{"ServiceTaxAmount":0,"Installments":2,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"411049******2418","Holder":"paulo a f pinto","ExpirationDate":"07/2027","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010014619211588671522781438"},"Tid":"280720451611VV9JB48C","ProofOfSale":"004001","AuthorizationCode":"087401","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":62900,"ReceivedDate":"2021-06-17 10:48:34","CapturedAmount":62900,"CapturedDate":"2021-06-17 10:48:34","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"a9206764-3929-4b97-826f-b1bded1f8c7c","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/a9206764-3929-4b97-826f-b1bded1f8c7c"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/a9206764-3929-4b97-826f-b1bded1f8c7c/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 785
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.3811
+            [namelookup_time] => 0.003346
+            [connect_time] => 0.121532
+            [pretransfer_time] => 0.369475
+            [size_upload] => 506
+            [size_download] => 1143
+            [speed_download] => 827
+            [speed_upload] => 366
+            [download_content_length] => 1143
+            [upload_content_length] => 506
+            [starttransfer_time] => 1.381073
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 43396
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 369380
+            [connect_time_us] => 121532
+            [namelookup_time_us] => 3346
+            [pretransfer_time_us] => 369475
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1381073
+            [total_time_us] => 1381100
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+06-17-2021 @ 11:24:22 - Debug Cielo HTTP: 201
+06-17-2021 @ 11:24:22 - Debug Cielo Enviados: Array
+(
+    [MerchantOrderId] => 10586
+    [Customer] => Array
+        (
+            [Name] => ANA PAULA MONTENEGRO
+            [Email] => manmontenegro@hotmail.com
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 49000
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 3
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => IMPERIALTPTS
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 498406****7973
+                    [Holder] => ANA PAULA RICARDO MONTENEGRO
+                    [ExpirationDate] => 12/2024
+                    [SecurityCode] => 505
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+        )
+
+)
+
+06-17-2021 @ 11:24:22 - Debug Cielo Recebido: RestClientCielo Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => e3fd1919-faaa-4b5b-be5a-a1d95c4a9186
+                    [MerchantKey] => YUbRrLs8R8QgDm4UrkICqDTYO46GhKRbRJ0PjgdU
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #156
+    [response] => {"MerchantOrderId":"10586","Customer":{"Name":"ANA PAULA MONTENEGRO","Email":"manmontenegro@hotmail.com"},"Payment":{"ServiceTaxAmount":0,"Installments":3,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"498406******7973","Holder":"ANA PAULA RICARDO MONTENEGRO","ExpirationDate":"12/2024","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010013820022700046160015424"},"Tid":"280720451611VV9MM5DC","ProofOfSale":"005001","AuthorizationCode":"957973","SoftDescriptor":"IMPERIALTPTS","Provider":"Cielo","Eci":"7","IsQrCode":false,"Amount":49000,"ReceivedDate":"2021-06-17 11:24:22","CapturedAmount":49000,"CapturedDate":"2021-06-17 11:24:22","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"dc1766ba-0b24-42fa-9ecc-2c228906cce8","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/dc1766ba-0b24-42fa-9ecc-2c228906cce8"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/dc1766ba-0b24-42fa-9ecc-2c228906cce8/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 365
+            [request_size] => 810
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.266738
+            [namelookup_time] => 0.006588
+            [connect_time] => 0.124197
+            [pretransfer_time] => 0.376262
+            [size_upload] => 531
+            [size_download] => 1168
+            [speed_download] => 922
+            [speed_upload] => 419
+            [download_content_length] => 1168
+            [upload_content_length] => 531
+            [starttransfer_time] => 1.2667
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 20.195.168.97
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 172.26.12.140
+            [local_port] => 44556
+            [http_version] => 2
+            [protocol] => 2
+            [ssl_verifyresult] => 0
+            [scheme] => HTTPS
+            [appconnect_time_us] => 376173
+            [connect_time_us] => 124197
+            [namelookup_time_us] => 6588
+            [pretransfer_time_us] => 376262
+            [redirect_time_us] => 0
+            [starttransfer_time_us] => 1266700
+            [total_time_us] => 1266738
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClientCielo:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
